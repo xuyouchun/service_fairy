@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>马尔代夫</cn_name>
+    <en_name>Maldives</en_name>
+    <national_code>960</national_code>
+    <mcc>472</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到马尔代夫的A地电话顺序为“00960-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从马尔代夫的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00960-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00960XXXXXXXX、960XXXXXXXX、0960XXXXXXXX、000960XXXXXXXX；如果来电显示开头是009600、009601、009602、009603、009604、009605、009606、009607、009608、009609，一般也都表示国际区号是00960，后面一位是马尔代夫内部的号码的开头第一位；如果是在马尔代夫通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Dhiraagu" mncs="01" national_prefix="00" internal_prefix="" desc="Dhiraagu" />
+    <operation op_code="Wataniya" mncs="02" national_prefix="00" internal_prefix="" desc="Wataniya" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Dhivehi Raajjeyge Gulhun" op_prefix="" />
+        <prefix op_code="Wataniya Telecom Maldives" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

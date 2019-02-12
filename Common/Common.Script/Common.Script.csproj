@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D4C29EB-E6DF-4E74-B488-030A1F9EC557}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common.Script</RootNamespace>
+    <AssemblyName>Common.Script</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="VbScript\Common\FunctionCallStack.cs" />
+    <Compile Include="VbScript\Common\LastValueCache.cs" />
+    <Compile Include="VbScript\Common\LastValueCacheManager.cs" />
+    <Compile Include="VbScript\Common\StatementStack.cs" />
+    <Compile Include="VbScript\Expressions\ConstValueExpression.cs" />
+    <Compile Include="VbScript\Expressions\DefaultExpressionCompileContext.cs" />
+    <Compile Include="VbScript\Expressions\FunctionExpressionContext.cs" />
+    <Compile Include="VbScript\Expressions\DynamicExpression.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Array\UBoundFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Convert\CBoolFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Convert\CByteFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Convert\CCurFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Convert\CDateFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Convert\CDblFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Convert\CIntFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Convert\CLngFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Convert\CShortFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Convert\CTypeFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Convert\HexFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Convert\OctFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\DateTimes\DayFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\DateTimes\HourFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\DateTimes\MinuteFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\DateTimes\MonthFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\DateTimes\SecondFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\DateTimes\YearFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\ExecuteFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Array\ArrayFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\FunctionInfoAttribute.cs" />
+    <Compile Include="VbScript\Expressions\Functions\IO\MsgBoxFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\IO\PrintfFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\IO\PrintfLnFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\SgnFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\TanFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\ChrFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\JoinFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\LCaseFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\LTrimFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\MidFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\ReplaceFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\RTrimFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\SpaceFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\StrCompFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\StringFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\StrReverseFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\UCaseFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\ValueTypes.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\LeftFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\TrimFunction.cs" />
+    <Compile Include="VbScript\Expressions\ILeftValueExpression.cs" />
+    <Compile Include="VbScript\Expressions\MemberExpression.cs" />
+    <Compile Include="VbScript\Expressions\NewExpression.cs" />
+    <Compile Include="VbScript\Expressions\StringContactExpression.cs" />
+    <Compile Include="VbScript\ExpressionType.cs" />
+    <Compile Include="VbScript\FunctionDefineInfo.cs" />
+    <Compile Include="VbScript\FunctionInvokeInfo.cs" />
+    <Compile Include="VbScript\IExpressionCompileContext.cs" />
+    <Compile Include="VbScript\IStatementCompileContext.cs" />
+    <Compile Include="VbScript\KeywordManager.cs" />
+    <Compile Include="VbScript\Values\NumberStringDualityCalculate.cs" />
+    <Compile Include="VbScript\VariableDefineInfo.cs" />
+    <Compile Include="VbScript\VbConstValueAttribute.cs" />
+    <Compile Include="VbScript\VbConstValueInfo.cs" />
+    <Compile Include="VbScript\VbConstValues.cs" />
+    <Compile Include="VbScript\ScriptExecutorExecuteStatementEventHandler.cs" />
+    <Compile Include="VbScript\Statements\ClassStatement.cs" />
+    <Compile Include="VbScript\Statements\ConstStatement.cs" />
+    <Compile Include="VbScript\Statements\DefaultStatementCompileContext.cs" />
+    <Compile Include="VbScript\Statements\GoToLabelState.cs" />
+    <Compile Include="VbScript\Statements\GoToStatement.cs" />
+    <Compile Include="VbScript\Statements\IGotoSupported.cs" />
+    <Compile Include="VbScript\Statements\IStatementField.cs" />
+    <Compile Include="VbScript\Statements\IStatementStateKeeper.cs" />
+    <Compile Include="VbScript\Statements\LabelLibrary.cs" />
+    <Compile Include="VbScript\Statements\LabelPath.cs" />
+    <Compile Include="VbScript\Statements\LabelStatement.cs" />
+    <Compile Include="VbScript\Statements\MainStatement.cs" />
+    <Compile Include="VbScript\Statements\OnErrorStatement.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\ClassStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\ConstStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\GotoStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\LabelStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\OnErrorStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\StatementAnalyserStackContextUtility.cs" />
+    <Compile Include="VbScript\Values\ArrayObject.cs" />
+    <Compile Include="VbScript\Values\BoolDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\BoolUnitaryCalculate.cs" />
+    <Compile Include="VbScript\Values\ByteUnitaryCalculate.cs" />
+    <Compile Include="VbScript\Values\Class.cs" />
+    <Compile Include="VbScript\Values\DecimalDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\DecimalUnitaryCalculate.cs" />
+    <Compile Include="VbScript\Values\DefaultDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\DefaultUnitaryCalculate.cs" />
+    <Compile Include="VbScript\Values\DoubleDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\DoubleUnitaryCalculate.cs" />
+    <Compile Include="VbScript\Values\DualityCalculate.cs" />
+    <Compile Include="VbScript\Values\DualityCalculateAttribute.cs" />
+    <Compile Include="VbScript\Values\CalculateManager.cs" />
+    <Compile Include="VbScript\Values\ByteDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\FloatDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\FloatUnitaryCalculate.cs" />
+    <Compile Include="VbScript\Values\IntDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\IntUnitaryCalculate.cs" />
+    <Compile Include="VbScript\Values\LongDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\LongUnitaryCalculate.cs" />
+    <Compile Include="VbScript\Values\NullBoolDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\NullDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\NullStringDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\NullUnitaryCalculate.cs" />
+    <Compile Include="VbScript\Values\NullValue.cs" />
+    <Compile Include="VbScript\Values\NullNumberDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\Object.cs" />
+    <Compile Include="VbScript\Values\ObjectExpressionContext.cs" />
+    <Compile Include="VbScript\Values\ObjectExpressionContextAdapter.cs" />
+    <Compile Include="VbScript\Values\ObjectFunctionStatementMember.cs" />
+    <Compile Include="VbScript\Values\ObjectMember.cs" />
+    <Compile Include="VbScript\Values\ObjectMemberAccessRight.cs" />
+    <Compile Include="VbScript\Values\ObjectFunctionMember.cs" />
+    <Compile Include="VbScript\Values\Objects\InnerClass.cs" />
+    <Compile Include="VbScript\Values\Objects\MethodAttribute.cs" />
+    <Compile Include="VbScript\Values\Objects\ClassAttribute.cs" />
+    <Compile Include="VbScript\Values\Objects\InnerObjectFunctionMember.cs" />
+    <Compile Include="VbScript\Values\Objects\ClassManager.cs" />
+    <Compile Include="VbScript\Values\Objects\RegExp.cs" />
+    <Compile Include="VbScript\Values\ObjectVariableMember.cs" />
+    <Compile Include="VbScript\Values\ShortDualityCaculate.cs" />
+    <Compile Include="VbScript\Values\ShortUnitaryCalculate.cs" />
+    <Compile Include="VbScript\Values\StringDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\StringNumberDualityCalculate.cs" />
+    <Compile Include="VbScript\Values\UnitaryCalculate.cs" />
+    <Compile Include="VbScript\Values\UnitaryCalculateAttribute.cs" />
+    <Compile Include="VbScript\Common\ContainsList.cs" />
+    <Compile Include="VbScript\Common\StatementReader.cs" />
+    <Compile Include="VbScript\Expression.cs" />
+    <Compile Include="VbScript\Expressions\ArrayExpression.cs" />
+    <Compile Include="VbScript\DefaultExpressionContext.cs" />
+    <Compile Include="VbScript\Expressions\PowExpression.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\AnalyserHelper.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\CharacterAnalyserExecutor.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\CharacterAnalyserStackNewExpressionEventHandler.cs" />
+    <Compile Include="VbScript\Expressions\Functions\DateTimes\DateFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\DateTimes\TimeFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\IO\InputFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\IO\PrintFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\IO\PrintLnFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\CStrFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\AbsFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\AcosFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\AsinFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\AtanFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\CeilingFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\CoshFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\EvalFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\ExpFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\FloorFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\Log10Function.cs" />
+    <Compile Include="VbScript\Expressions\Functions\DateTimes\NowFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\RandomFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Strings\LenFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Sys\SleepFunction.cs" />
+    <Compile Include="VbScript\Expressions\EmptyExpression.cs" />
+    <Compile Include="VbScript\RealTimeScriptExecutor.cs" />
+    <Compile Include="VbScript\RunningContext.cs" />
+    <Compile Include="VbScript\ScriptExecutor.cs" />
+    <Compile Include="VbScript\IScriptExecutorAsyncResult.cs" />
+    <Compile Include="VbScript\Common\StatementContext.cs" />
+    <Compile Include="VbScript\ScriptRuntimeException.cs" />
+    <Compile Include="VbScript\Common\StatementExecuteResult.cs" />
+    <Compile Include="VbScript\Statements\DefaultStatementContext.cs" />
+    <Compile Include="VbScript\Statements\DimStatement.cs" />
+    <Compile Include="VbScript\Statements\ExitState.cs" />
+    <Compile Include="VbScript\Statements\ExitStatement.cs" />
+    <Compile Include="VbScript\Statements\ForStatement.cs" />
+    <Compile Include="VbScript\Statements\FunctionStatement.cs" />
+    <Compile Include="VbScript\Statements\KeyWordAttribute.cs" />
+    <Compile Include="VbScript\Statements\KeywordInfo.cs" />
+    <Compile Include="VbScript\Statements\KeywordManager.cs" />
+    <Compile Include="VbScript\Common\LocalExpressionContext.cs" />
+    <Compile Include="VbScript\Statements\OptionExplicitStatement.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\CharacterAnalyserStackNewExpressionEventHandler.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\CharacterAnalyserStackNewDynamicExpressionEventHandler.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\CharacterAnalyserStackNewOperatorEventHandler.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\ExpressionAnalyserExecutor.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\ExpressionAnalyserStack.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\ExpressionAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\ExpressionAnalyserStackManager.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\DynamicExpressonAnalyserStack.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\OperatorInfo.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\OperatorInfoManager.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalysers\ParameterInfo.cs" />
+    <Compile Include="VbScript\Expressions\AddExpression.cs" />
+    <Compile Include="VbScript\Expressions\AndExpression.cs" />
+    <Compile Include="VbScript\Expressions\ValueExpression.cs" />
+    <Compile Include="VbScript\Expressions\DivideExpression.cs" />
+    <Compile Include="VbScript\Expressions\DualityExpression.cs" />
+    <Compile Include="VbScript\Expressions\EqualsExpression.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAnalyser.cs" />
+    <Compile Include="VbScript\Expressions\ExpressionAttribute.cs" />
+    <Compile Include="VbScript\ScriptException.cs" />
+    <Compile Include="VbScript\Expressions\FunctionExpression.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\LogFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\PowFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\SqrtFunction.cs" />
+    <Compile Include="VbScript\IExpressionContext.cs" />
+    <Compile Include="VbScript\Expressions\IExpressionCreator.cs" />
+    <Compile Include="VbScript\Expressions\LargeThanExpression.cs" />
+    <Compile Include="VbScript\Expressions\LargeThanOrEqualsExpression.cs" />
+    <Compile Include="VbScript\Expressions\LessThanExpression.cs" />
+    <Compile Include="VbScript\Expressions\LessThanOrEqualsExpression.cs" />
+    <Compile Include="VbScript\Expressions\MinusExpression.cs" />
+    <Compile Include="VbScript\Expressions\ModExpression.cs" />
+    <Compile Include="VbScript\Expressions\MultiplyExpression.cs" />
+    <Compile Include="VbScript\Expressions\NotEqualsExpression.cs" />
+    <Compile Include="VbScript\Expressions\NotExpression.cs" />
+    <Compile Include="VbScript\Expressions\OperatorAttribute.cs" />
+    <Compile Include="VbScript\Expressions\Operators.cs" />
+    <Compile Include="VbScript\Expressions\OrExpression.cs" />
+    <Compile Include="VbScript\Expressions\SubstractExpression.cs" />
+    <Compile Include="VbScript\Expressions\UnitaryExpression.cs" />
+    <Compile Include="VbScript\Expressions\VariableExpression.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\CosFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\FunctionAttribute.cs" />
+    <Compile Include="VbScript\Expressions\Functions\FunctionBase.cs" />
+    <Compile Include="VbScript\Expressions\Functions\FunctionInfo.cs" />
+    <Compile Include="VbScript\Expressions\Functions\FunctionManager.cs" />
+    <Compile Include="VbScript\Expressions\Functions\IFunction.cs" />
+    <Compile Include="VbScript\Expressions\Functions\Maths\SinFunction.cs" />
+    <Compile Include="VbScript\IStatementContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VbScript\Statement.cs" />
+    <Compile Include="VbScript\Statements\ComplexStatement.cs" />
+    <Compile Include="VbScript\Statements\LoopStatement.cs" />
+    <Compile Include="VbScript\Statements\IfElseStatement.cs" />
+    <Compile Include="VbScript\Statements\IfStatement.cs" />
+    <Compile Include="VbScript\Statements\IStatementCreator.cs" />
+    <Compile Include="VbScript\Statements\AssignStatement.cs" />
+    <Compile Include="VbScript\Statements\SimpleStatement.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalyser.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\CharacterAnalyserExecutor.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\CharacterAnalyserExecutorNewKeywordEventHandler.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\CharacterAnalyserLine.cs" />
+    <Compile Include="VbScript\Statements\Keywords.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserExecutor.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStack.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\AssignStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Common\ComplexStatementBuilder.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\CallStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\DimStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\ForStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\FunctionStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\IfStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\ComplexStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\LoopStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\SelectStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\SubStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementAnalyserStackContexts\WhileStatementAnalyserStackContext.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementInfoManager.cs" />
+    <Compile Include="VbScript\Statements\StatementAttribute.cs" />
+    <Compile Include="VbScript\Statements\StatementAnalysers\StatementInfo.cs" />
+    <Compile Include="VbScript\Statements\StatementBase.cs" />
+    <Compile Include="VbScript\Statements\StatementType.cs" />
+    <Compile Include="VbScript\Statements\StatementTypeAttribute.cs" />
+    <Compile Include="VbScript\Statements\SelectStatement.cs" />
+    <Compile Include="VbScript\Statements\SubStatement.cs" />
+    <Compile Include="VbScript\Statements\EmptyStatement.cs" />
+    <Compile Include="VbScript\Statements\WhileStatement.cs" />
+    <Compile Include="VbScript\Common\StringUtility.cs" />
+    <Compile Include="VbScript\Value.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>厄瓜多尔</cn_name>
+    <en_name>Ecuador</en_name>
+    <national_code>593</national_code>
+    <mcc>740</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到厄瓜多尔的A地电话顺序为“00593-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从厄瓜多尔的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00593-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00593XXXXXXXX、593XXXXXXXX、0593XXXXXXXX、000593XXXXXXXX；如果来电显示开头是005930、005931、005932、005933、005934、005935、005936、005937、005938、005939，一般也都表示国际区号是00593，后面一位是厄瓜多尔内部的号码的开头第一位；如果是在厄瓜多尔通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Movistar" mncs="00" national_prefix="00" internal_prefix="" desc="Movistar" />
+    <operation op_code="Claro" mncs="01" national_prefix="00" internal_prefix="" desc="Claro" />
+    <operation op_code="Alegro" mncs="02" national_prefix="00" internal_prefix="" desc="Alegro" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Otecel S.A." op_prefix="" />
+        <prefix op_code="CONECEL S.A." op_prefix="" />
+        <prefix op_code="Corporación Nacional de Telecomunicaciones CNT EP" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="皮钦查" city="" area_code="2" cn_name="皮钦查" en_name="Pichincha" />
+        <city province="基多" city="" area_code="2" cn_name="基多" en_name="Quito" />
+        <city province="马查奇" city="" area_code="2" cn_name="马查奇" en_name="Machachi" />
+        <city province="圣多明各" city="" area_code="2" cn_name="圣多明各" en_name="Santo Domingo" />
+        <city province="卡亚姆贝" city="" area_code="2" cn_name="卡亚姆贝" en_name="Cayambe" />
+        <city province="瓜亚斯" city="" area_code="4" cn_name="瓜亚斯" en_name="Guayas" />
+        <city province="瓜亚基尔" city="" area_code="4" cn_name="瓜亚基尔" en_name="Guayaquil" />
+        <city province="通古拉瓦" city="" area_code="3" cn_name="通古拉瓦" en_name="Tungurahua" />
+        <city province="科托帕希" city="" area_code="3" cn_name="科托帕希" en_name="Cotopaxi" />
+        <city province="帕斯塔萨" city="" area_code="3" cn_name="帕斯塔萨" en_name="Pastaza" />
+        <city province="玻利瓦尔" city="" area_code="3" cn_name="玻利瓦尔" en_name="Bolivar" />
+        <city province="钦博拉索" city="" area_code="3" cn_name="钦博拉索" en_name="Chimborazo" />
+        <city province="马纳比" city="" area_code="5" cn_name="马纳比" en_name="Manabi" />
+        <city province="加拉帕戈斯" city="" area_code="5" cn_name="加拉帕戈斯" en_name="Galápagos" />
+        <city province="洛斯里奥斯" city="" area_code="5" cn_name="洛斯里奥斯" en_name="Los Rios" />
+        <city province="卡尔奇" city="" area_code="6" cn_name="卡尔奇" en_name="Carchi" />
+        <city province="因巴布拉" city="" area_code="6" cn_name="因巴布拉" en_name="Imbabura" />
+        <city province="埃斯梅拉尔达斯" city="" area_code="6" cn_name="埃斯梅拉尔达斯" en_name="Esmeraldas" />
+        <city province="苏昆毕奥斯" city="" area_code="6" cn_name="苏昆毕奥斯" en_name="Sucumbios" />
+        <city province="纳波" city="" area_code="6" cn_name="纳波" en_name="Napo" />
+        <city province="奥雷利亚纳" city="" area_code="6" cn_name="奥雷利亚纳" en_name="Orellana" />
+        <city province="洛哈" city="" area_code="7" cn_name="洛哈" en_name="Loja" />
+        <city province="卡尼亚尔" city="" area_code="7" cn_name="卡尼亚尔" en_name="Cañar" />
+        <city province="阿苏艾" city="" area_code="7" cn_name="阿苏艾" en_name="Azuay" />
+        <city province="萨莫拉" city="" area_code="7" cn_name="萨莫拉" en_name="Zamora" />
+        <city province="埃尔奥罗" city="" area_code="7" cn_name="埃尔奥罗" en_name="El Oro" />
+        <city province="莫罗纳－圣地亚哥" city="" area_code="7" cn_name="莫罗纳－圣地亚哥" en_name="Morona Santiago" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

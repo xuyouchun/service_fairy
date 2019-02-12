@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>乌拉圭</cn_name>
+    <en_name>Uruguay</en_name>
+    <national_code>598</national_code>
+    <mcc>748</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到乌拉圭的A地电话顺序为“00598-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从乌拉圭的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00598-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00598XXXXXXXX、598XXXXXXXX、0598XXXXXXXX、000598XXXXXXXX；如果来电显示开头是005980、005981、005982、005983、005984、005985、005986、005987、005988、005989，一般也都表示国际区号是00598，后面一位是乌拉圭内部的号码的开头第一位；如果是在乌拉圭通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Antel" mncs="01" national_prefix="00" internal_prefix="0" desc="Antel" />
+    <operation op_code="Movistar" mncs="07" national_prefix="00" internal_prefix="0" desc="Movistar" />
+    <operation op_code="Claro UY" mncs="10" national_prefix="00" internal_prefix="0" desc="Claro UY" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Compania estatal (ANTEL)" op_prefix="" />
+        <prefix op_code="Telefónica Móviles Uruguay" op_prefix="" />
+        <prefix op_code="AM Wireless Uruguay S.A." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="卡内洛内斯" city="" area_code="32" cn_name="卡内洛内斯" en_name="Canelones" />
+        <city province="佛罗里达" city="" area_code="352" cn_name="佛罗里达" en_name="Florida" />
+        <city province="拉斯彼德拉斯" city="" area_code="324" cn_name="拉斯彼德拉斯" en_name="Las Piedras" />
+        <city province="马尔多纳多" city="" area_code="42" cn_name="马尔多纳多" en_name="Maldonado" />
+        <city province="梅塞德斯" city="" area_code="532" cn_name="梅塞德斯" en_name="Mercedes" />
+        <city province="米纳斯" city="" area_code="442" cn_name="米纳斯" en_name="Minas" />
+        <city province="蒙得维的亚" city="" area_code="2" cn_name="蒙得维的亚" en_name="Montevideo" />
+        <city province="派桑杜" city="" area_code="722" cn_name="派桑杜" en_name="Paysandu" />
+        <city province="埃斯特角城" city="" area_code="42" cn_name="埃斯特角城" en_name="Punta Del Este" />
+        <city province="圣何塞" city="" area_code="342" cn_name="圣何塞" en_name="San Jose" />
+        <city province="圣何塞者卡拉斯科" city="" area_code="38" cn_name="圣何塞者卡拉斯科" en_name="San Jose De Carrasco" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

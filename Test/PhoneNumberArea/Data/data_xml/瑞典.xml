@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>瑞典</cn_name>
+    <en_name>Sweden</en_name>
+    <national_code>46</national_code>
+    <mcc>240</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到瑞典的A地电话顺序为“0046-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从瑞典的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0046-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0046XXXXXXXX、46XXXXXXXX、046XXXXXXXX、00046XXXXXXXX；如果来电显示开头是00460、00461、00462、00463、00464、00465、00466、00467、00468、00469，一般也都表示国际区号是0046，后面一位是瑞典内部的号码的开头第一位；如果是在瑞典通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Telia" mncs="01" national_prefix="00" internal_prefix="0" desc="Telia" />
+    <operation op_code="3" mncs="02" national_prefix="00" internal_prefix="0" desc="3" />
+    <operation op_code="Ice.net" mncs="03" national_prefix="00" internal_prefix="0" desc="Ice.net" />
+    <operation op_code="" mncs="04,11,12,13,14,15,16,20,25,26,33" national_prefix="00" internal_prefix="0" desc="" />
+    <operation op_code="Sweden 3G" mncs="05" national_prefix="00" internal_prefix="0" desc="Sweden 3G" />
+    <operation op_code="Telenor" mncs="06,08" national_prefix="00" internal_prefix="0" desc="Telenor" />
+    <operation op_code="Tele2" mncs="07" national_prefix="00" internal_prefix="0" desc="Tele2" />
+    <operation op_code="djuice" mncs="09" national_prefix="00" internal_prefix="0" desc="djuice" />
+    <operation op_code="Spring Mobil" mncs="10" national_prefix="00" internal_prefix="0" desc="Spring Mobil" />
+    <operation op_code="Gotanet" mncs="17" national_prefix="00" internal_prefix="0" desc="Gotanet" />
+    <operation op_code="MobiSir" mncs="21" national_prefix="00" internal_prefix="0" desc="MobiSir" />
+    <operation op_code="Sweden 2G" mncs="24" national_prefix="00" internal_prefix="0" desc="Sweden 2G" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="SwedenTeliaSonera" op_prefix="" />
+        <prefix op_code="Hutchison 3G" op_prefix="" />
+        <prefix op_code="Nordisk Mobiltelefon" op_prefix="" />
+        <prefix op_code="3G Infrastructure Services" op_prefix="" />
+        <prefix op_code="Svenska UMTS-Nät" op_prefix="" />
+        <prefix op_code="Telenor Sweden" op_prefix="" />
+        <prefix op_code="Tele2 Sweden" op_prefix="" />
+        <prefix op_code="Telenor Sweden" op_prefix="" />
+        <prefix op_code="Telenor Sweden" op_prefix="" />
+        <prefix op_code="Tele2" op_prefix="" />
+        <prefix op_code="Lindholmen Science Park" op_prefix="" />
+        <prefix op_code="Barablu Mobile Scandinavia" op_prefix="" />
+        <prefix op_code="Ventelo Sverige" op_prefix="" />
+        <prefix op_code="TDC Mobil" op_prefix="" />
+        <prefix op_code="Wireless Maingate Nordic" op_prefix="" />
+        <prefix op_code="42IT" op_prefix="" />
+        <prefix op_code="Götalandsnätet" op_prefix="" />
+        <prefix op_code="Wireless Maingate Message Services" op_prefix="" />
+        <prefix op_code="Trafikverket (formerly Banverket)" op_prefix="" />
+        <prefix op_code="Net4Mobility" op_prefix="" />
+        <prefix op_code="DigiTelMobile" op_prefix="" />
+        <prefix op_code="Beepsend" op_prefix="" />
+        <prefix op_code="Mobile Arts AB" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Alfta-Edsbyn" city="" area_code="271" cn_name="暂无中文" en_name="Alfta-Edsbyn" />
+        <city province="Alingsås-Vårgårda" city="" area_code="322" cn_name="暂无中文" en_name="Alingsås-Vårgårda" />
+        <city province="Älmhult" city="" area_code="476" cn_name="暂无中文" en_name="Älmhult" />
+        <city province="Alunda" city="" area_code="174" cn_name="暂无中文" en_name="Alunda" />
+        <city province="Älvdalen" city="" area_code="251" cn_name="暂无中文" en_name="Älvdalen" />
+        <city province="Alvesta-Rydaholm" city="" area_code="472" cn_name="暂无中文" en_name="Alvesta-Rydaholm" />
+        <city province="Älvsbyn" city="" area_code="929" cn_name="暂无中文" en_name="Älvsbyn" />
+        <city province="阿迈勒" city="" area_code="532" cn_name="阿迈勒" en_name="Åmål" />
+        <city province="Ånge" city="" area_code="690" cn_name="暂无中文" en_name="Ånge" />
+        <city province="Ängelholm-Båstad" city="" area_code="431" cn_name="暂无中文" en_name="Ängelholm-Båstad" />
+        <city province="Arboga" city="" area_code="589" cn_name="暂无中文" en_name="Arboga" />
+        <city province="Åre-Järpen" city="" area_code="647" cn_name="暂无中文" en_name="Åre-Järpen" />
+        <city province="Årjäng" city="" area_code="573" cn_name="暂无中文" en_name="Årjäng" />
+        <city province="Arjeplog" city="" area_code="961" cn_name="暂无中文" en_name="Arjeplog" />
+        <city province="Arvidsjaur" city="" area_code="960" cn_name="暂无中文" en_name="Arvidsjaur" />
+        <city province="Arvika" city="" area_code="570" cn_name="暂无中文" en_name="Arvika" />
+        <city province="Åseda-Lenhovda" city="" area_code="474" cn_name="暂无中文" en_name="Åseda-Lenhovda" />
+        <city province="Åsele" city="" area_code="941" cn_name="暂无中文" en_name="Åsele" />
+        <city province="Askersund" city="" area_code="583" cn_name="暂无中文" en_name="Askersund" />
+        <city province="Åtvidaberg" city="" area_code="120" cn_name="暂无中文" en_name="Åtvidaberg" />
+        <city province="Avesta-Krylbo" city="" area_code="226" cn_name="暂无中文" en_name="Avesta-Krylbo" />
+        <city province="Backe" city="" area_code="624" cn_name="暂无中文" en_name="Backe" />
+        <city province="Bastuträsk" city="" area_code="915" cn_name="暂无中文" en_name="Bastuträsk" />
+        <city province="Bengtsfors" city="" area_code="531" cn_name="暂无中文" en_name="Bengtsfors" />
+        <city province="Bergsjö" city="" area_code="652" cn_name="暂无中文" en_name="Bergsjö" />
+        <city province="Björna" city="" area_code="662" cn_name="暂无中文" en_name="Björna" />
+        <city province="Bjurholm" city="" area_code="932" cn_name="暂无中文" en_name="Bjurholm" />
+        <city province="博登" city="" area_code="921" cn_name="博登" en_name="Boden" />
+        <city province="Bollnäs" city="" area_code="278" cn_name="暂无中文" en_name="Bollnäs" />
+        <city province="布罗斯" city="" area_code="33" cn_name="布罗斯" en_name="Borås" />
+        <city province="Borlänge" city="" area_code="243" cn_name="暂无中文" en_name="Borlänge" />
+        <city province="Bräcke-Gällö" city="" area_code="693" cn_name="暂无中文" en_name="Bräcke-Gällö" />
+        <city province="Bredbyn" city="" area_code="661" cn_name="暂无中文" en_name="Bredbyn" />
+        <city province="Burträsk" city="" area_code="914" cn_name="暂无中文" en_name="Burträsk" />
+        <city province="比斯克" city="" area_code="912" cn_name="比斯克" en_name="Byske" />
+        <city province="Charlottenberg-Åmotfors" city="" area_code="571" cn_name="暂无中文" en_name="Charlottenberg-Åmotfors" />
+        <city province="Deje" city="" area_code="552" cn_name="暂无中文" en_name="Deje" />
+        <city province="Delsbo" city="" area_code="653" cn_name="暂无中文" en_name="Delsbo" />
+        <city province="Dorotea" city="" area_code="942" cn_name="暂无中文" en_name="Dorotea" />
+        <city province="Ed" city="" area_code="534" cn_name="暂无中文" en_name="Ed" />
+        <city province="Eksjö" city="" area_code="381" cn_name="暂无中文" en_name="Eksjö" />
+        <city province="Emmaboda" city="" area_code="471" cn_name="暂无中文" en_name="Emmaboda" />
+        <city province="Enköping" city="" area_code="171" cn_name="暂无中文" en_name="Enköping" />
+        <city province="埃斯基尔斯蒂纳" city="" area_code="16" cn_name="埃斯基尔斯蒂纳" en_name="Eskilstuna-Torshälla" />
+        <city province="Eslöv-Höör" city="" area_code="413" cn_name="暂无中文" en_name="Eslöv-Höör" />
+        <city province="法格斯塔-努尔贝里" city="" area_code="223" cn_name="法格斯塔-努尔贝里" en_name="Fagersta-Norberg" />
+        <city province="法尔肯贝里" city="" area_code="346" cn_name="法尔肯贝里" en_name="Falkenberg" />
+        <city province="Falköping" city="" area_code="515" cn_name="暂无中文" en_name="Falköping" />
+        <city province="法伦" city="" area_code="23" cn_name="法伦" en_name="Falun" />
+        <city province="Färgelanda" city="" area_code="528" cn_name="暂无中文" en_name="Färgelanda" />
+        <city province="Filipstad" city="" area_code="590" cn_name="暂无中文" en_name="Filipstad" />
+        <city province="Finspång" city="" area_code="122" cn_name="暂无中文" en_name="Finspång" />
+        <city province="Fjugesta-Svartå" city="" area_code="585" cn_name="暂无中文" en_name="Fjugesta-Svartå" />
+        <city province="Flen-Malmköping" city="" area_code="157" cn_name="暂无中文" en_name="Flen-Malmköping" />
+        <city province="Föllinge" city="" area_code="645" cn_name="暂无中文" en_name="Föllinge" />
+        <city province="Fredrika" city="" area_code="943" cn_name="暂无中文" en_name="Fredrika" />
+        <city province="Furudal" city="" area_code="258" cn_name="暂无中文" en_name="Furudal" />
+        <city province="Gäddede" city="" area_code="672" cn_name="暂无中文" en_name="Gäddede" />
+        <city province="Gagnef-Floda" city="" area_code="241" cn_name="暂无中文" en_name="Gagnef-Floda" />
+        <city province="Gällivare" city="" area_code="970" cn_name="暂无中文" en_name="Gällivare" />
+        <city province="Gamleby" city="" area_code="493" cn_name="暂无中文" en_name="Gamleby" />
+        <city province="耶夫勒-桑德维肯" city="" area_code="26" cn_name="耶夫勒-桑德维肯" en_name="Gävle-Sandviken" />
+        <city province="Gislaved-Anderstorp" city="" area_code="371" cn_name="暂无中文" en_name="Gislaved-Anderstorp" />
+        <city province="Gnesta" city="" area_code="158" cn_name="暂无中文" en_name="Gnesta" />
+        <city province="哥德堡" city="" area_code="31" cn_name="哥德堡" en_name="Göteborg" />
+        <city province="哥得兰" city="" area_code="498" cn_name="哥得兰" en_name="Gotland" />
+        <city province="Gränna" city="" area_code="390" cn_name="暂无中文" en_name="Gränna" />
+        <city province="Grästorp" city="" area_code="514" cn_name="暂无中文" en_name="Grästorp" />
+        <city province="Grebbestad" city="" area_code="525" cn_name="暂无中文" en_name="Grebbestad" />
+        <city province="Grums" city="" area_code="555" cn_name="暂无中文" en_name="Grums" />
+        <city province="Gullspång" city="" area_code="551" cn_name="暂无中文" en_name="Gullspång" />
+        <city province="Hagfors-Munkfors" city="" area_code="563" cn_name="暂无中文" en_name="Hagfors-Munkfors" />
+        <city province="Hakkas" city="" area_code="975" cn_name="暂无中文" en_name="Hakkas" />
+        <city province="Hällefors-Grythyttan" city="" area_code="591" cn_name="暂无中文" en_name="Hällefors-Grythyttan" />
+        <city province="Hallen-Oviken" city="" area_code="643" cn_name="暂无中文" en_name="Hallen-Oviken" />
+        <city province="Hallsberg" city="" area_code="582" cn_name="暂无中文" en_name="Hallsberg" />
+        <city province="Hallstahammar-Surahammar" city="" area_code="220" cn_name="暂无中文" en_name="Hallstahammar-Surahammar" />
+        <city province="Hallstavik-Rimbo" city="" area_code="175" cn_name="暂无中文" en_name="Hallstavik-Rimbo" />
+        <city province="哈尔姆斯塔德" city="" area_code="35" cn_name="哈尔姆斯塔德" en_name="Halmstad" />
+        <city province="Hammarstrand" city="" area_code="696" cn_name="暂无中文" en_name="Hammarstrand" />
+        <city province="Hammerdal" city="" area_code="644" cn_name="暂无中文" en_name="Hammerdal" />
+        <city province="哈帕兰达" city="" area_code="922" cn_name="哈帕兰达" en_name="Haparanda" />
+        <city province="Harads" city="" area_code="928" cn_name="暂无中文" en_name="Harads" />
+        <city province="海讷桑德" city="" area_code="611" cn_name="海讷桑德" en_name="Härnösand" />
+        <city province="Hässleholm" city="" area_code="451" cn_name="暂无中文" en_name="Hässleholm" />
+        <city province="Hede-Funäsdalen" city="" area_code="684" cn_name="暂无中文" en_name="Hede-Funäsdalen" />
+        <city province="Hedemora-Säter" city="" area_code="225" cn_name="暂无中文" en_name="Hedemora-Säter" />
+        <city province="Hedesunda-Österfärnebo" city="" area_code="291" cn_name="暂无中文" en_name="Hedesunda-Österfärnebo" />
+        <city province="赫尔辛堡" city="" area_code="42" cn_name="赫尔辛堡" en_name="Helsingborg-Höganäs" />
+        <city province="Herrljunga" city="" area_code="513" cn_name="暂无中文" en_name="Herrljunga" />
+        <city province="Hindås" city="" area_code="301" cn_name="暂无中文" en_name="Hindås" />
+        <city province="Hjo" city="" area_code="503" cn_name="暂无中文" en_name="Hjo" />
+        <city province="Hofors-Storvik" city="" area_code="290" cn_name="暂无中文" en_name="Hofors-Storvik" />
+        <city province="赫比" city="" area_code="415" cn_name="赫比" en_name="Hörby" />
+        <city province="Hoting" city="" area_code="671" cn_name="暂无中文" en_name="Hoting" />
+        <city province="Hudiksvall" city="" area_code="650" cn_name="暂无中文" en_name="Hudiksvall" />
+        <city province="Hultsfred-Virserum" city="" area_code="495" cn_name="暂无中文" en_name="Hultsfred-Virserum" />
+        <city province="胡苏姆" city="" area_code="663" cn_name="胡苏姆" en_name="Husum" />
+        <city province="Hyltebruk-Torup" city="" area_code="345" cn_name="暂无中文" en_name="Hyltebruk-Torup" />
+        <city province="Idre-Särna" city="" area_code="253" cn_name="暂无中文" en_name="Idre-Särna" />
+        <city province="约克莫克" city="" area_code="971" cn_name="约克莫克" en_name="Jokkmokk" />
+        <city province="延雪平" city="" area_code="36" cn_name="延雪平" en_name="Jönköping-Huskvarna" />
+        <city province="Jörn" city="" area_code="916" cn_name="暂无中文" en_name="Jörn" />
+        <city province="Junsele" city="" area_code="621" cn_name="暂无中文" en_name="Junsele" />
+        <city province="卡利克斯" city="" area_code="923" cn_name="卡利克斯" en_name="Kalix" />
+        <city province="卡尔马" city="" area_code="480" cn_name="卡尔马" en_name="Kalmar" />
+        <city province="Karlholmsbruk-Skärplinge" city="" area_code="294" cn_name="暂无中文" en_name="Karlholmsbruk-Skärplinge" />
+        <city province="Karlsborg" city="" area_code="505" cn_name="暂无中文" en_name="Karlsborg" />
+        <city province="Karlshamn-Olofström" city="" area_code="454" cn_name="暂无中文" en_name="Karlshamn-Olofström" />
+        <city province="Karlskoga-Degerfors" city="" area_code="586" cn_name="暂无中文" en_name="Karlskoga-Degerfors" />
+        <city province="卡尔斯克鲁纳" city="" area_code="455" cn_name="卡尔斯克鲁纳" en_name="Karlskrona" />
+        <city province="卡尔斯塔德" city="" area_code="54" cn_name="卡尔斯塔德" en_name="Karlstad" />
+        <city province="Katrineholm" city="" area_code="150" cn_name="暂无中文" en_name="Katrineholm" />
+        <city province="Kil" city="" area_code="554" cn_name="暂无中文" en_name="Kil" />
+        <city province="Kinna" city="" area_code="320" cn_name="暂无中文" en_name="Kinna" />
+        <city province="基律纳" city="" area_code="980" cn_name="基律纳" en_name="Kiruna" />
+        <city province="基沙" city="" area_code="494" cn_name="基沙" en_name="Kisa" />
+        <city province="岩柏仕德" city="" area_code="435" cn_name="岩柏仕德" en_name="Klippan-Perstorp" />
+        <city province="Köping" city="" area_code="221" cn_name="暂无中文" en_name="Köping" />
+        <city province="Kopparberg" city="" area_code="580" cn_name="暂无中文" en_name="Kopparberg" />
+        <city province="Korpilombolo" city="" area_code="977" cn_name="暂无中文" en_name="Korpilombolo" />
+        <city province="克拉姆福什" city="" area_code="612" cn_name="克拉姆福什" en_name="Kramfors" />
+        <city province="克里斯蒂安斯塔德" city="" area_code="44" cn_name="克里斯蒂安斯塔德" en_name="Kristianstad" />
+        <city province="Kristinehamn" city="" area_code="550" cn_name="暂无中文" en_name="Kristinehamn" />
+        <city province="Krokom" city="" area_code="640" cn_name="暂无中文" en_name="Krokom" />
+        <city province="Kungälv" city="" area_code="303" cn_name="暂无中文" en_name="Kungälv" />
+        <city province="Kungsbacka" city="" area_code="300" cn_name="暂无中文" en_name="Kungsbacka" />
+        <city province="Kungsör" city="" area_code="227" cn_name="暂无中文" en_name="Kungsör" />
+        <city province="Laholm" city="" area_code="430" cn_name="暂无中文" en_name="Laholm" />
+        <city province="Lakaträsk" city="" area_code="925" cn_name="暂无中文" en_name="Lakaträsk" />
+        <city province="Landskrona-Svalöv" city="" area_code="418" cn_name="暂无中文" en_name="Landskrona-Svalöv" />
+        <city province="拉赫斯河" city="" area_code="584" cn_name="拉赫斯河" en_name="Laxå" />
+        <city province="Leksand-Insjön" city="" area_code="247" cn_name="暂无中文" en_name="Leksand-Insjön" />
+        <city province="Lerum" city="" area_code="302" cn_name="暂无中文" en_name="Lerum" />
+        <city province="Lessebo" city="" area_code="478" cn_name="暂无中文" en_name="Lessebo" />
+        <city province="利登" city="" area_code="692" cn_name="利登" en_name="Liden" />
+        <city province="林雪平" city="" area_code="510" cn_name="林雪平" en_name="Lidköping" />
+        <city province="Lindesberg" city="" area_code="581" cn_name="暂无中文" en_name="Lindesberg" />
+        <city province="林雪" city="" area_code="13" cn_name="林雪" en_name="Linköping" />
+        <city province="Lit" city="" area_code="642" cn_name="暂无中文" en_name="Lit" />
+        <city province="永比" city="" area_code="372" cn_name="永比" en_name="Ljungby" />
+        <city province="Ljusdal" city="" area_code="651" cn_name="暂无中文" en_name="Ljusdal" />
+        <city province="Los" city="" area_code="657" cn_name="暂无中文" en_name="Los" />
+        <city province="Lövånger" city="" area_code="913" cn_name="暂无中文" en_name="Lövånger" />
+        <city province="卢德维卡" city="" area_code="240" cn_name="卢德维卡" en_name="Ludvika-Smedjebacken" />
+        <city province="吕勒奥" city="" area_code="920" cn_name="吕勒奥" en_name="Luleå" />
+        <city province="隆德" city="" area_code="46" cn_name="隆德" en_name="Lund" />
+        <city province="Lycksele" city="" area_code="950" cn_name="暂无中文" en_name="Lycksele" />
+        <city province="Lysekil" city="" area_code="523" cn_name="暂无中文" en_name="Lysekil" />
+        <city province="马拉" city="" area_code="953" cn_name="马拉" en_name="Malå" />
+        <city province="马尔默" city="" area_code="40" cn_name="马尔默" en_name="Malmö" />
+        <city province="Malung" city="" area_code="280" cn_name="暂无中文" en_name="Malung" />
+        <city province="Mariannelund" city="" area_code="496" cn_name="暂无中文" en_name="Mariannelund" />
+        <city province="Mariefred" city="" area_code="159" cn_name="暂无中文" en_name="Mariefred" />
+        <city province="Mariestad" city="" area_code="501" cn_name="暂无中文" en_name="Mariestad" />
+        <city province="Markaryd-Strömsnäsbruk" city="" area_code="433" cn_name="暂无中文" en_name="Markaryd-Strömsnäsbruk" />
+        <city province="Mellerud" city="" area_code="530" cn_name="暂无中文" en_name="Mellerud" />
+        <city province="Mjölby-Skänninge-Boxholm" city="" area_code="142" cn_name="暂无中文" en_name="Mjölby-Skänninge-Boxholm" />
+        <city province="Molkom" city="" area_code="553" cn_name="暂无中文" en_name="Molkom" />
+        <city province="Mönsterås" city="" area_code="499" cn_name="暂无中文" en_name="Mönsterås" />
+        <city province="Mora-Orsa" city="" area_code="250" cn_name="暂无中文" en_name="Mora-Orsa" />
+        <city province="穆塔拉" city="" area_code="141" cn_name="穆塔拉" en_name="Motala" />
+        <city province="Mullsjö" city="" area_code="392" cn_name="暂无中文" en_name="Mullsjö" />
+        <city province="Munkedal" city="" area_code="524" cn_name="暂无中文" en_name="Munkedal" />
+        <city province="Näsåker" city="" area_code="622" cn_name="暂无中文" en_name="Näsåker" />
+        <city province="Nässjö" city="" area_code="380" cn_name="暂无中文" en_name="Nässjö" />
+        <city province="娜拉" city="" area_code="587" cn_name="娜拉" en_name="Nora" />
+        <city province="Nordmaling" city="" area_code="930" cn_name="暂无中文" en_name="Nordmaling" />
+        <city province="北雪平" city="" area_code="11" cn_name="北雪平" en_name="Norrköping" />
+        <city province="诺尔泰利耶" city="" area_code="176" cn_name="诺尔泰利耶" en_name="Norrtälje" />
+        <city province="Norsjö" city="" area_code="918" cn_name="暂无中文" en_name="Norsjö" />
+        <city province="Nybro" city="" area_code="481" cn_name="暂无中文" en_name="Nybro" />
+        <city province="尼雪平" city="" area_code="155" cn_name="尼雪平" en_name="Nyköping-Oxelösund" />
+        <city province="Ockelbo-Hamrånge" city="" area_code="297" cn_name="暂无中文" en_name="Ockelbo-Hamrånge" />
+        <city province="Ödeshög" city="" area_code="144" cn_name="暂无中文" en_name="Ödeshög" />
+        <city province="厄兰岛" city="" area_code="485" cn_name="厄兰岛" en_name="Öland" />
+        <city province="Örbyhus-Dannemora" city="" area_code="295" cn_name="暂无中文" en_name="Örbyhus-Dannemora" />
+        <city province="厄勒布鲁" city="" area_code="19" cn_name="厄勒布鲁" en_name="Örebro-Kumla" />
+        <city province="Öregrund-Östhammar" city="" area_code="173" cn_name="暂无中文" en_name="Öregrund-Östhammar" />
+        <city province="Örnsköldsvik" city="" area_code="660" cn_name="暂无中文" en_name="Örnsköldsvik" />
+        <city province="Orust-Tjörn" city="" area_code="304" cn_name="暂无中文" en_name="Orust-Tjörn" />
+        <city province="Osby" city="" area_code="479" cn_name="暂无中文" en_name="Osby" />
+        <city province="Oskarshamn-Högsby" city="" area_code="491" cn_name="暂无中文" en_name="Oskarshamn-Högsby" />
+        <city province="厄斯特松德" city="" area_code="63" cn_name="厄斯特松德" en_name="Östersund" />
+        <city province="Överkalix" city="" area_code="926" cn_name="暂无中文" en_name="Överkalix" />
+        <city province="Övertorneå" city="" area_code="927" cn_name="暂无中文" en_name="Övertorneå" />
+        <city province="Pajala" city="" area_code="978" cn_name="暂无中文" en_name="Pajala" />
+        <city province="皮特欧" city="" area_code="911" cn_name="皮特欧" en_name="Piteå" />
+        <city province="Porjus" city="" area_code="973" cn_name="暂无中文" en_name="Porjus" />
+        <city province="Ramsele" city="" area_code="623" cn_name="暂无中文" en_name="Ramsele" />
+        <city province="Råneå" city="" area_code="924" cn_name="暂无中文" en_name="Råneå" />
+        <city province="拉坦" city="" area_code="682" cn_name="拉坦" en_name="Rätan" />
+        <city province="Rättvik" city="" area_code="248" cn_name="暂无中文" en_name="Rättvik" />
+        <city province="Robertsfors" city="" area_code="934" cn_name="暂无中文" en_name="Robertsfors" />
+        <city province="龙内比" city="" area_code="457" cn_name="龙内比" en_name="Ronneby" />
+        <city province="吕德" city="" area_code="459" cn_name="吕德" en_name="Ryd" />
+        <city province="Säffle" city="" area_code="533" cn_name="暂无中文" en_name="Säffle" />
+        <city province="Sala-Heby" city="" area_code="224" cn_name="暂无中文" en_name="Sala-Heby" />
+        <city province="Sävsjö" city="" area_code="382" cn_name="暂无中文" en_name="Sävsjö" />
+        <city province="Simrishamn" city="" area_code="414" cn_name="暂无中文" en_name="Simrishamn" />
+        <city province="Sjöbo" city="" area_code="416" cn_name="暂无中文" en_name="Sjöbo" />
+        <city province="Skara-Götene" city="" area_code="511" cn_name="暂无中文" en_name="Skara-Götene" />
+        <city province="Skellefteå" city="" area_code="910" cn_name="暂无中文" en_name="Skellefteå" />
+        <city province="Skinnskatteberg" city="" area_code="222" cn_name="暂无中文" en_name="Skinnskatteberg" />
+        <city province="舍夫德" city="" area_code="500" cn_name="舍夫德" en_name="Skövde" />
+        <city province="Söderhamn" city="" area_code="270" cn_name="暂无中文" en_name="Söderhamn" />
+        <city province="南雪平" city="" area_code="121" cn_name="南雪平" en_name="Söderköping" />
+        <city province="Sollefteå" city="" area_code="620" cn_name="暂无中文" en_name="Sollefteå" />
+        <city province="Sölvesborg-Bromölla" city="" area_code="456" cn_name="暂无中文" en_name="Sölvesborg-Bromölla" />
+        <city province="Sorsele" city="" area_code="952" cn_name="暂无中文" en_name="Sorsele" />
+        <city province="斯德哥尔摩" city="" area_code="8" cn_name="斯德哥尔摩" en_name="Stockholm" />
+        <city province="Storuman" city="" area_code="951" cn_name="暂无中文" en_name="Storuman" />
+        <city province="斯特兰奈斯" city="" area_code="152" cn_name="斯特兰奈斯" en_name="Strängnäs" />
+        <city province="斯特伦斯塔德" city="" area_code="526" cn_name="斯特伦斯塔德" en_name="Strömstad" />
+        <city province="Strömsund" city="" area_code="670" cn_name="暂无中文" en_name="Strömsund" />
+        <city province="Stugun" city="" area_code="695" cn_name="暂无中文" en_name="Stugun" />
+        <city province="松兹瓦尔" city="" area_code="60" cn_name="松兹瓦尔" en_name="Sundsvall-Timrå" />
+        <city province="Sunne" city="" area_code="565" cn_name="暂无中文" en_name="Sunne" />
+        <city province="Svärdsjö-Enviken" city="" area_code="246" cn_name="暂无中文" en_name="Svärdsjö-Enviken" />
+        <city province="Sveg" city="" area_code="680" cn_name="暂无中文" en_name="Sveg" />
+        <city province="Svenljunga-Tranemo" city="" area_code="325" cn_name="暂无中文" en_name="Svenljunga-Tranemo" />
+        <city province="Svenstavik" city="" area_code="687" cn_name="暂无中文" en_name="Svenstavik" />
+        <city province="Sysslebäck" city="" area_code="564" cn_name="暂无中文" en_name="Sysslebäck" />
+        <city province="Tärnaby" city="" area_code="954" cn_name="暂无中文" en_name="Tärnaby" />
+        <city province="Tärnsjö-Östervåla" city="" area_code="292" cn_name="暂无中文" en_name="Tärnsjö-Östervåla" />
+        <city province="Tibro" city="" area_code="504" cn_name="暂无中文" en_name="Tibro" />
+        <city province="Tidaholm" city="" area_code="502" cn_name="暂无中文" en_name="Tidaholm" />
+        <city province="Tierp-Söderfors" city="" area_code="293" cn_name="暂无中文" en_name="Tierp-Söderfors" />
+        <city province="Tingsryd" city="" area_code="477" cn_name="暂无中文" en_name="Tingsryd" />
+        <city province="Tomelilla" city="" area_code="417" cn_name="暂无中文" en_name="Tomelilla" />
+        <city province="Töreboda-Hova" city="" area_code="506" cn_name="暂无中文" en_name="Töreboda-Hova" />
+        <city province="Torpshammar" city="" area_code="691" cn_name="暂无中文" en_name="Torpshammar" />
+        <city province="图绍斯" city="" area_code="486" cn_name="图绍斯" en_name="Torsås" />
+        <city province="Torsby" city="" area_code="560" cn_name="暂无中文" en_name="Torsby" />
+        <city province="Tranås" city="" area_code="140" cn_name="暂无中文" en_name="Tranås" />
+        <city province="特雷勒堡" city="" area_code="410" cn_name="特雷勒堡" en_name="Trelleborg" />
+        <city province="Trollhättan" city="" area_code="520" cn_name="暂无中文" en_name="Trollhättan" />
+        <city province="Trosa-Vagnhärad" city="" area_code="156" cn_name="暂无中文" en_name="Trosa-Vagnhärad" />
+        <city province="乌德瓦拉" city="" area_code="522" cn_name="乌德瓦拉" en_name="Uddevalla" />
+        <city province="Ullånger" city="" area_code="613" cn_name="暂无中文" en_name="Ullånger" />
+        <city province="Ulricehamn" city="" area_code="321" cn_name="暂无中文" en_name="Ulricehamn" />
+        <city province="于默奥" city="" area_code="90" cn_name="于默奥" en_name="Umeå" />
+        <city province="乌普萨拉" city="" area_code="18" cn_name="乌普萨拉" en_name="Uppsala" />
+        <city province="Vadstena" city="" area_code="143" cn_name="暂无中文" en_name="Vadstena" />
+        <city province="Vaggeryd" city="" area_code="393" cn_name="暂无中文" en_name="Vaggeryd" />
+        <city province="Valdemarsvik" city="" area_code="123" cn_name="暂无中文" en_name="Valdemarsvik" />
+        <city province="Vänersborg" city="" area_code="521" cn_name="暂无中文" en_name="Vänersborg" />
+        <city province="Vännäs" city="" area_code="935" cn_name="暂无中文" en_name="Vännäs" />
+        <city province="Vansbro" city="" area_code="281" cn_name="暂无中文" en_name="Vansbro" />
+        <city province="Vara-Nossebro" city="" area_code="512" cn_name="暂无中文" en_name="Vara-Nossebro" />
+        <city province="瓦尔贝里" city="" area_code="340" cn_name="瓦尔贝里" en_name="Varberg" />
+        <city province="韦纳穆" city="" area_code="370" cn_name="韦纳穆" en_name="Värnamo" />
+        <city province="韦斯特罗斯" city="" area_code="21" cn_name="韦斯特罗斯" en_name="Västerås" />
+        <city province="韦斯特维克" city="" area_code="490" cn_name="韦斯特维克" en_name="Västervik" />
+        <city province="韦克舍" city="" area_code="470" cn_name="韦克舍" en_name="Växjö" />
+        <city province="Vetlanda" city="" area_code="383" cn_name="暂无中文" en_name="Vetlanda" />
+        <city province="Vikbolandet" city="" area_code="125" cn_name="暂无中文" en_name="Vikbolandet" />
+        <city province="Vilhelmina" city="" area_code="940" cn_name="暂无中文" en_name="Vilhelmina" />
+        <city province="维默比" city="" area_code="492" cn_name="维默比" en_name="Vimmerby" />
+        <city province="Vindeln" city="" area_code="933" cn_name="暂无中文" en_name="Vindeln" />
+        <city province="温奥克" city="" area_code="151" cn_name="温奥克" en_name="Vingåker" />
+        <city province="Vittangi" city="" area_code="981" cn_name="暂无中文" en_name="Vittangi" />
+        <city province="Vuollerim" city="" area_code="976" cn_name="暂无中文" en_name="Vuollerim" />
+        <city province="于斯塔德" city="" area_code="411" cn_name="于斯塔德" en_name="Ystad" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>希腊</cn_name>
+    <en_name>Greece</en_name>
+    <national_code>30</national_code>
+    <mcc>202</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到希腊的A地电话顺序为“0030-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从希腊的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0030-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0030XXXXXXXX、30XXXXXXXX、030XXXXXXXX、00030XXXXXXXX；如果来电显示开头是00300、00301、00302、00303、00304、00305、00306、00307、00308、00309，一般也都表示国际区号是0030，后面一位是希腊内部的号码的开头第一位；如果是在希腊通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>希臘</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Cosmote" mncs="01" national_prefix="00" internal_prefix="" desc="Cosmote" />
+    <operation op_code="Vodafone" mncs="05" national_prefix="00" internal_prefix="" desc="Vodafone" />
+    <operation op_code="Wind" mncs="09,10" national_prefix="00" internal_prefix="" desc="Wind" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="COSMOTE - Mobile Telecommunications S.A." op_prefix="" />
+        <prefix op_code="Vodafone Greece" op_prefix="" />
+        <prefix op_code="Wind Hellas Telecommunications S.A. (Q-Telecom)" op_prefix="" />
+        <prefix op_code="Wind Hellas Telecommunications S.A." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Aegina" city="" area_code="2297" cn_name="" en_name="Aegina" />
+        <city province="Aeginio" city="" area_code="2353" cn_name="" en_name="Aeginio" />
+        <city province="Aegio" city="" area_code="2691" cn_name="" en_name="Aegio" />
+        <city province="Afidnes" city="" area_code="2295" cn_name="" en_name="Afidnes" />
+        <city province="Ag.  Kirikos" city="" area_code="2275" cn_name="" en_name="Ag.  Kirikos" />
+        <city province="Ag. Nikolaos" city="" area_code="2841" cn_name="" en_name="Ag. Nikolaos" />
+        <city province="Ag. Sotira" city="" area_code="2293" cn_name="" en_name="Ag. Sotira" />
+        <city province="Ag. Varvara" city="" area_code="2894" cn_name="" en_name="Ag. Varvara" />
+        <city province="Agia" city="" area_code="2494" cn_name="" en_name="Agia" />
+        <city province="Agiasos" city="" area_code="2252" cn_name="" en_name="Agiasos" />
+        <city province="Agrinio" city="" area_code="2641" cn_name="" en_name="Agrinio" />
+        <city province="Aitoliko" city="" area_code="2632" cn_name="" en_name="Aitoliko" />
+        <city province="Akrata" city="" area_code="2696" cn_name="" en_name="Akrata" />
+        <city province="Alexandria" city="" area_code="2333" cn_name="" en_name="Alexandria" />
+        <city province="亚历山大德鲁波利斯" city="" area_code="2551" cn_name="亚历山大德鲁波利斯" en_name="Alexandroupoli" />
+        <city province="Aliartos" city="" area_code="2268" cn_name="" en_name="Aliartos" />
+        <city province="Aliveri" city="" area_code="2223" cn_name="" en_name="Aliveri" />
+        <city province="Almyros" city="" area_code="2422" cn_name="" en_name="Almyros" />
+        <city province="Amaliada" city="" area_code="2622" cn_name="" en_name="Amaliada" />
+        <city province="Amari" city="" area_code="2833" cn_name="" en_name="Amari" />
+        <city province="Amfikleia" city="" area_code="2234" cn_name="" en_name="Amfikleia" />
+        <city province="Amfilochia" city="" area_code="2642" cn_name="" en_name="Amfilochia" />
+        <city province="Amfissa" city="" area_code="2265" cn_name="" en_name="Amfissa" />
+        <city province="Amynteo" city="" area_code="2386" cn_name="" en_name="Amynteo" />
+        <city province="Αν. Viannos" city="" area_code="2895" cn_name="" en_name="Αν. Viannos" />
+        <city province="Anc. Olympia" city="" area_code="2624" cn_name="" en_name="Anc. Olympia" />
+        <city province="Andritsena" city="" area_code="2626" cn_name="" en_name="Andritsena" />
+        <city province="Andros" city="" area_code="2282" cn_name="" en_name="Andros" />
+        <city province="Archagelos" city="" area_code="2244" cn_name="" en_name="Archagelos" />
+        <city province="Argos" city="" area_code="2751" cn_name="" en_name="Argos" />
+        <city province="Argostoli" city="" area_code="2671" cn_name="" en_name="Argostoli" />
+        <city province="Aridea" city="" area_code="2384" cn_name="" en_name="Aridea" />
+        <city province="Arkalochori" city="" area_code="2891" cn_name="" en_name="Arkalochori" />
+        <city province="Arnea" city="" area_code="2372" cn_name="" en_name="Arnea" />
+        <city province="阿尔塔" city="" area_code="2681" cn_name="阿尔塔" en_name="Arta" />
+        <city province="Asprovalta" city="" area_code="2397" cn_name="" en_name="Asprovalta" />
+        <city province="Astros" city="" area_code="2755" cn_name="" en_name="Astros" />
+        <city province="Atalanti" city="" area_code="2233" cn_name="" en_name="Atalanti" />
+        <city province="雅典" city="" area_code="21" cn_name="雅典" en_name="Athens" />
+        <city province="Chalandritsa" city="" area_code="2694" cn_name="" en_name="Chalandritsa" />
+        <city province="Chania" city="" area_code="2821" cn_name="" en_name="Chania" />
+        <city province="Chios" city="" area_code="2271" cn_name="" en_name="Chios" />
+        <city province="Chlkidona" city="" area_code="2391" cn_name="" en_name="Chlkidona" />
+        <city province="Chrysoupoli" city="" area_code="2591" cn_name="" en_name="Chrysoupoli" />
+        <city province="Corfu" city="" area_code="2661" cn_name="" en_name="Corfu" />
+        <city province="Delvinaki" city="" area_code="2657" cn_name="" en_name="Delvinaki" />
+        <city province="Didymoticho" city="" area_code="2553" cn_name="" en_name="Didymoticho" />
+        <city province="Distomo" city="" area_code="2267" cn_name="" en_name="Distomo" />
+        <city province="Domokos" city="" area_code="2232" cn_name="" en_name="Domokos" />
+        <city province="Domvrena" city="" area_code="2264" cn_name="" en_name="Domvrena" />
+        <city province="兹拉马" city="" area_code="2521" cn_name="兹拉马" en_name="Drama" />
+        <city province="Echinos" city="" area_code="2544" cn_name="" en_name="Echinos" />
+        <city province="埃泽萨" city="" area_code="2381" cn_name="埃泽萨" en_name="Edessa" />
+        <city province="Elassona" city="" area_code="2493" cn_name="" en_name="Elassona" />
+        <city province="Eleftheroupoli" city="" area_code="2592" cn_name="" en_name="Eleftheroupoli" />
+        <city province="Eretria" city="" area_code="2229" cn_name="" en_name="Eretria" />
+        <city province="Farkadona" city="" area_code="2433" cn_name="" en_name="Farkadona" />
+        <city province="Farsala" city="" area_code="2491" cn_name="" en_name="Farsala" />
+        <city province="Feres" city="" area_code="2555" cn_name="" en_name="Feres" />
+        <city province="Filiates" city="" area_code="2664" cn_name="" en_name="Filiates" />
+        <city province="弗洛里纳" city="" area_code="2385" cn_name="弗洛里纳" en_name="Florina" />
+        <city province="Fyties" city="" area_code="2646" cn_name="" en_name="Fyties" />
+        <city province="Gargalianoi" city="" area_code="2763" cn_name="" en_name="Gargalianoi" />
+        <city province="Giannitsa" city="" area_code="2382" cn_name="" en_name="Giannitsa" />
+        <city province="格雷韦纳" city="" area_code="2462" cn_name="格雷韦纳" en_name="Grevena" />
+        <city province="伊西翁" city="" area_code="2733" cn_name="伊西翁" en_name="Gytheio" />
+        <city province="Halkida" city="" area_code="2221" cn_name="" en_name="Halkida" />
+        <city province="Herakleia" city="" area_code="2325" cn_name="" en_name="Herakleia" />
+        <city province="Iasmos" city="" area_code="2534" cn_name="" en_name="Iasmos" />
+        <city province="Ierapetra" city="" area_code="2842" cn_name="" en_name="Ierapetra" />
+        <city province="Ierissos" city="" area_code="2377" cn_name="" en_name="Ierissos" />
+        <city province="Igoumenitsa" city="" area_code="2665" cn_name="" en_name="Igoumenitsa" />
+        <city province="Iraklion" city="" area_code="281" cn_name="" en_name="Iraklion" />
+        <city province="K. Nevrokopi" city="" area_code="2523" cn_name="" en_name="K. Nevrokopi" />
+        <city province="Kala Nera" city="" area_code="2423" cn_name="" en_name="Kala Nera" />
+        <city province="Kalabaka" city="" area_code="2432" cn_name="" en_name="Kalabaka" />
+        <city province="Kalamata" city="" area_code="2721" cn_name="" en_name="Kalamata" />
+        <city province="Kalavrita" city="" area_code="2692" cn_name="" en_name="Kalavrita" />
+        <city province="Kalentzi" city="" area_code="2659" cn_name="" en_name="Kalentzi" />
+        <city province="Kalianoi" city="" area_code="2747" cn_name="" en_name="Kalianoi" />
+        <city province="Kalimnos" city="" area_code="2243" cn_name="" en_name="Kalimnos" />
+        <city province="Kalloni" city="" area_code="2253" cn_name="" en_name="Kalloni" />
+        <city province="Kam.Vourla" city="" area_code="2235" cn_name="" en_name="Kam.Vourla" />
+        <city province="Kanalaki" city="" area_code="2684" cn_name="" en_name="Kanalaki" />
+        <city province="Kantanos" city="" area_code="2823" cn_name="" en_name="Kantanos" />
+        <city province="Kardamila" city="" area_code="2272" cn_name="" en_name="Kardamila" />
+        <city province="卡尔季察" city="" area_code="2441" cn_name="卡尔季察" en_name="Karditsa" />
+        <city province="Karies" city="" area_code="2653" cn_name="" en_name="Karies" />
+        <city province="Karpathos" city="" area_code="2245" cn_name="" en_name="Karpathos" />
+        <city province="Karpenisi" city="" area_code="2237" cn_name="" en_name="Karpenisi" />
+        <city province="Karystos" city="" area_code="2224" cn_name="" en_name="Karystos" />
+        <city province="Kassandreia" city="" area_code="2374" cn_name="" en_name="Kassandreia" />
+        <city province="卡斯托里亚" city="" area_code="2467" cn_name="卡斯托里亚" en_name="Kastoria" />
+        <city province="Kastri" city="" area_code="2792" cn_name="" en_name="Kastri" />
+        <city province="卡泰里尼" city="" area_code="2351" cn_name="卡泰里尼" en_name="Katerini" />
+        <city province="卡瓦拉" city="" area_code="251" cn_name="卡瓦拉" en_name="Kavala" />
+        <city province="Kea" city="" area_code="2288" cn_name="" en_name="Kea" />
+        <city province="Kiato" city="" area_code="2742" cn_name="" en_name="Kiato" />
+        <city province="基尔基斯" city="" area_code="2341" cn_name="基尔基斯" en_name="Kilkis" />
+        <city province="Kissamos" city="" area_code="2822" cn_name="" en_name="Kissamos" />
+        <city province="Kolympari" city="" area_code="2824" cn_name="" en_name="Kolympari" />
+        <city province="科莫蒂尼" city="" area_code="2531" cn_name="科莫蒂尼" en_name="Komotini" />
+        <city province="Konitsa" city="" area_code="2655" cn_name="" en_name="Konitsa" />
+        <city province="Kopanaki" city="" area_code="2765" cn_name="" en_name="Kopanaki" />
+        <city province="科林斯" city="" area_code="2741" cn_name="科林斯" en_name="Korinthos" />
+        <city province="Koroni" city="" area_code="2725" cn_name="" en_name="Koroni" />
+        <city province="Kos" city="" area_code="2242" cn_name="" en_name="Kos" />
+        <city province="科扎尼" city="" area_code="2461" cn_name="科扎尼" en_name="Kozani" />
+        <city province="Kranidi" city="" area_code="2754" cn_name="" en_name="Kranidi" />
+        <city province="Krestena" city="" area_code="2625" cn_name="" en_name="Krestena" />
+        <city province="Kymi" city="" area_code="2222" cn_name="" en_name="Kymi" />
+        <city province="Kyparissia" city="" area_code="2761" cn_name="" en_name="Kyparissia" />
+        <city province="Kyprinos" city="" area_code="2556" cn_name="" en_name="Kyprinos" />
+        <city province="Kythira" city="" area_code="2736" cn_name="" en_name="Kythira" />
+        <city province="Lagadas" city="" area_code="2394" cn_name="" en_name="Lagadas" />
+        <city province="Lagadikia" city="" area_code="2393" cn_name="" en_name="Lagadikia" />
+        <city province="Lagonisi" city="" area_code="2291" cn_name="" en_name="Lagonisi" />
+        <city province="拉米亚" city="" area_code="2231" cn_name="拉米亚" en_name="Lamia" />
+        <city province="拉里萨" city="" area_code="241" cn_name="拉里萨" en_name="Larissa" />
+        <city province="Lavrion" city="" area_code="2292" cn_name="" en_name="Lavrion" />
+        <city province="Lechena" city="" area_code="2623" cn_name="" en_name="Lechena" />
+        <city province="Lefkada" city="" area_code="2645" cn_name="" en_name="Lefkada" />
+        <city province="Lefkimi  Corfu" city="" area_code="2662" cn_name="" en_name="Lefkimi  Corfu" />
+        <city province="Leonidio" city="" area_code="2757" cn_name="" en_name="Leonidio" />
+        <city province="Leros" city="" area_code="2247" cn_name="" en_name="Leros" />
+        <city province="Levidi" city="" area_code="2796" cn_name="" en_name="Levidi" />
+        <city province="Lidoriki" city="" area_code="2266" cn_name="" en_name="Lidoriki" />
+        <city province="Limenari" city="" area_code="2593" cn_name="" en_name="Limenari" />
+        <city province="Limin Chersonisou" city="" area_code="2897" cn_name="" en_name="Limin Chersonisou" />
+        <city province="莱瓦贾" city="" area_code="2261" cn_name="莱瓦贾" en_name="Livadeia" />
+        <city province="Loutra Aidipsou" city="" area_code="2226" cn_name="" en_name="Loutra Aidipsou" />
+        <city province="Loutraki" city="" area_code="2744" cn_name="" en_name="Loutraki" />
+        <city province="Lygourgio" city="" area_code="2753" cn_name="" en_name="Lygourgio" />
+        <city province="Makrakomi" city="" area_code="2236" cn_name="" en_name="Makrakomi" />
+        <city province="Makrychori" city="" area_code="2495" cn_name="" en_name="Makrychori" />
+        <city province="Mantoudi" city="" area_code="2227" cn_name="" en_name="Mantoudi" />
+        <city province="Markopoulo" city="" area_code="2299" cn_name="" en_name="Markopoulo" />
+        <city province="Mataraga" city="" area_code="2635" cn_name="" en_name="Mataraga" />
+        <city province="Megalopoli" city="" area_code="2791" cn_name="" en_name="Megalopoli" />
+        <city province="Megara" city="" area_code="2296" cn_name="" en_name="Megara" />
+        <city province="Meligalas" city="" area_code="2724" cn_name="" en_name="Meligalas" />
+        <city province="Messini" city="" area_code="2722" cn_name="" en_name="Messini" />
+        <city province="梅索郎吉昂" city="" area_code="2631" cn_name="梅索郎吉昂" en_name="Messologi" />
+        <city province="Mikonos" city="" area_code="2289" cn_name="" en_name="Mikonos" />
+        <city province="Milos" city="" area_code="2287" cn_name="" en_name="Milos" />
+        <city province="Mirina" city="" area_code="2254" cn_name="" en_name="Mirina" />
+        <city province="米蒂利尼" city="" area_code="2251" cn_name="米蒂利尼" en_name="Mitilini" />
+        <city province="Moires" city="" area_code="2892" cn_name="" en_name="Moires" />
+        <city province="Molaoi" city="" area_code="2732" cn_name="" en_name="Molaoi" />
+        <city province="Mouzaki" city="" area_code="2445" cn_name="" en_name="Mouzaki" />
+        <city province="Ν. Chalkiopoulo" city="" area_code="2647" cn_name="" en_name="Ν. Chalkiopoulo" />
+        <city province="Ν. Kallikrateia" city="" area_code="2399" cn_name="" en_name="Ν. Kallikrateia" />
+        <city province="Ν. Kallisti" city="" area_code="2535" cn_name="" en_name="Ν. Kallisti" />
+        <city province="Ν. Moudania" city="" area_code="2373" cn_name="" en_name="Ν. Moudania" />
+        <city province="Ν. Peramos" city="" area_code="2594" cn_name="" en_name="Ν. Peramos" />
+        <city province="Ν. Zichni" city="" area_code="2324" cn_name="" en_name="Ν. Zichni" />
+        <city province="Nafpaktos" city="" area_code="2634" cn_name="" en_name="Nafpaktos" />
+        <city province="纳夫普利翁" city="" area_code="2752" cn_name="纳夫普利翁" en_name="Nafplion" />
+        <city province="Naousa" city="" area_code="2332" cn_name="" en_name="Naousa" />
+        <city province="Naxos" city="" area_code="2285" cn_name="" en_name="Naxos" />
+        <city province="Neapoli S" city="" area_code="2734" cn_name="" en_name="Neapoli S" />
+        <city province="Neapoli S" city="" area_code="2468" cn_name="" en_name="Neapoli S" />
+        <city province="Nemea" city="" area_code="2746" cn_name="" en_name="Nemea" />
+        <city province="Nigrita" city="" area_code="2322" cn_name="" en_name="Nigrita" />
+        <city province="Nikitas" city="" area_code="2375" cn_name="" en_name="Nikitas" />
+        <city province="Orestiada" city="" area_code="2552" cn_name="" en_name="Orestiada" />
+        <city province="Palamas" city="" area_code="2444" cn_name="" en_name="Palamas" />
+        <city province="Paramythia" city="" area_code="2666" cn_name="" en_name="Paramythia" />
+        <city province="Paranesti" city="" area_code="2524" cn_name="" en_name="Paranesti" />
+        <city province="Paros" city="" area_code="2284" cn_name="" en_name="Paros" />
+        <city province="帕特雷" city="" area_code="261" cn_name="帕特雷" en_name="Patra" />
+        <city province="Perama" city="" area_code="2834" cn_name="" en_name="Perama" />
+        <city province="Perdika" city="" area_code="2654" cn_name="" en_name="Perdika" />
+        <city province="Perea" city="" area_code="2392" cn_name="" en_name="Perea" />
+        <city province="Philippiada" city="" area_code="2683" cn_name="" en_name="Philippiada" />
+        <city province="Plaka" city="" area_code="2352" cn_name="" en_name="Plaka" />
+        <city province="Polikastro" city="" area_code="2343" cn_name="" en_name="Polikastro" />
+        <city province="波利伊罗斯" city="" area_code="2371" cn_name="波利伊罗斯" en_name="Polygyros" />
+        <city province="Poros" city="" area_code="2298" cn_name="" en_name="Poros" />
+        <city province="Preveza" city="" area_code="2682" cn_name="" en_name="Preveza" />
+        <city province="Prosotsani" city="" area_code="2522" cn_name="" en_name="Prosotsani" />
+        <city province="Psachna" city="" area_code="2228" cn_name="" en_name="Psachna" />
+        <city province="Ptolemaida" city="" area_code="2463" cn_name="" en_name="Ptolemaida" />
+        <city province="Pyli" city="" area_code="2434" cn_name="" en_name="Pyli" />
+        <city province="Pylos" city="" area_code="2723" cn_name="" en_name="Pylos" />
+        <city province="皮尔划斯" city="" area_code="2621" cn_name="皮尔划斯" en_name="Pyrgos" />
+        <city province="Pyrgos (Creta)" city="" area_code="2893" cn_name="" en_name="Pyrgos (Creta)" />
+        <city province="Rafina" city="" area_code="2294" cn_name="" en_name="Rafina" />
+        <city province="雷西姆农" city="" area_code="2831" cn_name="雷西姆农" en_name="Rethymno" />
+        <city province="Rhodes" city="" area_code="2241" cn_name="" en_name="Rhodes" />
+        <city province="Rodopoli" city="" area_code="2327" cn_name="" en_name="Rodopoli" />
+        <city province="Salakos" city="" area_code="2246" cn_name="" en_name="Salakos" />
+        <city province="Sami" city="" area_code="2674" cn_name="" en_name="Sami" />
+        <city province="Samos" city="" area_code="2273" cn_name="" en_name="Samos" />
+        <city province="Sapes" city="" area_code="2532" cn_name="" en_name="Sapes" />
+        <city province="塞雷" city="" area_code="2321" cn_name="塞雷" en_name="Serres" />
+        <city province="Servia" city="" area_code="2464" cn_name="" en_name="Servia" />
+        <city province="Siatista" city="" area_code="2465" cn_name="" en_name="Siatista" />
+        <city province="Sidirokastro" city="" area_code="2323" cn_name="" en_name="Sidirokastro" />
+        <city province="Siros" city="" area_code="2281" cn_name="" en_name="Siros" />
+        <city province="Sitia" city="" area_code="2843" cn_name="" en_name="Sitia" />
+        <city province="Skala" city="" area_code="2735" cn_name="" en_name="Skala" />
+        <city province="Skiathos" city="" area_code="2427" cn_name="" en_name="Skiathos" />
+        <city province="Skopelos" city="" area_code="2424" cn_name="" en_name="Skopelos" />
+        <city province="Skripero Corfu" city="" area_code="2663" cn_name="" en_name="Skripero Corfu" />
+        <city province="Sochos" city="" area_code="2395" cn_name="" en_name="Sochos" />
+        <city province="Sofades" city="" area_code="2443" cn_name="" en_name="Sofades" />
+        <city province="Soufli" city="" area_code="2554" cn_name="" en_name="Soufli" />
+        <city province="斯巴达" city="" area_code="2731" cn_name="斯巴达" en_name="Sparti" />
+        <city province="Spili" city="" area_code="2832" cn_name="" en_name="Spili" />
+        <city province="Stavroupoli" city="" area_code="2542" cn_name="" en_name="Stavroupoli" />
+        <city province="Stilida" city="" area_code="2238" cn_name="" en_name="Stilida" />
+        <city province="Stratoni" city="" area_code="2376" cn_name="" en_name="Stratoni" />
+        <city province="Tampouria" city="" area_code="2656" cn_name="" en_name="Tampouria" />
+        <city province="Thermo" city="" area_code="2644" cn_name="" en_name="Thermo" />
+        <city province="塞萨洛尼基" city="" area_code="231" cn_name="塞萨洛尼基" en_name="Thessaloniki" />
+        <city province="Thira" city="" area_code="2286" cn_name="" en_name="Thira" />
+        <city province="Thiva" city="" area_code="2262" cn_name="" en_name="Thiva" />
+        <city province="Tinos" city="" area_code="2283" cn_name="" en_name="Tinos" />
+        <city province="特里卡拉" city="" area_code="2431" cn_name="特里卡拉" en_name="Trikala" />
+        <city province="Tripoli" city="" area_code="271" cn_name="" en_name="Tripoli" />
+        <city province="Tropea" city="" area_code="2797" cn_name="" en_name="Tropea" />
+        <city province="Tyrnavos" city="" area_code="2492" cn_name="" en_name="Tyrnavos" />
+        <city province="Tzermiades" city="" area_code="2844" cn_name="" en_name="Tzermiades" />
+        <city province="Vamos" city="" area_code="2825" cn_name="" en_name="Vamos" />
+        <city province="Vasilika" city="" area_code="2396" cn_name="" en_name="Vasilika" />
+        <city province="Velestino" city="" area_code="2425" cn_name="" en_name="Velestino" />
+        <city province="Veroia" city="" area_code="2331" cn_name="" en_name="Veroia" />
+        <city province="Vilia" city="" area_code="2263" cn_name="" en_name="Vilia" />
+        <city province="Vitina" city="" area_code="2795" cn_name="" en_name="Vitina" />
+        <city province="Volissos" city="" area_code="2274" cn_name="" en_name="Volissos" />
+        <city province="Volos" city="" area_code="2428" cn_name="" en_name="Volos" />
+        <city province="沃洛斯" city="" area_code="2421" cn_name="沃洛斯" en_name="Volos" />
+        <city province="Vonitsa" city="" area_code="2643" cn_name="" en_name="Vonitsa" />
+        <city province="Voulgareli" city="" area_code="2685" cn_name="" en_name="Voulgareli" />
+        <city province="克桑西" city="" area_code="2541" cn_name="克桑西" en_name="Xanthi" />
+        <city province="Xylagani" city="" area_code="2533" cn_name="" en_name="Xylagani" />
+        <city province="Xylokastro" city="" area_code="2743" cn_name="" en_name="Xylokastro" />
+        <city province="Zagora" city="" area_code="2426" cn_name="" en_name="Zagora" />
+        <city province="Zakynthos" city="" area_code="2695" cn_name="" en_name="Zakynthos" />
+        <city province="Zitsa" city="" area_code="2658" cn_name="" en_name="Zitsa" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>COSMOTE</op_name>
+        <wireless_type>GSM 1800</wireless_type>
+        <prefix>697</prefix>
+      </op>
+      <op>
+        <op_name>PANAFON</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>694</prefix>
+      </op>
+      <op>
+        <op_name>Q-TELECOM</op_name>
+        <wireless_type>GSM 1800</wireless_type>
+        <prefix>699</prefix>
+      </op>
+      <op>
+        <op_name>TELESTET</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>693</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

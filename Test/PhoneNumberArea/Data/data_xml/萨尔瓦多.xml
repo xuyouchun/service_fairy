@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>萨尔瓦多</cn_name>
+    <en_name>El Salvador</en_name>
+    <national_code>503</national_code>
+    <mcc>706</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到萨尔瓦多的A地电话顺序为“00503-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从萨尔瓦多的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00503-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00503XXXXXXXX、503XXXXXXXX、0503XXXXXXXX、000503XXXXXXXX；如果来电显示开头是005030、005031、005032、005033、005034、005035、005036、005037、005038、005039，一般也都表示国际区号是00503，后面一位是萨尔瓦多内部的号码的开头第一位；如果是在萨尔瓦多通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="CTE Telecom Personal" mncs="01" national_prefix="00" internal_prefix="" desc="CTE Telecom Personal" />
+    <operation op_code="digicel" mncs="02" national_prefix="00" internal_prefix="" desc="digicel" />
+    <operation op_code="Tigo" mncs="03" national_prefix="00" internal_prefix="" desc="Tigo" />
+    <operation op_code="movistar" mncs="04" national_prefix="00" internal_prefix="" desc="movistar" />
+    <operation op_code="Claro" mncs="11" national_prefix="00" internal_prefix="" desc="Claro" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="CTE Telecom Personal SA de CV" op_prefix="" />
+        <prefix op_code="Digicel Group" op_prefix="" />
+        <prefix op_code="Telemovil EL Salvador S.A." op_prefix="" />
+        <prefix op_code="Telefónica Móviles El Salvador" op_prefix="" />
+        <prefix op_code="América Móvil" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

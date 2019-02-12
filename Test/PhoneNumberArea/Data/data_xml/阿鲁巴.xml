@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>阿鲁巴岛</cn_name>
+    <en_name>Aruba I.</en_name>
+    <national_code>297</national_code>
+    <mcc>363</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到阿鲁巴岛的A地电话顺序为“00297-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从阿鲁巴岛的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00297-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00297XXXXXXXX、297XXXXXXXX、0297XXXXXXXX、000297XXXXXXXX；如果来电显示开头是002970、002971、002972、002973、002974、002975、002976、002977、002978、002979，一般也都表示国际区号是00297，后面一位是阿鲁巴岛内部的号码的开头第一位；如果是在阿鲁巴岛通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="SETAR" mncs="01" national_prefix="00" internal_prefix="" desc="SETAR" />
+    <operation op_code="Digicel" mncs="02" national_prefix="00" internal_prefix="" desc="Digicel" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Servicio di Telecomunicacion di Aruba" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="GSM 900/1800" city="" area_code="73 + 5 位数字" cn_name="GSM 900/1800" en_name="新千年电信服务" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

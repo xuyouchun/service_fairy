@@ -1,0 +1,69 @@
+﻿Build started 2011/12/22 14:47:22.
+     1>Project "D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\PhoneNumberArea_Dll\PhoneNumberArea_Dll.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\PhoneNumberArea_Dll.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\PhoneNumberArea_Dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PHONENUMBERAREA_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\PhoneNumberArea_Dll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PHONENUMBERAREA_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PHONENUMBERAREA_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\PhoneNumberArea_Dll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PhoneNumberArea.cpp PhoneNumberArea_Dll.cpp
+         PhoneNumberArea_Dll.cpp
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea_dll.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea_dll.cpp(14): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea_dll.cpp(15): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea_dll.cpp(16): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea_dll.cpp(17): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         PhoneNumberArea.cpp
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea.cpp(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea.cpp(81): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea.cpp(125): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea.cpp(126): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea.cpp(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea.cpp(137): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea.cpp(141): warning C4996: 'filelength': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _filelength. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\io.h(307) : see declaration of 'filelength'
+     1>d:\work\dev\test\phonenumberarea\phonenumberarea_cpp\phonenumberarea_dll\phonenumberarea.cpp(141): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(723) : see declaration of 'fileno'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\PhoneNumberArea_Dll.dll.embed.manifest.res" Debug\PhoneNumberArea_Dll_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\Debug\PhoneNumberArea_Dll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PhoneNumberArea_Dll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\Debug\PhoneNumberArea_Dll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\Debug\PhoneNumberArea_Dll.lib" /MACHINE:X86 /DLL Debug\PhoneNumberArea_Dll.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\PhoneNumberArea.obj
+         Debug\PhoneNumberArea_Dll.obj
+         Debug\stdafx.obj
+            Creating library D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\Debug\PhoneNumberArea_Dll.lib and object D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\Debug\PhoneNumberArea_Dll.exp
+       Manifest:
+         Deleting file "Debug\PhoneNumberArea_Dll.dll.embed.manifest".
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\PhoneNumberArea_Dll.dll.embed.manifest" /manifest Debug\PhoneNumberArea_Dll.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\PhoneNumberArea_Dll.dll.embed.manifest.res" Debug\PhoneNumberArea_Dll_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\Debug\PhoneNumberArea_Dll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PhoneNumberArea_Dll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\Debug\PhoneNumberArea_Dll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\Debug\PhoneNumberArea_Dll.lib" /MACHINE:X86 /DLL Debug\PhoneNumberArea_Dll.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\PhoneNumberArea.obj
+         Debug\PhoneNumberArea_Dll.obj
+         Debug\stdafx.obj
+            Creating library D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\Debug\PhoneNumberArea_Dll.lib and object D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\Debug\PhoneNumberArea_Dll.exp
+         PhoneNumberArea_Dll.vcxproj -> D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\Debug\PhoneNumberArea_Dll.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\PhoneNumberArea_Dll.unsuccessfulbuild".
+         Touching "Debug\PhoneNumberArea_Dll.lastbuildstate".
+     1>Done Building Project "D:\Work\Dev\Test\PhoneNumberArea\PhoneNumberArea_Cpp\PhoneNumberArea_Dll\PhoneNumberArea_Dll.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.26

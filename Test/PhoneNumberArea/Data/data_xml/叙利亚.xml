@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>叙利亚</cn_name>
+    <en_name>Syria</en_name>
+    <national_code>963</national_code>
+    <mcc>417</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到叙利亚的A地电话顺序为“00963-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从叙利亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00963-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00963XXXXXXXX、963XXXXXXXX、0963XXXXXXXX、000963XXXXXXXX；如果来电显示开头是009630、009631、009632、009633、009634、009635、009636、009637、009638、009639，一般也都表示国际区号是00963，后面一位是叙利亚内部的号码的开头第一位；如果是在叙利亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Syriatel" mncs="01" national_prefix="00" internal_prefix="0" desc="Syriatel" />
+    <operation op_code="MTN" mncs="02" national_prefix="00" internal_prefix="0" desc="MTN" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Syriatel Mobile Telecom" op_prefix="" />
+        <prefix op_code="MTN Syria" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="大马士革" city="" area_code="11" cn_name="大马士革" en_name="Damascus" />
+        <city province="德拉" city="" area_code="15" cn_name="德拉" en_name="Daraa" />
+        <city province="苏韦达" city="" area_code="16" cn_name="苏韦达" en_name="As-Suwayda" />
+        <city province="库奈特拉" city="" area_code="19" cn_name="库奈特拉" en_name="Quneitra" />
+        <city province="阿勒颇" city="" area_code="21" cn_name="阿勒颇" en_name="Aleppo" />
+        <city province="拉卡" city="" area_code="22" cn_name="拉卡" en_name="ar-Raqqah" />
+        <city province="伊德利卜" city="" area_code="23" cn_name="伊德利卜" en_name="Idlib" />
+        <city province="霍姆斯" city="" area_code="31" cn_name="霍姆斯" en_name="Homs" />
+        <city province="哈马" city="" area_code="33" cn_name="哈马" en_name="Hama" />
+        <city province="拉塔基亚" city="" area_code="41" cn_name="拉塔基亚" en_name="Latakia" />
+        <city province="塔尔图斯" city="" area_code="43" cn_name="塔尔图斯" en_name="Tartous" />
+        <city province="代尔祖尔" city="" area_code="51" cn_name="代尔祖尔" en_name="Deir ez-Zor" />
+        <city province="哈塞克" city="" area_code="52" cn_name="哈塞克" en_name="al-Hasakah" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

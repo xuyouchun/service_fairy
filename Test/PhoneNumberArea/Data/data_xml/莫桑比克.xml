@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>莫桑比克</cn_name>
+    <en_name>Mozambique</en_name>
+    <national_code>258</national_code>
+    <mcc>643</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到莫桑比克的A地电话顺序为“00258-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从莫桑比克的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00258-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00258XXXXXXXX、258XXXXXXXX、0258XXXXXXXX、000258XXXXXXXX；如果来电显示开头是002580、002581、002582、002583、002584、002585、002586、002587、002588、002589，一般也都表示国际区号是00258，后面一位是莫桑比克内部的号码的开头第一位；如果是在莫桑比克通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="mCel" mncs="01" national_prefix="00" internal_prefix="" desc="mCel" />
+    <operation op_code="Vodacom" mncs="04" national_prefix="00" internal_prefix="" desc="Vodacom" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Mocambique Celular S.A." op_prefix="" />
+        <prefix op_code="Vodacom Mozambique, S.A." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="贝拉" city="" area_code="23" cn_name="贝拉" en_name="Beira" />
+        <city province="希莫尤" city="" area_code="251" cn_name="希莫尤" en_name="Chimolo" />
+        <city province="绍奎" city="" area_code="221" cn_name="绍奎" en_name="Chokwe" />
+        <city province="马普托" city="" area_code="21" cn_name="马普托" en_name="Maputo" />
+        <city province="马托拉" city="" area_code="24" cn_name="马托拉" en_name="Matola" />
+        <city province="楠普拉" city="" area_code="26" cn_name="楠普拉" en_name="Nampula" />
+        <city province="克利马内" city="" area_code="24" cn_name="克利马内" en_name="Quelimane" />
+        <city province="太特" city="" area_code="252" cn_name="太特" en_name="Tete" />
+        <city province="赛赛" city="" area_code="222" cn_name="赛赛" en_name="Xai-Xai" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Moçambique Celular (mCel)</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>82</prefix>
+      </op>
+      <op>
+        <op_name>Vodacom</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>84</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

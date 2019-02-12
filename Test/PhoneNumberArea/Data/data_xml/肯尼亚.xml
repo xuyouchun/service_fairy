@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>肯尼亚</cn_name>
+    <en_name>Kenya</en_name>
+    <national_code>254</national_code>
+    <mcc>639</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到肯尼亚的A地电话顺序为“00254-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从肯尼亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00254-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00254XXXXXXXX、254XXXXXXXX、0254XXXXXXXX、000254XXXXXXXX；如果来电显示开头是002540、002541、002542、002543、002544、002545、002546、002547、002548、002549，一般也都表示国际区号是00254，后面一位是肯尼亚内部的号码的开头第一位；如果是在肯尼亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Safaricom" mncs="02" national_prefix="000" internal_prefix="0" desc="Safaricom" />
+    <operation op_code="Airtel" mncs="03" national_prefix="000" internal_prefix="0" desc="Airtel" />
+    <operation op_code="Orange Kenya" mncs="07" national_prefix="000" internal_prefix="0" desc="Orange Kenya" />
+    <operation op_code="yu" mncs="05" national_prefix="000" internal_prefix="0" desc="yu" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Safaricom Limited" op_prefix="" />
+        <prefix op_code="B Airtel" op_prefix="" />
+        <prefix op_code="Telkom Kenya" op_prefix="" />
+        <prefix op_code="Econet Wireless Kenya" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Anmer" city="" area_code="25" cn_name="暂无中文" en_name="Anmer" />
+        <city province="邦戈马" city="" area_code="55" cn_name="邦戈马" en_name="Bungoma" />
+        <city province="贾纳比奇" city="" area_code="12" cn_name="贾纳比奇" en_name="Diani" />
+        <city province="埃尔多雷特" city="" area_code="53" cn_name="埃尔多雷特" en_name="Eldoret" />
+        <city province="恩布" city="" area_code="68" cn_name="恩布" en_name="Embu" />
+        <city province="加里萨" city="" area_code="46" cn_name="加里萨" en_name="Garissa" />
+        <city province="吉吉" city="" area_code="20" cn_name="吉吉" en_name="Gigiri" />
+        <city province="霍马湾" city="" area_code="59" cn_name="霍马湾" en_name="Homa Bay" />
+        <city province="Kabete" city="" area_code="20" cn_name="暂无中文" en_name="Kabete" />
+        <city province="卡耶亚多" city="" area_code="45" cn_name="卡耶亚多" en_name="Kajiado" />
+        <city province="卡卡梅加" city="" area_code="56" cn_name="卡卡梅加" en_name="Kakamega" />
+        <city province="卡鲁里" city="" area_code="66" cn_name="卡鲁里" en_name="Karuri" />
+        <city province="凯里乔" city="" area_code="52" cn_name="凯里乔" en_name="Kericho" />
+        <city province="基里菲" city="" area_code="12" cn_name="基里菲" en_name="Kilifi" />
+        <city province="凯西" city="" area_code="58" cn_name="凯西" en_name="Kisii" />
+        <city province="基苏木" city="" area_code="57" cn_name="基苏木" en_name="Kisumu" />
+        <city province="基塔莱" city="" area_code="54" cn_name="基塔莱" en_name="Kitale" />
+        <city province="夸莱" city="" area_code="40" cn_name="夸莱" en_name="Kwale" />
+        <city province="拉穆" city="" area_code="12" cn_name="拉穆" en_name="Lamu" />
+        <city province="马查科斯" city="" area_code="44" cn_name="马查科斯" en_name="Machakos" />
+        <city province="马林迪" city="" area_code="42" cn_name="马林迪" en_name="Malindi" />
+        <city province="马萨布布" city="" area_code="69" cn_name="马萨布布" en_name="Marsabit" />
+        <city province="梅鲁" city="" area_code="64" cn_name="梅鲁" en_name="Meru" />
+        <city province="蒙巴萨" city="" area_code="41" cn_name="蒙巴萨" en_name="Mombasa" />
+        <city province="穆拉雅" city="" area_code="60" cn_name="穆拉雅" en_name="Murang'a" />
+        <city province="内罗毕" city="" area_code="20" cn_name="内罗毕" en_name="Nairobi" />
+        <city province="纳瓦沙" city="" area_code="50" cn_name="纳瓦沙" en_name="Naivasha" />
+        <city province="纳纽基" city="" area_code="62" cn_name="纳纽基" en_name="Nanyuki" />
+        <city province="纳库鲁" city="" area_code="51" cn_name="纳库鲁" en_name="Nakuru" />
+        <city province="尼亚胡鲁鲁" city="" area_code="65" cn_name="尼亚胡鲁鲁" en_name="Nyahururu" />
+        <city province="涅里" city="" area_code="61" cn_name="涅里" en_name="Nyeri" />
+        <city province="锡卡" city="" area_code="67" cn_name="锡卡" en_name="Thika" />
+        <city province="Uthiru" city="" area_code="20" cn_name="暂无中文" en_name="Uthiru" />
+        <city province="沃伊" city="" area_code="43" cn_name="沃伊" en_name="Voi" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Celtel</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>733</prefix>
+      </op>
+      <op>
+        <op_name>Safaricom</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>722</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

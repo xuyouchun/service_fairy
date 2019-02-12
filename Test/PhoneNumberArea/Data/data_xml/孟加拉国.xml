@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>孟加拉国</cn_name>
+    <en_name>Bangladesh</en_name>
+    <national_code>880</national_code>
+    <mcc>470</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到孟加拉国的A地电话顺序为“00880-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从孟加拉国的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00880-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00880XXXXXXXX、880XXXXXXXX、0880XXXXXXXX、000880XXXXXXXX；如果来电显示开头是008800、008801、008802、008803、008804、008805、008806、008807、008808、008809，一般也都表示国际区号是00880，后面一位是孟加拉国内部的号码的开头第一位；如果是在孟加拉国通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>孟加拉</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Grameenphone" mncs="01" national_prefix="00" internal_prefix="0" desc="Grameenphone" />
+    <operation op_code="Robi" mncs="02" national_prefix="00" internal_prefix="0" desc="Robi" />
+    <operation op_code="Banglalink" mncs="03" national_prefix="00" internal_prefix="0" desc="Banglalink" />
+    <operation op_code="TeleTalk" mncs="04" national_prefix="00" internal_prefix="0" desc="TeleTalk" />
+    <operation op_code="Citycell" mncs="05" national_prefix="00" internal_prefix="0" desc="Citycell" />
+    <operation op_code="Airtel formerly Warid Telcom" mncs="06" national_prefix="00" internal_prefix="0" desc="Airtel formerly Warid Telcom" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="GrameenPhone Ltd" op_prefix="" />
+        <prefix op_code="Axiata Bangladesh Ltd." op_prefix="" />
+        <prefix op_code="Orascom Telecom Holding" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Bharti airtel Bangladesh Ltd." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Alamdanga" city="" area_code="7622" cn_name="" en_name="Alamdanga" />
+        <city province="Ashugonj" city="" area_code="8528" cn_name="" en_name="Ashugonj" />
+        <city province="Avaynagar (Noapara)" city="" area_code="4222" cn_name="" en_name="Avaynagar (Noapara)" />
+        <city province="Badargonj" city="" area_code="5222" cn_name="" en_name="Badargonj" />
+        <city province="巴盖尔哈德" city="" area_code="468" cn_name="巴盖尔哈德" en_name="Bagerhat" />
+        <city province="Banaripara" city="" area_code="4332" cn_name="" en_name="Banaripara" />
+        <city province="班多尔班" city="" area_code="361" cn_name="班多尔班" en_name="Bandarban" />
+        <city province="Banshkhali" city="" area_code="3037" cn_name="" en_name="Banshkhali" />
+        <city province="博尔古纳" city="" area_code="448" cn_name="博尔古纳" en_name="Barguna" />
+        <city province="巴里萨尔" city="" area_code="431" cn_name="巴里萨尔" en_name="Barisal" />
+        <city province="Bauphal" city="" area_code="4422" cn_name="" en_name="Bauphal" />
+        <city province="Bazitpur" city="" area_code="9423" cn_name="" en_name="Bazitpur" />
+        <city province="Bhairab" city="" area_code="9424" cn_name="" en_name="Bhairab" />
+        <city province="Bhandaria" city="" area_code="4623" cn_name="" en_name="Bhandaria" />
+        <city province="Bheramara" city="" area_code="7022" cn_name="" en_name="Bheramara" />
+        <city province="波拉" city="" area_code="491" cn_name="波拉" en_name="Bhola" />
+        <city province="博格拉" city="" area_code="51" cn_name="博格拉" en_name="Bogra" />
+        <city province="婆罗门巴里亚" city="" area_code="851" cn_name="婆罗门巴里亚" en_name="Brahmanbaria" />
+        <city province="坚德布尔" city="" area_code="841" cn_name="坚德布尔" en_name="Chandpur" />
+        <city province="Chandraghona (Kaptai)" city="" area_code="3529" cn_name="" en_name="Chandraghona (Kaptai)" />
+        <city province="Chhatak" city="" area_code="8723" cn_name="" en_name="Chhatak" />
+        <city province="吉大港" city="" area_code="31" cn_name="吉大港" en_name="Chittagong" />
+        <city province="Chaudagram" city="" area_code="8034" cn_name="" en_name="Chaudagram" />
+        <city province="朱瓦当加" city="" area_code="761" cn_name="朱瓦当加" en_name="Chuadanga" />
+        <city province="库米拉" city="" area_code="81" cn_name="库米拉" en_name="Comilla" />
+        <city province="Companigon (Bashurhat)" city="" area_code="3223" cn_name="" en_name="Companigon (Bashurhat)" />
+        <city province="科克斯巴扎尔" city="" area_code="341" cn_name="科克斯巴扎尔" en_name="Cox's Bazar" />
+        <city province="Daudkandi" city="" area_code="8023" cn_name="" en_name="Daudkandi" />
+        <city province="Daulatpur" city="" area_code="7023" cn_name="" en_name="Daulatpur" />
+        <city province="迪纳杰布尔" city="" area_code="531" cn_name="迪纳杰布尔" en_name="Dinajpur" />
+        <city province="福里德布尔" city="" area_code="631" cn_name="福里德布尔" en_name="Faridpur" />
+        <city province="费尼" city="" area_code="331" cn_name="费尼" en_name="Feni" />
+        <city province="Fulbari" city="" area_code="5327" cn_name="" en_name="Fulbari" />
+        <city province="戈伊班达" city="" area_code="541" cn_name="戈伊班达" en_name="Gaibandha" />
+        <city province="Galachipa" city="" area_code="4424" cn_name="" en_name="Galachipa" />
+        <city province="加济布尔" city="" area_code="681" cn_name="加济布尔" en_name="Gazipur" />
+        <city province="Ghatail" city="" area_code="9225" cn_name="" en_name="Ghatail" />
+        <city province="Goalanda" city="" area_code="6423" cn_name="" en_name="Goalanda" />
+        <city province="戈巴尔甘尼" city="" area_code="423" cn_name="戈巴尔甘尼" en_name="Gopalgonj" />
+        <city province="Hajigonj" city="" area_code="8424" cn_name="" en_name="Hajigonj" />
+        <city province="Hatiya (Oshkhali)" city="" area_code="3224" cn_name="" en_name="Hatiya (Oshkhali)" />
+        <city province="霍比甘杰" city="" area_code="831" cn_name="霍比甘杰" en_name="Hobigonj" />
+        <city province="Ishwardi" city="" area_code="732" cn_name="" en_name="Ishwardi" />
+        <city province="杰马勒布尔" city="" area_code="981" cn_name="杰马勒布尔" en_name="Jamalpur" />
+        <city province="杰索尔" city="" area_code="421" cn_name="杰索尔" en_name="Jessore" />
+        <city province="恰洛加蒂" city="" area_code="498" cn_name="恰洛加蒂" en_name="Jhalokathhi" />
+        <city province="杰索尔" city="" area_code="451" cn_name="杰索尔" en_name="Jhenaidah" />
+        <city province="Jhikargacha" city="" area_code="4225" cn_name="" en_name="Jhikargacha" />
+        <city province="焦伊布尔哈德" city="" area_code="571" cn_name="焦伊布尔哈德" en_name="Joypurhat" />
+        <city province="Kanaighat" city="" area_code="8233" cn_name="" en_name="Kanaighat" />
+        <city province="Kalaroa" city="" area_code="4724" cn_name="" en_name="Kalaroa" />
+        <city province="科格拉焦里" city="" area_code="371" cn_name="科格拉焦里" en_name="Khagrachhari" />
+        <city province="Khepupara" city="" area_code="4425" cn_name="" en_name="Khepupara" />
+        <city province="库尔纳" city="" area_code="41" cn_name="库尔纳" en_name="Khulna" />
+        <city province="吉绍尔甘杰" city="" area_code="941" cn_name="吉绍尔甘杰" en_name="Kishoregonj" />
+        <city province="古里格拉姆" city="" area_code="581" cn_name="古里格拉姆" en_name="Kurigram" />
+        <city province="库什蒂亚" city="" area_code="71" cn_name="库什蒂亚" en_name="Kustia" />
+        <city province="Laksham (Daulatgonj)" city="" area_code="8032" cn_name="" en_name="Laksham (Daulatgonj)" />
+        <city province="罗基布尔" city="" area_code="381" cn_name="罗基布尔" en_name="Lakshmipur" />
+        <city province="拉尔莫尼哈德" city="" area_code="591" cn_name="拉尔莫尼哈德" en_name="Lalmonirhat" />
+        <city province="马达里布尔" city="" area_code="661" cn_name="马达里布尔" en_name="Madaripur" />
+        <city province="马古拉" city="" area_code="488" cn_name="马古拉" en_name="Magura" />
+        <city province="马尼格甘杰" city="" area_code="651" cn_name="马尼格甘杰" en_name="Manikgonj" />
+        <city province="Mathabdi" city="" area_code="6257" cn_name="" en_name="Mathabdi" />
+        <city province="梅黑尔布尔" city="" area_code="791" cn_name="梅黑尔布尔" en_name="Meherpur" />
+        <city province="Mithamain" city="" area_code="9435" cn_name="" en_name="Mithamain" />
+        <city province="Mohanganj" city="" area_code="9524" cn_name="" en_name="Mohanganj" />
+        <city province="Moheshkhali" city="" area_code="3424" cn_name="" en_name="Moheshkhali" />
+        <city province="Mongla" city="" area_code="402" cn_name="" en_name="Mongla" />
+        <city province="Mongla New Port" city="" area_code="4662" cn_name="" en_name="Mongla New Port" />
+        <city province="毛尔维巴扎尔" city="" area_code="861" cn_name="毛尔维巴扎尔" en_name="Moulavibazar" />
+        <city province="Muktagacha" city="" area_code="9028" cn_name="" en_name="Muktagacha" />
+        <city province="Muladi" city="" area_code="4326" cn_name="" en_name="Muladi" />
+        <city province="蒙希甘杰" city="" area_code="691" cn_name="蒙希甘杰" en_name="Munshigonj" />
+        <city province="迈门辛" city="" area_code="91" cn_name="迈门辛" en_name="Mymensingh" />
+        <city province="Nabinagar" city="" area_code="8525" cn_name="" en_name="Nabinagar" />
+        <city province="Nagarpur" city="" area_code="9233" cn_name="" en_name="Nagarpur" />
+        <city province="瑙冈" city="" area_code="741" cn_name="瑙冈" en_name="Naogaon" />
+        <city province="诺拉尔" city="" area_code="481" cn_name="诺拉尔" en_name="Narail" />
+        <city province="诺尔辛迪" city="" area_code="628" cn_name="诺尔辛迪" en_name="Narsingdi" />
+        <city province="诺多尔" city="" area_code="771" cn_name="诺多尔" en_name="Natore" />
+        <city province="诺瓦布甘杰" city="" area_code="781" cn_name="诺瓦布甘杰" en_name="Nawabgonj (Chapai)" />
+        <city province="内德罗戈纳" city="" area_code="951" cn_name="内德罗戈纳" en_name="Netrokona" />
+        <city province="尼尔帕马里" city="" area_code="551" cn_name="尼尔帕马里" en_name="Nilphamari" />
+        <city province="诺阿卡利" city="" area_code="321" cn_name="诺阿卡利" en_name="Noakhali" />
+        <city province="巴布纳" city="" area_code="731" cn_name="巴布纳" en_name="Pabna" />
+        <city province="Paikgacha" city="" area_code="4027" cn_name="" en_name="Paikgacha" />
+        <city province="Palash (Ghorashal)" city="" area_code="6254" cn_name="" en_name="Palash (Ghorashal)" />
+        <city province="班乔戈尔" city="" area_code="568" cn_name="班乔戈尔" en_name="Panchagar" />
+        <city province="Parbatipur" city="" area_code="5334" cn_name="" en_name="Parbatipur" />
+        <city province="博杜阿卡利" city="" area_code="441" cn_name="博杜阿卡利" en_name="Patuakhali" />
+        <city province="比罗杰布尔" city="" area_code="461" cn_name="比罗杰布尔" en_name="Perojpur" />
+        <city province="Plulpur" city="" area_code="9033" cn_name="" en_name="Plulpur" />
+        <city province="Potiya" city="" area_code="3035" cn_name="" en_name="Potiya" />
+        <city province="拉杰巴里" city="" area_code="641" cn_name="拉杰巴里" en_name="Rajbari" />
+        <city province="拉杰沙希" city="" area_code="721" cn_name="拉杰沙希" en_name="Rajshahi" />
+        <city province="Ramgoti (Char Alexander)" city="" area_code="3823" cn_name="" en_name="Ramgoti (Char Alexander)" />
+        <city province="兰加马蒂" city="" area_code="351" cn_name="兰加马蒂" en_name="Rangamati" />
+        <city province="朗布尔" city="" area_code="521" cn_name="朗布尔" en_name="Rangpur" />
+        <city province="Saidpur" city="" area_code="5526" cn_name="" en_name="Saidpur" />
+        <city province="Sarsha (Benapol)" city="" area_code="4228" cn_name="" en_name="Sarsha (Benapol)" />
+        <city province="Satkania" city="" area_code="3036" cn_name="" en_name="Satkania" />
+        <city province="萨德基拉" city="" area_code="471" cn_name="萨德基拉" en_name="Satkhira" />
+        <city province="Savar" city="" area_code="2" cn_name="" en_name="Savar" />
+        <city province="沙里亚德布尔" city="" area_code="601" cn_name="沙里亚德布尔" en_name="Shariatpur" />
+        <city province="谢尔布尔" city="" area_code="931" cn_name="谢尔布尔" en_name="Sherpur" />
+        <city province="Shibganj" city="" area_code="5033" cn_name="" en_name="Shibganj" />
+        <city province="锡拉杰甘杰" city="" area_code="751" cn_name="锡拉杰甘杰" en_name="Sirajgonj" />
+        <city province="Sitakundu (Barabkundu)" city="" area_code="3028" cn_name="" en_name="Sitakundu (Barabkundu)" />
+        <city province="Srimangol" city="" area_code="8626" cn_name="" en_name="Srimangol" />
+        <city province="苏纳姆甘杰" city="" area_code="871" cn_name="苏纳姆甘杰" en_name="Sunamgonj" />
+        <city province="Syedpur" city="" area_code="552" cn_name="" en_name="Syedpur" />
+        <city province="锡尔赫特" city="" area_code="821" cn_name="锡尔赫特" en_name="Sylhet" />
+        <city province="Taherpur" city="" area_code="8732" cn_name="" en_name="Taherpur" />
+        <city province="坦盖尔" city="" area_code="921" cn_name="坦盖尔" en_name="Tangail" />
+        <city province="塔古尔冈" city="" area_code="561" cn_name="塔古尔冈" en_name="Thakurgaon" />
+        <city province="Ukhia" city="" area_code="3427" cn_name="" en_name="Ukhia" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

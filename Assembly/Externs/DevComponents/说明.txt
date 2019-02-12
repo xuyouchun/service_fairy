@@ -1,0 +1,3 @@
+DevComponents.DotNetBar2.dll  --> 这个是第三方控件，直接导入就能使用了
+
+IrisSkin2.dll  这个是一些皮肤，工程结束后，直接设置一下皮肤路径就能让你的工程有一种想不到的效果。

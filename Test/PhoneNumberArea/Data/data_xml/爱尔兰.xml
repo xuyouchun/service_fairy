@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>爱尔兰</cn_name>
+    <en_name />
+    <national_code>353</national_code>
+    <mcc>272</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到爱尔兰的A地电话顺序为“00353-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从爱尔兰的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00353-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00353XXXXXXXX、353XXXXXXXX、0353XXXXXXXX、000353XXXXXXXX；如果来电显示开头是003530、003531、003532、003533、003534、003535、003536、003537、003538、003539，一般也都表示国际区号是00353，后面一位是爱尔兰内部的号码的开头第一位；如果是在爱尔兰通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>爱尔兰共和国</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Vodafone" mncs="01" national_prefix="00" internal_prefix="0" desc="Vodafone" />
+    <operation op_code="O2" mncs="02" national_prefix="00" internal_prefix="0" desc="O2" />
+    <operation op_code="Meteor" mncs="03" national_prefix="00" internal_prefix="0" desc="Meteor" />
+    <operation op_code="" mncs="04,09,11" national_prefix="00" internal_prefix="0" desc="" />
+    <operation op_code="3" mncs="05" national_prefix="00" internal_prefix="0" desc="3" />
+    <operation op_code="Eircom" mncs="07" national_prefix="00" internal_prefix="0" desc="Eircom" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Vodafone Ireland" op_prefix="" />
+        <prefix op_code="O2 Ireland" op_prefix="" />
+        <prefix op_code="Meteor Mobile Communications" op_prefix="" />
+        <prefix op_code="Access Telecom" op_prefix="" />
+        <prefix op_code="Hutchison 3G Ireland limited" op_prefix="" />
+        <prefix op_code="Eircom Mobile" op_prefix="" />
+        <prefix op_code="Clever Communications" op_prefix="" />
+        <prefix op_code="Liffey Telecom" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿克洛" city="" area_code="402" cn_name="阿克洛" en_name="Arklow" />
+        <city province="科克" city="" area_code="21" cn_name="科克" en_name="Cork" />
+        <city province="丁格尔" city="" area_code="66" cn_name="丁格尔" en_name="Dingle" />
+        <city province="多内加尔" city="" area_code="72" cn_name="多内加尔" en_name="Donegal" />
+        <city province="德罗赫达" city="" area_code="41" cn_name="德罗赫达" en_name="Drogheda" />
+        <city province="都柏林" city="" area_code="1" cn_name="都柏林" en_name="Dublin" />
+        <city province="敦达克" city="" area_code="42" cn_name="敦达克" en_name="Dundalk" />
+        <city province="恩尼斯" city="" area_code="65" cn_name="恩尼斯" en_name="Ennis" />
+        <city province="戈尔伟" city="" area_code="91" cn_name="戈尔伟" en_name="Galway" />
+        <city province="基尔代尔" city="" area_code="45" cn_name="基尔代尔" en_name="Kildare" />
+        <city province="基拉尼" city="" area_code="64" cn_name="基拉尼" en_name="Killarney" />
+        <city province="利默里克" city="" area_code="61" cn_name="利默里克" en_name="Limerick" />
+        <city province="斯莱戈" city="" area_code="71" cn_name="斯莱戈" en_name="Sligo" />
+        <city province="蒂珀雷里" city="" area_code="52" cn_name="蒂珀雷里" en_name="Tipperary" />
+        <city province="特瑞里" city="" area_code="66" cn_name="特瑞里" en_name="Tralee" />
+        <city province="特拉莫尔" city="" area_code="506" cn_name="特拉莫尔" en_name="Tullamore" />
+        <city province="沃特福德" city="" area_code="51" cn_name="沃特福德" en_name="Waterford" />
+        <city province="韦克斯福德" city="" area_code="53" cn_name="韦克斯福德" en_name="Wexford" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Meteor</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>85</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

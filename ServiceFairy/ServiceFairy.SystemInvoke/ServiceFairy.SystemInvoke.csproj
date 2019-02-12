@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8BB052AF-7B66-4839-9253-E8F07A1B540F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ServiceFairy.SystemInvoke</RootNamespace>
+    <AssemblyName>ServiceFairy.SystemInvoke</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\ServiceFairy\Common\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\ServiceFairy\Common\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CacheService.cs" />
+    <Compile Include="CoreInvoker.cs" />
+    <Compile Include="CoreInvoker.Security.cs" />
+    <Compile Include="DatabaseCenterService.cs" />
+    <Compile Include="DatabaseService.cs" />
+    <Compile Include="DistribuedCacheChainNode.cs" />
+    <Compile Include="EmailService.cs" />
+    <Compile Include="FileClient.cs" />
+    <Compile Include="ServiceClientProviderDecorate.cs" />
+    <Compile Include="StatisticsService.cs" />
+    <Compile Include="SystemInvoker.Statistics.cs" />
+    <Compile Include="TrayFileExplorer.cs" />
+    <Compile Include="FileService.cs" />
+    <Compile Include="GroupService.cs" />
+    <Compile Include="InvokerBase.cs" />
+    <Compile Include="IServiceClientProvider.cs" />
+    <Compile Include="LogService.cs" />
+    <Compile Include="MessageCenterService.cs" />
+    <Compile Include="MessageService.cs" />
+    <Compile Include="MessageSubscriptAddin.cs" />
+    <Compile Include="ProxyService.cs" />
+    <Compile Include="RemoteUtConnectionProvider.cs" />
+    <Compile Include="SecurityService.cs" />
+    <Compile Include="TrayServiceController.cs" />
+    <Compile Include="SmsService.cs" />
+    <Compile Include="SysServices.cs" />
+    <Compile Include="ConfigurationService.cs" />
+    <Compile Include="DeployService.cs" />
+    <Compile Include="NavigationService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueService.cs" />
+    <Compile Include="StationService.cs" />
+    <Compile Include="ShareService.cs" />
+    <Compile Include="SystemConnection.cs" />
+    <Compile Include="MasterService.cs" />
+    <Compile Include="SystemInvoker.Cache.cs" />
+    <Compile Include="SystemInvoker.Database.cs" />
+    <Compile Include="CoreInvoker.Deploy.cs" />
+    <Compile Include="SystemInvoker.Email.cs" />
+    <Compile Include="SystemInvoker.File.cs" />
+    <Compile Include="CoreInvoker.Master.cs" />
+    <Compile Include="SystemInvoker.cs" />
+    <Compile Include="SystemInvoker.MesasgeSubscript.cs" />
+    <Compile Include="SystemInvoker.Message.cs" />
+    <Compile Include="SystemInvoker.MessageCenter.cs" />
+    <Compile Include="SystemInvoker.Navigation.cs" />
+    <Compile Include="SystemInvoker.Proxy.cs" />
+    <Compile Include="SystemInvoker.Queue.cs" />
+    <Compile Include="SystemInvoker.Sms.cs" />
+    <Compile Include="SystemInvoker.User.cs" />
+    <Compile Include="SystemInvoker.UserCenter.cs" />
+    <Compile Include="TestService.cs" />
+    <Compile Include="TrayService.cs" />
+    <Compile Include="UserCenterService.cs" />
+    <Compile Include="UserConnection.cs" />
+    <Compile Include="UserConnectionManager.cs" />
+    <Compile Include="UserService.cs" />
+    <Compile Include="SystemInvoker.Log.cs" />
+    <Compile Include="WatchService.cs" />
+    <Compile Include="SystemInvoker.Watch.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.Communication\Common.Communication.csproj">
+      <Project>{DE2353F5-D22D-4B09-ADA6-09A7CA757ED1}</Project>
+      <Name>Common.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Data\Common.Data.csproj">
+      <Project>{AFF90909-CAE0-4A76-8E87-C8E7479A905F}</Project>
+      <Name>Common.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.File\Common.File.csproj">
+      <Project>{F04EB1AF-1C68-424F-9BAD-A1843C0DE880}</Project>
+      <Name>Common.File</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Package\Common.Package.csproj">
+      <Project>{5B657644-8038-44E7-895B-F6A82AD596EE}</Project>
+      <Name>Common.Package</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.DbEntities\ServiceFairy.DbEntities.csproj">
+      <Project>{461B952D-19B3-4FCD-9D36-14848E794061}</Project>
+      <Name>ServiceFairy.DbEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Entities\ServiceFairy.Entities.csproj">
+      <Project>{4930AD49-98E9-46C5-8910-4FCBD5D7E5D1}</Project>
+      <Name>ServiceFairy.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy\ServiceFairy.csproj">
+      <Project>{915745C6-F6D5-45E6-AB2E-E0D087E19EF7}</Project>
+      <Name>ServiceFairy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CoreInvoker.Station.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CoreInvoker.Sys.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CoreInvoker.Tray.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SystemInvoker.Test.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SystemInvoker.Group.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SystemInvoker.DatabaseCenter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CoreInvoker.Configuration.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

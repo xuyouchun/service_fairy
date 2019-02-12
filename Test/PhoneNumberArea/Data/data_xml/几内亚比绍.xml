@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>几内亚比绍</cn_name>
+    <en_name>Guinea-Bissau</en_name>
+    <national_code>245</national_code>
+    <mcc>632</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到几内亚比绍的A地电话顺序为“00245-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从几内亚比绍的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00245-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00245XXXXXXXX、245XXXXXXXX、0245XXXXXXXX、000245XXXXXXXX；如果来电显示开头是002450、002451、002452、002453、002454、002455、002456、002457、002458、002459，一般也都表示国际区号是00245，后面一位是几内亚比绍内部的号码的开头第一位；如果是在几内亚比绍通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>幾內亞比索</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Areeba" mncs="02" national_prefix="00" internal_prefix="" desc="Areeba" />
+    <operation op_code="Orange" mncs="03" national_prefix="00" internal_prefix="" desc="Orange" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Spacetel Guiné-Bissau S.A." op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="巴法塔" city="" area_code="41XXXX" cn_name="巴法塔" en_name="Bafatá" />
+        <city province="Bambadinca" city="" area_code="41XXXX" cn_name="" en_name="Bambadinca" />
+        <city province="Bedanda" city="" area_code="61XXXX" cn_name="" en_name="Bedanda" />
+        <city province="Bigene" city="" area_code="32XXXX" cn_name="" en_name="Bigene" />
+        <city province="Bissorã" city="" area_code="32XXXX" cn_name="" en_name="Bissorã" />
+        <city province="博拉马" city="" area_code="81XXXX" cn_name="博拉马" en_name="Bolama" />
+        <city province="Brá" city="" area_code="25XXXX" cn_name="" en_name="Brá" />
+        <city province="Buba" city="" area_code="61XXXX" cn_name="" en_name="Buba" />
+        <city province="Bubaque" city="" area_code="82XXXX" cn_name="" en_name="Bubaque" />
+        <city province="Bula" city="" area_code="33XXXX" cn_name="" en_name="Bula" />
+        <city province="卡谢乌" city="" area_code="92XXXX" cn_name="卡谢乌" en_name="Cacheu" />
+        <city province="Cacine" city="" area_code="61XXXX" cn_name="" en_name="Cacine" />
+        <city province="Canchungo" city="" area_code="91XXXX" cn_name="" en_name="Canchungo" />
+        <city province="Caravela" city="" area_code="83XXXX" cn_name="" en_name="Caravela" />
+        <city province="卡蒂奥" city="" area_code="61XXXX" cn_name="卡蒂奥" en_name="Catio" />
+        <city province="法林" city="" area_code="35XXXX" cn_name="法林" en_name="Farim" />
+        <city province="福拉孔达" city="" area_code="61XXXX" cn_name="福拉孔达" en_name="Fulacunda" />
+        <city province="加布" city="" area_code="51XXXX" cn_name="加布" en_name="Gabú" />
+        <city province="Ingore" city="" area_code="33XXXX" cn_name="" en_name="Ingore" />
+        <city province="Mansoa" city="" area_code="31XXXX" cn_name="" en_name="Mansoa" />
+        <city province="Manssabá" city="" area_code="31XXXX" cn_name="" en_name="Manssabá" />
+        <city province="Pirada" city="" area_code="53XXXX" cn_name="" en_name="Pirada" />
+        <city province="Quebo" city="" area_code="62XXXX" cn_name="" en_name="Quebo" />
+        <city province="S. Domingos" city="" area_code="93XXXX" cn_name="" en_name="S. Domingos" />
+        <city province="S. Luzia" city="" area_code="22XXXX" cn_name="" en_name="S. Luzia" />
+        <city province="Sonaco" city="" area_code="52XXXX" cn_name="" en_name="Sonaco" />
+        <city province="Tite" city="" area_code="61XXXX" cn_name="" en_name="Tite" />
+        <city province="Uno" city="" area_code="84XXXX" cn_name="" en_name="Uno" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

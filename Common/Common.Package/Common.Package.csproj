@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B657644-8038-44E7-895B-F6A82AD596EE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common.Package</RootNamespace>
+    <AssemblyName>Common.Package</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn />
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.DebuggerVisualizers, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoLoad.cs" />
+    <Compile Include="AutoReleaseWeakReferenceDictionary.cs" />
+    <Compile Include="CacheChain.cs" />
+    <Compile Include="CacheChain.PolyCacheChainNode.cs" />
+    <Compile Include="Cache\CacheExpireDependencies\FileModifyTimeCacheExpireDependency.cs" />
+    <Compile Include="CancelableOperation.cs" />
+    <Compile Include="CommandBase.cs" />
+    <Compile Include="CreatorObjectProvider.cs" />
+    <Compile Include="Drawing\DrawingUtility.cs" />
+    <Compile Include="Drawing\Ico\BooleanBitArray.cs" />
+    <Compile Include="Drawing\Ico\EOIcoCurLoader.cs" />
+    <Compile Include="Drawing\Ico\EOIcoCurWriter.cs" />
+    <Compile Include="Drawing\Ico\EOOffsetStream.cs" />
+    <Compile Include="Drawing\Ico\EOStreamUtility.cs" />
+    <Compile Include="Drawing\Ico\EvanBitmap.cs" />
+    <Compile Include="Drawing\Ico\EvanRIFFFormat.cs" />
+    <Compile Include="DuplexStream.cs" />
+    <Compile Include="GlobalTimerHelper.cs" />
+    <Compile Include="IGlobalTimerTaskHandle.cs" />
+    <Compile Include="Log\FileLogReader.cs" />
+    <Compile Include="Log\DynamicLogWriterCollection.cs" />
+    <Compile Include="Log\LogSettings.cs" />
+    <Compile Include="ObjectManager.cs" />
+    <Compile Include="ObjectPropertyLoader.cs" />
+    <Compile Include="ObjectRelation.cs" />
+    <Compile Include="CountStopwatch.cs" />
+    <Compile Include="QuickTime.cs" />
+    <Compile Include="Serializer\JsonObjectSerializer.cs" />
+    <Compile Include="Serializer\SerializerUtility.cs" />
+    <Compile Include="Serializer\XmlObjectSerializer.cs" />
+    <Compile Include="Service\AppServiceAddinBase.cs" />
+    <Compile Include="Service\AppServiceAddinBaseEx.cs" />
+    <Compile Include="Service\AssemblyAppCommandManager.cs" />
+    <Compile Include="Service\AppComponent.cs" />
+    <Compile Include="Service\AppComponentBase.cs" />
+    <Compile Include="Service\AppComponentBaseEx.cs" />
+    <Compile Include="Service\AppComponentControllers.cs" />
+    <Compile Include="Service\AppComponentManager.cs" />
+    <Compile Include="Cache.cs" />
+    <Compile Include="Cache\CacheExpireDependencies\DynamicCacheExpireDependency.cs" />
+    <Compile Include="Cache\CacheExpireDependencies\NoExpireCacheExpireDependency.cs" />
+    <Compile Include="Cache\CacheExpireDependencies\RelativeCacheExpireDependency.cs" />
+    <Compile Include="Cache\CacheExpireDependencies\TermlyCacheExpireDependency.cs" />
+    <Compile Include="CacheHelper.cs" />
+    <Compile Include="Cache\CacheItem.cs" />
+    <Compile Include="Cache\CacheStorageStrategyExWrapper.cs" />
+    <Compile Include="Cache\CacheValueLoaderFuncAdapter.cs" />
+    <Compile Include="Cache\FixedSizeMemoryStorageStrategy.cs" />
+    <Compile Include="Cache\ICacheExpireDependency.cs" />
+    <Compile Include="Cache\ICacheValueLoader.cs" />
+    <Compile Include="Cache\IStorageStrategy.cs" />
+    <Compile Include="Cache\IStorageStrategyEx.cs" />
+    <Compile Include="Cache\MemoryStorageStrategy.cs" />
+    <Compile Include="Service\AppDomainServiceLoader.cs" />
+    <Compile Include="Service\ListServiceObjectKernelTreeNodeBase.cs" />
+    <Compile Include="Service\RefreshableServiceObject.cs" />
+    <Compile Include="Service\ServiceObject.cs" />
+    <Compile Include="Service\ServiceObjectAttribute.cs" />
+    <Compile Include="Service\ServiceObjectExecutor.cs" />
+    <Compile Include="Service\ServiceObjectKernelTreeNodeBase.cs" />
+    <Compile Include="Service\TimerAppComponent.cs" />
+    <Compile Include="CommandManager.cs" />
+    <Compile Include="Storage\BytesStreamTableBuffer.cs" />
+    <Compile Include="Storage\IStreamTableStorage.cs" />
+    <Compile Include="Storage\MemoryStreamTableBuffer.cs" />
+    <Compile Include="Storage\MetaData.cs" />
+    <Compile Include="Storage\ReadOnlyStreamTable.cs" />
+    <Compile Include="Storage\StreamTable.cs" />
+    <Compile Include="Storage\StreamTableBuffer.cs" />
+    <Compile Include="Storage\StreamTableColumn.cs" />
+    <Compile Include="Storage\StreamTableColumnStorageModel.cs" />
+    <Compile Include="Storage\StreamTableHeaderInfo.cs" />
+    <Compile Include="Storage\StreamTableHeapReader.cs" />
+    <Compile Include="Storage\StreamTableFileManager.cs" />
+    <Compile Include="Storage\StreamTableModel.cs" />
+    <Compile Include="Storage\StreamTableRow.cs" />
+    <Compile Include="Storage\StreamTableSettings.cs" />
+    <Compile Include="Storage\StreamTableHeap.cs" />
+    <Compile Include="Storage\StreamTableStorage_V1.cs" />
+    <Compile Include="Storage\StreamTableUtility.cs" />
+    <Compile Include="Storage\StreamTableWriter.cs" />
+    <Compile Include="Storage\StreamTableColumnInfo.cs" />
+    <Compile Include="Storage\StreamTableReader.cs" />
+    <Compile Include="Storage\WritableStreamTable.cs" />
+    <Compile Include="UIObject\Actions\OpenAction.cs" />
+    <Compile Include="UIObject\Actions\OpenInNewWindowAction.cs" />
+    <Compile Include="UIObject\Actions\RefreshAction.cs" />
+    <Compile Include="UIObject\ResourceUIObjectImageLoader.cs" />
+    <Compile Include="UIObject\UIObjectAttribute.cs" />
+    <Compile Include="UIObject\UIObjectExecuteContextHelper.cs" />
+    <Compile Include="UIObject\UIObjectExecutorBase.cs" />
+    <Compile Include="UIObject\UIObjectExecutorBaseEx.cs" />
+    <Compile Include="UIObject\UIObjectImageLoader.cs" />
+    <Compile Include="XmlConfigurationBuilder.cs" />
+    <Compile Include="XmlConfigurationReader.cs" />
+    <Compile Include="Log\ConsoleLogWriter.cs" />
+    <Compile Include="Serializer\SerializerFactory.cs" />
+    <Compile Include="Service\AppCommandCollection.cs" />
+    <Compile Include="Service\AppServiceBase.cs" />
+    <Compile Include="Service\AppCommandBase.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="GlobalTimer.cs" />
+    <Compile Include="GlobalTimer\GlobalTimerTaskHandle.cs" />
+    <Compile Include="GlobalTimer\GlobalTimerTaskItem.cs" />
+    <Compile Include="GlobalTimer\TimerStrategies\EveryDayTimerStrategy.cs" />
+    <Compile Include="GlobalTimer\TimerStrategies\GlobalTimerIntervalTimerStrategy.cs" />
+    <Compile Include="GlobalTimer\TimerStrategies\StaticIntervalTimerStrategy.cs" />
+    <Compile Include="GlobalTimer\TimerStrategyAttribute.cs" />
+    <Compile Include="GlobalTimer\TimerStrategyFactory.cs" />
+    <Compile Include="Log\Logger.cs" />
+    <Compile Include="Log\FileLogWriter.cs" />
+    <Compile Include="Log\LoggerHelper.cs" />
+    <Compile Include="LogManager.cs" />
+    <Compile Include="ObjectFactory.cs" />
+    <Compile Include="ObjectFactoryConfigurationSectionHandler.cs" />
+    <Compile Include="ObjectPool.cs" />
+    <Compile Include="ObjectPoolStrategy.cs" />
+    <Compile Include="Serializer\BinaryObjectSerializer.cs" />
+    <Compile Include="PackageUtility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceProvider.cs" />
+    <Compile Include="Service\AssemblyAppServiceBase.cs" />
+    <Compile Include="Service\DataBufferParser.cs" />
+    <Compile Include="Service\ServiceClient.cs" />
+    <Compile Include="Service\ServiceUtility.cs" />
+    <Compile Include="KeyValueSettingsReader.cs" />
+    <Compile Include="SingleMemoryCache.cs" />
+    <Compile Include="TaskDispatcher\TaskDispatcher.cs" />
+    <Compile Include="TaskDispatcher\ITaskDispatcherStrategy.cs" />
+    <Compile Include="TaskDispatcher\ITaskQueue.cs" />
+    <Compile Include="TaskDispatcher\ITaskSemaphore.cs" />
+    <Compile Include="TaskDispatcher\PriorityTaskQueue.cs" />
+    <Compile Include="TaskDispatcher\TaskDispatcherStrategy.cs" />
+    <Compile Include="TaskDispatcher\TaskQueue.cs" />
+    <Compile Include="TaskDispatcher\TaskSemaphore.cs" />
+    <Compile Include="TaskExecutor.cs" />
+    <Compile Include="TaskFuncAdapter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Storage\StreamTableStorage_V1.Writer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Storage\StreamTableStorage_V1.Reader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

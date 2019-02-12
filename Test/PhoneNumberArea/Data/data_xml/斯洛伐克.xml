@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>斯洛伐克</cn_name>
+    <en_name>Slovakia</en_name>
+    <national_code>421</national_code>
+    <mcc>231</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到斯洛伐克的A地电话顺序为“00421-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从斯洛伐克的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00421-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00421XXXXXXXX、421XXXXXXXX、0421XXXXXXXX、000421XXXXXXXX；如果来电显示开头是004210、004211、004212、004213、004214、004215、004216、004217、004218、004219，一般也都表示国际区号是00421，后面一位是斯洛伐克内部的号码的开头第一位；如果是在斯洛伐克通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Slovak Republic</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Orange" mncs="01" national_prefix="00" internal_prefix="0" desc="Orange" />
+    <operation op_code="T-Mobile" mncs="02,04" national_prefix="00" internal_prefix="0" desc="T-Mobile" />
+    <operation op_code="" mncs="03" national_prefix="00" internal_prefix="0" desc="" />
+    <operation op_code="O2" mncs="06" national_prefix="00" internal_prefix="0" desc="O2" />
+    <operation op_code="ŽSR" mncs="99" national_prefix="00" internal_prefix="0" desc="ŽSR" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Orange Slovensko" op_prefix="" />
+        <prefix op_code="T-Mobile Slovensko" op_prefix="" />
+        <prefix op_code="Unient Communications" op_prefix="" />
+        <prefix op_code="T-Mobile Slovensko" op_prefix="" />
+        <prefix op_code="Telefónica O2 Slovakia" op_prefix="" />
+        <prefix op_code="Železnice Slovenskej Republiky" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="班斯卡-比斯特里察" city="" area_code="48" cn_name="班斯卡-比斯特里察" en_name="Banská Bystrica" />
+        <city province="巴尔代约夫" city="" area_code="54" cn_name="巴尔代约夫" en_name="Bardejov" />
+        <city province="布拉迪斯拉发" city="" area_code="2" cn_name="布拉迪斯拉发" en_name="Bratislava" />
+        <city province="Dujanská Streda" city="" area_code="31" cn_name="暂无中文" en_name="Dujanská Streda" />
+        <city province="Humenné" city="" area_code="57" cn_name="暂无中文" en_name="Humenné" />
+        <city province="科希策" city="" area_code="55" cn_name="科希策" en_name="Košice" />
+        <city province="莱维采" city="" area_code="36" cn_name="莱维采" en_name="Levice" />
+        <city province="密库拉斯" city="" area_code="44" cn_name="密库拉斯" en_name="Liptovský Mikuláš" />
+        <city province="西尼克" city="" area_code="47" cn_name="西尼克" en_name="Lučenec" />
+        <city province="马丁" city="" area_code="43" cn_name="马丁" en_name="Martin" />
+        <city province="耶塞尼克" city="" area_code="56" cn_name="耶塞尼克" en_name="Michalovce" />
+        <city province="尼特拉" city="" area_code="37" cn_name="尼特拉" en_name="Nitra" />
+        <city province="新扎姆基" city="" area_code="35" cn_name="新扎姆基" en_name="Nové Zámky" />
+        <city province="波普拉德" city="" area_code="52" cn_name="波普拉德" en_name="Poprad" />
+        <city province="瓦赫河畔比斯特里察" city="" area_code="42" cn_name="瓦赫河畔比斯特里察" en_name="Považská Bystrica" />
+        <city province="普雷绍夫" city="" area_code="51" cn_name="普雷绍夫" en_name="Prešov" />
+        <city province="普列维萨" city="" area_code="46" cn_name="普列维萨" en_name="Prievidza" />
+        <city province="Rožňava" city="" area_code="58" cn_name="暂无中文" en_name="Rožňava" />
+        <city province="塞尼察" city="" area_code="34" cn_name="塞尼察" en_name="Senica" />
+        <city province="Spišská Nová Ves" city="" area_code="53" cn_name="暂无中文" en_name="Spišská Nová Ves" />
+        <city province="托坡坎" city="" area_code="38" cn_name="托坡坎" en_name="Topol'čany" />
+        <city province="特伦钦" city="" area_code="32" cn_name="特伦钦" en_name="Trenčín" />
+        <city province="特尔纳瓦" city="" area_code="33" cn_name="特尔纳瓦" en_name="Trnava" />
+        <city province="日利纳" city="" area_code="41" cn_name="日利纳" en_name="Žilina" />
+        <city province="兹沃伦" city="" area_code="45" cn_name="兹沃伦" en_name="Zvolen" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Eurotel</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>902, 903, 904</prefix>
+      </op>
+      <op>
+        <op_name>Eurotel</op_name>
+        <wireless_type>NMT 450</wireless_type>
+        <prefix>901</prefix>
+      </op>
+      <op>
+        <op_name>Orange</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>905, 906, 907, 908</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

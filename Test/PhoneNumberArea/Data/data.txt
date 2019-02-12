@@ -1,0 +1,233 @@
+﻿1	美国	United States of America (USA)	US	USA	840	ISO 3166-2:US	1	011
+1	加拿大	Canada	CA	CAN	124	ISO 3166-2:CA	1	011
+7	俄罗斯	Russian Federation	RU	RUS	643	ISO 3166-2:RU	8	8
+20	埃及	Egypt	EG	EGY	818	ISO 3166-2:EG	0	00
+27	南非	South Africa	ZA	ZAF	710	ISO 3166-2:ZA	0	00
+30	希腊	Greece	GR	GRC	300	ISO 3166-2:GR		00
+31	荷兰	Netherlands	NL	NLD	528	ISO 3166-2:NL	0	00
+32	比利时	Belgium	BE	BEL	056	ISO 3166-2:BE	0	00
+33	法国	France	FR	FRA	250	ISO 3166-2:FR	0	00
+34	西班牙	Spain	ES	ESP	724	ISO 3166-2:ES		00
+36	匈牙利	Hungary	HU	HUN	348	ISO 3166-2:HU	06	00
+40	罗马尼亚	Romania	RO	ROU	642	ISO 3166-2:RO	0	00
+41	瑞士	Switzerland	CH	CHE	756	ISO 3166-2:CH	0	00
+43	奥地利	Austria	AT	AUT	040	ISO 3166-2:AT	0	00
+44	英国	Great Britain (United Kingdom; England)	GB	GBR	826	ISO 3166-2:GB	0	00
+45	丹麦	Denmark	DK	DNK	208	ISO 3166-2:DK		00
+46	瑞典	Sweden	SE	SWE	752	ISO 3166-2:SE	0	00
+47	挪威	Norway	NO	NOR	578	ISO 3166-2:NO		00
+48	波兰	Poland	PL	POL	616	ISO 3166-2:PL	0	00
+49	德国	Germany	DE	DEU	276	ISO 3166-2:DE	0	00
+51	秘鲁	Peru	PE	PER	604	ISO 3166-2:PE	0	00
+52	墨西哥	Mexico	MX	MEX	484	ISO 3166-2:MX	01	00
+53	古巴	Cuba	CU	CUB	192	ISO 3166-2:CU	0	119
+54	阿根廷	Argentina	AR	ARG	032	ISO 3166-2:AR	0	00
+56	智利	Chile	CL	CHL	152	ISO 3166-2:CL	0	00
+60	马来西亚	Malaysia	MY	MYS	458	ISO 3166-2:MY	0	00
+63	菲律宾	The Philippines	PH	PHL	608	ISO 3166-2:PH	0	00
+64	新西兰	New Zealand	NZ	NZL	554	ISO 3166-2:NZ	0	00
+65	新加坡	Singapore	SG	SGP	702	ISO 3166-2:SG		001
+66	泰国	Thailand	TH	THA	764	ISO 3166-2:TH	0	001
+73	哈萨克斯坦	Kazakhstan	KZ	KAZ	398	ISO 3166-2:KZ	8	8
+81	日本	Japan	JP	JPN	392	ISO 3166-2:JP	0	010
+82	韩国	South Korea	KR	KOR	410	ISO 3166-2:KR	0	001
+84	越南	Vietnam	VN	VNM	704	ISO 3166-2:VN	0	00
+90	土耳其	Turkey	TR	TUR	792	ISO 3166-2:TR	0	00
+91	印度	India	IN	IND	356	ISO 3166-2:IN	0	00
+92	巴基斯坦	Pakistan	PK	PAK	586	ISO 3166-2:PK	0	00
+93	阿富汗	Afghanistan	AF	AFG	004	ISO 3166-2:AF	0	00
+94	斯里兰卡	Sri Lanka	LK	LKA	144	ISO 3166-2:LK	0	00
+95	缅甸	Myanmar (Burma)	MM	MMR	104	ISO 3166-2:MM		00
+98	伊朗	Iran	IR	IRN	364	ISO 3166-2:IR	0	00
+212	摩洛哥	Morocco	MA	MAR	504	ISO 3166-2:MA	0	00
+216	突尼斯	Tunisia	TN	TUN	788	ISO 3166-2:TN	0	00
+218	利比亚	Libya	LY	LBY	434	ISO 3166-2:LY	0	00
+220	冈比亚	Gambia	GM	GMB	270	ISO 3166-2:GM		00
+221	塞内加尔	Senegal	SN	SEN	686	ISO 3166-2:SN		00
+222	毛里塔尼亚	Mauritania	MR	MRT	478	ISO 3166-2:MR		00
+223	马里	Mali	ML	MLI	466	ISO 3166-2:ML		00
+224	几内亚	Guinea	GN	GIN	324	ISO 3166-2:GN	0	00
+225	科特迪瓦	C&#244;te d'Ivoire	CI	CIV	384	ISO 3166-2:CI		00
+226	布基纳法索	Burkina	BF	BFA	854	ISO 3166-2:BF		00
+227	尼日尔	Niger	NE	NER	562	ISO 3166-2:NE		00
+228	多哥	Togo	TG	TGO	768	ISO 3166-2:TG		00
+229	贝宁	Benin	BJ	BEN	204	ISO 3166-2:BJ		00
+230	毛里求斯	Mauritius	MU	MUS	480	ISO 3166-2:MU		00
+231	利比里亚	Liberia	LR	LBR	430	ISO 3166-2:LR		00
+233	加纳	Ghana	GH	GHA	288	ISO 3166-2:GH	0	00
+234	尼日利亚	Nigeria	NG	NGA	566	ISO 3166-2:NG	0	009
+235	乍得	Chad	TD	TCD	148	ISO 3166-2:TD		00
+236	中非	Central African Republic	CF	CAF	140	ISO 3166-2:CF		00
+237	喀麦隆	Cameroon	CM	CMR	120	ISO 3166-2:CM		00
+238	佛得角	Cape Verde	CV	CPV	132	ISO 3166-2:CV		00
+239	圣多美和普林西比	Sao Tome &amp; Principe	ST	STP	678	ISO 3166-2:ST		00
+240	赤道几内亚	Equatorial Guinea	GQ	GNQ	226	ISO 3166-2:GQ		00
+241	加蓬	Gabon	GA	GAB	266	ISO 3166-2:GA		00
+242	刚果（布）	Republic of the Congo	CG	COG	178	ISO 3166-2:CG		00
+243	刚果（金）	Democratic Republic of the Congo	CD	COD	180	ISO 3166-2:CD		00
+244	安哥拉	Angola	AO	AGO	024	ISO 3166-2:AO	0	00
+245	几内亚比绍	Guinea-Bissau	GW	GNB	624	ISO 3166-2:GW		00
+248	塞舌尔	Seychelles	SC	SYC	690	ISO 3166-2:SC		00
+249	苏丹	Sudan	SD	SDN	736	ISO 3166-2:SD	0	00
+250	卢旺达	Rwanda	RW	RWA	646	ISO 3166-2:RW		00
+251	埃塞俄比亚	Ethiopia	ET	ETH	231	ISO 3166-2:ET	0	00
+252	索马里	Somalia	SO	SOM	706	ISO 3166-2:SO		00
+253	吉布提	Djibouti	DJ	DJI	262	ISO 3166-2:DJ		00
+254	肯尼亚	Kenya	KE	KEN	404	ISO 3166-2:KE	0	000
+255	坦桑尼亚	Tanzania	TZ	TZA	834	ISO 3166-2:TZ	0	000
+256	乌干达	Uganda	UG	UGA	800	ISO 3166-2:UG	0	000
+257	布隆迪	Burundi	BI	BDI	108	ISO 3166-2:BI		00
+258	莫桑比克	Mozambique	MZ	MOZ	508	ISO 3166-2:MZ		00
+260	赞比亚	Zambia	ZM	ZMB	894	ISO 3166-2:ZM	0	00
+261	马达加斯加	Madagascar	MG	MDG	450	ISO 3166-2:MG	0	00
+262	留尼汪	R&#233;union	RE	REU	638	ISO 3166-2:RE		00
+263	津巴布韦	Zimbabwe	ZW	ZWE	716	ISO 3166-2:ZW	0	00
+265	马拉维	Malawi	MW	MWI	454	ISO 3166-2:MW		00
+266	莱索托	Lesotho	LS	LSO	426	ISO 3166-2:LS		00
+267	博茨瓦纳	Botswana	BW	BWA	072	ISO 3166-2:BW		00
+268	斯威士兰	Swaziland	SZ	SWZ	748	ISO 3166-2:SZ		00
+269	马约特	Mayotte	YT	MYT	175	ISO 3166-2:YT		00
+290	圣赫勒拿	St. Helena &amp; Dependencies	SH	SHN	654	ISO 3166-2:SH		00
+291	厄立特里亚	Eritrea	ER	ERI	232	ISO 3166-2:ER	0	00
+297	阿鲁巴	Aruba	AW	ABW	533	ISO 3166-2:AW		00
+298	法罗群岛	Faroe Islands	FO	FRO	234	ISO 3166-2:FO		00
+299	格陵兰	Greenland	GL	GRL	304	ISO 3166-2:GL		00
+350	直布罗陀	Gibraltar	GI	GIB	292	ISO 3166-2:GI		00
+351	葡萄牙	Portugal	PT	PRT	620	ISO 3166-2:PT		00
+352	卢森堡	Luxembourg	LU	LUX	442	ISO 3166-2:LU		00
+353	爱尔兰	Ireland	IE	IRL	372	ISO 3166-2:IE	0	00
+354	冰岛	Iceland	IS	ISL	352	ISO 3166-2:IS		00
+356	马耳他	Malta	MT	MLT	470	ISO 3166-2:MT		00
+357	塞浦路斯	Cyprus	CY	CYP	196	ISO 3166-2:CY		00
+358	芬兰	Finland	FI	FIN	246	ISO 3166-2:FI	0	00
+359	保加利亚	Bulgaria	BG	BGR	100	ISO 3166-2:BG	0	00
+370	立陶宛	Lithuania	LT	LTU	440	ISO 3166-2:LT	8	00
+371	拉脱维亚	Latvia	LV	LVA	428	ISO 3166-2:LV		00
+372	爱沙尼亚	Estonia	EE	EST	233	ISO 3166-2:EE		00
+373	摩尔多瓦	Moldova	MD	MDA	498	ISO 3166-2:MD	0	00
+374	亚美尼亚	Armenia	AM	ARM	051	ISO 3166-2:AM	0	00
+375	白俄罗斯	Belarus	BY	BLR	112	ISO 3166-2:BY	8	8
+376	安道尔	Andorra	AD	AND	020	ISO 3166-2:AD		00
+377	摩纳哥	Monaco	MC	MCO	492	ISO 3166-2:MC		00
+378	圣马力诺	San Marino	SM	SMR	674	ISO 3166-2:SM		00
+379	梵蒂冈	Vatican City (The Holy See)	VA	VAT	336	ISO 3166-2:VA		00
+380	乌克兰	Ukraine	UA	UKR	804	ISO 3166-2:UA	8	8
+385	克罗地亚	Croatia	HR	HRV	191	ISO 3166-2:HR	0	00
+386	斯洛文尼亚	Slovenia	SI	SVN	705	ISO 3166-2:SI	0	00
+387	波黑	Bosnia &amp; Herzegovina	BA	BIH	070	ISO 3166-2:BA	0	00
+420	捷克	Czech Republic	CZ	CZE	203	ISO 3166-2:CZ		00
+421	斯洛伐克	Slovakia	SK	SVK	703	ISO 3166-2:SK	0	00
+423	列支敦士登	Liechtenstein	LI	LIE	438	ISO 3166-2:LI		00
+501	伯利兹	Belize	BZ	BLZ	084	ISO 3166-2:BZ		00
+502	危地马拉	Guatemala	GT	GTM	320	ISO 3166-2:GT		00
+503	萨尔瓦多	El Salvador	SV	SLV	222	ISO 3166-2:SV		00
+504	洪都拉斯	Honduras	HN	HND	340	ISO 3166-2:HN		00
+505	尼加拉瓜	Nicaragua	NI	NIC	558	ISO 3166-2:NI	0	00
+506	哥斯达黎加	Costa Rica	CR	CRI	188	ISO 3166-2:CR		00
+507	巴拿马	Panama	PA	PAN	591	ISO 3166-2:PA		00
+509	海地	Haiti	HT	HTI	332	ISO 3166-2:HT		00
+590	瓜德罗普	Guadeloupe	GP	GLP	312	ISO 3166-2:GP		00
+592	圭亚那	Guyana	GY	GUY	328	ISO 3166-2:GY		001
+594	法属圭亚那	French Guiana	GF	GUF	254	ISO 3166-2:GF		00
+595	巴拉圭	Paraguay	PY	PRY	600	ISO 3166-2:PY	0	002
+596	马提尼克	Martinique	MQ	MTQ	474	ISO 3166-2:MQ		00
+597	苏里南	Suriname	SR	SUR	740	ISO 3166-2:SR		00
+598	乌拉圭	Uruguay	UY	URY	858	ISO 3166-2:UY	0	00
+599	荷属安的列斯	Netherlands Antilles	AN	ANT	530	ISO 3166-2:AN	0	00
+673	文莱	Brunei	BN	BRN	096	ISO 3166-2:BN	0	00
+674	瑙鲁	Nauru	NR	NRU	520	ISO 3166-2:NR		00
+675	巴布亚新几内亚	Papua New Guinea	PG	PNG	598	ISO 3166-2:PG		00
+676	汤加	Tonga	TO	TON	776	ISO 3166-2:TO		00
+677	所罗门群岛	Solomon Islands	SB	SLB	090	ISO 3166-2:SB		00
+678	瓦努阿图	Vanuatu	VU	VUT	548	ISO 3166-2:VU		00
+680	帕劳	Palau	PW	PLW	585	ISO 3166-2:PW		011
+682	库克群岛	Cook Islands	CK	COK	184	ISO 3166-2:CK		00
+683	纽埃	Niue	NU	NIU	570	ISO 3166-2:NU		00
+684	美属萨摩亚	American Samoa	AS	ASM	016	ISO 3166-2:AS	1	011
+685	萨摩亚	Samoa	WS	WSM	882	ISO 3166-2:WS		0
+686	基里巴斯	Kiribati	KI	KIR	296	ISO 3166-2:KI	0	00
+687	新喀里多尼亚	New Caledonia	NC	NCL	540	ISO 3166-2:NC		00
+688	图瓦卢	Tuvalu	TV	TUV	798	ISO 3166-2:TV		00
+689	法属波利尼西亚	French polynesia	PF	PYF	258	ISO 3166-2:PF		00
+690	托克劳	Tokelau	TK	TKL	772	ISO 3166-2:TK		00
+692	马绍尔群岛	Marshall islands	MH	MHL	584	ISO 3166-2:MH	1	011
+850	朝鲜	North Korea	KP	PRK	408	ISO 3166-2:KP		99
+852	香港	Hong Kong	HK	HKG	344	ISO 3166-2:HK		001
+853	澳门	Macao	MO	MAC	446	ISO 3166-2:MO		00
+855	柬埔寨	Cambodia	KH	KHM	116	ISO 3166-2:KH	0	001
+856	老挝	Laos	LA	LAO	418	ISO 3166-2:LA	0	00
+880	孟加拉国	Bangladesh	BD	BGD	050	ISO 3166-2:BD	0	00
+886	台湾	Taiwan	TW	TWN	158	ISO 3166-2:TW	0	002
+960	马尔代夫	Maldives	MV	MDV	462	ISO 3166-2:MV		00
+961	黎巴嫩	Lebanon	LB	LBN	422	ISO 3166-2:LB	0	00
+962	约旦	Jordan	JO	JOR	400	ISO 3166-2:JO	0	00
+963	叙利亚	Syria	SY	SYR	760	ISO 3166-2:SY	0	00
+964	伊拉克	Iraq	IQ	IRQ	368	ISO 3166-2:IQ	0	00
+965	科威特	Kuwait	KW	KWT	414	ISO 3166-2:KW	0	00
+966	沙特阿拉伯	Saudi Arabia	SA	SAU	682	ISO 3166-2:SA	0	00
+967	也门	Yemen	YE	YEM	887	ISO 3166-2:YE	0	00
+968	阿曼	Oman	OM	OMN	512	ISO 3166-2:OM		00
+972	以色列	Israel	IL	ISR	376	ISO 3166-2:IL	0	00
+973	巴林	Bahrain	BH	BHR	048	ISO 3166-2:BH		00
+974	卡塔尔	Qatar	QA	QAT	634	ISO 3166-2:QA		00
+975	不丹	Bhutan	BT	BTN	064	ISO 3166-2:BT		00
+976	蒙古	Mongolia	MN	MNG	496	ISO 3166-2:MN	0	001
+977	尼泊尔	Nepal	NP	NPL	524	ISO 3166-2:NP	0	00
+992	塔吉克斯坦	Tajikistan	TJ	TJK	762	ISO 3166-2:TJ	8	8
+993	土库曼斯坦	Turkmenistan	TM	TKM	795	ISO 3166-2:TM	8	8
+994	阿塞拜疆	Azerbaijan	AZ	AZE	031	ISO 3166-2:AZ	0	00
+995	格鲁吉亚	Georgia	GE	GEO	268	ISO 3166-2:GE	8	8
+996	吉尔吉斯斯坦	Kyrgyzstan	KG	KGZ	417	ISO 3166-2:KG	0	00
+998	乌兹别克斯坦	Uzbekistan	UZ	UZB	860	ISO 3166-2:UZ	8	8
+1242	巴哈马	The Bahamas	BS	BHS	044	ISO 3166-2:BS	1	011
+1246	巴巴多斯	Barbados	BB	BRB	052	ISO 3166-2:BB	1	011
+1264	安圭拉	Anguilla	AI	AIA	660	ISO 3166-2:AI	1	011
+1268	安提瓜和巴布达	Antigua &amp; Barbuda	AG	ATG	028	ISO 3166-2:AG	1	011
+1284	英属维尔京群岛	British Virgin Islands	VG	VGB	092	ISO 3166-2:VG	1	011
+1340	美属维尔京群岛	United States Virgin Islands	VI	VIR	850	ISO 3166-2:VI	1	011
+1345	开曼群岛	Cayman Islands	KY	CYM	136	ISO 3166-2:KY	1	011
+1441	百慕大	Bermuda	BM	BMU	060	ISO 3166-2:BM	1	011
+1473	格林纳达	Grenada	GD	GRD	308	ISO 3166-2:GD	1	011
+1481	根西岛	Guernsey	GG	GGY	831	ISO 3166-2:GG	0	00
+1649	特克斯和凯科斯群岛	Turks &amp; Caicos Islands	TC	TCA	796	ISO 3166-2:TC	1	011
+1671	关岛	Guam	GU	GUM	316	ISO 3166-2:GU	1	011
+1758	圣卢西亚	St. Lucia	LC	LCA	662	ISO 3166-2:LC	1	011
+1767	多米尼克	Dominica	DM	DMA	212	ISO 3166-2:DM	1	011
+1784	圣文森特和格林纳丁斯	St. Vincent &amp; the Grenadines	VC	VCT	670	ISO 3166-2:VC	1	011
+1809	多米尼加	Dominican Republic	DO	DOM	214	ISO 3166-2:DO	1	011
+1787	波多黎各	Puerto Rico	PR	PRI	630	ISO 3166-2:PR	1	011
+1868	特立尼达和多巴哥	Trinidad &amp; Tobago	TT	TTO	780	ISO 3166-2:TT	1	011
+1869	圣基茨和尼维斯	St. Kitts &amp; Nevis	KN	KNA	659	ISO 3166-2:KN	1	011
+1876	牙买加	Jamaica	JM	JAM	388	ISO 3166-2:JM	1	011
+6723	诺福克岛	Norfolk Island	NF	NFK	574	ISO 3166-2:NF		00
+1907	阿拉斯加	Alaska(U.S.A)	
+355	阿尔巴尼亚	Albania	AL	ALB	
+213	阿尔及利亚	Algeria	DZ	DZA
+247	阿森松(英)	Ascension	AC	ASC
+61	澳大利亚	Australia	AU	AUS
+591	玻利维亚	Bolivia	BO	BOL
+55	巴西	Brazil	BR	BRA
+61891	科科斯岛	Cocos I.	CC	CCK
+57	哥伦比亚	Colombia	CO	COL
+246	迪戈加西亚岛	Diego Garcia I.	DG	DGA
+593	厄瓜多尔	Ecuador	EC	ECU
+500	福克兰群岛（马尔维纳斯）	Falkland Is.	FK	FLK
+679	斐济	Fiji	FJ	FJI
+1808	夏威夷	Hawaii	
+62	印度尼西亚	Indonesia	ID	IDN
+39	意大利	Italy	IT	ITA
+389	马其顿	Macedonia	MK	MKD
+670	马里亚纳群岛	Mariana Is.	MP	MNP
+691	密克罗尼西亚	Micronesia	FM	FSM
+1808	中途岛(美)	Midway I.	
+1664	蒙特塞拉特	Montserrat I.	MS	MSR
+264	纳米比亚	Namibia	NA	NAM
+508	圣皮埃尔和密克隆	San.Pierre And Miquelon I.	PM	SPM
+971	阿拉伯联合酋长国	The United Arab Emirates	AE	ARE
+58	委内瑞拉	Venezuela	VE	VEN
+1808	威克岛(美)	Wake I.	UM	UMI
+681	瓦利斯和富图纳群岛	Wallis And Futuna Is.	WF	WLF
+381	塞尔维亚	Yugoslavia	RS	SRB
+259	桑给巴尔	Zanzibar		EAZ
+86	中国	China	CN	CHN
+618	圣诞岛	Christmas I.	CX	CXR

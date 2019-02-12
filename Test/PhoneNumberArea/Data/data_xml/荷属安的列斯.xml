@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>安的列斯群岛</cn_name>
+    <en_name>Netherlands Antilles</en_name>
+    <national_code>599</national_code>
+    <mcc>362</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到安的列斯群岛的A地电话顺序为“00599-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从安的列斯群岛的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00599-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00599XXXXXXXX、599XXXXXXXX、0599XXXXXXXX、000599XXXXXXXX；如果来电显示开头是005990、005991、005992、005993、005994、005995、005996、005997、005998、005999，一般也都表示国际区号是00599，后面一位是安的列斯群岛内部的号码的开头第一位；如果是在安的列斯群岛通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>荷属安的列斯群岛</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Telcell" mncs="51" national_prefix="00" internal_prefix="0" desc="Telcell" />
+    <operation op_code="Digicel" mncs="69" national_prefix="00" internal_prefix="0" desc="Digicel" />
+    <operation op_code="UTS" mncs="91" national_prefix="00" internal_prefix="0" desc="UTS" />
+    <operation op_code="" mncs="??,??" national_prefix="00" internal_prefix="0" desc="" />
+    <operation op_code="MIO" mncs="95" national_prefix="00" internal_prefix="0" desc="MIO" />
+    <operation op_code="Bayòs" mncs="94" national_prefix="00" internal_prefix="0" desc="Bayòs" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Telcell N.V." op_prefix="" />
+        <prefix op_code="Curaçao Telecom N.V." op_prefix="" />
+        <prefix op_code="Setel N.V." op_prefix="" />
+        <prefix op_code="East Caribbean Cellular" op_prefix="" />
+        <prefix op_code="Antiliano Por N.V." op_prefix="" />
+        <prefix op_code="E.O.C.G. Wireless" op_prefix="" />
+        <prefix op_code="Bòbò Frus N.V." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="博内尔" city="" area_code="前面的号码7由717替代来讲5位号码升级为7位。" cn_name="博内尔" en_name="Bonaire" />
+        <city province="库拉索" city="" area_code="9 加7位数字号码" cn_name="库拉索" en_name="Curaçao" />
+        <city province="萨巴" city="" area_code="416 加4位数字号码" cn_name="萨巴" en_name="Saba" />
+        <city province="圣尤斯特歇斯" city="" area_code="318 加4位数字号码" cn_name="圣尤斯特歇斯" en_name="St. Eustatius" />
+        <city province="圣马丁" city="" area_code="54 加5位数字号码" cn_name="圣马丁" en_name="St. Maarten" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>巴拉圭</cn_name>
+    <en_name>Paraguay</en_name>
+    <national_code>595</national_code>
+    <mcc>744</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到巴拉圭的A地电话顺序为“00595-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从巴拉圭的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00595-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00595XXXXXXXX、595XXXXXXXX、0595XXXXXXXX、000595XXXXXXXX；如果来电显示开头是005950、005951、005952、005953、005954、005955、005956、005957、005958、005959，一般也都表示国际区号是00595，后面一位是巴拉圭内部的号码的开头第一位；如果是在巴拉圭通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="VOX" mncs="01" national_prefix="002" internal_prefix="0" desc="VOX" />
+    <operation op_code="Claro" mncs="02" national_prefix="002" internal_prefix="0" desc="Claro" />
+    <operation op_code="Tigo" mncs="04" national_prefix="002" internal_prefix="0" desc="Tigo" />
+    <operation op_code="Personal" mncs="05" national_prefix="002" internal_prefix="0" desc="Personal" />
+    <operation op_code="Copaco" mncs="06" national_prefix="002" internal_prefix="0" desc="Copaco" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Hola Paraguay S.A" op_prefix="" />
+        <prefix op_code="AMX Paraguay S.A." op_prefix="" />
+        <prefix op_code="Telefonica Celular Del Paraguay S.A. (Telecel)" op_prefix="" />
+        <prefix op_code="Núcleo S.A" op_prefix="" />
+        <prefix op_code="Copaco S.A." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="亚松森" city="" area_code="21" cn_name="亚松森" en_name="Asuncion" />
+        <city province="Ayolas" city="" area_code="72" cn_name="暂无中文" en_name="Ayolas" />
+        <city province="Capiata" city="" area_code="28" cn_name="暂无中文" en_name="Capiata" />
+        <city province="康塞普西翁" city="" area_code="31" cn_name="康塞普西翁" en_name="Concepcion" />
+        <city province="博加多上校" city="" area_code="74" cn_name="博加多上校" en_name="Coronel Bogado" />
+        <city province="奥维多上校镇" city="" area_code="521" cn_name="奥维多上校镇" en_name="Coronel Oviedo" />
+        <city province="恩卡纳西翁" city="" area_code="71" cn_name="恩卡纳西翁" en_name="Encarnacion" />
+        <city province="埃尔南达里亚斯" city="" area_code="63" cn_name="埃尔南达里亚斯" en_name="Hernandarias" />
+        <city province="Ita" city="" area_code="24" cn_name="暂无中文" en_name="Ita" />
+        <city province="佩德罗胡安卡瓦列罗" city="" area_code="36" cn_name="佩德罗胡安卡瓦列罗" en_name="Pedro J Caballero" />
+        <city province="皮拉尔" city="" area_code="86" cn_name="皮拉尔" en_name="Pilar" />
+        <city province="圣安东尼奥" city="" area_code="27" cn_name="圣安东尼奥" en_name="San Antonio" />
+        <city province="圣伊格纳西奥" city="" area_code="82" cn_name="圣伊格纳西奥" en_name="San Ignacio" />
+        <city province="史托斯纳尔" city="" area_code="61" cn_name="史托斯纳尔" en_name="Stroessner: Ciudad Pte." />
+        <city province="比亚里" city="" area_code="541" cn_name="比亚里" en_name="Villarrica" />
+        <city province="比耶塔" city="" area_code="25" cn_name="比耶塔" en_name="Villeta" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

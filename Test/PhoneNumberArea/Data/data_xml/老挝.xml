@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>老挝</cn_name>
+    <en_name>Laos</en_name>
+    <national_code>856</national_code>
+    <mcc>457</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到老挝的A地电话顺序为“00856-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从老挝的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00856-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00856XXXXXXXX、856XXXXXXXX、0856XXXXXXXX、000856XXXXXXXX；如果来电显示开头是008560、008561、008562、008563、008564、008565、008566、008567、008568、008569，一般也都表示国际区号是00856，后面一位是老挝内部的号码的开头第一位；如果是在老挝通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="LaoTel" mncs="01" national_prefix="00" internal_prefix="0" desc="LaoTel" />
+    <operation op_code="ETL" mncs="02" national_prefix="00" internal_prefix="0" desc="ETL" />
+    <operation op_code="Unitel" mncs="03" national_prefix="00" internal_prefix="0" desc="Unitel" />
+    <operation op_code="Tigo" mncs="08" national_prefix="00" internal_prefix="0" desc="Tigo" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Lao Shinawatra Telecom" op_prefix="" />
+        <prefix op_code="Enterprise of Telecommunications Lao" op_prefix="" />
+        <prefix op_code="Star Telecom Co., Ltd" op_prefix="" />
+        <prefix op_code="Millicom Lao Co Ltd" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="琅勃拉邦" city="" area_code="71" cn_name="琅勃拉邦" en_name="Loungprabang" />
+        <city province="巴色" city="" area_code="31" cn_name="巴色" en_name="Pakse" />
+        <city province="北汕" city="" area_code="54" cn_name="北汕" en_name="Pakxan" />
+        <city province="沙湾拿吉" city="" area_code="41" cn_name="沙湾拿吉" en_name="Svannakhet" />
+        <city province="他曲" city="" area_code="51" cn_name="他曲" en_name="Thakhek" />
+        <city province="万象" city="" area_code="21" cn_name="万象" en_name="Vientiane" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

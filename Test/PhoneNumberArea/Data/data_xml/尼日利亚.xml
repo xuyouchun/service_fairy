@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>尼日利亚</cn_name>
+    <en_name>Nigeria</en_name>
+    <national_code>234</national_code>
+    <mcc>621</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到尼日利亚的A地电话顺序为“00234-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从尼日利亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00234-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00234XXXXXXXX、234XXXXXXXX、0234XXXXXXXX、000234XXXXXXXX；如果来电显示开头是002340、002341、002342、002343、002344、002345、002346、002347、002348、002349，一般也都表示国际区号是00234，后面一位是尼日利亚内部的号码的开头第一位；如果是在尼日利亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Airtel" mncs="20" national_prefix="009" internal_prefix="0" desc="Airtel" />
+    <operation op_code="MTN" mncs="30" national_prefix="009" internal_prefix="0" desc="MTN" />
+    <operation op_code="M-Tel" mncs="40" national_prefix="009" internal_prefix="0" desc="M-Tel" />
+    <operation op_code="Glo" mncs="50" national_prefix="009" internal_prefix="0" desc="Glo" />
+    <operation op_code="Etisalat" mncs="60" national_prefix="009" internal_prefix="0" desc="Etisalat" />
+    <operation op_code="Visafone" mncs="25" national_prefix="009" internal_prefix="0" desc="Visafone" />
+  </operations>
+  <remarks>
+    <remark>从尼日利亚拨出内部直拨长途电话前缀：0</remark>
+  </remarks>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Globacom</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>805</prefix>
+      </op>
+      <op>
+        <op_name>MTN Nigeria</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>803</prefix>
+      </op>
+      <op>
+        <op_name>Mtel</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>804</prefix>
+      </op>
+      <op>
+        <op_name>Vmobile Nigeria</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>802</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

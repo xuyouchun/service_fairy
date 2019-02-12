@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>斯洛文尼亚</cn_name>
+    <en_name>Slovenia</en_name>
+    <national_code>386</national_code>
+    <mcc>293</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到斯洛文尼亚的A地电话顺序为“00386-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从斯洛文尼亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00386-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00386XXXXXXXX、386XXXXXXXX、0386XXXXXXXX、000386XXXXXXXX；如果来电显示开头是003860、003861、003862、003863、003864、003865、003866、003867、003868、003869，一般也都表示国际区号是00386，后面一位是斯洛文尼亚内部的号码的开头第一位；如果是在斯洛文尼亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Si.mobil" mncs="40" national_prefix="00" internal_prefix="0" desc="Si.mobil" />
+    <operation op_code="Mobitel" mncs="41" national_prefix="00" internal_prefix="0" desc="Mobitel" />
+    <operation op_code="T-2" mncs="64" national_prefix="00" internal_prefix="0" desc="T-2" />
+    <operation op_code="Tušmobil" mncs="70" national_prefix="00" internal_prefix="0" desc="Tušmobil" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="SI.MOBIL d.d." op_prefix="" />
+        <prefix op_code="Mobitel D.D." op_prefix="" />
+        <prefix op_code="T-2 d.o.o." op_prefix="" />
+        <prefix op_code="Tušmobil d.o.o." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="采列" city="" area_code="3" cn_name="采列" en_name="Celje" />
+        <city province="克拉尼" city="" area_code="4" cn_name="克拉尼" en_name="Kranj" />
+        <city province="科佩尔" city="" area_code="5" cn_name="科佩尔" en_name="Koper" />
+        <city province="卢布尔雅那" city="" area_code="1" cn_name="卢布尔雅那" en_name="Ljubljana" />
+        <city province="马里博尔" city="" area_code="2" cn_name="马里博尔" en_name="Maribor" />
+        <city province="新梅斯托" city="" area_code="7" cn_name="新梅斯托" en_name="Novo mesto" />
+        <city province="玫瑰港" city="" area_code="5" cn_name="玫瑰港" en_name="Portoroz" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Mobitel</op_name>
+        <wireless_type>GSM 900, 1800</wireless_type>
+        <prefix>31, 41</prefix>
+      </op>
+      <op>
+        <op_name>S!Mobil</op_name>
+        <wireless_type>GSM 900, 1800</wireless_type>
+        <prefix>40</prefix>
+      </op>
+      <op>
+        <op_name>Mobitel NMT</op_name>
+        <wireless_type>模拟</wireless_type>
+        <prefix>50</prefix>
+      </op>
+      <op>
+        <op_name>Vega</op_name>
+        <wireless_type>GSM 1800</wireless_type>
+        <prefix>70</prefix>
+      </op>
+      <op>
+        <op_name>Toll-free</op_name>
+        <wireless_type>免费电话</wireless_type>
+        <prefix>80</prefix>
+      </op>
+      <op>
+        <op_name>Commercial calls</op_name>
+        <wireless_type>商业电话</wireless_type>
+        <prefix>90</prefix>
+      </op>
+      <op>
+        <op_name>VoIP poviders</op_name>
+        <wireless_type>IP电话提供商</wireless_type>
+        <prefix>881</prefix>
+      </op>
+      <op>
+        <op_name>ISP providers</op_name>
+        <wireless_type>互联网加入提供商</wireless_type>
+        <prefix>880, 889</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>埃及</cn_name>
+    <en_name>Egypt</en_name>
+    <national_code>20</national_code>
+    <mcc>602</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到埃及的A地电话顺序为“0020-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从埃及的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0020-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0020XXXXXXXX、20XXXXXXXX、020XXXXXXXX、00020XXXXXXXX；如果来电显示开头是00200、00201、00202、00203、00204、00205、00206、00207、00208、00209，一般也都表示国际区号是0020，后面一位是埃及内部的号码的开头第一位；如果是在埃及通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>مصر</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Mobinil" mncs="01" national_prefix="00" internal_prefix="0" desc="Mobinil" />
+    <operation op_code="Vodafone" mncs="02" national_prefix="00" internal_prefix="0" desc="Vodafone" />
+    <operation op_code="Etisalat" mncs="03" national_prefix="00" internal_prefix="0" desc="Etisalat" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="ECMS-Mobinil" op_prefix="" />
+        <prefix op_code="Vodafone Egypt" op_prefix="" />
+        <prefix op_code="Etisalat Egypt" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="亚历山大" city="" area_code="3" cn_name="亚历山大" en_name="Alexandria" />
+        <city province="阿斯旺" city="" area_code="97" cn_name="阿斯旺" en_name="Aswan" />
+        <city province="艾斯尤特" city="" area_code="88" cn_name="艾斯尤特" en_name="Asyut" />
+        <city province="本哈" city="" area_code="13" cn_name="本哈" en_name="Benha" />
+        <city province="开罗" city="" area_code="2" cn_name="开罗" en_name="Cairo" />
+        <city province="代盖赫利耶" city="" area_code="50" cn_name="代盖赫利耶" en_name="Dakahlia" />
+        <city province="达曼胡尔" city="" area_code="45" cn_name="达曼胡尔" en_name="Damanhour" />
+        <city province="大迈哈莱" city="" area_code="40" cn_name="大迈哈莱" en_name="El Mahallah (El Kubra)" />
+        <city province="赫尔加达" city="" area_code="65" cn_name="赫尔加达" en_name="Hurghada" />
+        <city province="卢克索" city="" area_code="95" cn_name="卢克索" en_name="Luxor" />
+        <city province="塞得港" city="" area_code="66" cn_name="塞得港" en_name="Port Said" />
+        <city province="谢赫村" city="" area_code="48" cn_name="谢赫村" en_name="Shebin El Korn" />
+        <city province="索哈杰" city="" area_code="93" cn_name="索哈杰" en_name="Sohag" />
+        <city province="坦塔" city="" area_code="40" cn_name="坦塔" en_name="Tanta" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Click GSM</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>010 + seven digits</prefix>
+      </op>
+      <op>
+        <op_name>MobiNil</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>012 + seven digits</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

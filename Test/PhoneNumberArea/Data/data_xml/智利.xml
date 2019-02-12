@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>智利</cn_name>
+    <en_name>Chile</en_name>
+    <national_code>56</national_code>
+    <mcc>730</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到智利的A地电话顺序为“0056-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从智利的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0056-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0056XXXXXXXX、56XXXXXXXX、056XXXXXXXX、00056XXXXXXXX；如果来电显示开头是00560、00561、00562、00563、00564、00565、00566、00567、00568、00569，一般也都表示国际区号是0056，后面一位是智利内部的号码的开头第一位；如果是在智利通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="entel" mncs="01,10" national_prefix="00" internal_prefix="0" desc="entel" />
+    <operation op_code="movistar" mncs="02" national_prefix="00" internal_prefix="0" desc="movistar" />
+    <operation op_code="Claro" mncs="03" national_prefix="00" internal_prefix="0" desc="Claro" />
+    <operation op_code="Nextel" mncs="04,09" national_prefix="00" internal_prefix="0" desc="Nextel" />
+    <operation op_code="VTR Móvil" mncs="08" national_prefix="00" internal_prefix="0" desc="VTR Móvil" />
+    <operation op_code="Will" mncs="99" national_prefix="00" internal_prefix="0" desc="Will" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Entel PCS Telecomunicaciones S.A." op_prefix="" />
+        <prefix op_code="Telefónica Móvil de Chile" op_prefix="" />
+        <prefix op_code="Claro Chile S.A." op_prefix="" />
+        <prefix op_code="Centennial Cayman Corp. Chile" op_prefix="" />
+        <prefix op_code="VTR S.A." op_prefix="" />
+        <prefix op_code="Centennial Cayman Corp. Chile" op_prefix="" />
+        <prefix op_code="Entel Telefonía Móvil S.A." op_prefix="" />
+        <prefix op_code="WILL Telefonía" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="安托法加斯塔" city="" area_code="55" cn_name="安托法加斯塔" en_name="Antofagasta" />
+        <city province="阿里卡" city="" area_code="58" cn_name="阿里卡" en_name="Arica" />
+        <city province="卡拉马" city="" area_code="55" cn_name="卡拉马" en_name="Calama" />
+        <city province="奇康" city="" area_code="42" cn_name="奇康" en_name="Chillán" />
+        <city province="康塞普西翁" city="" area_code="41" cn_name="康塞普西翁" en_name="Concepción" />
+        <city province="科皮亚波" city="" area_code="52" cn_name="科皮亚波" en_name="Copiacó" />
+        <city province="科金博" city="" area_code="51" cn_name="科金博" en_name="Coquimbo" />
+        <city province="科伊艾科" city="" area_code="67" cn_name="科伊艾科" en_name="Coyhaique" />
+        <city province="库里科" city="" area_code="75" cn_name="库里科" en_name="Curicó" />
+        <city province="伊基克" city="" area_code="57" cn_name="伊基克" en_name="Iquique" />
+        <city province="拉塞雷纳" city="" area_code="51" cn_name="拉塞雷纳" en_name="La Serena" />
+        <city province="利纳雷斯" city="" area_code="73" cn_name="利纳雷斯" en_name="Linares" />
+        <city province="洛斯安第斯" city="" area_code="34" cn_name="洛斯安第斯" en_name="Los Andes" />
+        <city province="洛斯安赫莱斯" city="" area_code="43" cn_name="洛斯安赫莱斯" en_name="Los Angeles" />
+        <city province="奥索尔诺" city="" area_code="64" cn_name="奥索尔诺" en_name="Osorno" />
+        <city province="奥瓦耶" city="" area_code="53" cn_name="奥瓦耶" en_name="Ovalle" />
+        <city province="蒙特港" city="" area_code="65" cn_name="蒙特港" en_name="Puerto Montt" />
+        <city province="蓬图阿雷纳斯" city="" area_code="61" cn_name="蓬图阿雷纳斯" en_name="Punta Arenas" />
+        <city province="基约塔" city="" area_code="33" cn_name="基约塔" en_name="Quillota" />
+        <city province="兰卡瓜" city="" area_code="72" cn_name="兰卡瓜" en_name="Rancagua" />
+        <city province="圣安东尼奥" city="" area_code="35" cn_name="圣安东尼奥" en_name="San Antonio" />
+        <city province="圣费利佩" city="" area_code="34" cn_name="圣费利佩" en_name="San Felipe" />
+        <city province="圣费尔南多" city="" area_code="72" cn_name="圣费尔南多" en_name="San Fernando" />
+        <city province="圣地亚哥" city="" area_code="2" cn_name="圣地亚哥" en_name="Santiago" />
+        <city province="塔尔卡瓦诺" city="" area_code="41" cn_name="塔尔卡瓦诺" en_name="Talcahuano" />
+        <city province="塔尔卡" city="" area_code="71" cn_name="塔尔卡" en_name="Talca" />
+        <city province="特木科" city="" area_code="45" cn_name="特木科" en_name="Temuco" />
+        <city province="瓦尔迪维亚" city="" area_code="63" cn_name="瓦尔迪维亚" en_name="Valdivia" />
+        <city province="瓦尔帕莱索" city="" area_code="32" cn_name="瓦尔帕莱索" en_name="Valparaíso" />
+        <city province="比尼亚德尔马" city="" area_code="32" cn_name="比尼亚德尔马" en_name="Viña del Mar" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

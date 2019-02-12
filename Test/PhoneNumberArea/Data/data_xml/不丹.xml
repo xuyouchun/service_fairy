@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>不丹</cn_name>
+    <en_name>Bhutan</en_name>
+    <national_code>975</national_code>
+    <mcc>402</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到不丹的A地电话顺序为“00975-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从不丹的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00975-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00975XXXXXXXX、975XXXXXXXX、0975XXXXXXXX、000975XXXXXXXX；如果来电显示开头是009750、009751、009752、009753、009754、009755、009756、009757、009758、009759，一般也都表示国际区号是00975，后面一位是不丹内部的号码的开头第一位；如果是在不丹通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>竺域</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="B-Mobile" mncs="11" national_prefix="00" internal_prefix="" desc="B-Mobile" />
+    <operation op_code="TashiCell" mncs="77" national_prefix="00" internal_prefix="" desc="TashiCell" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="B-Mobile" op_prefix="" />
+        <prefix op_code="Tashi InfoComm Limited" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Bangtar DAMA" city="" area_code="7" cn_name="" en_name="Bangtar DAMA" />
+        <city province="Basochu" city="" area_code="2" cn_name="" en_name="Basochu" />
+        <city province="Chapcha" city="" area_code="8" cn_name="" en_name="Chapcha" />
+        <city province="Chargary" city="" area_code="5" cn_name="" en_name="Chargary" />
+        <city province="Chumey" city="" area_code="3" cn_name="" en_name="Chumey" />
+        <city province="达加纳" city="" area_code="6" cn_name="达加纳" en_name="Dagana" />
+        <city province="Dagapela" city="" area_code="6" cn_name="" en_name="Dagapela" />
+        <city province="Daifam DAMA" city="" area_code="7" cn_name="" en_name="Daifam DAMA" />
+        <city province="丹普" city="" area_code="6" cn_name="丹普" en_name="Damphu DAMA" />
+        <city province="Dechencholing" city="" area_code="2" cn_name="" en_name="Dechencholing" />
+        <city province="Deothang" city="" area_code="7" cn_name="" en_name="Deothang" />
+        <city province="Drujegang" city="" area_code="6" cn_name="" en_name="Drujegang" />
+        <city province="Drukgyel Dzong" city="" area_code="8" cn_name="" en_name="Drukgyel Dzong" />
+        <city province="加萨" city="" area_code="2" cn_name="加萨" en_name="Gasa" />
+        <city province="Gedu/Tala/Padechu/ Sinchekha" city="" area_code="5" cn_name="" en_name="Gedu/Tala/Padechu/ Sinchekha" />
+        <city province="Gelephu" city="" area_code="6" cn_name="" en_name="Gelephu" />
+        <city province="Gelpoyshing" city="" area_code="4" cn_name="" en_name="Gelpoyshing" />
+        <city province="Gomtu" city="" area_code="5" cn_name="" en_name="Gomtu" />
+        <city province="哈阿" city="" area_code="8" cn_name="哈阿" en_name="Ha" />
+        <city province="Ha (Damthang)" city="" area_code="8" cn_name="" en_name="Ha (Damthang)" />
+        <city province="贾卡尔" city="" area_code="3" cn_name="贾卡尔" en_name="Jakar" />
+        <city province="Kanglung" city="" area_code="4" cn_name="" en_name="Kanglung" />
+        <city province="Khaling" city="" area_code="4" cn_name="" en_name="Khaling" />
+        <city province="Kharsadrapchu" city="" area_code="2" cn_name="" en_name="Kharsadrapchu" />
+        <city province="Lhamoi Zingkha" city="" area_code="5" cn_name="" en_name="Lhamoi Zingkha" />
+        <city province="伦奇" city="" area_code="4" cn_name="伦奇" en_name="Lhuntse" />
+        <city province="Lingshi DAMA" city="" area_code="2" cn_name="" en_name="Lingshi DAMA" />
+        <city province="Lodrai" city="" area_code="6" cn_name="" en_name="Lodrai" />
+        <city province="蒙加尔" city="" area_code="4" cn_name="蒙加尔" en_name="Mongar" />
+        <city province="Nganglam" city="" area_code="7" cn_name="" en_name="Nganglam" />
+        <city province="Nganglam DAMA" city="" area_code="7" cn_name="" en_name="Nganglam DAMA" />
+        <city province="佩马加策尔" city="" area_code="7" cn_name="佩马加策尔" en_name="P/Gatshel" />
+        <city province="P/Gatshel DAMA" city="" area_code="7" cn_name="" en_name="P/Gatshel DAMA" />
+        <city province="Panbang DAMA" city="" area_code="6" cn_name="" en_name="Panbang DAMA" />
+        <city province="帕罗" city="" area_code="8" cn_name="帕罗" en_name="Paro" />
+        <city province="Pasakha" city="" area_code="5" cn_name="" en_name="Pasakha" />
+        <city province="Phuntsholing" city="" area_code="5" cn_name="" en_name="Phuntsholing" />
+        <city province="普那卡" city="" area_code="2" cn_name="普那卡" en_name="Punakha" />
+        <city province="Rangjung" city="" area_code="4" cn_name="" en_name="Rangjung" />
+        <city province="S/Jongkhar" city="" area_code="7" cn_name="" en_name="S/Jongkhar" />
+        <city province="Sakteng DAMA" city="" area_code="4" cn_name="" en_name="Sakteng DAMA" />
+        <city province="萨姆奇" city="" area_code="5" cn_name="萨姆奇" en_name="Samtse" />
+        <city province="Sarpang" city="" area_code="6" cn_name="" en_name="Sarpang" />
+        <city province="Shaba" city="" area_code="8" cn_name="" en_name="Shaba" />
+        <city province="Sibsoo" city="" area_code="5" cn_name="" en_name="Sibsoo" />
+        <city province="Simtokha" city="" area_code="2" cn_name="" en_name="Simtokha" />
+        <city province="Suray" city="" area_code="6" cn_name="" en_name="Suray" />
+        <city province="Taba" city="" area_code="2" cn_name="" en_name="Taba" />
+        <city province="Tangmachu" city="" area_code="4" cn_name="" en_name="Tangmachu" />
+        <city province="Tingtibi" city="" area_code="3" cn_name="" en_name="Tingtibi" />
+        <city province="Trashi Yangtse" city="" area_code="4" cn_name="" en_name="Trashi Yangtse" />
+        <city province="塔希冈" city="" area_code="4" cn_name="塔希冈" en_name="Trashigang" />
+        <city province="通萨" city="" area_code="3" cn_name="通萨" en_name="Trongsa" />
+        <city province="Tsenkharla" city="" area_code="4" cn_name="" en_name="Tsenkharla" />
+        <city province="Tsimasham" city="" area_code="8" cn_name="" en_name="Tsimasham" />
+        <city province="Tsirang(Damphu)" city="" area_code="6" cn_name="" en_name="Tsirang(Damphu)" />
+        <city province="Wamrong" city="" area_code="4" cn_name="" en_name="Wamrong" />
+        <city province="Wangdue" city="" area_code="2" cn_name="" en_name="Wangdue" />
+        <city province="Wangkha" city="" area_code="8" cn_name="" en_name="Wangkha" />
+        <city province="Zhemgang" city="" area_code="3" cn_name="" en_name="Zhemgang" />
+        <city province="Zhemgang DAMA" city="" area_code="3" cn_name="" en_name="Zhemgang DAMA" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>B-Mobile</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>17</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

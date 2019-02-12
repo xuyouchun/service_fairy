@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>罗马尼亚</cn_name>
+    <en_name>Romania</en_name>
+    <national_code>40</national_code>
+    <mcc>226</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到罗马尼亚的A地电话顺序为“0040-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从罗马尼亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0040-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0040XXXXXXXX、40XXXXXXXX、040XXXXXXXX、00040XXXXXXXX；如果来电显示开头是00400、00401、00402、00403、00404、00405、00406、00407、00408、00409，一般也都表示国际区号是0040，后面一位是罗马尼亚内部的号码的开头第一位；如果是在罗马尼亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Vodafone" mncs="01" national_prefix="00" internal_prefix="0" desc="Vodafone" />
+    <operation op_code="Romtelecom" mncs="02" national_prefix="00" internal_prefix="0" desc="Romtelecom" />
+    <operation op_code="Cosmote" mncs="03,04,06" national_prefix="00" internal_prefix="0" desc="Cosmote" />
+    <operation op_code="Digi.Mobil" mncs="05" national_prefix="00" internal_prefix="0" desc="Digi.Mobil" />
+    <operation op_code="Orange" mncs="10" national_prefix="00" internal_prefix="0" desc="Orange" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Vodafone România" op_prefix="" />
+        <prefix op_code="Romtelecom" op_prefix="" />
+        <prefix op_code="Cosmote România" op_prefix="" />
+        <prefix op_code="Cosmote România" op_prefix="" />
+        <prefix op_code="RCS&amp;RDS" op_prefix="" />
+        <prefix op_code="Cosmote România" op_prefix="" />
+        <prefix op_code="Orange România" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Abrud" city="" area_code="258" cn_name="暂无中文" en_name="Abrud" />
+        <city province="Adjud" city="" area_code="237" cn_name="暂无中文" en_name="Adjud" />
+        <city province="Agigea" city="" area_code="241" cn_name="暂无中文" en_name="Agigea" />
+        <city province="Agnita" city="" area_code="269" cn_name="暂无中文" en_name="Agnita" />
+        <city province="Aiud" city="" area_code="258" cn_name="暂无中文" en_name="Aiud" />
+        <city province="阿尔巴尤利亚" city="" area_code="258" cn_name="阿尔巴尤利亚" en_name="Alba Iulia" />
+        <city province="Alesd" city="" area_code="259" cn_name="暂无中文" en_name="Alesd" />
+        <city province="亚厉山德里亚" city="" area_code="247" cn_name="亚厉山德里亚" en_name="Alexandria" />
+        <city province="阿马拉埃西" city="" area_code="243" cn_name="阿马拉埃西" en_name="Amara" />
+        <city province="Apahida" city="" area_code="264" cn_name="暂无中文" en_name="Apahida" />
+        <city province="阿拉德" city="" area_code="257" cn_name="阿拉德" en_name="Arad" />
+        <city province="Asau" city="" area_code="234" cn_name="暂无中文" en_name="Asau" />
+        <city province="Avrig" city="" area_code="269" cn_name="暂无中文" en_name="Avrig" />
+        <city province="Axente Sever" city="" area_code="269" cn_name="暂无中文" en_name="Axente Sever" />
+        <city province="Azuga" city="" area_code="244" cn_name="暂无中文" en_name="Azuga" />
+        <city province="巴巴安娜" city="" area_code="244" cn_name="巴巴安娜" en_name="Baba Ana" />
+        <city province="巴巴达格" city="" area_code="240" cn_name="巴巴达格" en_name="Babadag" />
+        <city province="Babeni" city="" area_code="250" cn_name="暂无中文" en_name="Babeni" />
+        <city province="巴克乌" city="" area_code="234" cn_name="巴克乌" en_name="Bacau" />
+        <city province="Bacia" city="" area_code="254" cn_name="暂无中文" en_name="Bacia" />
+        <city province="巴亚马雷" city="" area_code="262" cn_name="巴亚马雷" en_name="Baia Mare" />
+        <city province="Baia Sprie" city="" area_code="262" cn_name="暂无中文" en_name="Baia Sprie" />
+        <city province="Baicoi" city="" area_code="244" cn_name="暂无中文" en_name="Baicoi" />
+        <city province="Baiculesti" city="" area_code="248" cn_name="暂无中文" en_name="Baiculesti" />
+        <city province="Baile Felix" city="" area_code="259" cn_name="暂无中文" en_name="Baile Felix" />
+        <city province="Baile Govora" city="" area_code="250" cn_name="暂无中文" en_name="Baile Govora" />
+        <city province="Baile Herculane" city="" area_code="255" cn_name="暂无中文" en_name="Baile Herculane" />
+        <city province="Baile Olanesti" city="" area_code="250" cn_name="暂无中文" en_name="Baile Olanesti" />
+        <city province="Bailesti" city="" area_code="251" cn_name="暂无中文" en_name="Bailesti" />
+        <city province="Bals" city="" area_code="249" cn_name="暂无中文" en_name="Bals" />
+        <city province="巴尼萨" city="" area_code="241" cn_name="巴尼萨" en_name="Baneasa" />
+        <city province="Banesti" city="" area_code="244" cn_name="暂无中文" en_name="Banesti" />
+        <city province="布加勒斯特" city="" area_code="243" cn_name="布加勒斯特" en_name="Barcanesti (judetz: Ialomitza)" />
+        <city province="布加勒斯特" city="" area_code="244" cn_name="布加勒斯特" en_name="Barcanesti (judetz: Prahova)" />
+        <city province="Barcani" city="" area_code="267" cn_name="暂无中文" en_name="Barcani" />
+        <city province="Basarabi" city="" area_code="241" cn_name="暂无中文" en_name="Basarabi" />
+        <city province="Bascov" city="" area_code="248" cn_name="暂无中文" en_name="Bascov" />
+        <city province="Beclean" city="" area_code="263" cn_name="暂无中文" en_name="Beclean" />
+        <city province="Beius" city="" area_code="259" cn_name="暂无中文" en_name="Beius" />
+        <city province="比卡兹" city="" area_code="233" cn_name="比卡兹" en_name="Bicaz" />
+        <city province="Bilciuresti" city="" area_code="245" cn_name="暂无中文" en_name="Bilciuresti" />
+        <city province="Birca" city="" area_code="251" cn_name="暂无中文" en_name="Birca" />
+        <city province="Birlad" city="" area_code="235" cn_name="暂无中文" en_name="Birlad" />
+        <city province="比斯特里察" city="" area_code="263" cn_name="比斯特里察" en_name="Bistrita" />
+        <city province="Blaj" city="" area_code="258" cn_name="暂无中文" en_name="Blaj" />
+        <city province="Bocsa Româna" city="" area_code="255" cn_name="暂无中文" en_name="Bocsa Româna" />
+        <city province="Boldesti - Scaieni" city="" area_code="244" cn_name="暂无中文" en_name="Boldesti - Scaieni" />
+        <city province="Bolintin Vale" city="" area_code="246" cn_name="暂无中文" en_name="Bolintin Vale" />
+        <city province="博托沙尼" city="" area_code="231" cn_name="博托沙尼" en_name="Botosani" />
+        <city province="布拉德" city="" area_code="254" cn_name="布拉德" en_name="Brad" />
+        <city province="Braesti" city="" area_code="231" cn_name="暂无中文" en_name="Braesti" />
+        <city province="布勒伊拉" city="" area_code="239" cn_name="布勒伊拉" en_name="Braila" />
+        <city province="Bran" city="" area_code="268" cn_name="暂无中文" en_name="Bran" />
+        <city province="Branesti" city="" area_code="2179" cn_name="暂无中文" en_name="Branesti" />
+        <city province="Branisca" city="" area_code="254" cn_name="暂无中文" en_name="Branisca" />
+        <city province="布拉索夫" city="" area_code="268" cn_name="布拉索夫" en_name="Brasov" />
+        <city province="Breaza" city="" area_code="244" cn_name="暂无中文" en_name="Breaza" />
+        <city province="Brebu" city="" area_code="255" cn_name="暂无中文" en_name="Brebu" />
+        <city province="Bretea Româna" city="" area_code="254" cn_name="暂无中文" en_name="Bretea Româna" />
+        <city province="Brezoi" city="" area_code="250" cn_name="暂无中文" en_name="Brezoi" />
+        <city province="Bucecea" city="" area_code="231" cn_name="暂无中文" en_name="Bucecea" />
+        <city province="Bucov" city="" area_code="244" cn_name="暂无中文" en_name="Bucov" />
+        <city province="Bucuresci" city="" area_code="254" cn_name="暂无中文" en_name="Bucuresci" />
+        <city province="布加勒斯特" city="" area_code="21" cn_name="布加勒斯特" en_name="Bucuresti (Bucharest)" />
+        <city province="Buftea" city="" area_code="2179" cn_name="暂无中文" en_name="Buftea" />
+        <city province="Buhoci" city="" area_code="234" cn_name="暂无中文" en_name="Buhoci" />
+        <city province="Buhusi" city="" area_code="234" cn_name="暂无中文" en_name="Buhusi" />
+        <city province="Busteni" city="" area_code="244" cn_name="暂无中文" en_name="Busteni" />
+        <city province="布泽乌" city="" area_code="238" cn_name="布泽乌" en_name="Buzau" />
+        <city province="Buzias" city="" area_code="256" cn_name="暂无中文" en_name="Buzias" />
+        <city province="Caciulata" city="" area_code="250" cn_name="暂无中文" en_name="Caciulata" />
+        <city province="Calafat" city="" area_code="251" cn_name="暂无中文" en_name="Calafat" />
+        <city province="奥贾兰" city="" area_code="254" cn_name="奥贾兰" en_name="Calan" />
+        <city province="克勒拉希" city="" area_code="242" cn_name="克勒拉希" en_name="Calarasi" />
+        <city province="Calimanesti" city="" area_code="250" cn_name="暂无中文" en_name="Calimanesti" />
+        <city province="Calugareni" city="" area_code="246" cn_name="暂无中文" en_name="Calugareni" />
+        <city province="Cap Aurora" city="" area_code="241" cn_name="暂无中文" en_name="Cap Aurora" />
+        <city province="Caracal" city="" area_code="249" cn_name="暂无中文" en_name="Caracal" />
+        <city province="Caransebes" city="" area_code="255" cn_name="暂无中文" en_name="Caransebes" />
+        <city province="Carei" city="" area_code="261" cn_name="暂无中文" en_name="Carei" />
+        <city province="Carpinis" city="" area_code="241" cn_name="暂无中文" en_name="Carpinis" />
+        <city province="Casin" city="" area_code="234" cn_name="暂无中文" en_name="Casin" />
+        <city province="Castelu" city="" area_code="241" cn_name="暂无中文" en_name="Castelu" />
+        <city province="Catau Ludus" city="" area_code="265" cn_name="暂无中文" en_name="Catau Ludus" />
+        <city province="Ceahlau" city="" area_code="233" cn_name="暂无中文" en_name="Ceahlau" />
+        <city province="Cehu Silvaniei" city="" area_code="260" cn_name="暂无中文" en_name="Cehu Silvaniei" />
+        <city province="Cerat" city="" area_code="251" cn_name="暂无中文" en_name="Cerat" />
+        <city province="切尔纳沃达" city="" area_code="241" cn_name="切尔纳沃达" en_name="Cerna Voda" />
+        <city province="Certeju De Sus" city="" area_code="254" cn_name="暂无中文" en_name="Certeju De Sus" />
+        <city province="Chisineu Cris" city="" area_code="257" cn_name="暂无中文" en_name="Chisineu Cris" />
+        <city province="Cimpeni" city="" area_code="258" cn_name="暂无中文" en_name="Cimpeni" />
+        <city province="Cimpia Turzii" city="" area_code="264" cn_name="暂无中文" en_name="Cimpia Turzii" />
+        <city province="Cimpina" city="" area_code="244" cn_name="暂无中文" en_name="Cimpina" />
+        <city province="Cimpulung Moldovenesc" city="" area_code="230" cn_name="暂无中文" en_name="Cimpulung Moldovenesc" />
+        <city province="Cimpulung Muscel" city="" area_code="248" cn_name="暂无中文" en_name="Cimpulung Muscel" />
+        <city province="Cisnadie" city="" area_code="269" cn_name="暂无中文" en_name="Cisnadie" />
+        <city province="克卢日纳波卡" city="" area_code="264" cn_name="克卢日纳波卡" en_name="Cluj - Napoca" />
+        <city province="Cochirleni" city="" area_code="241" cn_name="暂无中文" en_name="Cochirleni" />
+        <city province="Codlea" city="" area_code="268" cn_name="暂无中文" en_name="Codlea" />
+        <city province="Colibasi" city="" area_code="248" cn_name="暂无中文" en_name="Colibasi" />
+        <city province="Comanesti" city="" area_code="234" cn_name="暂无中文" en_name="Comanesti" />
+        <city province="Comarnic" city="" area_code="244" cn_name="暂无中文" en_name="Comarnic" />
+        <city province="康斯坦察" city="" area_code="241" cn_name="康斯坦察" en_name="Constanta" />
+        <city province="Copsa Mica" city="" area_code="269" cn_name="暂无中文" en_name="Copsa Mica" />
+        <city province="Corabia" city="" area_code="249" cn_name="暂无中文" en_name="Corabia" />
+        <city province="Corbeni" city="" area_code="248" cn_name="暂无中文" en_name="Corbeni" />
+        <city province="Corbu" city="" area_code="241" cn_name="暂无中文" en_name="Corbu" />
+        <city province="Cornu" city="" area_code="244" cn_name="暂无中文" en_name="Cornu" />
+        <city province="Cosereni" city="" area_code="243" cn_name="暂无中文" en_name="Cosereni" />
+        <city province="Costesti" city="" area_code="248" cn_name="暂无中文" en_name="Costesti" />
+        <city province="Costinesti" city="" area_code="241" cn_name="暂无中文" en_name="Costinesti" />
+        <city province="Cotnari" city="" area_code="232" cn_name="暂无中文" en_name="Cotnari" />
+        <city province="科瓦斯纳" city="" area_code="267" cn_name="科瓦斯纳" en_name="Covasna" />
+        <city province="克拉约瓦" city="" area_code="251" cn_name="克拉约瓦" en_name="Craiova" />
+        <city province="Criscior" city="" area_code="254" cn_name="暂无中文" en_name="Criscior" />
+        <city province="克里斯蒂安" city="" area_code="269" cn_name="克里斯蒂安" en_name="Cristian" />
+        <city province="Cristur" city="" area_code="254" cn_name="暂无中文" en_name="Cristur" />
+        <city province="Cugir" city="" area_code="258" cn_name="暂无中文" en_name="Cugir" />
+        <city province="Curtea De Arges" city="" area_code="248" cn_name="暂无中文" en_name="Curtea De Arges" />
+        <city province="Curtici" city="" area_code="257" cn_name="暂无中文" en_name="Curtici" />
+        <city province="Cuza Voda" city="" area_code="241" cn_name="暂无中文" en_name="Cuza Voda" />
+        <city province="Dabuleni" city="" area_code="251" cn_name="暂无中文" en_name="Dabuleni" />
+        <city province="Darabani" city="" area_code="231" cn_name="暂无中文" en_name="Darabani" />
+        <city province="Darmanesti" city="" area_code="234" cn_name="暂无中文" en_name="Darmanesti" />
+        <city province="Dej" city="" area_code="264" cn_name="暂无中文" en_name="Dej" />
+        <city province="Deta" city="" area_code="256" cn_name="暂无中文" en_name="Deta" />
+        <city province="德瓦" city="" area_code="254" cn_name="德瓦" en_name="Deva" />
+        <city province="Dirlos" city="" area_code="269" cn_name="暂无中文" en_name="Dirlos" />
+        <city province="Dobra" city="" area_code="254" cn_name="暂无中文" en_name="Dobra" />
+        <city province="Doi Mai" city="" area_code="241" cn_name="暂无中文" en_name="Doi Mai" />
+        <city province="Dorohoi" city="" area_code="231" cn_name="暂无中文" en_name="Dorohoi" />
+        <city province="Draganesti (judetz: Olt)" city="" area_code="249" cn_name="暂无中文" en_name="Draganesti (judetz: Olt)" />
+        <city province="Draganesti - Vlasca (judetz: Teleorman)" city="" area_code="247" cn_name="暂无中文" en_name="Draganesti - Vlasca (judetz: Teleorman)" />
+        <city province="Draganu" city="" area_code="248" cn_name="暂无中文" en_name="Draganu" />
+        <city province="Dragasani" city="" area_code="250" cn_name="暂无中文" en_name="Dragasani" />
+        <city province="德罗贝塔-塞维林堡" city="" area_code="252" cn_name="德罗贝塔-塞维林堡" en_name="Drobeta - Turnu Severin" />
+        <city province="Dumbrava Rosie" city="" area_code="233" cn_name="暂无中文" en_name="Dumbrava Rosie" />
+        <city province="Dumbraveni" city="" area_code="230" cn_name="暂无中文" en_name="Dumbraveni" />
+        <city province="Dumbraveni" city="" area_code="269" cn_name="暂无中文" en_name="Dumbraveni" />
+        <city province="埃福列北" city="" area_code="241" cn_name="埃福列北" en_name="Eforie Nord" />
+        <city province="埃福列南" city="" area_code="241" cn_name="埃福列南" en_name="Eforie Sud" />
+        <city province="弗格拉什" city="" area_code="268" cn_name="弗格拉什" en_name="Fagaras" />
+        <city province="弗杰特" city="" area_code="256" cn_name="弗杰特" en_name="Faget" />
+        <city province="Falticeni" city="" area_code="230" cn_name="暂无中文" en_name="Falticeni" />
+        <city province="福尔（ judetz ：布勒伊拉）" city="" area_code="239" cn_name="福尔（ judetz ：布勒伊拉）" en_name="Faurei (judetz: Braila)" />
+        <city province="福尔（ judetz ：康斯坦察）" city="" area_code="241" cn_name="福尔（ judetz ：康斯坦察）" en_name="Faurei (judetz: Constanta)" />
+        <city province="Fetesti" city="" area_code="243" cn_name="暂无中文" en_name="Fetesti" />
+        <city province="菲耶尼" city="" area_code="245" cn_name="菲耶尼" en_name="Fieni" />
+        <city province="Filiasi" city="" area_code="251" cn_name="暂无中文" en_name="Filiasi" />
+        <city province="Fintinele" city="" area_code="257" cn_name="暂无中文" en_name="Fintinele" />
+        <city province="Flaminzi" city="" area_code="231" cn_name="暂无中文" en_name="Flaminzi" />
+        <city province="Floresti (judetz: Prahova)" city="" area_code="244" cn_name="暂无中文" en_name="Floresti (judetz: Prahova)" />
+        <city province="Floresti (judetz: Cluj)" city="" area_code="264" cn_name="暂无中文" en_name="Floresti (judetz: Cluj)" />
+        <city province="福克沙尼" city="" area_code="237" cn_name="福克沙尼" en_name="Focsani" />
+        <city province="Frasin" city="" area_code="230" cn_name="暂无中文" en_name="Frasin" />
+        <city province="Gaiesti" city="" area_code="245" cn_name="暂无中文" en_name="Gaiesti" />
+        <city province="加拉茨" city="" area_code="236" cn_name="加拉茨" en_name="Galati" />
+        <city province="Gelu" city="" area_code="261" cn_name="暂无中文" en_name="Gelu" />
+        <city province="Geoagiu Bai" city="" area_code="254" cn_name="暂无中文" en_name="Geoagiu Bai" />
+        <city province="Ghelari" city="" area_code="254" cn_name="暂无中文" en_name="Ghelari" />
+        <city province="格奥尔-埃尼" city="" area_code="266" cn_name="格奥尔-埃尼" en_name="Gheorghi- Eni" />
+        <city province="Gheraseni" city="" area_code="238" cn_name="暂无中文" en_name="Gheraseni" />
+        <city province="Gherla" city="" area_code="264" cn_name="暂无中文" en_name="Gherla" />
+        <city province="Ghimpati" city="" area_code="246" cn_name="暂无中文" en_name="Ghimpati" />
+        <city province="Giarmata" city="" area_code="256" cn_name="暂无中文" en_name="Giarmata" />
+        <city province="Girbovi" city="" area_code="243" cn_name="暂无中文" en_name="Girbovi" />
+        <city province="久尔久" city="" area_code="246" cn_name="久尔久" en_name="Giurgiu" />
+        <city province="Glodeanu Silistea" city="" area_code="238" cn_name="暂无中文" en_name="Glodeanu Silistea" />
+        <city province="Gura Humorului" city="" area_code="230" cn_name="暂无中文" en_name="Gura Humorului" />
+        <city province="Gura Ocnitei" city="" area_code="245" cn_name="暂无中文" en_name="Gura Ocnitei" />
+        <city province="Gura Sutii" city="" area_code="245" cn_name="暂无中文" en_name="Gura Sutii" />
+        <city province="哈曼" city="" area_code="268" cn_name="哈曼" en_name="Harman" />
+        <city province="Hateg" city="" area_code="254" cn_name="暂无中文" en_name="Hateg" />
+        <city province="Hirlau" city="" area_code="232" cn_name="暂无中文" en_name="Hirlau" />
+        <city province="Hirsova" city="" area_code="241" cn_name="暂无中文" en_name="Hirsova" />
+        <city province="Hlipiceni" city="" area_code="231" cn_name="暂无中文" en_name="Hlipiceni" />
+        <city province="Horezu" city="" area_code="250" cn_name="暂无中文" en_name="Horezu" />
+        <city province="Huedin" city="" area_code="264" cn_name="暂无中文" en_name="Huedin" />
+        <city province="胡内多阿拉" city="" area_code="254" cn_name="胡内多阿拉" en_name="Hunedoara" />
+        <city province="湖西" city="" area_code="235" cn_name="湖西" en_name="Husi" />
+        <city province="Ianca" city="" area_code="239" cn_name="暂无中文" en_name="Ianca" />
+        <city province="雅西" city="" area_code="232" cn_name="雅西" en_name="Iasi" />
+        <city province="Iernut" city="" area_code="265" cn_name="暂无中文" en_name="Iernut" />
+        <city province="Ineu" city="" area_code="257" cn_name="暂无中文" en_name="Ineu" />
+        <city province="Insuratei" city="" area_code="239" cn_name="暂无中文" en_name="Insuratei" />
+        <city province="Intorsura Buzaului" city="" area_code="267" cn_name="暂无中文" en_name="Intorsura Buzaului" />
+        <city province="Ion Luca Caragiale" city="" area_code="245" cn_name="暂无中文" en_name="Ion Luca Caragiale" />
+        <city province="Isaccea" city="" area_code="240" cn_name="暂无中文" en_name="Isaccea" />
+        <city province="Jibou" city="" area_code="260" cn_name="暂无中文" en_name="Jibou" />
+        <city province="Jimbolia" city="" area_code="256" cn_name="暂无中文" en_name="Jimbolia" />
+        <city province="Jupiter" city="" area_code="241" cn_name="暂无中文" en_name="Jupiter" />
+        <city province="Lazu" city="" area_code="241" cn_name="暂无中文" en_name="Lazu" />
+        <city province="Lehliu Gara" city="" area_code="242" cn_name="暂无中文" en_name="Lehliu Gara" />
+        <city province="Leresti" city="" area_code="248" cn_name="暂无中文" en_name="Leresti" />
+        <city province="Letea Veche" city="" area_code="234" cn_name="暂无中文" en_name="Letea Veche" />
+        <city province="Leu" city="" area_code="251" cn_name="暂无中文" en_name="Leu" />
+        <city province="Liesti" city="" area_code="236" cn_name="暂无中文" en_name="Liesti" />
+        <city province="Limanu" city="" area_code="241" cn_name="暂无中文" en_name="Limanu" />
+        <city province="Lipanesti" city="" area_code="244" cn_name="暂无中文" en_name="Lipanesti" />
+        <city province="Lipova" city="" area_code="257" cn_name="暂无中文" en_name="Lipova" />
+        <city province="Livezi" city="" area_code="234" cn_name="暂无中文" en_name="Livezi" />
+        <city province="Livezile" city="" area_code="252" cn_name="暂无中文" en_name="Livezile" />
+        <city province="Ludus" city="" area_code="265" cn_name="暂无中文" en_name="Ludus" />
+        <city province="Lugoj" city="" area_code="256" cn_name="暂无中文" en_name="Lugoj" />
+        <city province="Lumina" city="" area_code="241" cn_name="暂无中文" en_name="Lumina" />
+        <city province="Luminita" city="" area_code="241" cn_name="暂无中文" en_name="Luminita" />
+        <city province="Lupeni" city="" area_code="254" cn_name="暂无中文" en_name="Lupeni" />
+        <city province="M. Kogalniceanu" city="" area_code="243" cn_name="暂无中文" en_name="M. Kogalniceanu" />
+        <city province="Macin" city="" area_code="240" cn_name="暂无中文" en_name="Macin" />
+        <city province="Magura" city="" area_code="234" cn_name="暂无中文" en_name="Magura" />
+        <city province="Malu Cu Flori" city="" area_code="245" cn_name="暂无中文" en_name="Malu Cu Flori" />
+        <city province="Mamaia" city="" area_code="241" cn_name="暂无中文" en_name="Mamaia" />
+        <city province="尼亚姆茨修道院" city="" area_code="233" cn_name="尼亚姆茨修道院" en_name="Manastirea Neamt" />
+        <city province="曼加利亚" city="" area_code="241" cn_name="曼加利亚" en_name="Mangalia" />
+        <city province="Maracineni" city="" area_code="238" cn_name="暂无中文" en_name="Maracineni" />
+        <city province="Marasesti" city="" area_code="237" cn_name="暂无中文" en_name="Marasesti" />
+        <city province="Marghita" city="" area_code="259" cn_name="暂无中文" en_name="Marghita" />
+        <city province="Margineni" city="" area_code="234" cn_name="暂无中文" en_name="Margineni" />
+        <city province="Medgidia" city="" area_code="241" cn_name="暂无中文" en_name="Medgidia" />
+        <city province="Medias" city="" area_code="269" cn_name="暂无中文" en_name="Medias" />
+        <city province="Merei" city="" area_code="238" cn_name="暂无中文" en_name="Merei" />
+        <city province="Merisani" city="" area_code="248" cn_name="暂无中文" en_name="Merisani" />
+        <city province="梅尔库里亚丘克" city="" area_code="266" cn_name="梅尔库里亚丘克" en_name="Miercurea Ciuc" />
+        <city province="Miercurea Miraj" city="" area_code="265" cn_name="暂无中文" en_name="Miercurea Miraj" />
+        <city province="Mizil" city="" area_code="244" cn_name="暂无中文" en_name="Mizil" />
+        <city province="Moeciu De Jos" city="" area_code="268" cn_name="暂无中文" en_name="Moeciu De Jos" />
+        <city province="莫戈什瓦亚" city="" area_code="21" cn_name="莫戈什瓦亚" en_name="Mogosoaia" />
+        <city province="Moinesti" city="" area_code="234" cn_name="暂无中文" en_name="Moinesti" />
+        <city province="旧摩尔多瓦" city="" area_code="255" cn_name="旧摩尔多瓦" en_name="Moldova Veche" />
+        <city province="Moneasa" city="" area_code="257" cn_name="暂无中文" en_name="Moneasa" />
+        <city province="Moreni" city="" area_code="245" cn_name="暂无中文" en_name="Moreni" />
+        <city province="Moroeni" city="" area_code="245" cn_name="暂无中文" en_name="Moroeni" />
+        <city province="莫特鲁" city="" area_code="253" cn_name="莫特鲁" en_name="Motru" />
+        <city province="Nadlac" city="" area_code="257" cn_name="暂无中文" en_name="Nadlac" />
+        <city province="讷瑟乌德" city="" area_code="263" cn_name="讷瑟乌德" en_name="Nasaud" />
+        <city province="Navodari" city="" area_code="241" cn_name="暂无中文" en_name="Navodari" />
+        <city province="Negresti" city="" area_code="235" cn_name="暂无中文" en_name="Negresti" />
+        <city province="Negresti - Oas" city="" area_code="261" cn_name="暂无中文" en_name="Negresti - Oas" />
+        <city province="Negureni" city="" area_code="241" cn_name="暂无中文" en_name="Negureni" />
+        <city province="Nehoiu" city="" area_code="238" cn_name="暂无中文" en_name="Nehoiu" />
+        <city province="Neptun" city="" area_code="241" cn_name="暂无中文" en_name="Neptun" />
+        <city province="Nicolae Balcescu" city="" area_code="234" cn_name="暂无中文" en_name="Nicolae Balcescu" />
+        <city province="Nisipari" city="" area_code="241" cn_name="暂无中文" en_name="Nisipari" />
+        <city province="Novaci" city="" area_code="253" cn_name="暂无中文" en_name="Novaci" />
+        <city province="Ocna Mures" city="" area_code="258" cn_name="暂无中文" en_name="Ocna Mures" />
+        <city province="Ocna Sibiului" city="" area_code="269" cn_name="暂无中文" en_name="Ocna Sibiului" />
+        <city province="Ocnita" city="" area_code="245" cn_name="暂无中文" en_name="Ocnita" />
+        <city province="Odobesti" city="" area_code="237" cn_name="暂无中文" en_name="Odobesti" />
+        <city province="Odorheiu Secuiesc" city="" area_code="266" cn_name="暂无中文" en_name="Odorheiu Secuiesc" />
+        <city province="Olimp" city="" area_code="241" cn_name="暂无中文" en_name="Olimp" />
+        <city province="Oltenita" city="" area_code="242" cn_name="暂无中文" en_name="Oltenita" />
+        <city province="Onesti" city="" area_code="234" cn_name="暂无中文" en_name="Onesti" />
+        <city province="奥拉迪亚" city="" area_code="259" cn_name="奥拉迪亚" en_name="Oradea" />
+        <city province="Orastie" city="" area_code="254" cn_name="暂无中文" en_name="Orastie" />
+        <city province="Oravita" city="" area_code="255" cn_name="暂无中文" en_name="Oravita" />
+        <city province="Orsova" city="" area_code="252" cn_name="暂无中文" en_name="Orsova" />
+        <city province="Otelu Rosu" city="" area_code="255" cn_name="暂无中文" en_name="Otelu Rosu" />
+        <city province="奥托佩尼" city="" area_code="21" cn_name="奥托佩尼" en_name="Otopeni" />
+        <city province="Ovidiu" city="" area_code="241" cn_name="暂无中文" en_name="Ovidiu" />
+        <city province="Palazu Mare" city="" area_code="241" cn_name="暂无中文" en_name="Palazu Mare" />
+        <city province="Panciu" city="" area_code="237" cn_name="暂无中文" en_name="Panciu" />
+        <city province="Parava" city="" area_code="234" cn_name="暂无中文" en_name="Parava" />
+        <city province="Pascani" city="" area_code="232" cn_name="暂无中文" en_name="Pascani" />
+        <city province="Patirla Gele" city="" area_code="238" cn_name="暂无中文" en_name="Patirla Gele" />
+        <city province="Paulis" city="" area_code="257" cn_name="暂无中文" en_name="Paulis" />
+        <city province="Petresti (judetz: Dambovita)" city="" area_code="245" cn_name="暂无中文" en_name="Petresti (judetz: Dambovita)" />
+        <city province="Petresti (judetz: Alba)" city="" area_code="258" cn_name="暂无中文" en_name="Petresti (judetz: Alba)" />
+        <city province="Petrila" city="" area_code="254" cn_name="暂无中文" en_name="Petrila" />
+        <city province="Petrosani" city="" area_code="254" cn_name="暂无中文" en_name="Petrosani" />
+        <city province="皮亚特拉" city="" area_code="241" cn_name="皮亚特拉" en_name="Piatra" />
+        <city province="皮亚特拉尼亚姆茨" city="" area_code="233" cn_name="皮亚特拉尼亚姆茨" en_name="Piatra Neamt" />
+        <city province="Pielesti" city="" area_code="251" cn_name="暂无中文" en_name="Pielesti" />
+        <city province="Pietrosita" city="" area_code="245" cn_name="暂无中文" en_name="Pietrosita" />
+        <city province="Pincesti" city="" area_code="234" cn_name="暂无中文" en_name="Pincesti" />
+        <city province="Piriul Rece" city="" area_code="268" cn_name="暂无中文" en_name="Piriul Rece" />
+        <city province="皮特什蒂" city="" area_code="248" cn_name="皮特什蒂" en_name="Pitesti" />
+        <city province="Plenita" city="" area_code="251" cn_name="暂无中文" en_name="Plenita" />
+        <city province="普洛耶什蒂" city="" area_code="244" cn_name="普洛耶什蒂" en_name="Ploiesti" />
+        <city province="Plopeni" city="" area_code="244" cn_name="暂无中文" en_name="Plopeni" />
+        <city province="Podari" city="" area_code="251" cn_name="暂无中文" en_name="Podari" />
+        <city province="Podu Iloaiei" city="" area_code="232" cn_name="暂无中文" en_name="Podu Iloaiei" />
+        <city province="Podu Turcului" city="" area_code="234" cn_name="暂无中文" en_name="Podu Turcului" />
+        <city province="Podu Vadului" city="" area_code="244" cn_name="暂无中文" en_name="Podu Vadului" />
+        <city province="Poduri" city="" area_code="234" cn_name="暂无中文" en_name="Poduri" />
+        <city province="Pogoanele" city="" area_code="238" cn_name="暂无中文" en_name="Pogoanele" />
+        <city province="波亚纳" city="" area_code="241" cn_name="波亚纳" en_name="Poiana" />
+        <city province="波亚纳布拉索夫" city="" area_code="268" cn_name="波亚纳布拉索夫" en_name="Poiana Brasov" />
+        <city province="Poiana Cimpina" city="" area_code="244" cn_name="暂无中文" en_name="Poiana Cimpina" />
+        <city province="Poiana Marului" city="" area_code="268" cn_name="暂无中文" en_name="Poiana Marului" />
+        <city province="Poiana Tapului" city="" area_code="244" cn_name="暂无中文" en_name="Poiana Tapului" />
+        <city province="Predeal" city="" area_code="268" cn_name="暂无中文" en_name="Predeal" />
+        <city province="Prundu Birgaului" city="" area_code="263" cn_name="暂无中文" en_name="Prundu Birgaului" />
+        <city province="Pucioasa" city="" area_code="245" cn_name="暂无中文" en_name="Pucioasa" />
+        <city province="Racaciuni" city="" area_code="234" cn_name="暂无中文" en_name="Racaciuni" />
+        <city province="Racari" city="" area_code="245" cn_name="暂无中文" en_name="Racari" />
+        <city province="Radauti" city="" area_code="230" cn_name="暂无中文" en_name="Radauti" />
+        <city province="Rasinari" city="" area_code="269" cn_name="暂无中文" en_name="Rasinari" />
+        <city province="Razoare" city="" area_code="241" cn_name="暂无中文" en_name="Razoare" />
+        <city province="Razvad" city="" area_code="245" cn_name="暂无中文" en_name="Razvad" />
+        <city province="Reghin" city="" area_code="265" cn_name="暂无中文" en_name="Reghin" />
+        <city province="Remus Opreanu" city="" area_code="241" cn_name="暂无中文" en_name="Remus Opreanu" />
+        <city province="雷希察" city="" area_code="255" cn_name="雷希察" en_name="Resita" />
+        <city province="瑟拉特勒姆尼库" city="" area_code="238" cn_name="瑟拉特勒姆尼库" en_name="Rimnicu Sarat" />
+        <city province="勒姆尼库沃尔恰" city="" area_code="250" cn_name="勒姆尼库沃尔恰" en_name="Rimnicu Vilcea" />
+        <city province="Ripiceni" city="" area_code="231" cn_name="暂无中文" en_name="Ripiceni" />
+        <city province="Risnov" city="" area_code="268" cn_name="暂无中文" en_name="Risnov" />
+        <city province="Roman" city="" area_code="233" cn_name="暂无中文" en_name="Roman" />
+        <city province="Romos" city="" area_code="254" cn_name="暂无中文" en_name="Romos" />
+        <city province="Ropotu Mare" city="" area_code="254" cn_name="暂无中文" en_name="Ropotu Mare" />
+        <city province="Rosiori De Vede" city="" area_code="247" cn_name="暂无中文" en_name="Rosiori De Vede" />
+        <city province="Roznov" city="" area_code="233" cn_name="暂无中文" en_name="Roznov" />
+        <city province="Rucar" city="" area_code="248" cn_name="暂无中文" en_name="Rucar" />
+        <city province="Rupea" city="" area_code="268" cn_name="暂无中文" en_name="Rupea" />
+        <city province="Sacele" city="" area_code="268" cn_name="暂无中文" en_name="Sacele" />
+        <city province="萨利尼" city="" area_code="241" cn_name="萨利尼" en_name="Saligny" />
+        <city province="Saliste" city="" area_code="269" cn_name="暂无中文" en_name="Saliste" />
+        <city province="Salonta" city="" area_code="259" cn_name="暂无中文" en_name="Salonta" />
+        <city province="Sarmisege- Tuza" city="" area_code="254" cn_name="暂无中文" en_name="Sarmisege- Tuza" />
+        <city province="Sasciori" city="" area_code="258" cn_name="暂无中文" en_name="Sasciori" />
+        <city province="Sascut" city="" area_code="234" cn_name="暂无中文" en_name="Sascut" />
+        <city province="萨图·马雷" city="" area_code="261" cn_name="萨图·马雷" en_name="Satu Mare" />
+        <city province="Satu Nou" city="" area_code="241" cn_name="暂无中文" en_name="Satu Nou" />
+        <city province="Saturn" city="" area_code="241" cn_name="暂无中文" en_name="Saturn" />
+        <city province="Saucesti" city="" area_code="234" cn_name="暂无中文" en_name="Saucesti" />
+        <city province="Saveni" city="" area_code="231" cn_name="暂无中文" en_name="Saveni" />
+        <city province="Savinesti" city="" area_code="233" cn_name="暂无中文" en_name="Savinesti" />
+        <city province="Savirsin" city="" area_code="257" cn_name="暂无中文" en_name="Savirsin" />
+        <city province="Schitu" city="" area_code="241" cn_name="暂无中文" en_name="Schitu" />
+        <city province="Scinteia" city="" area_code="243" cn_name="暂无中文" en_name="Scinteia" />
+        <city province="Scornicesti" city="" area_code="249" cn_name="暂无中文" en_name="Scornicesti" />
+        <city province="Scurtesti" city="" area_code="238" cn_name="暂无中文" en_name="Scurtesti" />
+        <city province="Sebes" city="" area_code="258" cn_name="暂无中文" en_name="Sebes" />
+        <city province="Sebis" city="" area_code="257" cn_name="暂无中文" en_name="Sebis" />
+        <city province="Secuieni" city="" area_code="234" cn_name="暂无中文" en_name="Secuieni" />
+        <city province="Segarcea" city="" area_code="251" cn_name="暂无中文" en_name="Segarcea" />
+        <city province="Seimenii Mici" city="" area_code="241" cn_name="暂无中文" en_name="Seimenii Mici" />
+        <city province="Seini" city="" area_code="262" cn_name="暂无中文" en_name="Seini" />
+        <city province="Seitin" city="" area_code="257" cn_name="暂无中文" en_name="Seitin" />
+        <city province="Selimbar" city="" area_code="269" cn_name="暂无中文" en_name="Selimbar" />
+        <city province="圣格奥尔基" city="" area_code="267" cn_name="圣格奥尔基" en_name="Sfintu Gheorghe" />
+        <city province="Sibioara" city="" area_code="241" cn_name="暂无中文" en_name="Sibioara" />
+        <city province="锡比乌" city="" area_code="269" cn_name="锡比乌" en_name="Sibiu" />
+        <city province="Sighetu Marmatiei" city="" area_code="262" cn_name="暂无中文" en_name="Sighetu Marmatiei" />
+        <city province="塞格萧拉" city="" area_code="265" cn_name="塞格萧拉" en_name="Sighisoara" />
+        <city province="Simeria" city="" area_code="254" cn_name="暂无中文" en_name="Simeria" />
+        <city province="Siminoc" city="" area_code="241" cn_name="暂无中文" en_name="Siminoc" />
+        <city province="Simleul Silvaniei" city="" area_code="260" cn_name="暂无中文" en_name="Simleul Silvaniei" />
+        <city province="西奈亚" city="" area_code="244" cn_name="西奈亚" en_name="Sinaia" />
+        <city province="Singeorz-Bai" city="" area_code="263" cn_name="暂无中文" en_name="Singeorz-Bai" />
+        <city province="Sinnicolau-Mare" city="" area_code="256" cn_name="暂无中文" en_name="Sinnicolau-Mare" />
+        <city province="Sinpetru" city="" area_code="268" cn_name="暂无中文" en_name="Sinpetru" />
+        <city province="Sintandrei" city="" area_code="254" cn_name="暂无中文" en_name="Sintandrei" />
+        <city province="Sintimbru" city="" area_code="258" cn_name="暂无中文" en_name="Sintimbru" />
+        <city province="Siret" city="" area_code="230" cn_name="暂无中文" en_name="Siret" />
+        <city province="Siria" city="" area_code="257" cn_name="暂无中文" en_name="Siria" />
+        <city province="Sita Buzaului" city="" area_code="267" cn_name="暂无中文" en_name="Sita Buzaului" />
+        <city province="斯勒尼克" city="" area_code="244" cn_name="斯勒尼克" en_name="Slanic" />
+        <city province="斯勒尼克摩尔多瓦" city="" area_code="234" cn_name="斯勒尼克摩尔多瓦" en_name="Slanic Moldova" />
+        <city province="斯拉蒂纳" city="" area_code="249" cn_name="斯拉蒂纳" en_name="Slatina" />
+        <city province="斯洛博齐亚" city="" area_code="243" cn_name="斯洛博齐亚" en_name="Slobozia" />
+        <city province="斯纳戈夫" city="" area_code="2179" cn_name="斯纳戈夫" en_name="Snagov" />
+        <city province="Sofronea" city="" area_code="257" cn_name="暂无中文" en_name="Sofronea" />
+        <city province="Soimus" city="" area_code="254" cn_name="暂无中文" en_name="Soimus" />
+        <city province="索尔卡" city="" area_code="230" cn_name="索尔卡" en_name="Solca" />
+        <city province="Sovata Bai" city="" area_code="265" cn_name="暂无中文" en_name="Sovata Bai" />
+        <city province="Stefanesti" city="" area_code="248" cn_name="暂无中文" en_name="Stefanesti" />
+        <city province="Stei" city="" area_code="259" cn_name="暂无中文" en_name="Stei" />
+        <city province="Stolnici" city="" area_code="248" cn_name="暂无中文" en_name="Stolnici" />
+        <city province="Strehaia" city="" area_code="252" cn_name="暂无中文" en_name="Strehaia" />
+        <city province="苏恰瓦" city="" area_code="230" cn_name="苏恰瓦" en_name="Suceava" />
+        <city province="苏利纳" city="" area_code="240" cn_name="苏利纳" en_name="Sulina" />
+        <city province="Talmaciu" city="" area_code="269" cn_name="暂无中文" en_name="Talmaciu" />
+        <city province="Tandarei" city="" area_code="243" cn_name="暂无中文" en_name="Tandarei" />
+        <city province="Tasnad" city="" area_code="261" cn_name="暂无中文" en_name="Tasnad" />
+        <city province="Techirghiol" city="" area_code="241" cn_name="暂无中文" en_name="Techirghiol" />
+        <city province="Tecuci" city="" area_code="236" cn_name="暂无中文" en_name="Tecuci" />
+        <city province="Telega" city="" area_code="244" cn_name="暂无中文" en_name="Telega" />
+        <city province="Teliucu Inferior" city="" area_code="254" cn_name="暂无中文" en_name="Teliucu Inferior" />
+        <city province="Teremia Mare" city="" area_code="256" cn_name="暂无中文" en_name="Teremia Mare" />
+        <city province="蒂米什瓦拉" city="" area_code="256" cn_name="蒂米什瓦拉" en_name="Timisoara" />
+        <city province="Timisu De Jos" city="" area_code="268" cn_name="暂无中文" en_name="Timisu De Jos" />
+        <city province="Timisu De Sus" city="" area_code="268" cn_name="暂无中文" en_name="Timisu De Sus" />
+        <city province="Tintea" city="" area_code="244" cn_name="暂无中文" en_name="Tintea" />
+        <city province="Tirgoviste" city="" area_code="245" cn_name="暂无中文" en_name="Tirgoviste" />
+        <city province="Tirgu Bujor" city="" area_code="236" cn_name="暂无中文" en_name="Tirgu Bujor" />
+        <city province="Tirgu Frumos" city="" area_code="232" cn_name="暂无中文" en_name="Tirgu Frumos" />
+        <city province="特尔古日乌" city="" area_code="253" cn_name="特尔古日乌" en_name="Tirgu Jiu" />
+        <city province="Tirgu Lapus" city="" area_code="262" cn_name="暂无中文" en_name="Tirgu Lapus" />
+        <city province="特尔古穆列什" city="" area_code="265" cn_name="特尔古穆列什" en_name="Tirgu Mures" />
+        <city province="Tirgu Neamt" city="" area_code="233" cn_name="暂无中文" en_name="Tirgu Neamt" />
+        <city province="Tirgu Ocna" city="" area_code="234" cn_name="暂无中文" en_name="Tirgu Ocna" />
+        <city province="Tirgu Secuiesc" city="" area_code="267" cn_name="暂无中文" en_name="Tirgu Secuiesc" />
+        <city province="Tirnaveni" city="" area_code="265" cn_name="暂无中文" en_name="Tirnaveni" />
+        <city province="Tismana" city="" area_code="253" cn_name="暂无中文" en_name="Tismana" />
+        <city province="Titu" city="" area_code="245" cn_name="暂无中文" en_name="Titu" />
+        <city province="Tohan" city="" area_code="268" cn_name="暂无中文" en_name="Tohan" />
+        <city province="Toplita" city="" area_code="266" cn_name="暂无中文" en_name="Toplita" />
+        <city province="Topoloveni" city="" area_code="248" cn_name="暂无中文" en_name="Topoloveni" />
+        <city province="Tortoman" city="" area_code="241" cn_name="暂无中文" en_name="Tortoman" />
+        <city province="Traian" city="" area_code="234" cn_name="暂无中文" en_name="Traian" />
+        <city province="图尔恰" city="" area_code="240" cn_name="图尔恰" en_name="Tulcea" />
+        <city province="图尔切尼" city="" area_code="253" cn_name="图尔切尼" en_name="Turceni" />
+        <city province="图尔达" city="" area_code="264" cn_name="图尔达" en_name="Turda" />
+        <city province="Turnu Magurele" city="" area_code="247" cn_name="暂无中文" en_name="Turnu Magurele" />
+        <city province="图兹拉" city="" area_code="241" cn_name="图兹拉" en_name="Tuzla" />
+        <city province="Urlati" city="" area_code="244" cn_name="暂无中文" en_name="Urlati" />
+        <city province="Urziceni" city="" area_code="243" cn_name="暂无中文" en_name="Urziceni" />
+        <city province="Vacaresti" city="" area_code="245" cn_name="暂无中文" en_name="Vacaresti" />
+        <city province="Vaculesti" city="" area_code="231" cn_name="暂无中文" en_name="Vaculesti" />
+        <city province="Vadu Oii" city="" area_code="241" cn_name="暂无中文" en_name="Vadu Oii" />
+        <city province="Vadu Pasii" city="" area_code="238" cn_name="暂无中文" en_name="Vadu Pasii" />
+        <city province="Valea Bolvasnita" city="" area_code="255" cn_name="暂无中文" en_name="Valea Bolvasnita" />
+        <city province="Valea Calugareasca" city="" area_code="244" cn_name="暂无中文" en_name="Valea Calugareasca" />
+        <city province="Valea Ciorii" city="" area_code="243" cn_name="暂无中文" en_name="Valea Ciorii" />
+        <city province="Valea Dacilor" city="" area_code="241" cn_name="暂无中文" en_name="Valea Dacilor" />
+        <city province="Valea Doftanei" city="" area_code="244" cn_name="暂无中文" en_name="Valea Doftanei" />
+        <city province="Valenii De Munte" city="" area_code="244" cn_name="暂无中文" en_name="Valenii De Munte" />
+        <city province="Vama Veche" city="" area_code="241" cn_name="暂无中文" en_name="Vama Veche" />
+        <city province="Varias" city="" area_code="256" cn_name="暂无中文" en_name="Varias" />
+        <city province="瓦斯卢伊" city="" area_code="235" cn_name="瓦斯卢伊" en_name="Vaslui" />
+        <city province="Vatra Dornei" city="" area_code="230" cn_name="暂无中文" en_name="Vatra Dornei" />
+        <city province="Vatra Moldovitei" city="" area_code="230" cn_name="暂无中文" en_name="Vatra Moldovitei" />
+        <city province="Venus" city="" area_code="241" cn_name="暂无中文" en_name="Venus" />
+        <city province="Vetel" city="" area_code="254" cn_name="暂无中文" en_name="Vetel" />
+        <city province="维多利亚" city="" area_code="268" cn_name="维多利亚" en_name="Victoria" />
+        <city province="Videle" city="" area_code="247" cn_name="暂无中文" en_name="Videle" />
+        <city province="Viile Satu Mare" city="" area_code="261" cn_name="暂无中文" en_name="Viile Satu Mare" />
+        <city province="Viisoara" city="" area_code="233" cn_name="暂无中文" en_name="Viisoara" />
+        <city province="Vinatorii-Neamt" city="" area_code="233" cn_name="暂无中文" en_name="Vinatorii-Neamt" />
+        <city province="Vinga" city="" area_code="257" cn_name="暂无中文" en_name="Vinga" />
+        <city province="Vinju Mare" city="" area_code="252" cn_name="暂无中文" en_name="Vinju Mare" />
+        <city province="弗拉迪米雷斯库" city="" area_code="257" cn_name="弗拉迪米雷斯库" en_name="Vladimirescu" />
+        <city province="Voicesti" city="" area_code="250" cn_name="暂无中文" en_name="Voicesti" />
+        <city province="Voinesti" city="" area_code="245" cn_name="暂无中文" en_name="Voinesti" />
+        <city province="Vulcan" city="" area_code="254" cn_name="暂无中文" en_name="Vulcan" />
+        <city province="Zadareni" city="" area_code="257" cn_name="暂无中文" en_name="Zadareni" />
+        <city province="扎勒乌" city="" area_code="260" cn_name="扎勒乌" en_name="Zalau" />
+        <city province="Zanesti" city="" area_code="233" cn_name="暂无中文" en_name="Zanesti" />
+        <city province="Zarnesti" city="" area_code="268" cn_name="暂无中文" en_name="Zarnesti" />
+        <city province="Zimnicea" city="" area_code="247" cn_name="暂无中文" en_name="Zimnicea" />
+        <city province="Zlatna" city="" area_code="258" cn_name="暂无中文" en_name="Zlatna" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

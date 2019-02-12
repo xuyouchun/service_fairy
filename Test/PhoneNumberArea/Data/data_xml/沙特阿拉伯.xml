@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>沙特阿拉伯</cn_name>
+    <en_name>Saudi Arabia</en_name>
+    <national_code>966</national_code>
+    <mcc>420</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到沙特阿拉伯的A地电话顺序为“00966-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从沙特阿拉伯的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00966-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00966XXXXXXXX、966XXXXXXXX、0966XXXXXXXX、000966XXXXXXXX；如果来电显示开头是009660、009661、009662、009663、009664、009665、009666、009667、009668、009669，一般也都表示国际区号是00966，后面一位是沙特阿拉伯内部的号码的开头第一位；如果是在沙特阿拉伯通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>沙特</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Al Jawal" mncs="01" national_prefix="00" internal_prefix="0" desc="Al Jawal" />
+    <operation op_code="Mobily" mncs="03" national_prefix="00" internal_prefix="0" desc="Mobily" />
+    <operation op_code="Zain SA" mncs="04" national_prefix="00" internal_prefix="0" desc="Zain SA" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Saudi Telecom Company" op_prefix="" />
+        <prefix op_code="Etihad Etisalat Company" op_prefix="" />
+        <prefix op_code="Zain Saudi Arabia" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="艾卜哈" city="" area_code="7" cn_name="艾卜哈" en_name="Abha" />
+        <city province="Abqaiq" city="" area_code="3" cn_name="暂无中文" en_name="Abqaiq" />
+        <city province="胡拜尔" city="" area_code="3" cn_name="胡拜尔" en_name="Al Khobar" />
+        <city province="Al Markazi" city="" area_code="2" cn_name="暂无中文" en_name="Al Markazi" />
+        <city province="Al Ulaya" city="" area_code="1" cn_name="暂无中文" en_name="Al Ulaya" />
+        <city province="阿纳" city="" area_code="3" cn_name="阿纳" en_name="Anak" />
+        <city province="Bukayriyah" city="" area_code="6" cn_name="暂无中文" en_name="Bukayriyah" />
+        <city province="丹曼" city="" area_code="3" cn_name="丹曼" en_name="Damman" />
+        <city province="达兰（沙特阿美)" city="" area_code="3" cn_name="达兰（沙特阿美)" en_name="Dhahran (Aramco)" />
+        <city province="哈伊勒" city="" area_code="6" cn_name="哈伊勒" en_name="Hail" />
+        <city province="Hawiyah" city="" area_code="2" cn_name="暂无中文" en_name="Hawiyah" />
+        <city province="Hawtah" city="" area_code="1" cn_name="暂无中文" en_name="Hawtah" />
+        <city province="胡富夫" city="" area_code="3" cn_name="胡富夫" en_name="Hofuf" />
+        <city province="吉达" city="" area_code="2" cn_name="吉达" en_name="Jeddah" />
+        <city province="朱拜勒" city="" area_code="3" cn_name="朱拜勒" en_name="Jubail" />
+        <city province="海耶" city="" area_code="3" cn_name="海耶" en_name="Khafji" />
+        <city province="海米斯穆谢特" city="" area_code="7" cn_name="海米斯穆谢特" en_name="Khamis Mushait" />
+        <city province="蕾拉" city="" area_code="1" cn_name="蕾拉" en_name="Layla" />
+        <city province="麦加" city="" area_code="2" cn_name="麦加" en_name="Makkah (Mecca)" />
+        <city province="Medin" city="" area_code="4" cn_name="暂无中文" en_name="Medin" />
+        <city province="麦地那" city="" area_code="4" cn_name="麦地那" en_name="Medina Region" />
+        <city province="姆巴拉兹" city="" area_code="1" cn_name="姆巴拉兹" en_name="Mubarraz" />
+        <city province="纳季兰" city="" area_code="7" cn_name="纳季兰" en_name="Najran" />
+        <city province="卡西姆地区" city="" area_code="6" cn_name="卡西姆地区" en_name="Qassim Region" />
+        <city province="卡提夫" city="" area_code="3" cn_name="卡提夫" en_name="Qatif" />
+        <city province="Qedieyeh" city="" area_code="3" cn_name="暂无中文" en_name="Qedieyeh" />
+        <city province="拉比" city="" area_code="2" cn_name="拉比" en_name="Rabigh" />
+        <city province="Ras Tanurah" city="" area_code="3" cn_name="暂无中文" en_name="Ras Tanurah" />
+        <city province="利雅得" city="" area_code="1" cn_name="利雅得" en_name="Riyadh" />
+        <city province="Safwa" city="" area_code="3" cn_name="暂无中文" en_name="Safwa" />
+        <city province="Shaqra" city="" area_code="1" cn_name="暂无中文" en_name="Shaqra" />
+        <city province="Sihat" city="" area_code="3" cn_name="暂无中文" en_name="Sihat" />
+        <city province="南部地区" city="" area_code="7" cn_name="南部地区" en_name="Southern Region" />
+        <city province="塔布克" city="" area_code="4" cn_name="塔布克" en_name="Tabouk" />
+        <city province="塔伊夫" city="" area_code="2" cn_name="塔伊夫" en_name="Taif" />
+        <city province="塔鲁特岛-巴克尔和达林" city="" area_code="3" cn_name="塔鲁特岛-巴克尔和达林" en_name="Tarut Island - Mina and Darin" />
+        <city province="延布" city="" area_code="4" cn_name="延布" en_name="Yanbou" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Saudi Telecom</op_name>
+        <wireless_type>GSM900</wireless_type>
+        <prefix>50</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

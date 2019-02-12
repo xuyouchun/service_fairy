@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>哈萨克斯坦</cn_name>
+    <en_name>Kazakhstan</en_name>
+    <national_code>7</national_code>
+    <mcc>401</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到哈萨克斯坦的A地电话顺序为“007-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从哈萨克斯坦的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“007-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：007XXXXXXXX、7XXXXXXXX、07XXXXXXXX、0007XXXXXXXX；如果来电显示开头是0070、0071、0072、0073、0074、0075、0076、0077、0078、0079，一般也都表示国际区号是007，后面一位是哈萨克斯坦内部的号码的开头第一位；如果是在哈萨克斯坦通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Beeline" mncs="01" national_prefix="8" internal_prefix="8" desc="Beeline" />
+    <operation op_code="Kcell" mncs="02" national_prefix="8" internal_prefix="8" desc="Kcell" />
+    <operation op_code="Dalacom" mncs="07" national_prefix="8" internal_prefix="8" desc="Dalacom" />
+    <operation op_code="Kazakhtelecom" mncs="08" national_prefix="8" internal_prefix="8" desc="Kazakhtelecom" />
+    <operation op_code="Mobile Telecom Service" mncs="77" national_prefix="8" internal_prefix="8" desc="Mobile Telecom Service" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="KaR-Tel LLP" op_prefix="" />
+        <prefix op_code="GSM Kazakhstan Ltd" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Mobile Telecom Service LLP" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿克莫拉" city="" area_code="717" cn_name="阿克莫拉" en_name="Akmola" />
+        <city province="阿克套" city="" area_code="729" cn_name="阿克套" en_name="Aktau" />
+        <city province="阿克图宾斯克" city="" area_code="713" cn_name="阿克图宾斯克" en_name="Aktubinsk" />
+        <city province="阿拉木图" city="" area_code="727" cn_name="阿拉木图" en_name="Almaty" />
+        <city province="阿尔卡累克" city="" area_code="730" cn_name="阿尔卡累克" en_name="Arkalyk" />
+        <city province="阿特劳" city="" area_code="712" cn_name="阿特劳" en_name="Atyrau" />
+        <city province="卡拉干达" city="" area_code="721" cn_name="卡拉干达" en_name="Karaganda" />
+        <city province="库斯塔奈" city="" area_code="714" cn_name="库斯塔奈" en_name="Kostanai" />
+        <city province="克孜勒奥尔达" city="" area_code="724" cn_name="克孜勒奥尔达" en_name="Kzyl-Orda" />
+        <city province="列宁斯克" city="" area_code="736" cn_name="列宁斯克" en_name="Leninsk" />
+        <city province="巴甫洛达尔" city="" area_code="718" cn_name="巴甫洛达尔" en_name="Pavlodar" />
+        <city province="彼得罗巴甫洛夫斯克" city="" area_code="715" cn_name="彼得罗巴甫洛夫斯克" en_name="Petropavlovsk" />
+        <city province="塞米巴拉金斯克" city="" area_code="722" cn_name="塞米巴拉金斯克" en_name="Semipalatinsk" />
+        <city province="什姆肯特" city="" area_code="725" cn_name="什姆肯特" en_name="Shymkent" />
+        <city province="塔尔迪库尔干" city="" area_code="728" cn_name="塔尔迪库尔干" en_name="Taldykorgan" />
+        <city province="乌拉尔斯克" city="" area_code="711" cn_name="乌拉尔斯克" en_name="Uralsk" />
+        <city province="乌斯季卡缅诺戈尔斯克" city="" area_code="723" cn_name="乌斯季卡缅诺戈尔斯克" en_name="Ust-Kamenogorsk" />
+        <city province="江布尔" city="" area_code="726" cn_name="江布尔" en_name="Zhambyl" />
+        <city province="杰兹卡兹甘" city="" area_code="710" cn_name="杰兹卡兹甘" en_name="Zhezkazgan" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

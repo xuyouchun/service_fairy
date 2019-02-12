@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>牙买加</cn_name>
+    <en_name>Jamaica</en_name>
+    <national_code>1876</national_code>
+    <mcc>338</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到牙买加的A地电话顺序为“001876-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从牙买加的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001876-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001876XXXXXXXX、1876XXXXXXXX、01876XXXXXXXX、0001876XXXXXXXX；如果来电显示开头是0018760、0018761、0018762、0018763、0018764、0018765、0018766、0018767、0018768、0018769，一般也都表示国际区号是001876，后面一位是牙买加内部的号码的开头第一位；如果是在牙买加通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="LIME" mncs="020,180" national_prefix="011" internal_prefix="1" desc="LIME" />
+    <operation op_code="Digicel" mncs="050" national_prefix="011" internal_prefix="1" desc="Digicel" />
+    <operation op_code="Claro" mncs="070" national_prefix="011" internal_prefix="1" desc="Claro" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Cable &amp; Wireless" op_prefix="" />
+        <prefix op_code="Digicel (Jamaica) Limited" op_prefix="" />
+        <prefix op_code="Oceanic Digital Jamaica Limited" op_prefix="" />
+        <prefix op_code="Cable &amp; Wireless" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

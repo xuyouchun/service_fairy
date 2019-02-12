@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>亚美尼亚</cn_name>
+    <en_name>Armenia</en_name>
+    <national_code>374</national_code>
+    <mcc>283</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到亚美尼亚的A地电话顺序为“00374-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从亚美尼亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00374-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00374XXXXXXXX、374XXXXXXXX、0374XXXXXXXX、000374XXXXXXXX；如果来电显示开头是003740、003741、003742、003743、003744、003745、003746、003747、003748、003749，一般也都表示国际区号是00374，后面一位是亚美尼亚内部的号码的开头第一位；如果是在亚美尼亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Հայաստանի Հանրապետություն</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Beeline" mncs="01" national_prefix="00" internal_prefix="0" desc="Beeline" />
+    <operation op_code="VivaCell-MTS" mncs="05" national_prefix="00" internal_prefix="0" desc="VivaCell-MTS" />
+    <operation op_code="Orange" mncs="10" national_prefix="00" internal_prefix="0" desc="Orange" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="ArmenTel" op_prefix="" />
+        <prefix op_code="K Telecom CJSC" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Abovian" city="" area_code="22" cn_name="" en_name="Abovian" />
+        <city province="Akhurian" city="" area_code="43" cn_name="" en_name="Akhurian" />
+        <city province="Alapars" city="" area_code="23" cn_name="" en_name="Alapars" />
+        <city province="Alaverdi" city="" area_code="53" cn_name="" en_name="Alaverdi" />
+        <city province="Amasia" city="" area_code="46" cn_name="" en_name="Amasia" />
+        <city province="Aparan" city="" area_code="52" cn_name="" en_name="Aparan" />
+        <city province="Arapi" city="" area_code="43" cn_name="" en_name="Arapi" />
+        <city province="Ararat" city="" area_code="38" cn_name="" en_name="Ararat" />
+        <city province="Argel" city="" area_code="24" cn_name="" en_name="Argel" />
+        <city province="阿尔马维尔" city="" area_code="37" cn_name="阿尔马维尔" en_name="Armavir" />
+        <city province="阿塔沙特" city="" area_code="35" cn_name="阿塔沙特" en_name="Artasha" />
+        <city province="Artik" city="" area_code="44" cn_name="" en_name="Artik" />
+        <city province="Ashotsk" city="" area_code="45" cn_name="" en_name="Ashotsk" />
+        <city province="阿什塔拉克" city="" area_code="32" cn_name="阿什塔拉克" en_name="Ashtarak" />
+        <city province="Baghramian" city="" area_code="33" cn_name="" en_name="Baghramian" />
+        <city province="Bjni" city="" area_code="23" cn_name="" en_name="Bjni" />
+        <city province="Chambarak" city="" area_code="65" cn_name="" en_name="Chambarak" />
+        <city province="Charentsavan" city="" area_code="26" cn_name="" en_name="Charentsavan" />
+        <city province="Dalarik" city="" area_code="33" cn_name="" en_name="Dalarik" />
+        <city province="Dzoraget" city="" area_code="51" cn_name="" en_name="Dzoraget" />
+        <city province="Echmiadzin" city="" area_code="31" cn_name="" en_name="Echmiadzin" />
+        <city province="Eghegnut" city="" area_code="51" cn_name="" en_name="Eghegnut" />
+        <city province="Eghvard" city="" area_code="24" cn_name="" en_name="Eghvard" />
+        <city province="卡莫" city="" area_code="64" cn_name="卡莫" en_name="Gavar" />
+        <city province="Goris" city="" area_code="84" cn_name="" en_name="Goris" />
+        <city province="久姆里" city="" area_code="41" cn_name="久姆里" en_name="Gyumri" />
+        <city province="Hoktember" city="" area_code="37" cn_name="" en_name="Hoktember" />
+        <city province="Hrazdan" city="" area_code="23" cn_name="" en_name="Hrazdan" />
+        <city province="伊杰万" city="" area_code="63" cn_name="伊杰万" en_name="Ijevan" />
+        <city province="Jermuk" city="" area_code="87" cn_name="" en_name="Jermuk" />
+        <city province="Kadjaran" city="" area_code="85" cn_name="" en_name="Kadjaran" />
+        <city province="Kamo" city="" area_code="43" cn_name="" en_name="Kamo" />
+        <city province="卡凡" city="" area_code="85" cn_name="卡凡" en_name="Kapan" />
+        <city province="Karakerd" city="" area_code="33" cn_name="" en_name="Karakerd" />
+        <city province="Khndzoresk" city="" area_code="84" cn_name="" en_name="Khndzoresk" />
+        <city province="Koghb" city="" area_code="66" cn_name="" en_name="Koghb" />
+        <city province="Lermontov" city="" area_code="51" cn_name="" en_name="Lermontov" />
+        <city province="Maralik" city="" area_code="42" cn_name="" en_name="Maralik" />
+        <city province="Margahovit" city="" area_code="51" cn_name="" en_name="Margahovit" />
+        <city province="Martuni" city="" area_code="62" cn_name="" en_name="Martuni" />
+        <city province="Masis" city="" area_code="36" cn_name="" en_name="Masis" />
+        <city province="Meghradzor" city="" area_code="23" cn_name="" en_name="Meghradzor" />
+        <city province="Meghri" city="" area_code="86" cn_name="" en_name="Meghri" />
+        <city province="Metsamor" city="" area_code="37" cn_name="" en_name="Metsamor" />
+        <city province="Miasnikian" city="" area_code="33" cn_name="" en_name="Miasnikian" />
+        <city province="Nor Gekhi" city="" area_code="24" cn_name="" en_name="Nor Gekhi" />
+        <city province="Nor Hajn" city="" area_code="24" cn_name="" en_name="Nor Hajn" />
+        <city province="Noyemberian" city="" area_code="66" cn_name="" en_name="Noyemberian" />
+        <city province="Pambak" city="" area_code="51" cn_name="" en_name="Pambak" />
+        <city province="Pernzashen" city="" area_code="44" cn_name="" en_name="Pernzashen" />
+        <city province="Piunik" city="" area_code="23" cn_name="" en_name="Piunik" />
+        <city province="Proshyan" city="" area_code="24" cn_name="" en_name="Proshyan" />
+        <city province="Ptghni" city="" area_code="22" cn_name="" en_name="Ptghni" />
+        <city province="Sarnakhpyur" city="" area_code="42" cn_name="" en_name="Sarnakhpyur" />
+        <city province="Sarukhan" city="" area_code="64" cn_name="" en_name="Sarukhan" />
+        <city province="Sevan" city="" area_code="61" cn_name="" en_name="Sevan" />
+        <city province="Shirakavan" city="" area_code="42" cn_name="" en_name="Shirakavan" />
+        <city province="Sisian" city="" area_code="83" cn_name="" en_name="Sisian" />
+        <city province="Solak" city="" area_code="23" cn_name="" en_name="Solak" />
+        <city province="Spitak" city="" area_code="55" cn_name="" en_name="Spitak" />
+        <city province="Stepanavan" city="" area_code="56" cn_name="" en_name="Stepanavan" />
+        <city province="Talin" city="" area_code="49" cn_name="" en_name="Talin" />
+        <city province="Tashir" city="" area_code="54" cn_name="" en_name="Tashir" />
+        <city province="Tsaghkahovit" city="" area_code="57" cn_name="" en_name="Tsaghkahovit" />
+        <city province="Tsakhkadzor" city="" area_code="23" cn_name="" en_name="Tsakhkadzor" />
+        <city province="Vahagni" city="" area_code="51" cn_name="" en_name="Vahagni" />
+        <city province="基洛瓦坎" city="" area_code="51" cn_name="基洛瓦坎" en_name="Vanadzor" />
+        <city province="Vardenis" city="" area_code="69" cn_name="" en_name="Vardenis" />
+        <city province="Vayk" city="" area_code="82" cn_name="" en_name="Vayk" />
+        <city province="Vedi" city="" area_code="34" cn_name="" en_name="Vedi" />
+        <city province="Verishen" city="" area_code="84" cn_name="" en_name="Verishen" />
+        <city province="叶海格纳佐尔" city="" area_code="81" cn_name="叶海格纳佐尔" en_name="Yeghegnadzor" />
+        <city province="Zovuni" city="" area_code="24" cn_name="" en_name="Zovuni" />
+        <city province="兹瓦尔特诺茨" city="" area_code="31" cn_name="兹瓦尔特诺茨" en_name="Zvartnots" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>移动手机代码</op_name>
+        <wireless_type />
+        <prefix>9</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

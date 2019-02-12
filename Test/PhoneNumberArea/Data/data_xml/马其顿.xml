@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>马其顿</cn_name>
+    <en_name>Macedonia</en_name>
+    <national_code>389</national_code>
+    <mcc>294</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到马其顿的A地电话顺序为“00389-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从马其顿的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00389-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00389XXXXXXXX、389XXXXXXXX、0389XXXXXXXX、000389XXXXXXXX；如果来电显示开头是003890、003891、003892、003893、003894、003895、003896、003897、003898、003899，一般也都表示国际区号是00389，后面一位是马其顿内部的号码的开头第一位；如果是在马其顿通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="T-Mobile MK" mncs="01" national_prefix="00" internal_prefix="0" desc="T-Mobile MK" />
+    <operation op_code="ONE" mncs="02" national_prefix="00" internal_prefix="0" desc="ONE" />
+    <operation op_code="Vip MK" mncs="03" national_prefix="00" internal_prefix="0" desc="Vip MK" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="T-Mobile Macedonia" op_prefix="" />
+        <prefix op_code="One" op_prefix="" />
+        <prefix op_code="VIP Operator" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Berovo" city="" area_code="33" cn_name="" en_name="Berovo" />
+        <city province="Bitola" city="" area_code="47" cn_name="" en_name="Bitola" />
+        <city province="Debar" city="" area_code="46" cn_name="" en_name="Debar" />
+        <city province="Delchevo" city="" area_code="33" cn_name="" en_name="Delchevo" />
+        <city province="Demir Hisar" city="" area_code="47" cn_name="" en_name="Demir Hisar" />
+        <city province="Dojran" city="" area_code="34" cn_name="" en_name="Dojran" />
+        <city province="Gevgelija" city="" area_code="34" cn_name="" en_name="Gevgelija" />
+        <city province="Gostivar" city="" area_code="42" cn_name="" en_name="Gostivar" />
+        <city province="Kavadarci" city="" area_code="43" cn_name="" en_name="Kavadarci" />
+        <city province="Kichevo" city="" area_code="45" cn_name="" en_name="Kichevo" />
+        <city province="Kocani" city="" area_code="33" cn_name="" en_name="Kocani" />
+        <city province="Kratovo" city="" area_code="31" cn_name="" en_name="Kratovo" />
+        <city province="Kriva Palanka" city="" area_code="31" cn_name="" en_name="Kriva Palanka" />
+        <city province="Krushevo" city="" area_code="48" cn_name="" en_name="Krushevo" />
+        <city province="Kumanovo" city="" area_code="31" cn_name="" en_name="Kumanovo" />
+        <city province="Makedonski Brod" city="" area_code="48" cn_name="" en_name="Makedonski Brod" />
+        <city province="Negotino" city="" area_code="43" cn_name="" en_name="Negotino" />
+        <city province="Ohrid" city="" area_code="46" cn_name="" en_name="Ohrid" />
+        <city province="Pehchevo" city="" area_code="33" cn_name="" en_name="Pehchevo" />
+        <city province="Prilep" city="" area_code="48" cn_name="" en_name="Prilep" />
+        <city province="Probistip" city="" area_code="32" cn_name="" en_name="Probistip" />
+        <city province="Radovish" city="" area_code="32" cn_name="" en_name="Radovish" />
+        <city province="Resen" city="" area_code="47" cn_name="" en_name="Resen" />
+        <city province="Shtip" city="" area_code="32" cn_name="" en_name="Shtip" />
+        <city province="斯科普里" city="" area_code="2" cn_name="斯科普里" en_name="Skopje" />
+        <city province="Struga" city="" area_code="46" cn_name="" en_name="Struga" />
+        <city province="Strumica" city="" area_code="34" cn_name="" en_name="Strumica" />
+        <city province="Sveti Nikole" city="" area_code="32" cn_name="" en_name="Sveti Nikole" />
+        <city province="泰托沃" city="" area_code="44" cn_name="泰托沃" en_name="Tetovo" />
+        <city province="Valandovo" city="" area_code="34" cn_name="" en_name="Valandovo" />
+        <city province="Veles" city="" area_code="43" cn_name="" en_name="Veles" />
+        <city province="Vinica" city="" area_code="33" cn_name="" en_name="Vinica" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Cosmofon</op_name>
+        <wireless_type>GSM900</wireless_type>
+        <prefix>75, 76</prefix>
+      </op>
+      <op>
+        <op_name>T-Mobile</op_name>
+        <wireless_type>GSM900</wireless_type>
+        <prefix>70, 71</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

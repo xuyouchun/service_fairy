@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>委内瑞拉</cn_name>
+    <en_name>Venezuela</en_name>
+    <national_code>58</national_code>
+    <mcc>734</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到委内瑞拉的A地电话顺序为“0058-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从委内瑞拉的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0058-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0058XXXXXXXX、58XXXXXXXX、058XXXXXXXX、00058XXXXXXXX；如果来电显示开头是00580、00581、00582、00583、00584、00585、00586、00587、00588、00589，一般也都表示国际区号是0058，后面一位是委内瑞拉内部的号码的开头第一位；如果是在委内瑞拉通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Digitel" mncs="01,02,03" national_prefix="" internal_prefix="" desc="Digitel" />
+    <operation op_code="movistar" mncs="04" national_prefix="" internal_prefix="" desc="movistar" />
+    <operation op_code="Movilnet" mncs="06" national_prefix="" internal_prefix="" desc="Movilnet" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Corporacion Digitel C.A." op_prefix="" />
+        <prefix op_code="Corporacion Digitel C.A." op_prefix="" />
+        <prefix op_code="Corporacion Digitel C.A." op_prefix="" />
+        <prefix op_code="Telefónica Móviles Venezuela" op_prefix="" />
+        <prefix op_code="Telecomunicaciones Movilnet" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="巴塞罗那" city="" area_code="281" cn_name="巴塞罗那" en_name="Barcelona" />
+        <city province="巴基西梅托" city="" area_code="251" cn_name="巴基西梅托" en_name="Barquisimeto" />
+        <city province="卡维马斯" city="" area_code="264" cn_name="卡维马斯" en_name="Cabimas" />
+        <city province="加拉加斯" city="" area_code="212" cn_name="加拉加斯" en_name="Caracas" />
+        <city province="玻利瓦尔城" city="" area_code="285" cn_name="玻利瓦尔城" en_name="Ciudad Bolivar" />
+        <city province="科罗" city="" area_code="268" cn_name="科罗" en_name="Coro" />
+        <city province="库马纳" city="" area_code="293" cn_name="库马纳" en_name="Cumana" />
+        <city province="洛斯特克斯" city="" area_code="212" cn_name="洛斯特克斯" en_name="Los Teques" />
+        <city province="迈克蒂亚" city="" area_code="212" cn_name="迈克蒂亚" en_name="Maiquetia" />
+        <city province="马拉开波" city="" area_code="261" cn_name="马拉开波" en_name="Maracaibo" />
+        <city province="马拉凯" city="" area_code="243" cn_name="马拉凯" en_name="Maracay" />
+        <city province="马图林" city="" area_code="291" cn_name="马图林" en_name="Maturin" />
+        <city province="梅里达" city="" area_code="274" cn_name="梅里达" en_name="Merida" />
+        <city province="卡韦洛港" city="" area_code="242" cn_name="卡韦洛港" en_name="Puerto Cabello" />
+        <city province="圣克里斯托瓦尔" city="" area_code="276" cn_name="圣克里斯托瓦尔" en_name="San Cristobal" />
+        <city province="巴伦西亚" city="" area_code="241" cn_name="巴伦西亚" en_name="Valencia" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Digitel</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>国内 	412, 417, 418</prefix>
+      </op>
+      <op>
+        <op_name>Telcel</op_name>
+        <wireless_type>CDMA 800</wireless_type>
+        <prefix>国内 	414</prefix>
+      </op>
+      <op>
+        <op_name>Globalstar</op_name>
+        <wireless_type>卫星</wireless_type>
+        <prefix>卫星通信 	415</prefix>
+      </op>
+      <op>
+        <op_name>MovilNet</op_name>
+        <wireless_type>TDMA 800</wireless_type>
+        <prefix>国内 	416</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

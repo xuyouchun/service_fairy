@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>日本</cn_name>
+    <en_name>Japan</en_name>
+    <national_code>81</national_code>
+    <mcc>440</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到日本的A地电话顺序为“0081-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从日本的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0081-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0081XXXXXXXX、81XXXXXXXX、081XXXXXXXX、00081XXXXXXXX；如果来电显示开头是00810、00811、00812、00813、00814、00815、00816、00817、00818、00819，一般也都表示国际区号是0081，后面一位是日本内部的号码的开头第一位；如果是在日本通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>日</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="eMobile" mncs="00" national_prefix="010" internal_prefix="0" desc="eMobile" />
+    <operation op_code="NTT docomo" mncs="01,02,03,09,10,11,12,13,14,15,16,17,18,19,21,22" national_prefix="010" internal_prefix="0" desc="NTT docomo" />
+    <operation op_code="SoftBank" mncs="04,06,20,40,41,42,43,44,45,46,47,48,90,92,93,94,95,96,97,98" national_prefix="010" internal_prefix="0" desc="SoftBank" />
+    <operation op_code="KDDI" mncs="07,08,50,51,52,53,54,55,56,71,72,73,74,75,76,77,79,88,89" national_prefix="010" internal_prefix="0" desc="KDDI" />
+    <operation op_code="DoCoMo" mncs="23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,49,58,60,61,62,63,64,65,66,67,68,69,87,99" national_prefix="010" internal_prefix="0" desc="DoCoMo" />
+    <operation op_code="au" mncs="70" national_prefix="010" internal_prefix="0" desc="au" />
+    <operation op_code="" mncs="78" national_prefix="010" internal_prefix="0" desc="" />
+    <operation op_code="TU-KA" mncs="80,81,82,83,84,85,86" national_prefix="010" internal_prefix="0" desc="TU-KA" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="EMOBILE Limited" op_prefix="" />
+        <prefix op_code="NTT docomo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Kansai" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Hokuriku" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Kansai" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Kansai" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Tokai" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Tohoku" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Tokai" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Hokkaido" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Kansai" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Tokai" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Chugoku" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Hokkaido" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Kyushu" op_prefix="" />
+        <prefix op_code="NTT DoCoMoTohoku" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Shikoku" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Kansai" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Tokai" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Kyushu" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Kansai" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Kansai" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Kansai" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Chugoku" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Kyushu" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Shikoku" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Tohoku" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Kyushu" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="Okinawa Cellular Telephone" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="TU-KA Cellular Tokyo" op_prefix="" />
+        <prefix op_code="TU-KA Cellular Tokyo" op_prefix="" />
+        <prefix op_code="TU-KA Phone Kansai" op_prefix="" />
+        <prefix op_code="TU-KA Cellular Tokai" op_prefix="" />
+        <prefix op_code="TU-KA Phone Kansai" op_prefix="" />
+        <prefix op_code="TU-KA Cellular Tokai" op_prefix="" />
+        <prefix op_code="TU-KA Cellular Tokyo" op_prefix="" />
+        <prefix op_code="NTT DoCoMo Chugoku" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="KDDI Corporation" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="SoftBank Mobile Corp" op_prefix="" />
+        <prefix op_code="NTT DoCoMo" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="青森" city="" area_code="177" cn_name="青森" en_name="Aomori" />
+        <city province="千叶" city="" area_code="43" cn_name="千叶" en_name="Chiba" />
+        <city province="知多" city="" area_code="562" cn_name="知多" en_name="Chita" />
+        <city province="大东" city="" area_code="720" cn_name="大东" en_name="Daito" />
+        <city province="府中" city="" area_code="423" cn_name="府中" en_name="Fuchu (Tokyo)" />
+        <city province="福岛" city="" area_code="24" cn_name="福岛" en_name="Fukushima" />
+        <city province="冲绳" city="" area_code="98" cn_name="冲绳" en_name="Ginowan" />
+        <city province="冲绳" city="" area_code="98" cn_name="冲绳" en_name="Gushikawa" />
+        <city province="广岛" city="" area_code="82" cn_name="广岛" en_name="Hiroshima" />
+        <city province="茨城" city="" area_code="726" cn_name="茨城" en_name="Ibakari" />
+        <city province="伊万里" city="" area_code="955" cn_name="伊万里" en_name="Imari" />
+        <city province="川崎" city="" area_code="44" cn_name="川崎" en_name="Kawasaki (Kanagawa)" />
+        <city province="神户" city="" area_code="78" cn_name="神户" en_name="Kobe" />
+        <city province="京都" city="" area_code="75" cn_name="京都" en_name="Kyoto" />
+        <city province="长崎" city="" area_code="958" cn_name="长崎" en_name="Nagasaki" />
+        <city province="名古屋" city="" area_code="52" cn_name="名古屋" en_name="Nagoya" />
+        <city province="那霸" city="" area_code="98" cn_name="那霸" en_name="Naha" />
+        <city province="冲绳" city="" area_code="98" cn_name="冲绳" en_name="Okinawa" />
+        <city province="大阪" city="" area_code="6" cn_name="大阪" en_name="Osaka" />
+        <city province="札幌" city="" area_code="11" cn_name="札幌" en_name="Sapporo" />
+        <city province="佐世保" city="" area_code="956" cn_name="佐世保" en_name="Sasebo" />
+        <city province="濑户" city="" area_code="561" cn_name="濑户" en_name="Seto" />
+        <city province="立川" city="" area_code="425" cn_name="立川" en_name="Tachikawa (Tokyo)" />
+        <city province="东京" city="" area_code="3" cn_name="东京" en_name="Tokyo" />
+        <city province="冲绳" city="" area_code="98" cn_name="冲绳" en_name="Urasoe" />
+        <city province="横滨" city="" area_code="45" cn_name="横滨" en_name="Yokohama" />
+        <city province="横须贺" city="" area_code="468" cn_name="横须贺" en_name="Yokosuka (Kanagawa)" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Cell Phones</op_name>
+        <wireless_type>CDMA</wireless_type>
+        <prefix>090 + 8位数字号码</prefix>
+      </op>
+      <op>
+        <op_name>Cell Phones</op_name>
+        <wireless_type>CDMA</wireless_type>
+        <prefix>080 + 8位数字号码</prefix>
+      </op>
+      <op>
+        <op_name>PHS phones</op_name>
+        <wireless_type>PHS</wireless_type>
+        <prefix>070 + 8位数字号码</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

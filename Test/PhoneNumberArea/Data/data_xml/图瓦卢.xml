@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>图瓦卢</cn_name>
+    <en_name>Tuvalu</en_name>
+    <national_code>688</national_code>
+    <mcc>553</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到图瓦卢的A地电话顺序为“00688-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从图瓦卢的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00688-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00688XXXXXXXX、688XXXXXXXX、0688XXXXXXXX、000688XXXXXXXX；如果来电显示开头是006880、006881、006882、006883、006884、006885、006886、006887、006888、006889，一般也都表示国际区号是00688，后面一位是图瓦卢内部的号码的开头第一位；如果是在图瓦卢通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="TTC" mncs="01" national_prefix="00" internal_prefix="" desc="TTC" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Tuvalu Telecom" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

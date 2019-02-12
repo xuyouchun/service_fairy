@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>危地马拉</cn_name>
+    <en_name>Guatemala</en_name>
+    <national_code>502</national_code>
+    <mcc>704</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到危地马拉的A地电话顺序为“00502-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从危地马拉的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00502-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00502XXXXXXXX、502XXXXXXXX、0502XXXXXXXX、000502XXXXXXXX；如果来电显示开头是005020、005021、005022、005023、005024、005025、005026、005027、005028、005029，一般也都表示国际区号是00502，后面一位是危地马拉内部的号码的开头第一位；如果是在危地马拉通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>危地馬拉</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Claro" mncs="01" national_prefix="00" internal_prefix="" desc="Claro" />
+    <operation op_code="Comcel / Tigo" mncs="02" national_prefix="00" internal_prefix="" desc="Comcel / Tigo" />
+    <operation op_code="movistar" mncs="03" national_prefix="00" internal_prefix="" desc="movistar" />
+    <operation op_code="digicel" mncs="?" national_prefix="00" internal_prefix="" desc="digicel" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Servicios de Comunicaciones Personales Inalambricas (SERCOM)" op_prefix="" />
+        <prefix op_code="Millicom / Local partners" op_prefix="" />
+        <prefix op_code="Telefonica Móviles Guatemala (Telefónica)" op_prefix="" />
+        <prefix op_code="Digicel Group" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

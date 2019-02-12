@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>格林纳达</cn_name>
+    <en_name>Grenada</en_name>
+    <national_code>1809</national_code>
+    <mcc>352</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到格林纳达的A地电话顺序为“001473-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从格林纳达的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001473-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001473XXXXXXXX、1473XXXXXXXX、01473XXXXXXXX、0001473XXXXXXXX；如果来电显示开头是0014730、0014731、0014732、0014733、0014734、0014735、0014736、0014737、0014738、0014739，一般也都表示国际区号是001473，后面一位是格林纳达内部的号码的开头第一位；如果是在格林纳达通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Digicel" mncs="030" national_prefix="011" internal_prefix="1" desc="Digicel" />
+    <operation op_code="Cable &amp; Wireless" mncs="110" national_prefix="011" internal_prefix="1" desc="Cable &amp; Wireless" />
+  </operations>
+  <remarks>
+    <remark>从格林纳达拨出内部直拨长途电话前缀：1</remark>
+  </remarks>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

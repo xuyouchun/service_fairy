@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>德国</cn_name>
+    <en_name>Germany</en_name>
+    <national_code>49</national_code>
+    <mcc>262</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到德国的A地电话顺序为“0049-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从德国的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0049-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0049XXXXXXXX、49XXXXXXXX、049XXXXXXXX、00049XXXXXXXX；如果来电显示开头是00490、00491、00492、00493、00494、00495、00496、00497、00498、00499，一般也都表示国际区号是0049，后面一位是德国内部的号码的开头第一位；如果是在德国通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>德</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="T-Mobile" mncs="01,06" national_prefix="00" internal_prefix="0" desc="T-Mobile" />
+    <operation op_code="Vodafone" mncs="02,04,09" national_prefix="00" internal_prefix="0" desc="Vodafone" />
+    <operation op_code="E-Plus" mncs="03,05,77" national_prefix="00" internal_prefix="0" desc="E-Plus" />
+    <operation op_code="O2" mncs="07,08,11" national_prefix="00" internal_prefix="0" desc="O2" />
+    <operation op_code="" mncs="10,12,13,14,60,76" national_prefix="00" internal_prefix="0" desc="" />
+    <operation op_code="Airdata" mncs="15" national_prefix="00" internal_prefix="0" desc="Airdata" />
+    <operation op_code="Vistream" mncs="16" national_prefix="00" internal_prefix="0" desc="Vistream" />
+    <operation op_code="27C3" mncs="42" national_prefix="00" internal_prefix="0" desc="27C3" />
+    <operation op_code="LYCA" mncs="43" national_prefix="00" internal_prefix="0" desc="LYCA" />
+    <operation op_code="Nash Technologies" mncs="92" national_prefix="00" internal_prefix="0" desc="Nash Technologies" />
+    <operation op_code="Debitel" mncs="901" national_prefix="00" internal_prefix="0" desc="Debitel" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="T-Mobile Deutschland GmbH" op_prefix="" />
+        <prefix op_code="Vodafone D2 GmbH" op_prefix="" />
+        <prefix op_code="E-Plus Mobilfunk" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="E-Plus Mobilfunk" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="O2 (Germany) GmbH &amp; Co. OHG" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Arcor AG &amp; Co" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Dolphin Telecom" op_prefix="" />
+        <prefix op_code="Mobilcom Multimedia" op_prefix="" />
+        <prefix op_code="Group 3G UMTS" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Chaos Computer Club" op_prefix="" />
+        <prefix op_code="Lycamobile" op_prefix="" />
+        <prefix op_code="DB Telematik" op_prefix="" />
+        <prefix op_code="Siemens AG" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="巴特洪堡" city="" area_code="6172" cn_name="巴特洪堡" en_name="Bad Homburg" />
+        <city province="柏林" city="" area_code="30" cn_name="柏林" en_name="Berlin" />
+        <city province="波恩" city="" area_code="228" cn_name="波恩" en_name="Bonn" />
+        <city province="不来梅" city="" area_code="421" cn_name="不来梅" en_name="Bremen" />
+        <city province="开姆尼斯" city="" area_code="371" cn_name="开姆尼斯" en_name="Chemnitz" />
+        <city province="科隆" city="" area_code="221" cn_name="科隆" en_name="Cologne (Koln)" />
+        <city province="科特布斯" city="" area_code="355" cn_name="科特布斯" en_name="Cottbus" />
+        <city province="达姆施塔特" city="" area_code="6151" cn_name="达姆施塔特" en_name="Darmstadt" />
+        <city province="德累斯顿" city="" area_code="351" cn_name="德累斯顿" en_name="Dresden" />
+        <city province="杜塞尔多夫" city="" area_code="211" cn_name="杜塞尔多夫" en_name="Dusseldorf" />
+        <city province="埃尔富特" city="" area_code="361" cn_name="埃尔富特" en_name="Erfurt" />
+        <city province="埃森" city="" area_code="201" cn_name="埃森" en_name="Essen" />
+        <city province="法兰克福（西）" city="" area_code="69" cn_name="法兰克福（西）" en_name="Frankfurt am Main (west)" />
+        <city province="法兰克福（东）" city="" area_code="335" cn_name="法兰克福（东）" en_name="Frankfurt an der Oder (east)" />
+        <city province="格拉" city="" area_code="365" cn_name="格拉" en_name="Gera" />
+        <city province="哈勒" city="" area_code="345" cn_name="哈勒" en_name="Halle" />
+        <city province="汉堡" city="" area_code="40" cn_name="汉堡" en_name="Hamburg" />
+        <city province="海德堡" city="" area_code="6221" cn_name="海德堡" en_name="Heidelberg" />
+        <city province="汉诺威" city="" area_code="511" cn_name="汉诺威" en_name="Hanover" />
+        <city province="卡尔施塔特" city="" area_code="9353" cn_name="卡尔施塔特" en_name="Karl-Stadt" />
+        <city province="基尔" city="" area_code="431" cn_name="基尔" en_name="Kiel" />
+        <city province="科布伦茨" city="" area_code="261" cn_name="科布伦茨" en_name="Koblenz" />
+        <city province="莱比锡" city="" area_code="341" cn_name="莱比锡" en_name="Leipzig" />
+        <city province="马德堡" city="" area_code="391" cn_name="马德堡" en_name="Magdeburg" />
+        <city province="曼海姆" city="" area_code="621" cn_name="曼海姆" en_name="Mannheim" />
+        <city province="慕尼黑" city="" area_code="89" cn_name="慕尼黑" en_name="Munich" />
+        <city province="新勃兰登堡" city="" area_code="395" cn_name="新勃兰登堡" en_name="Neubrandenburg" />
+        <city province="纽伦堡" city="" area_code="911" cn_name="纽伦堡" en_name="Nurnberg" />
+        <city province="波茨坦" city="" area_code="331" cn_name="波茨坦" en_name="Potsdam" />
+        <city province="罗斯托克" city="" area_code="381" cn_name="罗斯托克" en_name="Rostock" />
+        <city province="萨尔" city="" area_code="38223" cn_name="萨尔" en_name="Saal" />
+        <city province="什未林" city="" area_code="385" cn_name="什未林" en_name="Schwerin" />
+        <city province="斯图加特" city="" area_code="711" cn_name="斯图加特" en_name="Stuttgart" />
+        <city province="威斯巴登" city="" area_code="611" cn_name="威斯巴登" en_name="Wiesbaden" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>E-Plus Mobilfunk</op_name>
+        <wireless_type>GSM 1800</wireless_type>
+        <prefix>163, 177, 178</prefix>
+      </op>
+      <op>
+        <op_name>MobilCom</op_name>
+        <wireless_type>GSM 3G</wireless_type>
+        <prefix>156</prefix>
+      </op>
+      <op>
+        <op_name>Quam</op_name>
+        <wireless_type>GSM 3G</wireless_type>
+        <prefix>150</prefix>
+      </op>
+      <op>
+        <op_name>T-Mobile</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>160, 170, 171, 175</prefix>
+      </op>
+      <op>
+        <op_name>Vodafone</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>152, 162, 172, 173, 174</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

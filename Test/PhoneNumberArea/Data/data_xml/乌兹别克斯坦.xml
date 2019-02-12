@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>乌兹别克斯坦</cn_name>
+    <en_name>Uzbekistan</en_name>
+    <national_code>998</national_code>
+    <mcc>434</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到乌兹别克斯坦的A地电话顺序为“00998-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从乌兹别克斯坦的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00998-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00998XXXXXXXX、998XXXXXXXX、0998XXXXXXXX、000998XXXXXXXX；如果来电显示开头是009980、009981、009982、009983、009984、009985、009986、009987、009988、009989，一般也都表示国际区号是00998，后面一位是乌兹别克斯坦内部的号码的开头第一位；如果是在乌兹别克斯坦通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="" mncs="01,02,06" national_prefix="8" internal_prefix="8" desc="" />
+    <operation op_code="Beeline" mncs="04" national_prefix="8" internal_prefix="8" desc="Beeline" />
+    <operation op_code="Ucell" mncs="05" national_prefix="8" internal_prefix="8" desc="Ucell" />
+    <operation op_code="MTS" mncs="07" national_prefix="8" internal_prefix="8" desc="MTS" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Buztel" op_prefix="" />
+        <prefix op_code="Uzmacom" op_prefix="" />
+        <prefix op_code="Unitel LLC" op_prefix="" />
+        <prefix op_code="Coscom" op_prefix="" />
+        <prefix op_code="Perfectum Mobile" op_prefix="" />
+        <prefix op_code="Uzdunrobita" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="安集延" city="" area_code="74" cn_name="安集延" en_name="Andijan" />
+        <city province="布哈拉" city="" area_code="65" cn_name="布哈拉" en_name="Bukara" />
+        <city province="吉扎克" city="" area_code="72" cn_name="吉扎克" en_name="Djizak" />
+        <city province="费尔干纳" city="" area_code="73" cn_name="费尔干纳" en_name="Ferghana" />
+        <city province="卡什卡达里亚" city="" area_code="75" cn_name="卡什卡达里亚" en_name="Kashkadaria" />
+        <city province="卡拉卡尔帕克" city="" area_code="61" cn_name="卡拉卡尔帕克" en_name="Karakalpakia" />
+        <city province="花拉子模" city="" area_code="62" cn_name="花拉子模" en_name="Khorezm" />
+        <city province="撒马尔罕" city="" area_code="66" cn_name="撒马尔罕" en_name="Samarkand" />
+        <city province="苏尔汉河" city="" area_code="76" cn_name="苏尔汉河" en_name="Surkhandaria" />
+        <city province="锡尔河" city="" area_code="67" cn_name="锡尔河" en_name="Syrdariya" />
+        <city province="塔什干" city="" area_code="71" cn_name="塔什干" en_name="Tashkent" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

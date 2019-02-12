@@ -1,0 +1,103 @@
+﻿<DeployMapXmlSerializer.DeployMap xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ServiceFairy.Components.Deploy">
+  <DeployInfos xmlns:d2p1="http://schemas.datacontract.org/2004/07/ServiceFairy.Deploy">
+    <d2p1:AppClientDeployInfo>
+      <d2p1:Avaliable>true</d2p1:Avaliable>
+      <d2p1:ClientID>10000000-0000-0000-0000-000000000000</d2p1:ClientID>
+      <d2p1:CommunicateOptions xmlns:d4p1="http://schemas.datacontract.org/2004/07/Common.Framework.TrayPlatform">
+        <d4p1:CommunicationOption>
+          <d4p1:Address xmlns:d6p1="http://schemas.datacontract.org/2004/07/Common.Contracts.Service">
+            <d6p1:Address>127.0.0.1</d6p1:Address>
+            <d6p1:Port>8090</d6p1:Port>
+          </d4p1:Address>
+          <d4p1:CommunicationType>Tcp</d4p1:CommunicationType>
+          <d4p1:SupportDuplex>false</d4p1:SupportDuplex>
+        </d4p1:CommunicationOption>
+      </d2p1:CommunicateOptions>
+      <d2p1:InvokeInfos xmlns:d4p1="http://schemas.datacontract.org/2004/07/Common.Framework.TrayPlatform" />
+      <d2p1:LastUpdate>2012-01-19T15:54:47.9377552Z</d2p1:LastUpdate>
+      <d2p1:ServiceInfos xmlns:d4p1="http://schemas.datacontract.org/2004/07/Common.Framework.TrayPlatform">
+        <d4p1:ServiceInfo>
+          <d4p1:ServiceDesc xmlns:d6p1="http://schemas.datacontract.org/2004/07/Common.Contracts.Service">
+            <d6p1:Name>System.Tray</d6p1:Name>
+            <d6p1:Version xmlns:d7p1="http://schemas.datacontract.org/2004/07/Common.Contracts">
+              <d7p1:Value>16777216</d7p1:Value>
+            </d6p1:Version>
+          </d4p1:ServiceDesc>
+          <d4p1:Status>Running</d4p1:Status>
+        </d4p1:ServiceInfo>
+        <d4p1:ServiceInfo>
+          <d4p1:ServiceDesc xmlns:d6p1="http://schemas.datacontract.org/2004/07/Common.Contracts.Service">
+            <d6p1:Name>System.Master</d6p1:Name>
+            <d6p1:Version xmlns:d7p1="http://schemas.datacontract.org/2004/07/Common.Contracts">
+              <d7p1:Value>16777216</d7p1:Value>
+            </d6p1:Version>
+          </d4p1:ServiceDesc>
+          <d4p1:Status>Running</d4p1:Status>
+        </d4p1:ServiceInfo>
+        <d4p1:ServiceInfo>
+          <d4p1:ServiceDesc xmlns:d6p1="http://schemas.datacontract.org/2004/07/Common.Contracts.Service">
+            <d6p1:Name>System.Register</d6p1:Name>
+            <d6p1:Version xmlns:d7p1="http://schemas.datacontract.org/2004/07/Common.Contracts">
+              <d7p1:Value>16777216</d7p1:Value>
+            </d6p1:Version>
+          </d4p1:ServiceDesc>
+          <d4p1:Status>Running</d4p1:Status>
+        </d4p1:ServiceInfo>
+        <d4p1:ServiceInfo>
+          <d4p1:ServiceDesc xmlns:d6p1="http://schemas.datacontract.org/2004/07/Common.Contracts.Service">
+            <d6p1:Name>System.Deploy</d6p1:Name>
+            <d6p1:Version xmlns:d7p1="http://schemas.datacontract.org/2004/07/Common.Contracts">
+              <d7p1:Value>16777216</d7p1:Value>
+            </d6p1:Version>
+          </d4p1:ServiceDesc>
+          <d4p1:Status>Running</d4p1:Status>
+        </d4p1:ServiceInfo>
+        <d4p1:ServiceInfo>
+          <d4p1:ServiceDesc xmlns:d6p1="http://schemas.datacontract.org/2004/07/Common.Contracts.Service">
+            <d6p1:Name>System.Configuration</d6p1:Name>
+            <d6p1:Version xmlns:d7p1="http://schemas.datacontract.org/2004/07/Common.Contracts">
+              <d7p1:Value>16777216</d7p1:Value>
+            </d6p1:Version>
+          </d4p1:ServiceDesc>
+          <d4p1:Status>Running</d4p1:Status>
+        </d4p1:ServiceInfo>
+        <d4p1:ServiceInfo>
+          <d4p1:ServiceDesc xmlns:d6p1="http://schemas.datacontract.org/2004/07/Common.Contracts.Service">
+            <d6p1:Name>System.Navigation</d6p1:Name>
+            <d6p1:Version xmlns:d7p1="http://schemas.datacontract.org/2004/07/Common.Contracts">
+              <d7p1:Value>16777216</d7p1:Value>
+            </d6p1:Version>
+          </d4p1:ServiceDesc>
+          <d4p1:Status>Running</d4p1:Status>
+        </d4p1:ServiceInfo>
+        <d4p1:ServiceInfo>
+          <d4p1:ServiceDesc xmlns:d6p1="http://schemas.datacontract.org/2004/07/Common.Contracts.Service">
+            <d6p1:Name>System.Proxy</d6p1:Name>
+            <d6p1:Version xmlns:d7p1="http://schemas.datacontract.org/2004/07/Common.Contracts">
+              <d7p1:Value>16777216</d7p1:Value>
+            </d6p1:Version>
+          </d4p1:ServiceDesc>
+          <d4p1:Status>Running</d4p1:Status>
+        </d4p1:ServiceInfo>
+        <d4p1:ServiceInfo>
+          <d4p1:ServiceDesc xmlns:d6p1="http://schemas.datacontract.org/2004/07/Common.Contracts.Service">
+            <d6p1:Name>System.Share</d6p1:Name>
+            <d6p1:Version xmlns:d7p1="http://schemas.datacontract.org/2004/07/Common.Contracts">
+              <d7p1:Value>16777216</d7p1:Value>
+            </d6p1:Version>
+          </d4p1:ServiceDesc>
+          <d4p1:Status>Running</d4p1:Status>
+        </d4p1:ServiceInfo>
+        <d4p1:ServiceInfo>
+          <d4p1:ServiceDesc xmlns:d6p1="http://schemas.datacontract.org/2004/07/Common.Contracts.Service">
+            <d6p1:Name>System.Cache</d6p1:Name>
+            <d6p1:Version xmlns:d7p1="http://schemas.datacontract.org/2004/07/Common.Contracts">
+              <d7p1:Value>16777216</d7p1:Value>
+            </d6p1:Version>
+          </d4p1:ServiceDesc>
+          <d4p1:Status>Running</d4p1:Status>
+        </d4p1:ServiceInfo>
+      </d2p1:ServiceInfos>
+    </d2p1:AppClientDeployInfo>
+  </DeployInfos>
+</DeployMapXmlSerializer.DeployMap>

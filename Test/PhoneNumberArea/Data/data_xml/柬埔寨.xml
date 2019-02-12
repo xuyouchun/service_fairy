@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>柬埔寨</cn_name>
+    <en_name>Cambodia</en_name>
+    <national_code>855</national_code>
+    <mcc>456</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到柬埔寨的A地电话顺序为“00855-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从柬埔寨的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00855-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00855XXXXXXXX、855XXXXXXXX、0855XXXXXXXX、000855XXXXXXXX；如果来电显示开头是008550、008551、008552、008553、008554、008555、008556、008557、008558、008559，一般也都表示国际区号是00855，后面一位是柬埔寨内部的号码的开头第一位；如果是在柬埔寨通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Mobitel" mncs="01" national_prefix="001" internal_prefix="0" desc="Mobitel" />
+    <operation op_code="hello" mncs="02" national_prefix="001" internal_prefix="0" desc="hello" />
+    <operation op_code="" mncs="03" national_prefix="001" internal_prefix="0" desc="" />
+    <operation op_code="qb" mncs="04" national_prefix="001" internal_prefix="0" desc="qb" />
+    <operation op_code="Star-Cell" mncs="05" national_prefix="001" internal_prefix="0" desc="Star-Cell" />
+    <operation op_code="Smart Mobile" mncs="06" national_prefix="001" internal_prefix="0" desc="Smart Mobile" />
+    <operation op_code="Mfone" mncs="18" national_prefix="001" internal_prefix="0" desc="Mfone" />
+    <operation op_code="Excell" mncs="11" national_prefix="001" internal_prefix="0" desc="Excell" />
+    <operation op_code="Beeline" mncs="09" national_prefix="001" internal_prefix="0" desc="Beeline" />
+    <operation op_code="Metfone" mncs="08" national_prefix="001" internal_prefix="0" desc="Metfone" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="CamGSM" op_prefix="" />
+        <prefix op_code="Telekom Malaysia International (Cambodia) Co. Ltd" op_prefix="" />
+        <prefix op_code="S Telecom" op_prefix="" />
+        <prefix op_code="Cambodia Advance Communications Co. Ltd" op_prefix="" />
+        <prefix op_code="APPLIFONE CO. LTD." op_prefix="" />
+        <prefix op_code="Latelz Co., Ltd" op_prefix="" />
+        <prefix op_code="Camshin / Shinawatra" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Sotelco Ltd." op_prefix="" />
+        <prefix op_code="Viettel" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="班迭棉吉" city="" area_code="54" cn_name="班迭棉吉" en_name="Banteay Meanchey" />
+        <city province="马德望" city="" area_code="53" cn_name="马德望" en_name="Battambang" />
+        <city province="磅士卑" city="" area_code="25" cn_name="磅士卑" en_name="Kampong Speu" />
+        <city province="磅清扬" city="" area_code="26" cn_name="磅清扬" en_name="Kampong Chhnang" />
+        <city province="贡布" city="" area_code="33" cn_name="贡布" en_name="Kampot" />
+        <city province="干丹" city="" area_code="24" cn_name="干丹" en_name="Kandal" />
+        <city province="磅湛" city="" area_code="42" cn_name="磅湛" en_name="Kampong Cham" />
+        <city province="磅同" city="" area_code="62" cn_name="磅同" en_name="Kampong Thom" />
+        <city province="白马市" city="" area_code="36" cn_name="白马市" en_name="Kep" />
+        <city province="戈公" city="" area_code="35" cn_name="戈公" en_name="Koh Kong" />
+        <city province="桔井" city="" area_code="72" cn_name="桔井" en_name="Kratie" />
+        <city province="蒙多基里" city="" area_code="73" cn_name="蒙多基里" en_name="Mondul Kiri" />
+        <city province="拜林市" city="" area_code="55" cn_name="拜林市" en_name="Pailin" />
+        <city province="金边市" city="" area_code="23" cn_name="金边市" en_name="Phnom Penh" />
+        <city province="柏威夏" city="" area_code="64" cn_name="柏威夏" en_name="Preah Vihear" />
+        <city province="波罗勉" city="" area_code="43" cn_name="波罗勉" en_name="Prey Veng" />
+        <city province="菩萨" city="" area_code="52" cn_name="菩萨" en_name="Pursat" />
+        <city province="腊塔纳基里" city="" area_code="75" cn_name="腊塔纳基里" en_name="Ratanakiri" />
+        <city province="暹粒" city="" area_code="63" cn_name="暹粒" en_name="Siem Riep" />
+        <city province="西哈努克市" city="" area_code="34" cn_name="西哈努克市" en_name="Sihanoukville" />
+        <city province="上丁" city="" area_code="74" cn_name="上丁" en_name="Stung Treng" />
+        <city province="柴桢" city="" area_code="44" cn_name="柴桢" en_name="Svay Rieng" />
+        <city province="茶胶" city="" area_code="32" cn_name="茶胶" en_name="Takeo" />
+        <city province="奥多棉吉" city="" area_code="65" cn_name="奥多棉吉" en_name="Udar Meanchey" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Camshin (Shinawatra)</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>011</prefix>
+      </op>
+      <op>
+        <op_name>CamGSM (Mobitel)</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>012</prefix>
+      </op>
+      <op>
+        <op_name>Casacom (Samart)</op_name>
+        <wireless_type>NMT 900</wireless_type>
+        <prefix>015</prefix>
+      </op>
+      <op>
+        <op_name>Casacom (Samart)</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>016</prefix>
+      </op>
+      <op>
+        <op_name>Camtel</op_name>
+        <wireless_type>CDMA (现在未用)</wireless_type>
+        <prefix>014</prefix>
+      </op>
+      <op>
+        <op_name>Camtel</op_name>
+        <wireless_type>AMPS</wireless_type>
+        <prefix>018</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

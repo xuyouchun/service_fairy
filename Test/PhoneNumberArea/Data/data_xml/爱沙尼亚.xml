@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>爱沙尼亚</cn_name>
+    <en_name>Estonia</en_name>
+    <national_code>372</national_code>
+    <mcc>248</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到爱沙尼亚的A地电话顺序为“00372-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从爱沙尼亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00372-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00372XXXXXXXX、372XXXXXXXX、0372XXXXXXXX、000372XXXXXXXX；如果来电显示开头是003720、003721、003722、003723、003724、003725、003726、003727、003728、003729，一般也都表示国际区号是00372，后面一位是爱沙尼亚内部的号码的开头第一位；如果是在爱沙尼亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="EMT" mncs="01" national_prefix="00" internal_prefix="" desc="EMT" />
+    <operation op_code="Elisa" mncs="02" national_prefix="00" internal_prefix="" desc="Elisa" />
+    <operation op_code="Tele 2" mncs="03" national_prefix="00" internal_prefix="" desc="Tele 2" />
+    <operation op_code="" mncs="04,05,06" national_prefix="00" internal_prefix="" desc="" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Estonian Mobile Telecom" op_prefix="" />
+        <prefix op_code="Elisa Eesti" op_prefix="" />
+        <prefix op_code="Tele 2 Eesti" op_prefix="" />
+        <prefix op_code="OY Top Connect" op_prefix="" />
+        <prefix op_code="AS Bravocom Mobiil" op_prefix="" />
+        <prefix op_code="Progroup Holding" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="里亚内" city="" area_code="99 123" cn_name="里亚内" en_name="Lääne-Virumaa" />
+        <city province="东维鲁" city="" area_code="99 123" cn_name="东维鲁" en_name="Ida-Virumaa" />
+        <city province="雅尔瓦" city="" area_code="99 123" cn_name="雅尔瓦" en_name="Järvamaa" />
+        <city province="维良地" city="" area_code="99 123" cn_name="维良地" en_name="Viljandimaa" />
+        <city province="帕尔努" city="" area_code="99 123" cn_name="帕尔努" en_name="Pärnumaa" />
+        <city province="萨雷" city="" area_code="99 12" cn_name="萨雷" en_name="Saaremaa" />
+        <city province="希尤" city="" area_code="99 12" cn_name="希尤" en_name="Hiiumaa" />
+        <city province="里亚内" city="" area_code="99 123" cn_name="里亚内" en_name="Läänemaa" />
+        <city province="拉普拉" city="" area_code="99 123" cn_name="拉普拉" en_name="Raplamaa" />
+        <city province="塔尔图" city="" area_code="9 123" cn_name="塔尔图" en_name="Tartumaa" />
+        <city province="瓦尔加" city="" area_code="99 123" cn_name="瓦尔加" en_name="Valgamaa" />
+        <city province="耶盖瓦" city="" area_code="99 123" cn_name="耶盖瓦" en_name="Jõgevamaa" />
+        <city province="沃鲁" city="" area_code="99 123" cn_name="沃鲁" en_name="Võrumaa" />
+        <city province="贝尔瓦" city="" area_code="99 123" cn_name="贝尔瓦" en_name="Põlvamaa" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

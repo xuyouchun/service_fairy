@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>匈牙利</cn_name>
+    <en_name>Hungary</en_name>
+    <national_code>36</national_code>
+    <mcc>216</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到匈牙利的A地电话顺序为“0036-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从匈牙利的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0036-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0036XXXXXXXX、36XXXXXXXX、036XXXXXXXX、00036XXXXXXXX；如果来电显示开头是00360、00361、00362、00363、00364、00365、00366、00367、00368、00369，一般也都表示国际区号是0036，后面一位是匈牙利内部的号码的开头第一位；如果是在匈牙利通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Magyarország</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Telenor" mncs="01" national_prefix="00" internal_prefix="06" desc="Telenor" />
+    <operation op_code="T-Mobile" mncs="30" national_prefix="00" internal_prefix="06" desc="T-Mobile" />
+    <operation op_code="Vodafone" mncs="70" national_prefix="00" internal_prefix="06" desc="Vodafone" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Telenor Magyarország Zrt." op_prefix="" />
+        <prefix op_code="Magyar Telekom Plc" op_prefix="" />
+        <prefix op_code="Vodafone Magyarország Zrt." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Abasar" city="" area_code="37" cn_name="暂无中文" en_name="Abasar" />
+        <city province="巴哈" city="" area_code="79" cn_name="巴哈" en_name="Baja" />
+        <city province="包洛绍焦尔毛特" city="" area_code="35" cn_name="包洛绍焦尔毛特" en_name="Balassagyarmat" />
+        <city province="Balatonaliga" city="" area_code="84" cn_name="暂无中文" en_name="Balatonaliga" />
+        <city province="贝凯什乔包" city="" area_code="66" cn_name="贝凯什乔包" en_name="Békéscsaba" />
+        <city province="拜赖焦新村" city="" area_code="54" cn_name="拜赖焦新村" en_name="Berettyóújfalu" />
+        <city province="比奥托尔巴吉" city="" area_code="23" cn_name="比奥托尔巴吉" en_name="Biatorbágy" />
+        <city province="布达佩斯" city="" area_code="1" cn_name="布达佩斯" en_name="Budapest" />
+        <city province="采格莱德" city="" area_code="53" cn_name="采格莱德" en_name="Cegléd" />
+        <city province="德布勒森" city="" area_code="52" cn_name="德布勒森" en_name="Debrecen" />
+        <city province="Dorgicse" city="" area_code="80" cn_name="暂无中文" en_name="Dorgicse" />
+        <city province="多瑙新城" city="" area_code="25" cn_name="多瑙新城" en_name="Dunaújváros" />
+        <city province="埃格尔" city="" area_code="36" cn_name="埃格尔" en_name="Eger" />
+        <city province="埃斯泰尔戈姆" city="" area_code="33" cn_name="埃斯泰尔戈姆" en_name="Esztergom" />
+        <city province="费尔特博茨" city="" area_code="99" cn_name="费尔特博茨" en_name="Fertoboz" />
+        <city province="格德勒" city="" area_code="28" cn_name="格德勒" en_name="Gödöllő" />
+        <city province="珍珠市" city="" area_code="37" cn_name="珍珠市" en_name="Gyöngyös" />
+        <city province="杰尔" city="" area_code="96" cn_name="杰尔" en_name="Győr" />
+        <city province="亚斯贝雷尼" city="" area_code="57" cn_name="亚斯贝雷尼" en_name="Jászberény" />
+        <city province="考波什堡" city="" area_code="82" cn_name="考波什堡" en_name="Kaposvár" />
+        <city province="考尔曹格" city="" area_code="59" cn_name="考尔曹格" en_name="Karcag" />
+        <city province="考津茨包尔齐考" city="" area_code="48" cn_name="考津茨包尔齐考" en_name="Kazincbarcika" />
+        <city province="凯奇凯梅特" city="" area_code="76" cn_name="凯奇凯梅特" en_name="Kecskemét" />
+        <city province="凯斯特海伊" city="" area_code="83" cn_name="凯斯特海伊" en_name="Keszthely" />
+        <city province="小克勒什" city="" area_code="78" cn_name="小克勒什" en_name="Kiskőrös" />
+        <city province="基什孔豪洛什" city="" area_code="77" cn_name="基什孔豪洛什" en_name="Kiskunhalas" />
+        <city province="小瓦尔道" city="" area_code="45" cn_name="小瓦尔道" en_name="Kisvárda" />
+        <city province="科姆洛" city="" area_code="72" cn_name="科姆洛" en_name="Komlo" />
+        <city province="毛尔曹利" city="" area_code="85" cn_name="毛尔曹利" en_name="Marcali" />
+        <city province="马泰绍尔考" city="" area_code="44" cn_name="马泰绍尔考" en_name="Mátészalka" />
+        <city province="迈泽克韦什德" city="" area_code="49" cn_name="迈泽克韦什德" en_name="Mezőkövesd" />
+        <city province="米什科尔茨" city="" area_code="46" cn_name="米什科尔茨" en_name="Miskolc" />
+        <city province="莫哈奇" city="" area_code="69" cn_name="莫哈奇" en_name="Mohács" />
+        <city province="莫诺尔" city="" area_code="29" cn_name="莫诺尔" en_name="Monor" />
+        <city province="瑙吉考尼饶" city="" area_code="93" cn_name="瑙吉考尼饶" en_name="Nagykanizsa" />
+        <city province="尼赖吉哈佐" city="" area_code="42" cn_name="尼赖吉哈佐" en_name="Nyíregyháza" />
+        <city province="欧罗什哈佐" city="" area_code="68" cn_name="欧罗什哈佐" en_name="Orosháza" />
+        <city province="欧兹德" city="" area_code="48" cn_name="欧兹德" en_name="Ózd" />
+        <city province="波克什" city="" area_code="75" cn_name="波克什" en_name="Paks" />
+        <city province="帕波" city="" area_code="89" cn_name="帕波" en_name="Pápa" />
+        <city province="佩奇" city="" area_code="72" cn_name="佩奇" en_name="Pécs" />
+        <city province="佩奇瓦劳德" city="" area_code="72" cn_name="佩奇瓦劳德" en_name="Pecsvarad" />
+        <city province="绍尔戈陶尔扬" city="" area_code="32" cn_name="绍尔戈陶尔扬" en_name="Salgótarján" />
+        <city province="沙尔堡" city="" area_code="95" cn_name="沙尔堡" en_name="Sárvár" />
+        <city province="希欧福克" city="" area_code="84" cn_name="希欧福克" en_name="Siófok" />
+        <city province="肖普朗" city="" area_code="99" cn_name="肖普朗" en_name="Sopron" />
+        <city province="塞洛德" city="" area_code="62" cn_name="塞洛德" en_name="Szeged" />
+        <city province="塞克什白堡" city="" area_code="22" cn_name="塞克什白堡" en_name="Székesfehérvár" />
+        <city province="塞克萨德" city="" area_code="74" cn_name="塞克萨德" en_name="Szekszárd" />
+        <city province="圣安德烈" city="" area_code="26" cn_name="圣安德烈" en_name="Szentendre" />
+        <city province="森特什" city="" area_code="63" cn_name="森特什" en_name="Szentes" />
+        <city province="赛伦奇" city="" area_code="47" cn_name="赛伦奇" en_name="Szerencs" />
+        <city province="锡盖特圣米克洛什" city="" area_code="24" cn_name="锡盖特圣米克洛什" en_name="Szigetszentmiklós" />
+        <city province="锡盖特堡" city="" area_code="73" cn_name="锡盖特堡" en_name="Szigetvár" />
+        <city province="索尔诺克" city="" area_code="56" cn_name="索尔诺克" en_name="Szolnok" />
+        <city province="松博特海伊" city="" area_code="94" cn_name="松博特海伊" en_name="Szombathely" />
+        <city province="陶波尔曹" city="" area_code="87" cn_name="陶波尔曹" en_name="Tapolca" />
+        <city province="陶陶巴尼奥" city="" area_code="34" cn_name="陶陶巴尼奥" en_name="Tatabánya" />
+        <city province="瓦茨市" city="" area_code="27" cn_name="瓦茨市" en_name="Vác" />
+        <city province="维斯普雷姆" city="" area_code="88" cn_name="维斯普雷姆" en_name="Veszprém" />
+        <city province="佐洛埃格塞格" city="" area_code="92" cn_name="佐洛埃格塞格" en_name="Zalaegerszeg" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

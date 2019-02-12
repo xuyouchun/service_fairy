@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>菲律宾</cn_name>
+    <en_name>Philippines</en_name>
+    <national_code>63</national_code>
+    <mcc>515</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到菲律宾的A地电话顺序为“0063-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从菲律宾的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0063-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0063XXXXXXXX、63XXXXXXXX、063XXXXXXXX、00063XXXXXXXX；如果来电显示开头是00630、00631、00632、00633、00634、00635、00636、00637、00638、00639，一般也都表示国际区号是0063，后面一位是菲律宾内部的号码的开头第一位；如果是在菲律宾通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Islacom" mncs="01" national_prefix="00" internal_prefix="0" desc="Islacom" />
+    <operation op_code="Globe" mncs="02" national_prefix="00" internal_prefix="0" desc="Globe" />
+    <operation op_code="Smart" mncs="03" national_prefix="00" internal_prefix="0" desc="Smart" />
+    <operation op_code="Sun" mncs="05" national_prefix="00" internal_prefix="0" desc="Sun" />
+    <operation op_code="" mncs="11,88" national_prefix="00" internal_prefix="0" desc="" />
+    <operation op_code="Cure" mncs="18" national_prefix="00" internal_prefix="0" desc="Cure" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Globe Telecom via Innove Communications" op_prefix="" />
+        <prefix op_code="Globe Telecom" op_prefix="" />
+        <prefix op_code="PLDT via Smart Communications" op_prefix="" />
+        <prefix op_code="Digital Telecommunications Philippines" op_prefix="" />
+        <prefix op_code="PLDT via ACeS Philippines" op_prefix="" />
+        <prefix op_code="PLDT via Smart's Connectivity Unlimited Resources Enterprise" op_prefix="" />
+        <prefix op_code="Nextel" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿尔拜" city="" area_code="52" cn_name="阿尔拜" en_name="Albay" />
+        <city province="安吉尔斯" city="" area_code="455" cn_name="安吉尔斯" en_name="Angeles" />
+        <city province="巴科洛德" city="" area_code="34" cn_name="巴科洛德" en_name="Bacolod" />
+        <city province="碧瑶市" city="" area_code="74" cn_name="碧瑶市" en_name="Baguio City" />
+        <city province="巴坦加斯" city="" area_code="43" cn_name="巴坦加斯" en_name="Batangas" />
+        <city province="卡加延德奥罗" city="" area_code="8822" cn_name="卡加延德奥罗" en_name="Cacayan de Oro" />
+        <city province="卡卢坎" city="" area_code="2" cn_name="卡卢坎" en_name="Caloocan" />
+        <city province="卡维特" city="" area_code="46" cn_name="卡维特" en_name="Cavite" />
+        <city province="宿务市" city="" area_code="32" cn_name="宿务市" en_name="Cebu City" />
+        <city province="哥打巴托" city="" area_code="64" cn_name="哥打巴托" en_name="Cotabato" />
+        <city province="Dalaguete" city="" area_code="32" cn_name="暂无中文" en_name="Dalaguete" />
+        <city province="达古潘" city="" area_code="75" cn_name="达古潘" en_name="Dagupan" />
+        <city province="Dauin" city="" area_code="3522" cn_name="暂无中文" en_name="Dauin" />
+        <city province="达沃" city="" area_code="82" cn_name="达沃" en_name="Davao" />
+        <city province="杜马格特市" city="" area_code="3524" cn_name="杜马格特市" en_name="Dumaguete City" />
+        <city province="桑托斯将军" city="" area_code="83" cn_name="桑托斯将军" en_name="General Santos" />
+        <city province="伊利甘市" city="" area_code="63" cn_name="伊利甘市" en_name="Iligan City" />
+        <city province="怡朗市" city="" area_code="33" cn_name="怡朗市" en_name="Iloilo City" />
+        <city province="利帕" city="" area_code="43" cn_name="利帕" en_name="Lipa" />
+        <city province="卢塞纳" city="" area_code="42" cn_name="卢塞纳" en_name="Lucena" />
+        <city province="马尼拉" city="" area_code="2" cn_name="马尼拉" en_name="Manila" />
+        <city province="马斯巴特" city="" area_code="56" cn_name="马斯巴特" en_name="Masbate" />
+        <city province="那牙市" city="" area_code="5421" cn_name="那牙市" en_name="Naga City" />
+        <city province="奥萨米斯市" city="" area_code="88" cn_name="奥萨米斯市" en_name="Ozamis City" />
+        <city province="邦板牙" city="" area_code="45" cn_name="邦板牙" en_name="Pampanga" />
+        <city province="巴萨伊" city="" area_code="2" cn_name="巴萨伊" en_name="Pasay" />
+        <city province="公主港" city="" area_code="48" cn_name="公主港" en_name="Puerto Princesa" />
+        <city province="奎松城" city="" area_code="2" cn_name="奎松城" en_name="Quezon City" />
+        <city province="圣费尔南多：拉乌尼翁" city="" area_code="72" cn_name="圣费尔南多：拉乌尼翁" en_name="San Fernando: La Union" />
+        <city province="圣巴勃罗" city="" area_code="93" cn_name="圣巴勃罗" en_name="San Pablo" />
+        <city province="苏比克湾" city="" area_code="47" cn_name="苏比克湾" en_name="Subic Bay" />
+        <city province="塔克洛班" city="" area_code="53" cn_name="塔克洛班" en_name="Tacloban" />
+        <city province="打拉市" city="" area_code="452" cn_name="打拉市" en_name="Tarlac City" />
+        <city province="三宝颜" city="" area_code="62" cn_name="三宝颜" en_name="Zamboanga" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

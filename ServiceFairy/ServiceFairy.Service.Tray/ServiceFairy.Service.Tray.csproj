@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AF000ADF-1CD5-4301-9971-5211AA0B0225}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ServiceFairy.Service.Tray</RootNamespace>
+    <AssemblyName>Main</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\Service\Core.Tray\1.0.0.0\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\Service\Core.Tray\1.0.0.0\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientUtility.cs" />
+    <Compile Include="Components\DeployExecutorAppComponent.cs" />
+    <Compile Include="Components\HeartBeatControllerAppComponent.cs" />
+    <Compile Include="Components\FileSystemManagerAppComponent.cs" />
+    <Compile Include="Components\LocalLogManagerAppComponent.cs" />
+    <Compile Include="Components\ProcessManagerAppComponent.cs" />
+    <Compile Include="Components\SecurityProviderAppComponent.cs" />
+    <Compile Include="Components\ServiceCommunicationSearcherAppComponent.cs" />
+    <Compile Include="Components\SystemLogManagerAppComponent.cs" />
+    <Compile Include="Components\SystemInformationManagerAppComponent.cs" />
+    <Compile Include="Components\TrayUtility.cs" />
+    <Compile Include="DeleteLocalLogGroupsAppCommand.cs" />
+    <Compile Include="DoCommandAppCommand.cs" />
+    <Compile Include="FsDeletePathAppCommand.cs" />
+    <Compile Include="FsDownloadFileAppCommand.cs" />
+    <Compile Include="FsGetDirectoryInfosAppCommand.cs" />
+    <Compile Include="FsGetRootDirectoryInfosAppCommand.cs" />
+    <Compile Include="GetAllServicesAppCommand.cs" />
+    <Compile Include="GetCustomCommandInfosAppCommand.cs" />
+    <Compile Include="GetLocalLogGroupsAppCommand.cs" />
+    <Compile Include="GetLocalLogItemsAppCommand.cs" />
+    <Compile Include="GetLocalLogItemsByTimeAppCommand.cs" />
+    <Compile Include="GetProcessesAppCommand.cs" />
+    <Compile Include="GetSystemEnvironmentVariablesAppCommand.cs" />
+    <Compile Include="GetSystemLogGroupsAppCommand.cs" />
+    <Compile Include="GetSystemLogItemsAppCommand.cs" />
+    <Compile Include="GetSystemPropertiesAppCommand.cs" />
+    <Compile Include="GetThreadsAppCommand.cs" />
+    <Compile Include="KillProcessesAppCommand.cs" />
+    <Compile Include="Service.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetSystemEnvironmentVariablesAppCommand.cs" />
+    <Compile Include="StartProcessesAppCommand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.Communication\Common.Communication.csproj">
+      <Project>{DE2353F5-D22D-4B09-ADA6-09A7CA757ED1}</Project>
+      <Name>Common.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Framework.TrayPlatform\Common.Framework.TrayPlatform.csproj">
+      <Project>{EFD3F3BF-B25E-4CA6-BA40-502BD1763E72}</Project>
+      <Name>Common.Framework.TrayPlatform</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Package\Common.Package.csproj">
+      <Project>{5B657644-8038-44E7-895B-F6A82AD596EE}</Project>
+      <Name>Common.Package</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Components\ServiceFairy.Components.csproj">
+      <Project>{4AE3CC0F-3B7C-46FD-B215-C4CD2B7249A2}</Project>
+      <Name>ServiceFairy.Components</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Core\ServiceFairy.Core.csproj">
+      <Project>{97C59EA0-2212-4F40-9093-DBA0FDC1C0F2}</Project>
+      <Name>ServiceFairy.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Entities\ServiceFairy.Entities.csproj">
+      <Project>{4930AD49-98E9-46C5-8910-4FCBD5D7E5D1}</Project>
+      <Name>ServiceFairy.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Install\ServiceFairy.Install.csproj">
+      <Project>{6AB02A27-4926-4725-BFE1-1CF763DD21A5}</Project>
+      <Name>ServiceFairy.Install</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.SystemInvoke\ServiceFairy.SystemInvoke.csproj">
+      <Project>{8BB052AF-7B66-4839-9253-E8F07A1B540F}</Project>
+      <Name>ServiceFairy.SystemInvoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy\ServiceFairy.csproj">
+      <Project>{915745C6-F6D5-45E6-AB2E-E0D087E19EF7}</Project>
+      <Name>ServiceFairy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Main.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>D:
+CD D:\Work\Dev\Assembly\Service
+CopyClient.bat</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

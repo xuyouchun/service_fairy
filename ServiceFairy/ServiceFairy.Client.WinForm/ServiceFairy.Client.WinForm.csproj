@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E2069409-B7A1-4DED-9DC9-67DF04E5A4B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ServiceFairy.Client.WinForm</RootNamespace>
+    <AssemblyName>ServiceFairy.Client.WinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>personal.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\..\Assembly\Externs\DevComponents\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\..\Assembly\Externs\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientContext.cs" />
+    <Compile Include="GroupMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupMessageForm.Designer.cs">
+      <DependentUpon>GroupMessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MyServiceFairyClientApplication.cs" />
+    <Compile Include="NavigationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationForm.Designer.cs">
+      <DependentUpon>NavigationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="UserDetailWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserDetailWindow.Designer.cs">
+      <DependentUpon>UserDetailWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserMainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMainFrame.Designer.cs">
+      <DependentUpon>UserMainFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserMainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMainWindow.Designer.cs">
+      <DependentUpon>UserMainWindow.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GroupMessageForm.resx">
+      <DependentUpon>GroupMessageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="NavigationForm.resx">
+      <DependentUpon>NavigationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDetailWindow.resx">
+      <DependentUpon>UserDetailWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMainFrame.resx">
+      <DependentUpon>UserMainFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMainWindow.resx">
+      <DependentUpon>UserMainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.Communication\Common.Communication.csproj">
+      <Project>{DE2353F5-D22D-4B09-ADA6-09A7CA757ED1}</Project>
+      <Name>Common.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Framework.TrayPlatform\Common.Framework.TrayPlatform.csproj">
+      <Project>{EFD3F3BF-B25E-4CA6-BA40-502BD1763E72}</Project>
+      <Name>Common.Framework.TrayPlatform</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Package\Common.Package.csproj">
+      <Project>{5B657644-8038-44E7-895B-F6A82AD596EE}</Project>
+      <Name>Common.Package</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.WinForm\Common.WinForm.csproj">
+      <Project>{64265183-5883-4D4E-9ED8-7E996C2727E4}</Project>
+      <Name>Common.WinForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Client\ServiceFairy.Client.csproj">
+      <Project>{20ECC9DE-E459-4851-9083-C190386E36D2}</Project>
+      <Name>ServiceFairy.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Entities\ServiceFairy.Entities.csproj">
+      <Project>{4930AD49-98E9-46C5-8910-4FCBD5D7E5D1}</Project>
+      <Name>ServiceFairy.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.SystemInvoke\ServiceFairy.SystemInvoke.csproj">
+      <Project>{8BB052AF-7B66-4839-9253-E8F07A1B540F}</Project>
+      <Name>ServiceFairy.SystemInvoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy\ServiceFairy.csproj">
+      <Project>{915745C6-F6D5-45E6-AB2E-E0D087E19EF7}</Project>
+      <Name>ServiceFairy %28ServiceFairy\ServiceFairy%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="personal.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

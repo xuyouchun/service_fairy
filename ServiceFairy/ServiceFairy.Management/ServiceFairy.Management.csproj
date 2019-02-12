@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B3344CD-158A-4EAA-A9FD-5662B83E153C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ServiceFairy.Management</RootNamespace>
+    <AssemblyName>ServiceFairy.Management</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=6.7.2.0, Culture=neutral, PublicKeyToken=bd7258ab2241255c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Assembly\Externs\DevComponents\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppClients\AppClientCommunicationNode.Close.cs" />
+    <Compile Include="AppClients\AppClientFileSystemFileNode.cs" />
+    <Compile Include="AppClients\AppClientFileSystemNode.cs" />
+    <Compile Include="AppClients\AppClientFileSystemDirectoryNode.cs" />
+    <Compile Include="AppClients\AppClientInvokeInfoNode_ByAppClient.cs" />
+    <Compile Include="AppClients\AppClientInvokeInfoWatchTypeNode.cs" />
+    <Compile Include="AppClients\AppClientInvokeInfoNode_ByAppService.cs" />
+    <Compile Include="AppClients\AppClientInvokeInfoNode_ByCommunication.cs" />
+    <Compile Include="AppClients\AppClientLocalLogGroupNode.cs" />
+    <Compile Include="AppClients\AppClientLocalLogItemNode.Actions.cs" />
+    <Compile Include="AppClients\AppClientLocalLogItemNode.cs" />
+    <Compile Include="AppClients\AppClientLocalLogListNode.cs" />
+    <Compile Include="AppClients\AppClientNode.Actions.cs" />
+    <Compile Include="AppClients\AppClientOnlineUserListNode.cs" />
+    <Compile Include="AppClients\AppClientOnlineUserNode.cs" />
+    <Compile Include="AppClients\AppClientProcessNode.Actions.cs" />
+    <Compile Include="AppClients\AppClientProcessListNode.cs" />
+    <Compile Include="AppClients\AppClientProcessNode.cs" />
+    <Compile Include="AppClients\AppClientPropertyListNode.cs" />
+    <Compile Include="AppClients\AppClientPropertyNode.cs" />
+    <Compile Include="AppClients\AppClientSystemEnvironmentVariableListNode.cs" />
+    <Compile Include="AppClients\AppClientSystemEnvironmentVariableNode.cs" />
+    <Compile Include="AppClients\AppClientSystemLogGroupNode.cs" />
+    <Compile Include="AppClients\AppClientSystemLogItemNode.Actions.cs" />
+    <Compile Include="AppClients\AppClientSystemLogItemNode.cs" />
+    <Compile Include="AppClients\AppClientSystemLogListNode.cs" />
+    <Compile Include="AppClients\AppClientThreadNode.cs" />
+    <Compile Include="AppCommands\AppCommandListNode.Actions.cs" />
+    <Compile Include="AppCommands\AppCommandListNode.cs" />
+    <Compile Include="AppCommands\AppCommandNode.Actions.cs" />
+    <Compile Include="AppCommands\AppCommandNode.cs" />
+    <Compile Include="AppComponents\AppComponentListNode.Actions.cs" />
+    <Compile Include="AppComponents\AppComponentListNode.cs" />
+    <Compile Include="AppComponents\AppComponentNode.cs" />
+    <Compile Include="AppComponents\AppComponentPropertyNode.cs" />
+    <Compile Include="AppServiceAddins\AppServiceAddinListNode.cs" />
+    <Compile Include="AppServiceAddins\AppServiceAddinNode.cs" />
+    <Compile Include="AppServices\AppServiceFileNode.Actions.cs" />
+    <Compile Include="AppServices\AppServiceFileNode.cs" />
+    <Compile Include="AppServices\AppServiceConfigurationNode.cs" />
+    <Compile Include="AppServices\AppServiceDeployListNode.cs" />
+    <Compile Include="AppServices\AppServiceDeployNode.cs" />
+    <Compile Include="AppServices\AppServiceDeployNode.UnDeploy.cs" />
+    <Compile Include="AppServices\AppServiceFileListNode.cs" />
+    <Compile Include="Balancing\BalancingNode.cs" />
+    <Compile Include="DeployPackage\DeployPackageFileNode.Actions.cs" />
+    <Compile Include="DeployPackage\DeployPackageFileNode.cs" />
+    <Compile Include="DeployPackage\PlatformDeployPackageNode.cs" />
+    <Compile Include="DeployPackage\PlatformDeployPackageNode.Actions.cs" />
+    <Compile Include="DeployPackage\PlatformDeployPackageNode.Deploy.cs" />
+    <Compile Include="DeployPackage\ServiceDeployPackageListNode.Sync.cs" />
+    <Compile Include="DeployPackage\ServiceDeployPackageListNode.cs" />
+    <Compile Include="DeployPackage\DeployManageNode.cs" />
+    <Compile Include="AppClients\AppClientCommunicationListNode.StartNew.cs" />
+    <Compile Include="AppClients\AppClientCommunicationNode.cs" />
+    <Compile Include="AppClients\AppClientCommunicationListNode.cs" />
+    <Compile Include="AppClients\AppClientContext.cs" />
+    <Compile Include="AppClients\AppClientInvokeInfoListNode.cs" />
+    <Compile Include="AppServices\AppServiceInfoNode.CancelStart.cs" />
+    <Compile Include="AppServices\AppClientServiceInfoListNode.cs" />
+    <Compile Include="AppServices\AppServiceInfoNode.cs" />
+    <Compile Include="AppServices\AppServiceInfoNode.StopService.cs" />
+    <Compile Include="AppServiceCategoryUtility.cs" />
+    <Compile Include="AppServices\AppServiceCategoryNode.cs" />
+    <Compile Include="AppServices\AppServiceObjectTreeNode.cs" />
+    <Compile Include="AppClients\AppClientListNode.cs" />
+    <Compile Include="AppClients\AppClientNode.cs" />
+    <Compile Include="DeployPackage\ServiceDeployPackageNode.cs" />
+    <Compile Include="DeployPackage\DeplyMapManagerNode.cs" />
+    <Compile Include="DeployPackage\PlatformDeployPackageListNode.cs" />
+    <Compile Include="DeployPackage\ServiceDeployPackageNode.Actions.cs" />
+    <Compile Include="DeployPackage\ServiceDeployPackageNode.Deploy.cs" />
+    <Compile Include="FaultDiagnosis\FaultDiagnosisNode.cs" />
+    <Compile Include="SfManagementContext.AppCommandManager.cs" />
+    <Compile Include="SfManagementContext.AppFileManager.cs" />
+    <Compile Include="SfManagementContext.AppServiceAddinManager.cs" />
+    <Compile Include="SfManagementContext.cs" />
+    <Compile Include="SfManagementContext.PlatformDeployPackageInfoManager.cs" />
+    <Compile Include="SfManagementContext.ServiceDeployInfoManager.cs" />
+    <Compile Include="SfManagementContext.ServiceDeployPackageInfoManager.cs" />
+    <Compile Include="OthersTreeNode.cs" />
+    <Compile Include="ResourceNames.cs" />
+    <Compile Include="SceneTestNode.cs" />
+    <Compile Include="SystemManagementTreeNode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RootServiceObjectKernel.cs" />
+    <Compile Include="SmServiceObjectProvider.cs" />
+    <Compile Include="SmUtility.cs" />
+    <Compile Include="SmServiceObjectTree.cs" />
+    <Compile Include="Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.Communication\Common.Communication.csproj">
+      <Project>{DE2353F5-D22D-4B09-ADA6-09A7CA757ED1}</Project>
+      <Name>Common.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Framework.Management\Common.Framework.Management.csproj">
+      <Project>{E228767C-D752-4C15-BC98-2BBBFF025CC6}</Project>
+      <Name>Common.Framework.Management</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Package\Common.Package.csproj">
+      <Project>{5B657644-8038-44E7-895B-F6A82AD596EE}</Project>
+      <Name>Common.Package</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.WinForm\Common.WinForm.csproj">
+      <Project>{64265183-5883-4D4E-9ED8-7E996C2727E4}</Project>
+      <Name>Common.WinForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Entities\ServiceFairy.Entities.csproj">
+      <Project>{4930AD49-98E9-46C5-8910-4FCBD5D7E5D1}</Project>
+      <Name>ServiceFairy.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.SystemInvoke\ServiceFairy.SystemInvoke.csproj">
+      <Project>{8BB052AF-7B66-4839-9253-E8F07A1B540F}</Project>
+      <Name>ServiceFairy.SystemInvoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.WinForm\ServiceFairy.WinForm.csproj">
+      <Project>{FBA8D7A4-152F-40D4-BB62-20978FE8D4C2}</Project>
+      <Name>ServiceFairy.WinForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy\ServiceFairy.csproj">
+      <Project>{915745c6-f6d5-45e6-ab2e-e0d087e19ef7}</Project>
+      <Name>ServiceFairy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppServices\AppClientServiceInfoListNode.StartNewService.cs" />
+    <Compile Include="AppServices\AppServiceInfoNode.RestartService.cs" />
+    <Compile Include="AppClients\AppClientCommunicationNode.Restart.cs" />
+    <Compile Include="SfManagementContext.ClientDescManager.cs" />
+    <Compile Include="AppServices\AppServiceDeployListNode.DeployNew.cs" />
+    <Compile Include="DeployPackage\PlatformDeployPackageListNode.Actions.cs" />
+    <Compile Include="SfManagementContext.ServiceUIInfoManager.cs" />
+    <Compile Include="DeployPackage\ServiceDeployPackageListNode.Upload.cs" />
+    <Compile Include="SfManagementContext.AppComponentManager.cs" />
+    <Compile Include="AppClients\AppClientFileSystemFileNode.Actions.cs" />
+    <None Include="Resources\Core.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\System.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\AppClientInvokeInfoWatchType.ico" />
+    <Content Include="Resources\Balancing.ico" />
+    <Content Include="Resources\AppClientList.ico" />
+    <Content Include="Resources\AppClientFileSystemDirectory_CDRom.ico" />
+    <Content Include="Resources\AppClientFileSystem.ico" />
+    <Content Include="Resources\configuration_settings.ico" />
+    <Content Include="Resources\AppClientProcessList.ico" />
+    <Content Include="Resources\AppClientServiceList.png" />
+    <Content Include="Resources\DatabaseManager.ico" />
+    <Content Include="Resources\AppClientFileSystemFile.ico" />
+    <Content Include="Resources\AppServiceFile.ico" />
+    <Content Include="Resources\DeployMap.ico" />
+    <Content Include="Resources\AppComponent2.ico" />
+    <Content Include="Resources\AppComponentList2.ico" />
+    <Content Include="Resources\AppServiceFileList2.ico" />
+    <Content Include="Resources\AppServiceFile2.ico" />
+    <Content Include="Resources\DeployPackageFile.ico" />
+    <Content Include="Resources\AppComponentProperty.ico" />
+    <Content Include="Resources\AppClientLocalLogGroup.ico" />
+    <Content Include="Resources\AppClientLocalLogItem_Error.ico" />
+    <Content Include="Resources\AppClientLocalLogItem_Warning.ico" />
+    <Content Include="Resources\AppClientLocalLogItem_Message.ico" />
+    <Content Include="Resources\AppClientFileSystemDirectory_Driver.ico" />
+    <Content Include="Resources\AppClientFileSystemDirectory_System.ico" />
+    <Content Include="Resources\AppClientFileSystemDirectory_Special.ico" />
+    <Content Include="Resources\AppClientLocalLogList.ico" />
+    <Content Include="Resources\AppClientFileSystemDirectory.ico" />
+    <Content Include="Resources\AppClientFileSystemDirectory_Movable.ico" />
+    <Content Include="Resources\AppClientProcess.ico" />
+    <Content Include="Resources\AppClientOnlineUserList.ico" />
+    <Content Include="Resources\AppClientOnlineUser.ico" />
+    <Content Include="Resources\AppComponent.ico" />
+    <Content Include="Resources\AppClientSystemLogList2.ico" />
+    <Content Include="Resources\AppClientSystemLogList.ico" />
+    <Content Include="Resources\AppClientPropertyList.ico" />
+    <Content Include="Resources\AppClientProperty.ico" />
+    <Content Include="Resources\AppClientSystemEnvironmentVariableList.ico" />
+    <Content Include="Resources\AppClientSystemEnvironmentVariable.ico" />
+    <Content Include="Resources\AppClientCommunication.ico" />
+    <Content Include="Resources\ServiceDeployPackageList.ico" />
+    <Content Include="Resources\PlatformDeployPackageList.ico" />
+    <Content Include="Resources\PlatformDeployPackage.ico" />
+    <Content Include="Resources\ServiceDeployPackage.ico" />
+    <Content Include="Resources\AppCommandList.ico" />
+    <Content Include="Resources\AppCommand.ico" />
+    <Content Include="Resources\AppClientLocalLogItem.ico" />
+    <Content Include="Resources\AppClientThread.ico" />
+    <Content Include="Resources\AppServiceAddinList.ico" />
+    <Content Include="Resources\AppServiceAddin_In.ico" />
+    <Content Include="Resources\AppServiceAddin_Out.ico" />
+    <Content Include="Resources\AppComponentList.ico" />
+    <Content Include="Resources\AppServiceFileList.ico" />
+    <Content Include="Resources\AppClientSystemLogGroup.ico" />
+    <Content Include="Resources\AppClientSystemLogItem.ico" />
+    <Content Include="Resources\AppClientSystemLogItem_Error.ico" />
+    <Content Include="Resources\AppClientSystemLogItem_Message.ico" />
+    <Content Include="Resources\AppClientSystemLogItem_Warning.ico" />
+    <Content Include="Resources\AppClientCommunicationList.ico" />
+    <None Include="Resources\AppClientInvokeInfo.ico" />
+    <None Include="Resources\AppClientInvokeInfoList.ico" />
+    <None Include="Resources\AppServiceConfiguration.ico" />
+    <None Include="Resources\FakeAppClient.ico" />
+    <None Include="Resources\Application.ico" />
+    <None Include="Resources\Others.ico" />
+    <None Include="Resources\Root.ico" />
+    <Content Include="Resources\AppServiceInfo.png" />
+    <None Include="Resources\SceneTest.ico" />
+    <Content Include="Resources\DeployManager.ico" />
+    <Content Include="Resources\FakeCluster.ico" />
+    <None Include="Resources\AppClient.ico" />
+    <None Include="Resources\AppServiceDeployList.ico" />
+    <Content Include="Resources\FaultDiagnosis.ico" />
+    <Content Include="Resources\SystemManagement.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

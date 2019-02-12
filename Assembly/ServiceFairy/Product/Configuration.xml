@@ -1,0 +1,8 @@
+<RunningConfiguration xmlns="http://schemas.datacontract.org/2004/07/ServiceFairy.Install" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <clientId>4e248c7f-2dae-4b7b-92e2-29a17d232ad5</clientId>
+  <communicationsToOpen></communicationsToOpen>
+  <runningModel>Normal</runningModel>
+  <masterCommunications>hefengxin-master:8090</masterCommunications>
+  <!--<serviceBasePath>C:\Users\xuyc\AppData\Roaming\ServiceFairy</serviceBasePath>
+  <servicesToStart>System.Proxy;System.Navigation</servicesToStart>-->
+</RunningConfiguration>

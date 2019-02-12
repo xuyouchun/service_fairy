@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>巴布亚新几内亚</cn_name>
+    <en_name>Papua New Guinea</en_name>
+    <national_code>675</national_code>
+    <mcc>537</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到巴布亚新几内亚的A地电话顺序为“00675-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从巴布亚新几内亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00675-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00675XXXXXXXX、675XXXXXXXX、0675XXXXXXXX、000675XXXXXXXX；如果来电显示开头是006750、006751、006752、006753、006754、006755、006756、006757、006758、006759，一般也都表示国际区号是00675，后面一位是巴布亚新几内亚内部的号码的开头第一位；如果是在巴布亚新几内亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="B-Mobile" mncs="01" national_prefix="00" internal_prefix="" desc="B-Mobile" />
+    <operation op_code="Digicel" mncs="03" national_prefix="00" internal_prefix="" desc="Digicel" />
+  </operations>
+  <remarks>
+    <remark>不需要城市区号</remark>
+    <remark>所有号码都为7位数字</remark>
+    <remark>Admiralty Islands 必须通过接线员接通</remark>
+  </remarks>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

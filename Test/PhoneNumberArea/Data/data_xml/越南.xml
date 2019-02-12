@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>越南</cn_name>
+    <en_name>Vietnam</en_name>
+    <national_code>84</national_code>
+    <mcc>452</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到越南的A地电话顺序为“0084-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从越南的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0084-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0084XXXXXXXX、84XXXXXXXX、084XXXXXXXX、00084XXXXXXXX；如果来电显示开头是00840、00841、00842、00843、00844、00845、00846、00847、00848、00849，一般也都表示国际区号是0084，后面一位是越南内部的号码的开头第一位；如果是在越南通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="MobiFone" mncs="01" national_prefix="00" internal_prefix="0" desc="MobiFone" />
+    <operation op_code="Vinaphone" mncs="02" national_prefix="00" internal_prefix="0" desc="Vinaphone" />
+    <operation op_code="S-Fone" mncs="03" national_prefix="00" internal_prefix="0" desc="S-Fone" />
+    <operation op_code="Viettel Mobile" mncs="04" national_prefix="00" internal_prefix="0" desc="Viettel Mobile" />
+    <operation op_code="Vietnamobile" mncs="05" national_prefix="00" internal_prefix="0" desc="Vietnamobile" />
+    <operation op_code="EVNTelecom" mncs="06" national_prefix="00" internal_prefix="0" desc="EVNTelecom" />
+    <operation op_code="3G EVNTelecom" mncs="08" national_prefix="00" internal_prefix="0" desc="3G EVNTelecom" />
+    <operation op_code="Beeline VN" mncs="07" national_prefix="00" internal_prefix="0" desc="Beeline VN" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Vietnam Mobile Telecom Services Company (VMS)" op_prefix="" />
+        <prefix op_code="Vietnam Telecom Services Company" op_prefix="" />
+        <prefix op_code="S-Telecom" op_prefix="" />
+        <prefix op_code="Viettel Telecom" op_prefix="" />
+        <prefix op_code="Hanoi Telecom" op_prefix="" />
+        <prefix op_code="EVNTelecom - EVN" op_prefix="" />
+        <prefix op_code="EVNTelecom - EVN" op_prefix="" />
+        <prefix op_code="GTEL Mobile JSC" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="安江" city="" area_code="76" cn_name="安江" en_name="An Giang" />
+        <city province="巴地" city="" area_code="64" cn_name="巴地" en_name="Ba Ria" />
+        <city province="北江" city="" area_code="240" cn_name="北江" en_name="Bac Giang" />
+        <city province="北干" city="" area_code="281" cn_name="北干" en_name="Bac Kan" />
+        <city province="薄寮" city="" area_code="781" cn_name="薄寮" en_name="Bac Lieu" />
+        <city province="北宁" city="" area_code="241" cn_name="北宁" en_name="Bac Ninh" />
+        <city province="槟知" city="" area_code="75" cn_name="槟知" en_name="Ben Tre" />
+        <city province="平定" city="" area_code="56" cn_name="平定" en_name="Binh Dinh" />
+        <city province="平阳" city="" area_code="650" cn_name="平阳" en_name="Binh Duong" />
+        <city province="平福" city="" area_code="651" cn_name="平福" en_name="Binh Phuoc" />
+        <city province="平顺" city="" area_code="62" cn_name="平顺" en_name="Binh Thuan" />
+        <city province="金瓯" city="" area_code="780" cn_name="金瓯" en_name="Ca Mau" />
+        <city province="芹苴" city="" area_code="71" cn_name="芹苴" en_name="Can Tho" />
+        <city province="高平" city="" area_code="26" cn_name="高平" en_name="Cao Bang" />
+        <city province="九龙" city="" area_code="70" cn_name="九龙" en_name="Cuu Long" />
+        <city province="岘港" city="" area_code="511" cn_name="岘港" en_name="Da Nang" />
+        <city province="多乐" city="" area_code="50" cn_name="多乐" en_name="Dak Lak" />
+        <city province="同奈" city="" area_code="61" cn_name="同奈" en_name="Dong Nai" />
+        <city province="同塔" city="" area_code="67" cn_name="同塔" en_name="Dong Thap" />
+        <city province="嘉莱" city="" area_code="59" cn_name="嘉莱" en_name="Gia Lai" />
+        <city province="河江" city="" area_code="19" cn_name="河江" en_name="Ha Giang" />
+        <city province="河南" city="" area_code="351" cn_name="河南" en_name="Ha Nam" />
+        <city province="河西" city="" area_code="34" cn_name="河西" en_name="Ha Tay" />
+        <city province="河静" city="" area_code="39" cn_name="河静" en_name="Ha Tinh" />
+        <city province="海阳" city="" area_code="320" cn_name="海阳" en_name="Hai Duong" />
+        <city province="海防" city="" area_code="31" cn_name="海防" en_name="Hai Phong" />
+        <city province="河内" city="" area_code="4" cn_name="河内" en_name="Hanoi City" />
+        <city province="胡志明市" city="" area_code="8" cn_name="胡志明市" en_name="Ho Chi Minh City" />
+        <city province="和平" city="" area_code="18" cn_name="和平" en_name="Hoa Binh" />
+        <city province="兴安" city="" area_code="321" cn_name="兴安" en_name="Hung Yen" />
+        <city province="庆和" city="" area_code="58" cn_name="庆和" en_name="Khanh Hoa" />
+        <city province="建江" city="" area_code="77" cn_name="建江" en_name="Kien Giang" />
+        <city province="昆嵩" city="" area_code="60" cn_name="昆嵩" en_name="Kon Tum" />
+        <city province="老街" city="" area_code="20" cn_name="老街" en_name="Lao Cai" />
+        <city province="莱州" city="" area_code="23" cn_name="莱州" en_name="Lai Chau" />
+        <city province="谅山" city="" area_code="25" cn_name="谅山" en_name="Lang Son" />
+        <city province="隆安" city="" area_code="72" cn_name="隆安" en_name="Long An" />
+        <city province="长期川" city="" area_code="76" cn_name="长期川" en_name="Long Xuyen" />
+        <city province="明海" city="" area_code="78" cn_name="明海" en_name="Minh Hai" />
+        <city province="南定" city="" area_code="350" cn_name="南定" en_name="Nam Dinh" />
+        <city province="义安" city="" area_code="38" cn_name="义安" en_name="Nghe An" />
+        <city province="宁顺" city="" area_code="68" cn_name="宁顺" en_name="Nin Thuan" />
+        <city province="宁平" city="" area_code="30" cn_name="宁平" en_name="Ninh Binh" />
+        <city province="富寿" city="" area_code="210" cn_name="富寿" en_name="Phu Tho" />
+        <city province="富安" city="" area_code="57" cn_name="富安" en_name="Phu Yen" />
+        <city province="广平" city="" area_code="52" cn_name="广平" en_name="Quang Binh" />
+        <city province="广南" city="" area_code="510" cn_name="广南" en_name="Quang Nam" />
+        <city province="特宁" city="" area_code="33" cn_name="特宁" en_name="Quant Ninh" />
+        <city province="广义" city="" area_code="55" cn_name="广义" en_name="Quang Ngai" />
+        <city province="广治" city="" area_code="53" cn_name="广治" en_name="Quang Tri" />
+        <city province="朔庄" city="" area_code="79" cn_name="朔庄" en_name="Soc Trang" />
+        <city province="山罗" city="" area_code="22" cn_name="山罗" en_name="Son La" />
+        <city province="太平" city="" area_code="36" cn_name="太平" en_name="Thai Binh" />
+        <city province="太原" city="" area_code="280" cn_name="太原" en_name="Thai Nguyen" />
+        <city province="清化" city="" area_code="37" cn_name="清化" en_name="Thanh Hoa" />
+        <city province="承天-顺化" city="" area_code="54" cn_name="承天-顺化" en_name="Thua Thien Hue" />
+        <city province="林同顺" city="" area_code="63" cn_name="林同顺" en_name="Thuan Lam Dong" />
+        <city province="茶荣" city="" area_code="74" cn_name="茶荣" en_name="Tra Vinh" />
+        <city province="西宁" city="" area_code="66" cn_name="西宁" en_name="Tay Ninh" />
+        <city province="前江" city="" area_code="73" cn_name="前江" en_name="Tien Giang" />
+        <city province="宣光" city="" area_code="27" cn_name="宣光" en_name="Tuyen Quang" />
+        <city province="永隆" city="" area_code="70" cn_name="永隆" en_name="Vinh Long" />
+        <city province="永福" city="" area_code="211" cn_name="永福" en_name="Vinh Phu" />
+        <city province="头顿" city="" area_code="64" cn_name="头顿" en_name="Vung Tau" />
+        <city province="安沛" city="" area_code="29" cn_name="安沛" en_name="Yen Bai" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Mobiphone</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>90, 93</prefix>
+      </op>
+      <op>
+        <op_name>S-Fone</op_name>
+        <wireless_type>CDMA</wireless_type>
+        <prefix>95</prefix>
+      </op>
+      <op>
+        <op_name>Viettel</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>97, 98</prefix>
+      </op>
+      <op>
+        <op_name>Vinaphone</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>91, 94</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

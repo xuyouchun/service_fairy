@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>加拿大</cn_name>
+    <en_name>Canada</en_name>
+    <national_code>1</national_code>
+    <mcc>302</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到加拿大的A地电话顺序为“001-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从加拿大的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001XXXXXXXX、1XXXXXXXX、01XXXXXXXX、0001XXXXXXXX；如果来电显示开头是0010、0011、0012、0013、0014、0015、0016、0017、0018、0019，一般也都表示国际区号是001，后面一位是加拿大内部的号码的开头第一位；如果是在加拿大通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>加</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Telus" mncs="220,221,361,653,657" national_prefix="011" internal_prefix="1" desc="Telus" />
+    <operation op_code="未知" mncs="270" national_prefix="011" internal_prefix="1" desc="未知" />
+    <operation op_code="" mncs="290,652,701,702,703" national_prefix="011" internal_prefix="1" desc="" />
+    <operation op_code="Mobilicity" mncs="320" national_prefix="011" internal_prefix="1" desc="Mobilicity" />
+    <operation op_code="FIRST" mncs="350" national_prefix="011" internal_prefix="1" desc="FIRST" />
+    <operation op_code="MiKe" mncs="360" national_prefix="011" internal_prefix="1" desc="MiKe" />
+    <operation op_code="Fido" mncs="370" national_prefix="011" internal_prefix="1" desc="Fido" />
+    <operation op_code="DMTS" mncs="380" national_prefix="011" internal_prefix="1" desc="DMTS" />
+    <operation op_code="WIND Mobile" mncs="490" national_prefix="011" internal_prefix="1" desc="WIND Mobile" />
+    <operation op_code="Videotron" mncs="500,510" national_prefix="011" internal_prefix="1" desc="Videotron" />
+    <operation op_code="Bell" mncs="610,610,640" national_prefix="011" internal_prefix="1" desc="Bell" />
+    <operation op_code="ICE Wireless" mncs="620" national_prefix="011" internal_prefix="1" desc="ICE Wireless" />
+    <operation op_code="MTS" mncs="655,660" national_prefix="011" internal_prefix="1" desc="MTS" />
+    <operation op_code="TBay" mncs="656" national_prefix="011" internal_prefix="1" desc="TBay" />
+    <operation op_code="SaskTel" mncs="680,780" national_prefix="011" internal_prefix="1" desc="SaskTel" />
+    <operation op_code="Globalstar" mncs="710" national_prefix="011" internal_prefix="1" desc="Globalstar" />
+    <operation op_code="Rogers Wireless" mncs="720" national_prefix="011" internal_prefix="1" desc="Rogers Wireless" />
+    <operation op_code="Bell / Telus / SaskTel" mncs="880" national_prefix="011" internal_prefix="1" desc="Bell / Telus / SaskTel" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Telus Mobility" op_prefix="" />
+        <prefix op_code="Telus Mobility" op_prefix="" />
+        <prefix op_code="EastLink" op_prefix="" />
+        <prefix op_code="Airtel Wireless" op_prefix="" />
+        <prefix op_code="DAVE Wireless" op_prefix="" />
+        <prefix op_code="FIRST Networks Operations" op_prefix="" />
+        <prefix op_code="Telus Mobility" op_prefix="" />
+        <prefix op_code="Telus Mobility" op_prefix="" />
+        <prefix op_code="Fido Solutions (Rogers Wireless)" op_prefix="" />
+        <prefix op_code="Dryden Mobility" op_prefix="" />
+        <prefix op_code="Globalive Communications" op_prefix="" />
+        <prefix op_code="Videotron" op_prefix="" />
+        <prefix op_code="Videotron" op_prefix="" />
+        <prefix op_code="Bell Mobility" op_prefix="" />
+        <prefix op_code="Virgin Mobile Canada" op_prefix="" />
+        <prefix op_code="ICE Wireless" op_prefix="" />
+        <prefix op_code="Bell Mobility" op_prefix="" />
+        <prefix op_code="BC Tel Mobility (Telus)" op_prefix="" />
+        <prefix op_code="Telus Mobility" op_prefix="" />
+        <prefix op_code="MTS Mobility" op_prefix="" />
+        <prefix op_code="Thunder Bay Telephone Mobility" op_prefix="" />
+        <prefix op_code="Telus Mobility" op_prefix="" />
+        <prefix op_code="MTS Mobility" op_prefix="" />
+        <prefix op_code="SaskTel Mobility" op_prefix="" />
+        <prefix op_code="MB Tel Mobility" op_prefix="" />
+        <prefix op_code="MT&amp;T Mobility (Aliant)" op_prefix="" />
+        <prefix op_code="New Tel Mobility (Aliant)" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Rogers Communications" op_prefix="" />
+        <prefix op_code="SaskTel Mobility" op_prefix="" />
+        <prefix op_code="Shared Telus, Bell, and SaskTel" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="艾伯塔（北部）" city="" area_code="780" cn_name="艾伯塔（北部）" en_name="Alberta (Northern)" />
+        <city province="艾伯塔（南部）" city="" area_code="403" cn_name="艾伯塔（南部）" en_name="Alberta (Southern)" />
+        <city province="不列颠哥伦比亚（温哥华以外）" city="" area_code="250" cn_name="不列颠哥伦比亚（温哥华以外）" en_name="British Columbia (Except Vancouver)" />
+        <city province="不列颠哥伦比亚（温哥华地区）" city="" area_code="604" cn_name="不列颠哥伦比亚（温哥华地区）" en_name="British Columbia (Vancouver area)" />
+        <city province="威廉堡" city="" area_code="807" cn_name="威廉堡" en_name="Fort William" />
+        <city province="伦敦（加拿大）" city="" area_code="519" cn_name="伦敦（加拿大）" en_name="London (Canada)" />
+        <city province="马尼托巴" city="" area_code="204" cn_name="马尼托巴" en_name="Manitoba" />
+        <city province="新不伦瑞克" city="" area_code="506" cn_name="新不伦瑞克" en_name="New Brunswick" />
+        <city province="纽芬兰" city="" area_code="709" cn_name="纽芬兰" en_name="Newfoundland" />
+        <city province="西北领地" city="" area_code="867" cn_name="西北领地" en_name="Northwest Territories" />
+        <city province="努纳维特" city="" area_code="867" cn_name="努纳维特" en_name="Nunavut" />
+        <city province="新斯科舍" city="" area_code="902" cn_name="新斯科舍" en_name="Nova Scotia" />
+        <city province="安大略（伦敦）" city="" area_code="519" cn_name="安大略（伦敦）" en_name="Ontario (London)" />
+        <city province="安大略（北湾）" city="" area_code="705" cn_name="安大略（北湾）" en_name="Ontario (North Bay)" />
+        <city province="安大略（渥太华）" city="" area_code="613" cn_name="安大略（渥太华）" en_name="Ontario (Ottawa)" />
+        <city province="安大略（桑德贝）" city="" area_code="807" cn_name="安大略（桑德贝）" en_name="Ontario (Thunder Bay)" />
+        <city province="安大略（多伦多中心）" city="" area_code="416" cn_name="安大略（多伦多中心）" en_name="Ontario (Toronto Metro)" />
+        <city province="安大略（多伦多近郊）" city="" area_code="905" cn_name="安大略（多伦多近郊）" en_name="Ontario (Toronto Vicinity)" />
+        <city province="爱德华王子岛" city="" area_code="902" cn_name="爱德华王子岛" en_name="Prince Edward Island" />
+        <city province="魁北克（蒙特利尔岛）" city="" area_code="514" cn_name="魁北克（蒙特利尔岛）" en_name="Québec (Montréal Island)" />
+        <city province="魁北克（蒙特利尔北部、南部海岸）" city="" area_code="450" cn_name="魁北克（蒙特利尔北部、南部海岸）" en_name="Québec (Montréal north and south shore)" />
+        <city province="魁北克（魁北克城）" city="" area_code="418" cn_name="魁北克（魁北克城）" en_name="Québec (Québec City)" />
+        <city province="魁北克（舍布鲁克）" city="" area_code="819" cn_name="魁北克（舍布鲁克）" en_name="Québec (Sherbrooke)" />
+        <city province="萨斯喀彻温" city="" area_code="306" cn_name="萨斯喀彻温" en_name="Saskatchewan" />
+        <city province="育空地区" city="" area_code="867" cn_name="育空地区" en_name="Yukon Territory" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

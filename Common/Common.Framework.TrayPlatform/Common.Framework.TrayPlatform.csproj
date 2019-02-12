@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EFD3F3BF-B25E-4CA6-BA40-502BD1763E72}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common.Framework.TrayPlatform</RootNamespace>
+    <AssemblyName>Common.Framework.TrayPlatform</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HandlerManager.cs" />
+    <Compile Include="ITrayCacheManager.cs" />
+    <Compile Include="ITrayCookieManager.cs" />
+    <Compile Include="ITrayLogManager.cs" />
+    <Compile Include="ITraySessionStateManager.cs" />
+    <Compile Include="ITraySynchronizer.cs" />
+    <Compile Include="IUserConnectionCallback.cs" />
+    <Compile Include="SidUtility.cs" />
+    <Compile Include="TrayAppServiceManager.TrayCacheManager.cs" />
+    <Compile Include="TrayAppServiceManager.TrayCookieManager.cs" />
+    <Compile Include="TrayAppServiceApplicationProxyLifeManager.cs" />
+    <Compile Include="TrayContext.cs" />
+    <Compile Include="TrayLogWriter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ConfigurationReader.cs" />
+    <Compile Include="SystemDataKeys.cs" />
+    <Compile Include="ITrayProxyManager.cs" />
+    <Compile Include="ITrayConfiguration.cs" />
+    <Compile Include="TrayAppServiceManager.TrayConfiguration.cs" />
+    <Compile Include="TrayAppServiceManager.AppServiceWrapper.cs" />
+    <Compile Include="AssemblyAppServiceLoader.cs" />
+    <Compile Include="IAppServiceLoader.cs" />
+    <Compile Include="ICommunicateFactory.cs" />
+    <Compile Include="IServiceManagerCallback.cs" />
+    <Compile Include="ITrayPlatform.cs" />
+    <Compile Include="AppInvokeManager.cs" />
+    <Compile Include="TrayAppServiceApplicationBase.cs" />
+    <Compile Include="TrayAppServiceBase.cs" />
+    <Compile Include="TrayAppServiceInfo.cs" />
+    <Compile Include="TrayAppServiceInfoCollection.cs" />
+    <Compile Include="TrayAppServiceManager.cs" />
+    <Compile Include="TrayAppServiceManager.TrayPlatform.cs" />
+    <Compile Include="TrayAppServiceManager.TrayProxyManager.cs" />
+    <Compile Include="TrayAppServiceManager.TrayLogManager.cs" />
+    <Compile Include="TrayAppServiceStartType.cs" />
+    <Compile Include="TrayUtility.cs" />
+    <Compile Include="WcfTrayAppServiceApplication.CallbackCommunicateFactory.cs" />
+    <Compile Include="WcfTrayAppServiceApplication.cs" />
+    <Compile Include="WcfTrayAppServiceApplication.TraySessionStateManager.cs" />
+    <Compile Include="WcfTrayAppServiceApplication.UserConnectionManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Communication\Common.Communication.csproj">
+      <Project>{DE2353F5-D22D-4B09-ADA6-09A7CA757ED1}</Project>
+      <Name>Common.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Package\Common.Package.csproj">
+      <Project>{5B657644-8038-44E7-895B-F6A82AD596EE}</Project>
+      <Name>Common.Package</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TrayAppServiceManager.TraySynchronizer.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

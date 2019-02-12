@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>荷兰</cn_name>
+    <en_name>Netherlands</en_name>
+    <national_code>31</national_code>
+    <mcc>204</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到荷兰的A地电话顺序为“0031-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从荷兰的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0031-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0031XXXXXXXX、31XXXXXXXX、031XXXXXXXX、00031XXXXXXXX；如果来电显示开头是00310、00311、00312、00313、00314、00315、00316、00317、00318、00319，一般也都表示国际区号是0031，后面一位是荷兰内部的号码的开头第一位；如果是在荷兰通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Holland</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="" mncs="01,05,06,07,21,23,25,67,69" national_prefix="00" internal_prefix="0" desc="" />
+    <operation op_code="Tele2" mncs="02" national_prefix="00" internal_prefix="0" desc="Tele2" />
+    <operation op_code="Vodafone" mncs="04" national_prefix="00" internal_prefix="0" desc="Vodafone" />
+    <operation op_code="KPN" mncs="08,10" national_prefix="00" internal_prefix="0" desc="KPN" />
+    <operation op_code="Lycamobile" mncs="09" national_prefix="00" internal_prefix="0" desc="Lycamobile" />
+    <operation op_code="Telfort" mncs="12" national_prefix="00" internal_prefix="0" desc="Telfort" />
+    <operation op_code="6Gmobile" mncs="14" national_prefix="00" internal_prefix="0" desc="6Gmobile" />
+    <operation op_code="T-Mobile" mncs="16,20" national_prefix="00" internal_prefix="0" desc="T-Mobile" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="VastMobiel B.V." op_prefix="" />
+        <prefix op_code="Tele2 Nederland B.V." op_prefix="" />
+        <prefix op_code="Vodafone Libertel B.V." op_prefix="" />
+        <prefix op_code="Elephant Talk Communications Premium Rate Services" op_prefix="" />
+        <prefix op_code="Mundio Mobile (Netherlands) Ltd" op_prefix="" />
+        <prefix op_code="Teleena (MVNE)" op_prefix="" />
+        <prefix op_code="KPN Mobile The Netherlands B.V." op_prefix="" />
+        <prefix op_code="Lycamobile Netherlands Limited" op_prefix="" />
+        <prefix op_code="KPN B.V." op_prefix="" />
+        <prefix op_code="KPN Mobile The Netherlands B.V." op_prefix="" />
+        <prefix op_code="6GMOBILE B.V." op_prefix="" />
+        <prefix op_code="T-Mobile Netherlands B.V" op_prefix="" />
+        <prefix op_code="T-Mobile Netherlands B.V" op_prefix="" />
+        <prefix op_code="ProRail B.V." op_prefix="" />
+        <prefix op_code="ASPIDER Solutions Nederland B.V." op_prefix="" />
+        <prefix op_code="CapX B.V." op_prefix="" />
+        <prefix op_code="RadioAccess B.V." op_prefix="" />
+        <prefix op_code="KPN Mobile The Netherlands B.V." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿姆斯特丹" city="" area_code="20" cn_name="阿姆斯特丹" en_name="Amsterdam" />
+        <city province="阿纳姆" city="" area_code="26" cn_name="阿纳姆" en_name="Arnhem" />
+        <city province="de Meern" city="" area_code="30" cn_name="暂无中文" en_name="de Meern" />
+        <city province="丹博斯治" city="" area_code="73" cn_name="丹博斯治" en_name="Den Bosch" />
+        <city province="代芬特尔" city="" area_code="570" cn_name="代芬特尔" en_name="Deventer" />
+        <city province="埃因霍温" city="" area_code="40" cn_name="埃因霍温" en_name="Eindhoven" />
+        <city province="格罗宁根" city="" area_code="50" cn_name="格罗宁根" en_name="Groningen" />
+        <city province="哈勒姆" city="" area_code="23" cn_name="哈勒姆" en_name="Haarlem" />
+        <city province="赫姆斯特德" city="" area_code="23" cn_name="赫姆斯特德" en_name="Heemstede" />
+        <city province="Hillegersberg" city="" area_code="10" cn_name="暂无中文" en_name="Hillegersberg" />
+        <city province="希尔维苏姆" city="" area_code="35" cn_name="希尔维苏姆" en_name="Hilversum" />
+        <city province="洪斯布鲁科" city="" area_code="45" cn_name="洪斯布鲁科" en_name="Hoensbroek" />
+        <city province="Hoogkerk" city="" area_code="50" cn_name="暂无中文" en_name="Hoogkerk" />
+        <city province="Hoogvliet" city="" area_code="10" cn_name="暂无中文" en_name="Hoogvliet" />
+        <city province="Houten" city="" area_code="30" cn_name="暂无中文" en_name="Houten" />
+        <city province="IJsselstein" city="" area_code="30" cn_name="暂无中文" en_name="IJsselstein" />
+        <city province="莱顿" city="" area_code="71" cn_name="莱顿" en_name="Leiden" />
+        <city province="Loosduinen - part of Den Haag" city="" area_code="70" cn_name="暂无中文" en_name="Loosduinen - part of Den Haag" />
+        <city province="尼沃海恩" city="" area_code="30" cn_name="尼沃海恩" en_name="Nieuwegein" />
+        <city province="奈梅亨" city="" area_code="24" cn_name="奈梅亨" en_name="Nijmegen" />
+        <city province="Oud Zuilen - part of Utrecht" city="" area_code="30" cn_name="暂无中文" en_name="Oud Zuilen - part of Utrecht" />
+        <city province="鹿特丹" city="" area_code="10" cn_name="鹿特丹" en_name="Rotterdam" />
+        <city province="海牙" city="" area_code="70" cn_name="海牙" en_name="The Hague (Den Haag)" />
+        <city province="乌德勒支" city="" area_code="30" cn_name="乌德勒支" en_name="Utrecht" />
+        <city province="富格特" city="" area_code="73" cn_name="富格特" en_name="Vught" />
+        <city province="宰斯特" city="" area_code="30" cn_name="宰斯特" en_name="Zeist" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

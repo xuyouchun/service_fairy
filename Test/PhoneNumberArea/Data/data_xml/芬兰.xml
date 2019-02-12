@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>芬兰</cn_name>
+    <en_name>Finland</en_name>
+    <national_code>358</national_code>
+    <mcc>244</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到芬兰的A地电话顺序为“00358-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从芬兰的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00358-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00358XXXXXXXX、358XXXXXXXX、0358XXXXXXXX、000358XXXXXXXX；如果来电显示开头是003580、003581、003582、003583、003584、003585、003586、003587、003588、003589，一般也都表示国际区号是00358，后面一位是芬兰内部的号码的开头第一位；如果是在芬兰通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Suomi</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="DNA" mncs="03,12" national_prefix="00" internal_prefix="0" desc="DNA" />
+    <operation op_code="Elisa" mncs="05" national_prefix="00" internal_prefix="0" desc="Elisa" />
+    <operation op_code="Nokia" mncs="07" national_prefix="00" internal_prefix="0" desc="Nokia" />
+    <operation op_code="" mncs="08,10,29" national_prefix="00" internal_prefix="0" desc="" />
+    <operation op_code="VIRVE" mncs="11" national_prefix="00" internal_prefix="0" desc="VIRVE" />
+    <operation op_code="AMT" mncs="14" national_prefix="00" internal_prefix="0" desc="AMT" />
+    <operation op_code="SAMK" mncs="15" national_prefix="00" internal_prefix="0" desc="SAMK" />
+    <operation op_code="Saunalahti" mncs="21" national_prefix="00" internal_prefix="0" desc="Saunalahti" />
+    <operation op_code="Sonera" mncs="91" national_prefix="00" internal_prefix="0" desc="Sonera" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="DNA Oy" op_prefix="" />
+        <prefix op_code="Elisa Oyj" op_prefix="" />
+        <prefix op_code="Nokia Test Network" op_prefix="" />
+        <prefix op_code="未知" op_prefix="" />
+        <prefix op_code="TDC Oy" op_prefix="" />
+        <prefix op_code="Suomen Erillisverkot Oy" op_prefix="" />
+        <prefix op_code="DNA Oy" op_prefix="" />
+        <prefix op_code="Ålands Mobiltelefon" op_prefix="" />
+        <prefix op_code="Samk student network" op_prefix="" />
+        <prefix op_code="Elisa Oyj" op_prefix="" />
+        <prefix op_code="Scnl Truphone" op_prefix="" />
+        <prefix op_code="TeliaSonera Finland Oyj" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Äänekoski" city="" area_code="14" cn_name="" en_name="Äänekoski" />
+        <city province="Alajärvi" city="" area_code="6" cn_name="" en_name="Alajärvi" />
+        <city province="Alavus" city="" area_code="6" cn_name="" en_name="Alavus" />
+        <city province="Björneborg" city="" area_code="2" cn_name="" en_name="Björneborg" />
+        <city province="Borgå" city="" area_code="19" cn_name="" en_name="Borgå" />
+        <city province="Ekenäs" city="" area_code="19" cn_name="" en_name="Ekenäs" />
+        <city province="埃斯波" city="" area_code="9" cn_name="埃斯波" en_name="Espoo-Esbo" />
+        <city province="Forssa" city="" area_code="3" cn_name="" en_name="Forssa" />
+        <city province="Haapajärvi" city="" area_code="8" cn_name="" en_name="Haapajärvi" />
+        <city province="Hangö" city="" area_code="19" cn_name="" en_name="Hangö" />
+        <city province="Haukipudas" city="" area_code="8" cn_name="" en_name="Haukipudas" />
+        <city province="Heinola" city="" area_code="3" cn_name="" en_name="Heinola" />
+        <city province="Helsingfors" city="" area_code="9" cn_name="" en_name="Helsingfors" />
+        <city province="赫尔辛基" city="" area_code="9" cn_name="赫尔辛基" en_name="Helsinki" />
+        <city province="海门林纳" city="" area_code="3" cn_name="海门林纳" en_name="Hämeenlinna" />
+        <city province="Imatra" city="" area_code="5" cn_name="" en_name="Imatra" />
+        <city province="Jakobstad" city="" area_code="6" cn_name="" en_name="Jakobstad" />
+        <city province="约恩苏" city="" area_code="13" cn_name="约恩苏" en_name="Joensuu" />
+        <city province="Joutsa" city="" area_code="14" cn_name="" en_name="Joutsa" />
+        <city province="于韦斯屈莱" city="" area_code="14" cn_name="于韦斯屈莱" en_name="Jyväskylä" />
+        <city province="Jämsä" city="" area_code="14" cn_name="" en_name="Jämsä" />
+        <city province="Kajaani" city="" area_code="8" cn_name="" en_name="Kajaani" />
+        <city province="Kankaanpää" city="" area_code="2" cn_name="" en_name="Kankaanpää" />
+        <city province="Karleby" city="" area_code="6" cn_name="" en_name="Karleby" />
+        <city province="Kauhajoki" city="" area_code="6" cn_name="" en_name="Kauhajoki" />
+        <city province="Kemi" city="" area_code="16" cn_name="" en_name="Kemi" />
+        <city province="Kemijärvi" city="" area_code="16" cn_name="" en_name="Kemijärvi" />
+        <city province="Kemiö" city="" area_code="2" cn_name="" en_name="Kemiö" />
+        <city province="Kempele" city="" area_code="8" cn_name="" en_name="Kempele" />
+        <city province="Keuruu" city="" area_code="14" cn_name="" en_name="Keuruu" />
+        <city province="Kimito" city="" area_code="2" cn_name="" en_name="Kimito" />
+        <city province="科科拉" city="" area_code="6" cn_name="科科拉" en_name="Kokkola" />
+        <city province="Koski Hl" city="" area_code="3" cn_name="" en_name="Koski Hl" />
+        <city province="Koski Tl" city="" area_code="2" cn_name="" en_name="Koski Tl" />
+        <city province="科特卡" city="" area_code="5" cn_name="科特卡" en_name="Kotka" />
+        <city province="Kouvola" city="" area_code="5" cn_name="" en_name="Kouvola" />
+        <city province="库奥皮奥" city="" area_code="17" cn_name="库奥皮奥" en_name="Kuopio" />
+        <city province="Kuusamo" city="" area_code="8" cn_name="" en_name="Kuusamo" />
+        <city province="拉赫蒂" city="" area_code="3" cn_name="拉赫蒂" en_name="Lahti" />
+        <city province="拉彭兰塔" city="" area_code="5" cn_name="拉彭兰塔" en_name="Lappeenranta" />
+        <city province="Lieksa" city="" area_code="13" cn_name="" en_name="Lieksa" />
+        <city province="Lohja" city="" area_code="19" cn_name="" en_name="Lohja" />
+        <city province="Loimaa" city="" area_code="2" cn_name="" en_name="Loimaa" />
+        <city province="玛丽港" city="" area_code="18" cn_name="玛丽港" en_name="Mariehamn" />
+        <city province="米凯利" city="" area_code="15" cn_name="米凯利" en_name="Mikkeli" />
+        <city province="Muonio" city="" area_code="16" cn_name="" en_name="Muonio" />
+        <city province="Orivesi" city="" area_code="03" cn_name="" en_name="Orivesi" />
+        <city province="奥卢" city="" area_code="8" cn_name="奥卢" en_name="Oulu" />
+        <city province="Padasjoki" city="" area_code="3" cn_name="" en_name="Padasjoki" />
+        <city province="Parkano" city="" area_code="3" cn_name="" en_name="Parkano" />
+        <city province="Pieksämäki" city="" area_code="15" cn_name="" en_name="Pieksämäki" />
+        <city province="波里" city="" area_code="2" cn_name="波里" en_name="Pori" />
+        <city province="博尔沃" city="" area_code="19" cn_name="博尔沃" en_name="Porvoo" />
+        <city province="Raahe" city="" area_code="8" cn_name="" en_name="Raahe" />
+        <city province="Rauma" city="" area_code="2" cn_name="" en_name="Rauma" />
+        <city province="罗瓦涅米" city="" area_code="16" cn_name="罗瓦涅米" en_name="Rovaniemi" />
+        <city province="Rouvesi" city="" area_code="3" cn_name="" en_name="Rouvesi" />
+        <city province="Saarijärvi" city="" area_code="14" cn_name="" en_name="Saarijärvi" />
+        <city province="Savonlinna" city="" area_code="15" cn_name="" en_name="Savonlinna" />
+        <city province="塞伊奈约基" city="" area_code="6" cn_name="塞伊奈约基" en_name="Seinäjoki" />
+        <city province="Suonenjoki" city="" area_code="17" cn_name="" en_name="Suonenjoki" />
+        <city province="Tammerfors" city="" area_code="3" cn_name="" en_name="Tammerfors" />
+        <city province="坦佩雷" city="" area_code="3" cn_name="坦佩雷" en_name="Tampere" />
+        <city province="Tavastehus" city="" area_code="3" cn_name="" en_name="Tavastehus" />
+        <city province="Tornio" city="" area_code="16" cn_name="" en_name="Tornio" />
+        <city province="图尔库" city="" area_code="2" cn_name="图尔库" en_name="Turku" />
+        <city province="Uleåbörg" city="" area_code="8" cn_name="" en_name="Uleåbörg" />
+        <city province="瓦萨" city="" area_code="6" cn_name="瓦萨" en_name="Vaasa" />
+        <city province="Valkeakoski" city="" area_code="3" cn_name="" en_name="Valkeakoski" />
+        <city province="Vammala" city="" area_code="3" cn_name="" en_name="Vammala" />
+        <city province="万达" city="" area_code="9" cn_name="万达" en_name="Vanda" />
+        <city province="万塔" city="" area_code="9" cn_name="万塔" en_name="Vantaa" />
+        <city province="Varkaus" city="" area_code="17" cn_name="" en_name="Varkaus" />
+        <city province="Vasa" city="" area_code="6" cn_name="" en_name="Vasa" />
+        <city province="Ylivieska" city="" area_code="8" cn_name="" en_name="Ylivieska" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

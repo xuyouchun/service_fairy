@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>挪威</cn_name>
+    <en_name>Norway</en_name>
+    <national_code>47</national_code>
+    <mcc>242</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到挪威的A地电话顺序为“0047-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从挪威的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0047-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0047XXXXXXXX、47XXXXXXXX、047XXXXXXXX、00047XXXXXXXX；如果来电显示开头是00470、00471、00472、00473、00474、00475、00476、00477、00478、00479，一般也都表示国际区号是0047，后面一位是挪威内部的号码的开头第一位；如果是在挪威通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>00470</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Telenor" mncs="01" national_prefix="00" internal_prefix="" desc="Telenor" />
+    <operation op_code="NetCom" mncs="02" national_prefix="00" internal_prefix="" desc="NetCom" />
+    <operation op_code="Teletopia" mncs="03" national_prefix="00" internal_prefix="" desc="Teletopia" />
+    <operation op_code="Tele2" mncs="04" national_prefix="00" internal_prefix="" desc="Tele2" />
+    <operation op_code="Network Norway" mncs="05" national_prefix="00" internal_prefix="" desc="Network Norway" />
+    <operation op_code="Ice" mncs="06" national_prefix="00" internal_prefix="" desc="Ice" />
+    <operation op_code="Ventelo" mncs="07" national_prefix="00" internal_prefix="" desc="Ventelo" />
+    <operation op_code="TDC" mncs="08" national_prefix="00" internal_prefix="" desc="TDC" />
+    <operation op_code="Com4" mncs="09" national_prefix="00" internal_prefix="" desc="Com4" />
+    <operation op_code="SystemNet" mncs="11" national_prefix="00" internal_prefix="" desc="SystemNet" />
+    <operation op_code="" mncs="20" national_prefix="00" internal_prefix="" desc="" />
+    <operation op_code="Lyca" mncs="23" national_prefix="00" internal_prefix="" desc="Lyca" />
+  </operations>
+  <remarks>
+    <remark>不需要城市区号</remark>
+    <remark>所有号码都为8位数字</remark>
+    <remark>号码前缀：
+&lt;ul&gt;&lt;li&gt; 00          国际拨号前缀</remark>
+    <remark>01          保留未来使用</remark>
+    <remark>02xxx-09xxx 5位数非地理号码</remark>
+    <remark>100-189     标准特服号 (例如 112 是紧急电话)</remark>
+    <remark>19x         人工特服号</remark>
+    <remark>2x xx xx xx 地理号码，主要是&lt;a href="/%E5%A5%A5%E6%96%AF%E9%99%86" title="奥斯陆"&gt;奥斯陆&lt;/a&gt;&lt;a href="/Oslo" title="Oslo"&gt;Oslo&lt;/a&gt;</remark>
+    <remark>3x xx xx xx 地理号码，中南部地区（&lt;a href="/%E5%A5%A5%E6%99%AE%E5%85%B0" title="奥普兰"&gt;奥普兰&lt;/a&gt;&lt;a href="/Oppland" title="Oppland"&gt;Oppland&lt;/a&gt;除外）</remark>
+    <remark>4xx xx xxx  手机</remark>
+    <remark>5x xx xx xx 地理号码，西南部地区（包括&lt;a href="/%E5%8D%91%E5%B0%94%E6%A0%B9" title="卑尔根"&gt;卑尔根&lt;/a&gt;&lt;a href="/Bergen" title="Bergen"&gt;Bergen&lt;/a&gt;）</remark>
+    <remark>6x xx xx xx 地理号码，东南部地区和&lt;a href="/%E5%A5%A5%E6%99%AE%E5%85%B0" title="奥普兰"&gt;奥普兰&lt;/a&gt;&lt;a href="/Oppland" title="Oppland"&gt;Oppland&lt;/a&gt;</remark>
+    <remark>7x xx xx xx 地理号码，北部地区（包括&lt;a href="/%E7%89%B9%E9%9A%86%E8%B5%AB%E5%A7%86" title="特隆赫姆"&gt;特隆赫姆&lt;/a&gt;&lt;a href="/Trondheim" title="Trondheim"&gt;Trondheim&lt;/a&gt;）</remark>
+    <remark>8x xx xx xx 非地理号码（免费电话、语音邮件、电视秀等）</remark>
+    <remark>9xx xx xxx  手机</remark>
+  </remarks>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

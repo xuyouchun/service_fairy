@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>土库曼斯坦</cn_name>
+    <en_name>Turkmenistan</en_name>
+    <national_code>993</national_code>
+    <mcc>438</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到土库曼斯坦的A地电话顺序为“00993-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从土库曼斯坦的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00993-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00993XXXXXXXX、993XXXXXXXX、0993XXXXXXXX、000993XXXXXXXX；如果来电显示开头是009930、009931、009932、009933、009934、009935、009936、009937、009938、009939，一般也都表示国际区号是00993，后面一位是土库曼斯坦内部的号码的开头第一位；如果是在土库曼斯坦通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="MTS" mncs="01" national_prefix="8" internal_prefix="8" desc="MTS" />
+    <operation op_code="TM-Cell" mncs="02" national_prefix="8" internal_prefix="8" desc="TM-Cell" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Barash Communication Technologies" op_prefix="" />
+        <prefix op_code="Altyn Asyr" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿什哈巴德" city="" area_code="12" cn_name="阿什哈巴德" en_name="Ashgabat" />
+        <city province="土库曼巴德" city="" area_code="378" cn_name="土库曼巴德" en_name="Turkmenabad" />
+        <city province="达沙古兹" city="" area_code="322" cn_name="达沙古兹" en_name="Dashkhouvuz" />
+        <city province="土库曼" city="" area_code="243" cn_name="土库曼" en_name="Turkmenbashi" />
+        <city province="马雷" city="" area_code="522" cn_name="马雷" en_name="Mary" />
+        <city province="塞尔达尔" city="" area_code="222" cn_name="塞尔达尔" en_name="Serdarabad" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

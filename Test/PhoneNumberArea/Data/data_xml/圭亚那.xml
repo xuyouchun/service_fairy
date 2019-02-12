@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>圭亚那</cn_name>
+    <en_name>Guyana</en_name>
+    <national_code>592</national_code>
+    <mcc>738</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到圭亚那的A地电话顺序为“00592-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从圭亚那的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00592-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00592XXXXXXXX、592XXXXXXXX、0592XXXXXXXX、000592XXXXXXXX；如果来电显示开头是005920、005921、005922、005923、005924、005925、005926、005927、005928、005929，一般也都表示国际区号是00592，后面一位是圭亚那内部的号码的开头第一位；如果是在圭亚那通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>圭亞那</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Digicel" mncs="01" national_prefix="001" internal_prefix="" desc="Digicel" />
+    <operation op_code="GT&amp;T Cellink Plus" mncs="02" national_prefix="001" internal_prefix="" desc="GT&amp;T Cellink Plus" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="U-Mobile (Cellular) Inc." op_prefix="" />
+        <prefix op_code="Guyana Telephone &amp; Telegraph Co." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="安娜女王村" city="" area_code="278" cn_name="安娜女王村" en_name="Anna Regina" />
+        <city province="巴蒂卡" city="" area_code="455" cn_name="巴蒂卡" en_name="Bartica" />
+        <city province="科夫和约翰" city="" area_code="229" cn_name="科夫和约翰" en_name="Cove and John" />
+        <city province="乔治敦" city="" area_code="223/224/225/226/227" cn_name="乔治敦" en_name="Georgetown" />
+        <city province="伊图尼" city="" area_code="441" cn_name="伊图尼" en_name="Ituni" />
+        <city province="林登" city="" area_code="444" cn_name="林登" en_name="Linden" />
+        <city province="马巴鲁马" city="" area_code="777" cn_name="马巴鲁马" en_name="Mabaruma" />
+        <city province="马海卡" city="" area_code="228" cn_name="马海卡" en_name="Mahaica" />
+        <city province="马海科尼" city="" area_code="221" cn_name="马海科尼" en_name="Mahaicony" />
+        <city province="新阿姆斯特丹" city="" area_code="333" cn_name="新阿姆斯特丹" en_name="New Amsterdam" />
+        <city province="纽霍普" city="" area_code="266" cn_name="纽霍普" en_name="New Hope" />
+        <city province="罗西格诺尔" city="" area_code="330" cn_name="罗西格诺尔" en_name="Rosignol" />
+        <city province="蒂梅里" city="" area_code="261" cn_name="蒂梅里" en_name="Timehri" />
+        <city province="弗里登胡普" city="" area_code="264" cn_name="弗里登胡普" en_name="Vreed-En-Hoop" />
+        <city province="惠姆" city="" area_code="337" cn_name="惠姆" en_name="Whim" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

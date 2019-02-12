@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>墨西哥</cn_name>
+    <en_name>Mexico</en_name>
+    <national_code>52</national_code>
+    <mcc>334</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到墨西哥的A地电话顺序为“0052-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从墨西哥的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0052-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0052XXXXXXXX、52XXXXXXXX、052XXXXXXXX、00052XXXXXXXX；如果来电显示开头是00520、00521、00522、00523、00524、00525、00526、00527、00528、00529，一般也都表示国际区号是0052，后面一位是墨西哥内部的号码的开头第一位；如果是在墨西哥通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Nextel" mncs="010" national_prefix="00" internal_prefix="01" desc="Nextel" />
+    <operation op_code="Telcel" mncs="020" national_prefix="00" internal_prefix="01" desc="Telcel" />
+    <operation op_code="movistar" mncs="030" national_prefix="00" internal_prefix="01" desc="movistar" />
+    <operation op_code="Iusacell / Unefon" mncs="040" national_prefix="00" internal_prefix="01" desc="Iusacell / Unefon" />
+    <operation op_code="Iusacell" mncs="050" national_prefix="00" internal_prefix="01" desc="Iusacell" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Nextel México" op_prefix="" />
+        <prefix op_code="América Móvil / Mextel" op_prefix="" />
+        <prefix op_code="Pegaso Comunicaciones y Sistemas" op_prefix="" />
+        <prefix op_code="Iusacell / Unefon" op_prefix="" />
+        <prefix op_code="Iusacell" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿卡普尔科" city="" area_code="744" cn_name="阿卡普尔科" en_name="Acapulco" />
+        <city province="阿瓜斯卡连特斯" city="" area_code="449" cn_name="阿瓜斯卡连特斯" en_name="Aguascalientes" />
+        <city province="阿皮萨科" city="" area_code="241" cn_name="阿皮萨科" en_name="Apizaco" />
+        <city province="卡波圣卢卡斯" city="" area_code="624" cn_name="卡波圣卢卡斯" en_name="Cabo San Lucas" />
+        <city province="坎昆" city="" area_code="998" cn_name="坎昆" en_name="Cancun" />
+        <city province="塞拉亚" city="" area_code="461" cn_name="塞拉亚" en_name="Celaya" />
+        <city province="奇瓦瓦" city="" area_code="614" cn_name="奇瓦瓦" en_name="Chihuahua" />
+        <city province="卡门" city="" area_code="938" cn_name="卡门" en_name="Ciudad del Carmen" />
+        <city province="华雷斯" city="" area_code="656" cn_name="华雷斯" en_name="Ciudad Juarez" />
+        <city province="库埃纳瓦卡" city="" area_code="777" cn_name="库埃纳瓦卡" en_name="Cuernavaca" />
+        <city province="库利亚坎" city="" area_code="667" cn_name="库利亚坎" en_name="Culiacan" />
+        <city province="杜兰戈" city="" area_code="618" cn_name="杜兰戈" en_name="Durango" />
+        <city province="恩塞纳达" city="" area_code="646" cn_name="恩塞纳达" en_name="Ensenada" />
+        <city province="瓜达拉哈拉" city="" area_code="33" cn_name="瓜达拉哈拉" en_name="Guadalajara" />
+        <city province="埃莫西约" city="" area_code="662" cn_name="埃莫西约" en_name="Hermosillo" />
+        <city province="伊拉普阿托" city="" area_code="462" cn_name="伊拉普阿托" en_name="Irapuato" />
+        <city province="伊斯塔帕" city="" area_code="961" cn_name="伊斯塔帕" en_name="Ixtapa" />
+        <city province="哈拉帕" city="" area_code="932" cn_name="哈拉帕" en_name="Jalapa" />
+        <city province="Juchita" city="" area_code="971" cn_name="暂无中文" en_name="Juchita" />
+        <city province="莱昂" city="" area_code="477" cn_name="莱昂" en_name="Leon" />
+        <city province="洛斯莫奇斯" city="" area_code="668" cn_name="洛斯莫奇斯" en_name="Los Mochis" />
+        <city province="马塔莫罗斯" city="" area_code="871" cn_name="马塔莫罗斯" en_name="Matamoros" />
+        <city province="马萨特兰" city="" area_code="669" cn_name="马萨特兰" en_name="Mazatlan" />
+        <city province="梅里达" city="" area_code="999" cn_name="梅里达" en_name="Merida" />
+        <city province="墨西卡利" city="" area_code="686" cn_name="墨西卡利" en_name="Mexicali" />
+        <city province="墨西哥城" city="" area_code="55" cn_name="墨西哥城" en_name="Mexico City" />
+        <city province="蒙特雷" city="" area_code="81" cn_name="蒙特雷" en_name="Monterrey" />
+        <city province="莫雷利亚" city="" area_code="443" cn_name="莫雷利亚" en_name="Morelia" />
+        <city province="诺加利斯" city="" area_code="631" cn_name="诺加利斯" en_name="Nogales" />
+        <city province="新拉雷多" city="" area_code="867" cn_name="新拉雷多" en_name="Nuevo Laredo" />
+        <city province="瓦哈卡" city="" area_code="951" cn_name="瓦哈卡" en_name="Oaxaca de Juarez" />
+        <city province="普拉亚德尔卡门" city="" area_code="984" cn_name="普拉亚德尔卡门" en_name="Playa del Carmen" />
+        <city province="普罗格" city="" area_code="861" cn_name="普罗格" en_name="Progreso" />
+        <city province="普埃布拉" city="" area_code="222" cn_name="普埃布拉" en_name="Puebla" />
+        <city province="巴亚尔塔港" city="" area_code="322" cn_name="巴亚尔塔港" en_name="Puerto Vallarta" />
+        <city province="雷诺萨" city="" area_code="899" cn_name="雷诺萨" en_name="Reynosa" />
+        <city province="萨尔蒂约" city="" area_code="844" cn_name="萨尔蒂约" en_name="Saltillo" />
+        <city province="圣路易斯波托西" city="" area_code="444" cn_name="圣路易斯波托西" en_name="San Luis Potosi" />
+        <city province="坦皮科" city="" area_code="833" cn_name="坦皮科" en_name="Tampico" />
+        <city province="蒂华纳" city="" area_code="664" cn_name="蒂华纳" en_name="Tijuana" />
+        <city province="托雷翁" city="" area_code="871" cn_name="托雷翁" en_name="Torreon" />
+        <city province="韦拉克鲁斯" city="" area_code="229" cn_name="韦拉克鲁斯" en_name="Veracruz" />
+        <city province="比亚埃尔莫萨" city="" area_code="993" cn_name="比亚埃尔莫萨" en_name="Villahermosa" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>关岛</cn_name>
+    <en_name>Guam</en_name>
+    <national_code>1671</national_code>
+    <mcc>310</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到关岛的A地电话顺序为“001671-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从关岛的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001671-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001671XXXXXXXX、1671XXXXXXXX、01671XXXXXXXX、0001671XXXXXXXX；如果来电显示开头是0016710、0016711、0016712、0016713、0016714、0016715、0016716、0016717、0016718、0016719，一般也都表示国际区号是001671，后面一位是关岛内部的号码的开头第一位；如果是在关岛通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Guåhan</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="IT&amp;E Wireless" mncs="032" national_prefix="011" internal_prefix="1" desc="IT&amp;E Wireless" />
+    <operation op_code="" mncs="033" national_prefix="011" internal_prefix="1" desc="" />
+    <operation op_code="mPulse" mncs="140" national_prefix="011" internal_prefix="1" desc="mPulse" />
+    <operation op_code="docomo" mncs="370,470" national_prefix="011" internal_prefix="1" desc="docomo" />
+    <operation op_code="i CAN_GSM" mncs="250" national_prefix="011" internal_prefix="1" desc="i CAN_GSM" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="IT&amp;E Overseas, Inc" op_prefix="" />
+        <prefix op_code="Guam Telephone Authority" op_prefix="" />
+        <prefix op_code="GTA Wireless" op_prefix="" />
+        <prefix op_code="docomo Pacific" op_prefix="" />
+        <prefix op_code="Wave Runner LLC" op_prefix="" />
+        <prefix op_code="docomo Pacific" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

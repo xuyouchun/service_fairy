@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>伊朗</cn_name>
+    <en_name>Iran</en_name>
+    <national_code>98</national_code>
+    <mcc>432</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到伊朗的A地电话顺序为“0098-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从伊朗的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0098-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0098XXXXXXXX、98XXXXXXXX、098XXXXXXXX、00098XXXXXXXX；如果来电显示开头是00980、00981、00982、00983、00984、00985、00986、00987、00988、00989，一般也都表示国际区号是0098，后面一位是伊朗内部的号码的开头第一位；如果是在伊朗通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="IR-MCI" mncs="11" national_prefix="00" internal_prefix="0" desc="IR-MCI" />
+    <operation op_code="TKC" mncs="14" national_prefix="00" internal_prefix="0" desc="TKC" />
+    <operation op_code="MTCE" mncs="19" national_prefix="00" internal_prefix="0" desc="MTCE" />
+    <operation op_code="Taliya" mncs="32" national_prefix="00" internal_prefix="0" desc="Taliya" />
+    <operation op_code="Irancell" mncs="35" national_prefix="00" internal_prefix="0" desc="Irancell" />
+    <operation op_code="TCI" mncs="70" national_prefix="00" internal_prefix="0" desc="TCI" />
+    <operation op_code="Iraphone" mncs="93" national_prefix="00" internal_prefix="0" desc="Iraphone" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Mobile Communications Company of Iran" op_prefix="" />
+        <prefix op_code="KFZO" op_prefix="" />
+        <prefix op_code="Mobile Telecommunications Company of Esfahan" op_prefix="" />
+        <prefix op_code="Rafsanjan Industrial Complex" op_prefix="" />
+        <prefix op_code="Irancell Telecommunications Services Company" op_prefix="" />
+        <prefix op_code="Telephone Communications Company of Iran" op_prefix="" />
+        <prefix op_code="Iraphone" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿尔达比勒" city="" area_code="452" cn_name="阿尔达比勒" en_name="Ardebil" />
+        <city province="巴赫蒂亚里" city="" area_code="382" cn_name="巴赫蒂亚里" en_name="Bakhtiari" />
+        <city province="布什尔" city="" area_code="772" cn_name="布什尔" en_name="Booshehr" />
+        <city province="博韦艾哈迈德" city="" area_code="743" cn_name="博韦艾哈迈德" en_name="Booyerahmad" />
+        <city province="恰哈马哈勒" city="" area_code="772" cn_name="恰哈马哈勒" en_name="Chaharmahal" />
+        <city province="伊拉姆" city="" area_code="842" cn_name="伊拉姆" en_name="Ealam (Ilam)" />
+        <city province="东阿塞拜疆" city="" area_code="411" cn_name="东阿塞拜疆" en_name="Eastern Azerbayajan" />
+        <city province="法尔斯" city="" area_code="712" cn_name="法尔斯" en_name="Fars" />
+        <city province="吉兰" city="" area_code="132" cn_name="吉兰" en_name="Gilan" />
+        <city province="加兹温" city="" area_code="281" cn_name="加兹温" en_name="Ghazvin" />
+        <city province="戈勒斯坦" city="" area_code="173" cn_name="戈勒斯坦" en_name="Golestan" />
+        <city province="哈马丹" city="" area_code="812" cn_name="哈马丹" en_name="Hamedan" />
+        <city province="霍尔木兹甘" city="" area_code="763" cn_name="霍尔木兹甘" en_name="Hormozgan" />
+        <city province="伊斯法罕" city="" area_code="311" cn_name="伊斯法罕" en_name="Isfahan" />
+        <city province="克尔曼" city="" area_code="342" cn_name="克尔曼" en_name="Kerman" />
+        <city province="克尔曼沙汗" city="" area_code="831" cn_name="克尔曼沙汗" en_name="Kermanshah" />
+        <city province="胡齐斯坦" city="" area_code="612" cn_name="胡齐斯坦" en_name="Khoozestan" />
+        <city province="呼罗珊" city="" area_code="511" cn_name="呼罗珊" en_name="Khorasan" />
+        <city province="科吉卢耶" city="" area_code="743" cn_name="科吉卢耶" en_name="Kohgelouyeh" />
+        <city province="库尔德斯坦" city="" area_code="875" cn_name="库尔德斯坦" en_name="Kordestan" />
+        <city province="洛雷斯坦" city="" area_code="663" cn_name="洛雷斯坦" en_name="Lorestan" />
+        <city province="中央" city="" area_code="256" cn_name="中央" en_name="Markazi" />
+        <city province="马赞德兰" city="" area_code="111" cn_name="马赞德兰" en_name="Mazandaran" />
+        <city province="库姆" city="" area_code="251" cn_name="库姆" en_name="Qom" />
+        <city province="塞姆南" city="" area_code="231" cn_name="塞姆南" en_name="Semnan" />
+        <city province="锡斯坦" city="" area_code="452" cn_name="锡斯坦" en_name="Sistan" />
+        <city province="德黑兰" city="" area_code="21" cn_name="德黑兰" en_name="Tehran" />
+        <city province="西阿塞拜疆" city="" area_code="443" cn_name="西阿塞拜疆" en_name="Western Azerbayajan" />
+        <city province="亚兹德" city="" area_code="352" cn_name="亚兹德" en_name="Yazd" />
+        <city province="赞詹" city="" area_code="242" cn_name="赞詹" en_name="Zanjan" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>MCI</op_name>
+        <wireless_type />
+        <prefix>091y-zxx-xxxx</prefix>
+      </op>
+      <op>
+        <op_name>MTCE</op_name>
+        <wireless_type />
+        <prefix>0931-xxx-xxxx</prefix>
+      </op>
+      <op>
+        <op_name>Kish-TCI</op_name>
+        <wireless_type />
+        <prefix>0934-xxx-xxxx</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

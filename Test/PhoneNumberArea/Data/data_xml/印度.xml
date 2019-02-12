@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>印度</cn_name>
+    <en_name>India</en_name>
+    <national_code>91</national_code>
+    <mcc>404</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到印度的A地电话顺序为“0091-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从印度的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0091-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0091XXXXXXXX、91XXXXXXXX、091XXXXXXXX、00091XXXXXXXX；如果来电显示开头是00910、00911、00912、00913、00914、00915、00916、00917、00918、00919，一般也都表示国际区号是0091，后面一位是印度内部的号码的开头第一位；如果是在印度通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>印</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Vodafone IN" mncs="01,05,11,13,15,20,27,30,46,60,84,86,88,66,750,751,752,753,754,755,756" national_prefix="00" internal_prefix="0" desc="Vodafone IN" />
+    <operation op_code="AirTel" mncs="02,03,10,31,90,92,93,96,51,52,54,56" national_prefix="00" internal_prefix="0" desc="AirTel" />
+    <operation op_code="IDEA" mncs="04,07,12,14,19,22,24,44,56,70,799,845,86,848,850" national_prefix="00" internal_prefix="0" desc="IDEA" />
+    <operation op_code="Reliance" mncs="09,36,52,85,01,03,04,05,09,10,13" national_prefix="00" internal_prefix="0" desc="Reliance" />
+    <operation op_code="AIRCEL" mncs="17,25,28,29,91,800,801,802,803,804,805,806,807,808,809,810,811,812" national_prefix="00" internal_prefix="0" desc="AIRCEL" />
+    <operation op_code="Loop Mobile" mncs="21,855,864,865" national_prefix="00" internal_prefix="0" desc="Loop Mobile" />
+    <operation op_code="CellOne" mncs="34,38,51,53,54,55,71,57,58,59,62,64,66,72,74,76,81" national_prefix="00" internal_prefix="0" desc="CellOne" />
+    <operation op_code="Aircel" mncs="37,41,42" national_prefix="00" internal_prefix="0" desc="Aircel" />
+    <operation op_code="Airtel" mncs="45,49,55" national_prefix="00" internal_prefix="0" desc="Airtel" />
+    <operation op_code="Dishnet Wireless" mncs="48" national_prefix="00" internal_prefix="0" desc="Dishnet Wireless" />
+    <operation op_code="Reliance GSM" mncs="67" national_prefix="00" internal_prefix="0" desc="Reliance GSM" />
+    <operation op_code="DOLPHIN" mncs="68,69" national_prefix="00" internal_prefix="0" desc="DOLPHIN" />
+    <operation op_code="Idea Cellular Ltd" mncs="78" national_prefix="00" internal_prefix="0" desc="Idea Cellular Ltd" />
+    <operation op_code="BSNL MOBILE" mncs="80" national_prefix="00" internal_prefix="0" desc="BSNL MOBILE" />
+    <operation op_code="Idea" mncs="82,87,89" national_prefix="00" internal_prefix="0" desc="Idea" />
+    <operation op_code="Reliance Smart GSM" mncs="83" national_prefix="00" internal_prefix="0" desc="Reliance Smart GSM" />
+    <operation op_code="TATA Teleservice" mncs="025,026,027,029,030,031,032,033,034,035,036,037,038,039,041,042,043,044,045,046,047" national_prefix="00" internal_prefix="0" desc="TATA Teleservice" />
+    <operation op_code="Uninor" mncs="819,818,820,821,822,844,875,880,927,929" national_prefix="00" internal_prefix="0" desc="Uninor" />
+    <operation op_code="Videocon Datacom" mncs="824,827,834" national_prefix="00" internal_prefix="0" desc="Videocon Datacom" />
+    <operation op_code="S Tel" mncs="881" national_prefix="00" internal_prefix="0" desc="S Tel" />
+    <operation op_code="Etisalat DB(cheers)" mncs="912,913,914,917" national_prefix="00" internal_prefix="0" desc="Etisalat DB(cheers)" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Haryana" op_prefix="" />
+        <prefix op_code="Punjab" op_prefix="" />
+        <prefix op_code="Himachal Pradesh" op_prefix="" />
+        <prefix op_code="Delhi &amp; NCR" op_prefix="" />
+        <prefix op_code="Gujarat" op_prefix="" />
+        <prefix op_code="Andhra Pradesh" op_prefix="" />
+        <prefix op_code="Assam" op_prefix="" />
+        <prefix op_code="Delhi &amp; NCR" op_prefix="" />
+        <prefix op_code="Delhi &amp; NCR" op_prefix="" />
+        <prefix op_code="Haryana" op_prefix="" />
+        <prefix op_code="Andhra Pradesh" op_prefix="" />
+        <prefix op_code="Punjab" op_prefix="" />
+        <prefix op_code="Uttar Pradesh (East)" op_prefix="" />
+        <prefix op_code="West Bengal" op_prefix="" />
+        <prefix op_code="Kerala" op_prefix="" />
+        <prefix op_code="Mumbai" op_prefix="" />
+        <prefix op_code="Mumbai" op_prefix="" />
+        <prefix op_code="Maharashtra &amp; Goa" op_prefix="" />
+        <prefix op_code="Gujarat" op_prefix="" />
+        <prefix op_code="Bihar" op_prefix="" />
+        <prefix op_code="Maharashtra &amp; Goa" op_prefix="" />
+        <prefix op_code="Orissa" op_prefix="" />
+        <prefix op_code="Assam" op_prefix="" />
+        <prefix op_code="Kolkata" op_prefix="" />
+        <prefix op_code="Kolkata" op_prefix="" />
+        <prefix op_code="Haryana" op_prefix="" />
+        <prefix op_code="Bihar &amp; Jharkhand" op_prefix="" />
+        <prefix op_code="Jammu &amp; Kashmir" op_prefix="" />
+        <prefix op_code="Assam" op_prefix="" />
+        <prefix op_code="Chennai" op_prefix="" />
+        <prefix op_code="Tamil Nadu" op_prefix="" />
+        <prefix op_code="Karnataka" op_prefix="" />
+        <prefix op_code="Karnataka" op_prefix="" />
+        <prefix op_code="Kerala" op_prefix="" />
+        <prefix op_code="未知" op_prefix="" />
+        <prefix op_code="Andhra Pradesh" op_prefix="" />
+        <prefix op_code="Himachal Pradesh" op_prefix="" />
+        <prefix op_code="Orissa" op_prefix="" />
+        <prefix op_code="Punjab" op_prefix="" />
+        <prefix op_code="Uttar Pradesh (West)" op_prefix="" />
+        <prefix op_code="Uttar Pradesh (East)" op_prefix="" />
+        <prefix op_code="Karnataka (Bangalore)" op_prefix="" />
+        <prefix op_code="Uttar Pradesh (West)" op_prefix="" />
+        <prefix op_code="Gujarat" op_prefix="" />
+        <prefix op_code="Madhya Pradesh &amp; Chhattisgarh" op_prefix="" />
+        <prefix op_code="Rajasthan" op_prefix="" />
+        <prefix op_code="Rajasthan" op_prefix="" />
+        <prefix op_code="Jammu &amp; Kashmir" op_prefix="" />
+        <prefix op_code="Chennai" op_prefix="" />
+        <prefix op_code="Maharashtra &amp; Goa" op_prefix="" />
+        <prefix op_code="Madhya Pradesh &amp; Chhattisgarh" op_prefix="" />
+        <prefix op_code="Delhi &amp; NCR" op_prefix="" />
+        <prefix op_code="Mumbai" op_prefix="" />
+        <prefix op_code="Kerala" op_prefix="" />
+        <prefix op_code="West Bengal" op_prefix="" />
+        <prefix op_code="Orissa" op_prefix="" />
+        <prefix op_code="Madhya Pradesh &amp; Chattishgarh" op_prefix="" />
+        <prefix op_code="Bharat Sanchar Nigam Limited" op_prefix="" />
+        <prefix op_code="Kolkata" op_prefix="" />
+        <prefix op_code="Himachal Pradesh" op_prefix="" />
+        <prefix op_code="Kolkata" op_prefix="" />
+        <prefix op_code="Chennai" op_prefix="" />
+        <prefix op_code="West Bengal" op_prefix="" />
+        <prefix op_code="Karnataka" op_prefix="" />
+        <prefix op_code="Rajisthan" op_prefix="" />
+        <prefix op_code="Vodafone Punjab" op_prefix="" />
+        <prefix op_code="Uttar Pradesh (East)" op_prefix="" />
+        <prefix op_code="Maharashtra &amp; Goa" op_prefix="" />
+        <prefix op_code="Kolkata" op_prefix="" />
+        <prefix op_code="Mumbai" op_prefix="" />
+        <prefix op_code="Madhya Pradesh" op_prefix="" />
+        <prefix op_code="Haryana" op_prefix="" />
+        <prefix op_code="Andhra Pradesh" op_prefix="" />
+        <prefix op_code="Bihar" op_prefix="" />
+        <prefix op_code="Chennai" op_prefix="" />
+        <prefix op_code="Delhi &amp; NCR" op_prefix="" />
+        <prefix op_code="Jammu &amp; Kashmir" op_prefix="" />
+        <prefix op_code="Karnataka" op_prefix="" />
+        <prefix op_code="Maharashtra &amp; Goa" op_prefix="" />
+        <prefix op_code="Andhra Pradesh" op_prefix="" />
+        <prefix op_code="Assam" op_prefix="" />
+        <prefix op_code="Bihar/Jharkhand" op_prefix="" />
+        <prefix op_code="Delhi" op_prefix="" />
+        <prefix op_code="Gujarat" op_prefix="" />
+        <prefix op_code="Haryana" op_prefix="" />
+        <prefix op_code="Himachal Pradesh" op_prefix="" />
+        <prefix op_code="Jammu &amp; Kashmir" op_prefix="" />
+        <prefix op_code="Karnataka" op_prefix="" />
+        <prefix op_code="Kerala" op_prefix="" />
+        <prefix op_code="Kolkata" op_prefix="" />
+        <prefix op_code="Maharashtra &amp; Goa" op_prefix="" />
+        <prefix op_code="Madhya Pradesh" op_prefix="" />
+        <prefix op_code="Mumbai" op_prefix="" />
+        <prefix op_code="Orissa" op_prefix="" />
+        <prefix op_code="Punjab" op_prefix="" />
+        <prefix op_code="Rajasthan" op_prefix="" />
+        <prefix op_code="Tamil Nadu including Chennai" op_prefix="" />
+        <prefix op_code="[Uttar Pradesh (E)]" op_prefix="" />
+        <prefix op_code="[Uttar Pradesh (W) &amp; Uttarkhand ]" op_prefix="" />
+        <prefix op_code="[West Bengal]" op_prefix="" />
+        <prefix op_code="West Bengal" op_prefix="" />
+        <prefix op_code="Bihar &amp; Jharkhand" op_prefix="" />
+        <prefix op_code="Uttar Pradesh (East)" op_prefix="" />
+        <prefix op_code="Jammu &amp; Kashmir" op_prefix="" />
+        <prefix op_code="Assam" op_prefix="" />
+        <prefix op_code="Uttar Pradesh (West)" op_prefix="" />
+        <prefix op_code="Bihar &amp; Jharkhand" op_prefix="" />
+        <prefix op_code="Jammu &amp; Kashmir" op_prefix="" />
+        <prefix op_code="Assam" op_prefix="" />
+        <prefix op_code="Bihar &amp; Jharkhand" op_prefix="" />
+        <prefix op_code="Orissa" op_prefix="" />
+        <prefix op_code="Himachal Pradesh" op_prefix="" />
+        <prefix op_code="North East" op_prefix="" />
+        <prefix op_code="Madhya Pradesh &amp; Chhattisgarh" op_prefix="" />
+        <prefix op_code="Mumbai" op_prefix="" />
+        <prefix op_code="Delhi &amp; NCR" op_prefix="" />
+        <prefix op_code="Andhra Pradesh" op_prefix="" />
+        <prefix op_code="Gujarat" op_prefix="" />
+        <prefix op_code="Karnataka" op_prefix="" />
+        <prefix op_code="Maharashtra &amp; Goa" op_prefix="" />
+        <prefix op_code="Mumbai" op_prefix="" />
+        <prefix op_code="Rajasthan" op_prefix="" />
+        <prefix op_code="Haryana" op_prefix="" />
+        <prefix op_code="Madhya Pradesh" op_prefix="" />
+        <prefix op_code="Kerala" op_prefix="" />
+        <prefix op_code="Uttar Pradesh (East)" op_prefix="" />
+        <prefix op_code="Uttar Pradesh (West)" op_prefix="" />
+        <prefix op_code="Punjab" op_prefix="" />
+        <prefix op_code="Andhra Pradesh" op_prefix="" />
+        <prefix op_code="Uttar Pradesh (West)" op_prefix="" />
+        <prefix op_code="Karnataka" op_prefix="" />
+        <prefix op_code="Kerala" op_prefix="" />
+        <prefix op_code="Kolkata" op_prefix="" />
+        <prefix op_code="Assam" op_prefix="" />
+        <prefix op_code="Gujarat" op_prefix="" />
+        <prefix op_code="Madhya Pradesh" op_prefix="" />
+        <prefix op_code="Delhi &amp; NCR" op_prefix="" />
+        <prefix op_code="Assam" op_prefix="" />
+        <prefix op_code="Jammu &amp; Kashmir" op_prefix="" />
+        <prefix op_code="Kolkata" op_prefix="" />
+        <prefix op_code="Orissa" op_prefix="" />
+        <prefix op_code="Assam" op_prefix="" />
+        <prefix op_code="Kolkata" op_prefix="" />
+        <prefix op_code="Madhya Pradesh" op_prefix="" />
+        <prefix op_code="Assam" op_prefix="" />
+        <prefix op_code="West Bengal" op_prefix="" />
+        <prefix op_code="Assam" op_prefix="" />
+        <prefix op_code="Andhra Pradesh" op_prefix="" />
+        <prefix op_code="Delhi &amp; NCR" op_prefix="" />
+        <prefix op_code="Gujarat" op_prefix="" />
+        <prefix op_code="Kerala" op_prefix="" />
+        <prefix op_code="Gujarat" op_prefix="" />
+        <prefix op_code="Maharashtra" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿格拉" city="" area_code="562" cn_name="阿格拉" en_name="Agra" />
+        <city province="艾哈迈达巴德" city="" area_code="79" cn_name="艾哈迈达巴德" en_name="Ahmedabad" />
+        <city province="阿杰梅尔" city="" area_code="145" cn_name="阿杰梅尔" en_name="Ajmer" />
+        <city province="阿尔瓦尔" city="" area_code="144" cn_name="阿尔瓦尔" en_name="Alwar" />
+        <city province="阿姆利则" city="" area_code="183" cn_name="阿姆利则" en_name="Amritsar" />
+        <city province="奥兰加巴德" city="" area_code="2432" cn_name="奥兰加巴德" en_name="Aurangabad" />
+        <city province="班加罗尔" city="" area_code="80" cn_name="班加罗尔" en_name="Bangalore" />
+        <city province="巴尔梅尔" city="" area_code="2982" cn_name="巴尔梅尔" en_name="Barmer" />
+        <city province="巴罗达" city="" area_code="265" cn_name="巴罗达" en_name="Baroda" />
+        <city province="贝阿瓦尔" city="" area_code="1462" cn_name="贝阿瓦尔" en_name="Beawar" />
+        <city province="帕勒德布尔" city="" area_code="5644" cn_name="帕勒德布尔" en_name="Bharatpur" />
+        <city province="皮尔瓦拉" city="" area_code="1482" cn_name="皮尔瓦拉" en_name="Bhilwara" />
+        <city province="博帕尔" city="" area_code="755" cn_name="博帕尔" en_name="Bhopal" />
+        <city province="比卡内尔" city="" area_code="151" cn_name="比卡内尔" en_name="Bikaner" />
+        <city province="奔迪" city="" area_code="747" cn_name="奔迪" en_name="Bundi" />
+        <city province="昌迪加尔" city="" area_code="172" cn_name="昌迪加尔" en_name="Chandigarh" />
+        <city province="金奈" city="" area_code="44" cn_name="金奈" en_name="Chennai (formerly Madras)" />
+        <city province="奇陶加尔" city="" area_code="8572" cn_name="奇陶加尔" en_name="Chittorgarh" />
+        <city province="哥印拜陀" city="" area_code="422" cn_name="哥印拜陀" en_name="Coimbator" />
+        <city province="达乌尔布尔" city="" area_code="5642" cn_name="达乌尔布尔" en_name="Dholpur" />
+        <city province="德里" city="" area_code="11" cn_name="德里" en_name="Delhi" />
+        <city province="德拉敦" city="" area_code="135" cn_name="德拉敦" en_name="Dehradun" />
+        <city province="代奥格尔" city="" area_code="6432" cn_name="代奥格尔" en_name="Deogarh" />
+        <city province="法塔赫布尔西格里（胜利宫）" city="" area_code="5619" cn_name="法塔赫布尔西格里（胜利宫）" en_name="Fathepur Sikri" />
+        <city province="海得拉巴" city="" area_code="40" cn_name="海得拉巴" en_name="Hyderabad" />
+        <city province="斋浦尔" city="" area_code="141" cn_name="斋浦尔" en_name="Jaipur" />
+        <city province="贾朗达尔" city="" area_code="181" cn_name="贾朗达尔" en_name="Jullundur" />
+        <city province="坎普尔" city="" area_code="512" cn_name="坎普尔" en_name="Kanpur" />
+        <city province="加尔各达" city="" area_code="33" cn_name="加尔各达" en_name="Kolkatta (formerly Calcutta)" />
+        <city province="科塔" city="" area_code="744" cn_name="科塔" en_name="Kota" />
+        <city province="勒克瑙" city="" area_code="522" cn_name="勒克瑙" en_name="Lucknow" />
+        <city province="马尼帕尔" city="" area_code="8252" cn_name="马尼帕尔" en_name="Manipal" />
+        <city province="芒特艾伯" city="" area_code="2974" cn_name="芒特艾伯" en_name="Mount Abu" />
+        <city province="孟买" city="" area_code="22" cn_name="孟买" en_name="Mumbai (formerly Bombay )" />
+        <city province="慕苏里" city="" area_code="1362" cn_name="慕苏里" en_name="Mussoorie" />
+        <city province="迈索尔" city="" area_code="821" cn_name="迈索尔" en_name="Mysore" />
+        <city province="那格普尔" city="" area_code="1582" cn_name="那格普尔" en_name="Nagaur" />
+        <city province="新德里" city="" area_code="11" cn_name="新德里" en_name="New Delhi" />
+        <city province="巴特那" city="" area_code="612" cn_name="巴特那" en_name="Patna" />
+        <city province="浦那" city="" area_code="20" cn_name="浦那" en_name="Pune (formerly Poona)" />
+        <city province="布什格尔" city="" area_code="145" cn_name="布什格尔" en_name="Pushkar" />
+        <city province="拉杰果德" city="" area_code="281" cn_name="拉杰果德" en_name="Rajkot" />
+        <city province="伦桑伯国家公园" city="" area_code="7462" cn_name="伦桑伯国家公园" en_name="Ranthambhore Natl. Park" />
+        <city province="沙里斯卡" city="" area_code="144" cn_name="沙里斯卡" en_name="Sariska" />
+        <city province="西姆拉" city="" area_code="177" cn_name="西姆拉" en_name="Simla" />
+        <city province="斯利那加" city="" area_code="194" cn_name="斯利那加" en_name="Srinagar" />
+        <city province="苏拉特" city="" area_code="261" cn_name="苏拉特" en_name="Surat" />
+        <city province="乌代布尔" city="" area_code="294" cn_name="乌代布尔" en_name="Udaipur" />
+        <city province="巴罗达" city="" area_code="265" cn_name="巴罗达" en_name="Vadodara" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>土耳其</cn_name>
+    <en_name>Turkey</en_name>
+    <national_code>90</national_code>
+    <mcc>286</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到土耳其的A地电话顺序为“0090-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从土耳其的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0090-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0090XXXXXXXX、90XXXXXXXX、090XXXXXXXX、00090XXXXXXXX；如果来电显示开头是00900、00901、00902、00903、00904、00905、00906、00907、00908、00909，一般也都表示国际区号是0090，后面一位是土耳其内部的号码的开头第一位；如果是在土耳其通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Turkcell" mncs="01" national_prefix="00" internal_prefix="0" desc="Turkcell" />
+    <operation op_code="Vodafone" mncs="02" national_prefix="00" internal_prefix="0" desc="Vodafone" />
+    <operation op_code="Avea" mncs="03" national_prefix="00" internal_prefix="0" desc="Avea" />
+    <operation op_code="" mncs="04" national_prefix="00" internal_prefix="0" desc="" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Turkcell Iletisim Hizmetleri A.S." op_prefix="" />
+        <prefix op_code="Vodafone Turkey" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Aycell" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿达纳" city="" area_code="322" cn_name="阿达纳" en_name="Adana" />
+        <city province="阿达帕扎勒" city="" area_code="264" cn_name="阿达帕扎勒" en_name="Adapazari" />
+        <city province="阿德亚曼" city="" area_code="416" cn_name="阿德亚曼" en_name="Adiyaman" />
+        <city province="阿菲永" city="" area_code="272" cn_name="阿菲永" en_name="Afyon" />
+        <city province="阿勒" city="" area_code="472" cn_name="阿勒" en_name="Agri" />
+        <city province="阿克萨赖" city="" area_code="382" cn_name="阿克萨赖" en_name="Aksaray" />
+        <city province="阿马西亚" city="" area_code="358" cn_name="阿马西亚" en_name="Amasya" />
+        <city province="安卡拉" city="" area_code="312" cn_name="安卡拉" en_name="Ankara" />
+        <city province="安塔利亚" city="" area_code="242" cn_name="安塔利亚" en_name="Antalya" />
+        <city province="阿尔达罕" city="" area_code="478" cn_name="阿尔达罕" en_name="Ardahan" />
+        <city province="阿尔特温" city="" area_code="466" cn_name="阿尔特温" en_name="Artvin" />
+        <city province="艾登" city="" area_code="256" cn_name="艾登" en_name="Aydin" />
+        <city province="巴勒克埃西尔" city="" area_code="266" cn_name="巴勒克埃西尔" en_name="Balikesir" />
+        <city province="巴尔腾" city="" area_code="378" cn_name="巴尔腾" en_name="Bartin" />
+        <city province="巴特曼" city="" area_code="488" cn_name="巴特曼" en_name="Batman" />
+        <city province="巴伊布尔特" city="" area_code="458" cn_name="巴伊布尔特" en_name="Bayburt" />
+        <city province="比莱吉克" city="" area_code="228" cn_name="比莱吉克" en_name="Bilecik" />
+        <city province="宾格尔" city="" area_code="426" cn_name="宾格尔" en_name="Bingol" />
+        <city province="Bitus" city="" area_code="434" cn_name="暂无中文" en_name="Bitus" />
+        <city province="博卢" city="" area_code="374" cn_name="博卢" en_name="Bolu" />
+        <city province="布尔杜尔" city="" area_code="248" cn_name="布尔杜尔" en_name="Burdur" />
+        <city province="布尔萨" city="" area_code="224" cn_name="布尔萨" en_name="Bursa" />
+        <city province="恰纳卡莱" city="" area_code="286" cn_name="恰纳卡莱" en_name="Canakkale" />
+        <city province="昌克勒" city="" area_code="376" cn_name="昌克勒" en_name="Cankiri" />
+        <city province="乔鲁姆" city="" area_code="364" cn_name="乔鲁姆" en_name="Corum" />
+        <city province="代尼兹利" city="" area_code="258" cn_name="代尼兹利" en_name="Denizli" />
+        <city province="迪亚巴克尔" city="" area_code="412" cn_name="迪亚巴克尔" en_name="Diyarbakir" />
+        <city province="埃迪尔内" city="" area_code="284" cn_name="埃迪尔内" en_name="Edirne" />
+        <city province="埃拉泽" city="" area_code="424" cn_name="埃拉泽" en_name="Elazig" />
+        <city province="埃尔津詹" city="" area_code="446" cn_name="埃尔津詹" en_name="Erzincan" />
+        <city province="埃尔祖鲁姆" city="" area_code="442" cn_name="埃尔祖鲁姆" en_name="Erzurum" />
+        <city province="埃斯基谢希尔" city="" area_code="222" cn_name="埃斯基谢希尔" en_name="Eskisehir" />
+        <city province="加济安泰普" city="" area_code="851" cn_name="加济安泰普" en_name="Gaziantep" />
+        <city province="吉雷松" city="" area_code="454" cn_name="吉雷松" en_name="Giresun" />
+        <city province="居米什哈内" city="" area_code="456" cn_name="居米什哈内" en_name="Gumushane" />
+        <city province="哈塔伊" city="" area_code="326" cn_name="哈塔伊" en_name="Hatay" />
+        <city province="哈卡里" city="" area_code="438" cn_name="哈卡里" en_name="Hakkari" />
+        <city province="伊迪尔" city="" area_code="476" cn_name="伊迪尔" en_name="Igdir" />
+        <city province="伊斯帕尔塔" city="" area_code="246" cn_name="伊斯帕尔塔" en_name="Isparta" />
+        <city province="伊切尔(梅尔辛)" city="" area_code="324" cn_name="伊切尔(梅尔辛)" en_name="Icel (Mersin)" />
+        <city province="伊斯坦布尔(亚洲)" city="" area_code="216" cn_name="伊斯坦布尔(亚洲)" en_name="Istanbul Asya (Asia side)" />
+        <city province="伊斯坦布尔(欧洲)" city="" area_code="212" cn_name="伊斯坦布尔(欧洲)" en_name="Istanbul Avrupa (Europe side)" />
+        <city province="伊兹密尔" city="" area_code="232" cn_name="伊兹密尔" en_name="Izmir" />
+        <city province="伊兹米特" city="" area_code="262" cn_name="伊兹米特" en_name="Izmit" />
+        <city province="卡赫拉曼马拉什" city="" area_code="344" cn_name="卡赫拉曼马拉什" en_name="Kahramanmaras" />
+        <city province="卡拉曼" city="" area_code="338" cn_name="卡拉曼" en_name="Karaman" />
+        <city province="卡尔斯" city="" area_code="474" cn_name="卡尔斯" en_name="Kars" />
+        <city province="卡斯塔莫努" city="" area_code="366" cn_name="卡斯塔莫努" en_name="Kastamonu" />
+        <city province="开塞利" city="" area_code="352" cn_name="开塞利" en_name="Kayseri" />
+        <city province="克勒克卡莱" city="" area_code="318" cn_name="克勒克卡莱" en_name="Kirikkale" />
+        <city province="柯克拉雷利" city="" area_code="288" cn_name="柯克拉雷利" en_name="Kirklareli" />
+        <city province="克尔谢希尔" city="" area_code="386" cn_name="克尔谢希尔" en_name="Kirsehir" />
+        <city province="科贾埃利" city="" area_code="262" cn_name="科贾埃利" en_name="Kocaeli" />
+        <city province="科尼亚" city="" area_code="332" cn_name="科尼亚" en_name="Konya" />
+        <city province="屈塔希亚" city="" area_code="274" cn_name="屈塔希亚" en_name="Kutahya" />
+        <city province="马拉蒂亚" city="" area_code="422" cn_name="马拉蒂亚" en_name="Malatya" />
+        <city province="马尼萨" city="" area_code="236" cn_name="马尼萨" en_name="Manisa" />
+        <city province="马尔丁" city="" area_code="482" cn_name="马尔丁" en_name="Mardin" />
+        <city province="穆拉" city="" area_code="252" cn_name="穆拉" en_name="Mugla" />
+        <city province="穆什" city="" area_code="436" cn_name="穆什" en_name="Mus" />
+        <city province="内夫谢希尔" city="" area_code="384" cn_name="内夫谢希尔" en_name="Nevsehir" />
+        <city province="尼代" city="" area_code="388" cn_name="尼代" en_name="Nigde" />
+        <city province="奥尔杜" city="" area_code="452" cn_name="奥尔杜" en_name="Ordu" />
+        <city province="里泽" city="" area_code="464" cn_name="里泽" en_name="Rize" />
+        <city province="萨卡里亚" city="" area_code="264" cn_name="萨卡里亚" en_name="Sakarya" />
+        <city province="萨姆松" city="" area_code="362" cn_name="萨姆松" en_name="Samsun" />
+        <city province="锡尔特" city="" area_code="484" cn_name="锡尔特" en_name="Siirt" />
+        <city province="锡诺普" city="" area_code="368" cn_name="锡诺普" en_name="Sinop" />
+        <city province="锡瓦斯" city="" area_code="346" cn_name="锡瓦斯" en_name="Sivas" />
+        <city province="尚利乌尔法" city="" area_code="414" cn_name="尚利乌尔法" en_name="Sanliurfa" />
+        <city province="锡尔纳克" city="" area_code="486" cn_name="锡尔纳克" en_name="Sirnak" />
+        <city province="泰基尔达" city="" area_code="282" cn_name="泰基尔达" en_name="Tekirdag" />
+        <city province="托卡特" city="" area_code="356" cn_name="托卡特" en_name="Tokat" />
+        <city province="特拉布宗" city="" area_code="462" cn_name="特拉布宗" en_name="Trabzon" />
+        <city province="通杰利" city="" area_code="428" cn_name="通杰利" en_name="Tunceli" />
+        <city province="乌萨克" city="" area_code="276" cn_name="乌萨克" en_name="Usak" />
+        <city province="凡城" city="" area_code="432" cn_name="凡城" en_name="Van" />
+        <city province="亚罗法" city="" area_code="226" cn_name="亚罗法" en_name="Yalova" />
+        <city province="约兹加特" city="" area_code="354" cn_name="约兹加特" en_name="Yozgat" />
+        <city province="宗古尔达克" city="" area_code="372" cn_name="宗古尔达克" en_name="Zonguldak" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Aria</op_name>
+        <wireless_type>GSM 1800</wireless_type>
+        <prefix>55</prefix>
+      </op>
+      <op>
+        <op_name>Aycell</op_name>
+        <wireless_type>GSM 1800</wireless_type>
+        <prefix>505</prefix>
+      </op>
+      <op>
+        <op_name>Telsim</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>54</prefix>
+      </op>
+      <op>
+        <op_name>Turkcell</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>53</prefix>
+      </op>
+      <op>
+        <op_name>Turkish Telecom</op_name>
+        <wireless_type>NMTS 450</wireless_type>
+        <prefix>522</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

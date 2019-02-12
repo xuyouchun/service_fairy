@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>坦桑尼亚</cn_name>
+    <en_name>Tanzania</en_name>
+    <national_code>255</national_code>
+    <mcc>640</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到坦桑尼亚的A地电话顺序为“00255-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从坦桑尼亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00255-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00255XXXXXXXX、255XXXXXXXX、0255XXXXXXXX、000255XXXXXXXX；如果来电显示开头是002550、002551、002552、002553、002554、002555、002556、002557、002558、002559，一般也都表示国际区号是00255，后面一位是坦桑尼亚内部的号码的开头第一位；如果是在坦桑尼亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="tiGO" mncs="02" national_prefix="000" internal_prefix="0" desc="tiGO" />
+    <operation op_code="Zantel" mncs="03" national_prefix="000" internal_prefix="0" desc="Zantel" />
+    <operation op_code="Vodacom" mncs="04" national_prefix="000" internal_prefix="0" desc="Vodacom" />
+    <operation op_code="Airtel" mncs="05" national_prefix="000" internal_prefix="0" desc="Airtel" />
+    <operation op_code="Sasatel" mncs="06" national_prefix="000" internal_prefix="0" desc="Sasatel" />
+    <operation op_code="TTCL Mobile" mncs="07" national_prefix="000" internal_prefix="0" desc="TTCL Mobile" />
+    <operation op_code="Benson Online (BOL)" mncs="08" national_prefix="000" internal_prefix="0" desc="Benson Online (BOL)" />
+    <operation op_code="Hits" mncs="09" national_prefix="000" internal_prefix="0" desc="Hits" />
+    <operation op_code="SmileCom" mncs="11" national_prefix="000" internal_prefix="0" desc="SmileCom" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="MIC Tanzania Limited" op_prefix="" />
+        <prefix op_code="Zanzibar Telecom Ltd" op_prefix="" />
+        <prefix op_code="Vodacom Tanzania Limited" op_prefix="" />
+        <prefix op_code="Bharti Airtel" op_prefix="" />
+        <prefix op_code="Dovetel Limited" op_prefix="" />
+        <prefix op_code="Tanzania Telecommunication Company LTD (TTCL)" op_prefix="" />
+        <prefix op_code="Benson Informatics Limited" op_prefix="" />
+        <prefix op_code="ExcellentCom Tanzania Limited" op_prefix="" />
+        <prefix op_code="Smile Telecoms Holdings Ltd." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿鲁沙" city="" area_code="27" cn_name="阿鲁沙" en_name="Arusha" />
+        <city province="达累斯萨拉姆" city="" area_code="22" cn_name="达累斯萨拉姆" en_name="Dar Es Salaam" />
+        <city province="多多马" city="" area_code="26" cn_name="多多马" en_name="Dodoma" />
+        <city province="伊林加" city="" area_code="26" cn_name="伊林加" en_name="Iringa" />
+        <city province="喀格拉" city="" area_code="28" cn_name="喀格拉" en_name="Kagera" />
+        <city province="基戈马" city="" area_code="28" cn_name="基戈马" en_name="Kigoma" />
+        <city province="乞力马扎罗" city="" area_code="27" cn_name="乞力马扎罗" en_name="Kilimanjao" />
+        <city province="林迪" city="" area_code="23" cn_name="林迪" en_name="Lindi" />
+        <city province="马腊" city="" area_code="28" cn_name="马腊" en_name="Mara" />
+        <city province="姆贝亚" city="" area_code="25" cn_name="姆贝亚" en_name="Mbeya" />
+        <city province="莫洛戈罗" city="" area_code="223" cn_name="莫洛戈罗" en_name="Morogoro" />
+        <city province="姆特瓦拉" city="" area_code="23" cn_name="姆特瓦拉" en_name="Mtara" />
+        <city province="姆万扎" city="" area_code="28" cn_name="姆万扎" en_name="Mwanza" />
+        <city province="奔巴" city="" area_code="24" cn_name="奔巴" en_name="Pemba" />
+        <city province="滨海" city="" area_code="23" cn_name="滨海" en_name="Pwani" />
+        <city province="鲁夸" city="" area_code="25" cn_name="鲁夸" en_name="Rukwa" />
+        <city province="鲁伍马" city="" area_code="25" cn_name="鲁伍马" en_name="Ruvuma" />
+        <city province="欣延加" city="" area_code="28" cn_name="欣延加" en_name="Shinyanga" />
+        <city province="辛吉达" city="" area_code="26" cn_name="辛吉达" en_name="Singida" />
+        <city province="塔波拉" city="" area_code="26" cn_name="塔波拉" en_name="Tabora" />
+        <city province="坦噶" city="" area_code="27" cn_name="坦噶" en_name="Tanga" />
+        <city province="桑给巴尔" city="" area_code="24" cn_name="桑给巴尔" en_name="Zanzibar" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

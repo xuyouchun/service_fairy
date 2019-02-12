@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>喀麦隆</cn_name>
+    <en_name>Cameroon</en_name>
+    <national_code>237</national_code>
+    <mcc>624</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到喀麦隆的A地电话顺序为“00237-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从喀麦隆的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00237-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00237XXXXXXXX、237XXXXXXXX、0237XXXXXXXX、000237XXXXXXXX；如果来电显示开头是002370、002371、002372、002373、002374、002375、002376、002377、002378、002379，一般也都表示国际区号是00237，后面一位是喀麦隆内部的号码的开头第一位；如果是在喀麦隆通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Cameroun</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="MTN Cameroon" mncs="01" national_prefix="00" internal_prefix="" desc="MTN Cameroon" />
+    <operation op_code="Orange" mncs="02" national_prefix="00" internal_prefix="" desc="Orange" />
+  </operations>
+  <remarks>
+    <remark>从喀麦隆拨出内部直拨长途电话前缀：无</remark>
+    <remark>从喀麦隆拨出国际直拨长途电话前缀：00</remark>
+  </remarks>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

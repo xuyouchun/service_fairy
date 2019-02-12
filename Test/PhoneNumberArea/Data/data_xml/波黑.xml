@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>波斯尼亚和黑塞哥维那</cn_name>
+    <en_name>Bosnia And Herzegovina</en_name>
+    <national_code>387</national_code>
+    <mcc>218</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到波斯尼亚和黑塞哥维那的A地电话顺序为“00387-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从波斯尼亚和黑塞哥维那的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00387-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00387XXXXXXXX、387XXXXXXXX、0387XXXXXXXX、000387XXXXXXXX；如果来电显示开头是003870、003871、003872、003873、003874、003875、003876、003877、003878、003879，一般也都表示国际区号是00387，后面一位是波斯尼亚和黑塞哥维那内部的号码的开头第一位；如果是在波斯尼亚和黑塞哥维那通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="HT-ERONET" mncs="03" national_prefix="00" internal_prefix="0" desc="HT-ERONET" />
+    <operation op_code="m:tel" mncs="05" national_prefix="00" internal_prefix="0" desc="m:tel" />
+    <operation op_code="BH Mobile" mncs="90" national_prefix="00" internal_prefix="0" desc="BH Mobile" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Public Enterprise Croatian Telecom Ltd." op_prefix="" />
+        <prefix op_code="RS Telecommunications JSC Banja Luka" op_prefix="" />
+        <prefix op_code="BH Telecom" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="巴尼亚卢卡" city="" area_code="51" cn_name="巴尼亚卢卡" en_name="Banja Luka" />
+        <city province="比耶利纳" city="" area_code="55" cn_name="比耶利纳" en_name="Bijeljina" />
+        <city province="多博伊" city="" area_code="53" cn_name="多博伊" en_name="Doboj" />
+        <city province="福卡／斯宾捷" city="" area_code="58" cn_name="福卡／斯宾捷" en_name="Foca/Srbinje" />
+        <city province="西波斯尼亚 县/州" city="" area_code="34" cn_name="西波斯尼亚 县/州" en_name="Herceg - Bosanska Županija / Kanton" />
+        <city province="黑塞哥维那－涅雷特瓦 县/州" city="" area_code="36" cn_name="黑塞哥维那－涅雷特瓦 县/州" en_name="Hercegovačko - Neretvanska Županija / Kanton" />
+        <city province="Mrkonjić Grad" city="" area_code="50" cn_name="" en_name="Mrkonjić Grad" />
+        <city province="普利耶多" city="" area_code="52" cn_name="普利耶多" en_name="Prijedor" />
+        <city province="Šamac" city="" area_code="54" cn_name="" en_name="Šamac" />
+        <city province="县/州" city="" area_code="33" cn_name="县/州" en_name="Sarajevska Županija / Kanton" />
+        <city province="中波斯尼亚 县/州" city="" area_code="30" cn_name="中波斯尼亚 县/州" en_name="Srednjo - Bosanska Županija / Kanton" />
+        <city province="Srpsko Sarajevo" city="" area_code="57" cn_name="" en_name="Srpsko Sarajevo" />
+        <city province="斯宾捷" city="" area_code="58" cn_name="斯宾捷" en_name="Srbinje" />
+        <city province="特雷比涅" city="" area_code="59" cn_name="特雷比涅" en_name="Trebinje" />
+        <city province="乌纳－萨纳 县/州" city="" area_code="37" cn_name="乌纳－萨纳 县/州" en_name="Unsko - Sanska Županija / Kanton" />
+        <city province="西黑塞哥维那 县/州" city="" area_code="39" cn_name="西黑塞哥维那 县/州" en_name="Zapadno - Hercegovačka Županija / Kanton" />
+        <city province="Zvornik" city="" area_code="56" cn_name="" en_name="Zvornik" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

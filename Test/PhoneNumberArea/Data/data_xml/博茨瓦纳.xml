@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>博茨瓦纳</cn_name>
+    <en_name>Botswana</en_name>
+    <national_code>267</national_code>
+    <mcc>652</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到博茨瓦纳的A地电话顺序为“00267-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从博茨瓦纳的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00267-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00267XXXXXXXX、267XXXXXXXX、0267XXXXXXXX、000267XXXXXXXX；如果来电显示开头是002670、002671、002672、002673、002674、002675、002676、002677、002678、002679，一般也都表示国际区号是00267，后面一位是博茨瓦纳内部的号码的开头第一位；如果是在博茨瓦纳通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>波札那</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Mascom" mncs="01" national_prefix="00" internal_prefix="" desc="Mascom" />
+    <operation op_code="Orange" mncs="02" national_prefix="00" internal_prefix="" desc="Orange" />
+    <operation op_code="BTC Mobile" mncs="04" national_prefix="00" internal_prefix="" desc="BTC Mobile" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Mascom Wireless (Pty) Limited" op_prefix="" />
+        <prefix op_code="Orange (Botswana) Pty Limited" op_prefix="" />
+        <prefix op_code="Botswana Telecommunications Corporation" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="巴罗隆/恩瓜克策" city="" area_code="54" cn_name="巴罗隆/恩瓜克策" en_name="Barolong/Ngwaketse" />
+        <city province="弗朗西斯敦" city="" area_code="24" cn_name="弗朗西斯敦" en_name="Francistown" />
+        <city province="哈博罗内" city="" area_code="31" cn_name="哈博罗内" en_name="Gaborone" />
+        <city province="杭济" city="" area_code="65" cn_name="杭济" en_name="Gantsi" />
+        <city province="朱瓦能" city="" area_code="58" cn_name="朱瓦能" en_name="Jwaneng" />
+        <city province="卡内" city="" area_code="340" cn_name="卡内" en_name="Kanye" />
+        <city province="卡萨内" city="" area_code="62" cn_name="卡萨内" en_name="Kasane" />
+        <city province="莱特哈尼/奥拉帕" city="" area_code="29" cn_name="莱特哈尼/奥拉帕" en_name="Letlhakane/Orapa" />
+        <city province="洛巴策" city="" area_code="53" cn_name="洛巴策" en_name="Lobatse" />
+        <city province="马哈拉佩" city="" area_code="47" cn_name="马哈拉佩" en_name="Mahalapye" />
+        <city province="马翁" city="" area_code="68" cn_name="马翁" en_name="Maun" />
+        <city province="莫丘迪" city="" area_code="57" cn_name="莫丘迪" en_name="Mochudi" />
+        <city province="莫莱波洛莱" city="" area_code="59" cn_name="莫莱波洛莱" en_name="Molepolole" />
+        <city province="帕拉佩" city="" area_code="49" cn_name="帕拉佩" en_name="Palapye" />
+        <city province="拉莫斯瓦那" city="" area_code="53" cn_name="拉莫斯瓦那" en_name="Ramotswa" />
+        <city province="塞罗韦" city="" area_code="46" cn_name="塞罗韦" en_name="Serowe" />
+        <city province="塞利比费奇韦" city="" area_code="26" cn_name="塞利比费奇韦" en_name="Selebi-Phikwe" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Mascom</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>71</prefix>
+      </op>
+      <op>
+        <op_name>Orange</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>72</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

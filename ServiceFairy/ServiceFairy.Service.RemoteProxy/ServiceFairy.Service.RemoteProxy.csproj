@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF1D299B-9112-49BB-B2AA-DEC776E43F41}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ServiceFairy.Service.RemoteProxy</RootNamespace>
+    <AssemblyName>Main</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\Service\Sys.RemoteProxy\1.0.0.0\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\Service\Sys.RemoteProxy\1.0.0.0\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\RemoteServiceManagerAppComponent.cs" />
+    <Compile Include="Service.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.Communication\Common.Communication.csproj">
+      <Project>{de2353f5-d22d-4b09-ada6-09a7ca757ed1}</Project>
+      <Name>Common.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7ae561d4-b7ec-467f-b89c-0d531ecad9ce}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Data\Common.Data.csproj">
+      <Project>{aff90909-cae0-4a76-8e87-c8e7479a905f}</Project>
+      <Name>Common.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.File\Common.File.csproj">
+      <Project>{f04eb1af-1c68-424f-9bad-a1843c0de880}</Project>
+      <Name>Common.File</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Framework.TrayPlatform\Common.Framework.TrayPlatform.csproj">
+      <Project>{efd3f3bf-b25e-4ca6-ba40-502bd1763e72}</Project>
+      <Name>Common.Framework.TrayPlatform</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Package\Common.Package.csproj">
+      <Project>{5b657644-8038-44e7-895b-f6a82ad596ee}</Project>
+      <Name>Common.Package</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common\Common.csproj">
+      <Project>{109b2c9f-98fb-4a7c-88da-f52c61a61b72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Addins\ServiceFairy.Addins.csproj">
+      <Project>{1448113c-179b-4344-8e8b-47d172ac7563}</Project>
+      <Name>ServiceFairy.Addins</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Components\ServiceFairy.Components.csproj">
+      <Project>{4ae3cc0f-3b7c-46fd-b215-c4cd2b7249a2}</Project>
+      <Name>ServiceFairy.Components</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Core\ServiceFairy.Core.csproj">
+      <Project>{97c59ea0-2212-4f40-9093-dba0fdc1c0f2}</Project>
+      <Name>ServiceFairy.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Entities\ServiceFairy.Entities.csproj">
+      <Project>{4930ad49-98e9-46c5-8910-4fcbd5d7e5d1}</Project>
+      <Name>ServiceFairy.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.SystemInvoke\ServiceFairy.SystemInvoke.csproj">
+      <Project>{8bb052af-7b66-4839-9253-e8f07a1b540f}</Project>
+      <Name>ServiceFairy.SystemInvoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy\ServiceFairy.csproj">
+      <Project>{915745c6-f6d5-45e6-ab2e-e0d087e19ef7}</Project>
+      <Name>ServiceFairy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Main.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

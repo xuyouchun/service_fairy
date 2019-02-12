@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>中非</cn_name>
+    <en_name>Central African Republic</en_name>
+    <national_code>236</national_code>
+    <mcc>623</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到中非的A地电话顺序为“00236-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从中非的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00236-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00236XXXXXXXX、236XXXXXXXX、0236XXXXXXXX、000236XXXXXXXX；如果来电显示开头是002360、002361、002362、002363、002364、002365、002366、002367、002368、002369，一般也都表示国际区号是00236，后面一位是中非内部的号码的开头第一位；如果是在中非通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="CTP" mncs="01" national_prefix="00" internal_prefix="" desc="CTP" />
+    <operation op_code="TC" mncs="02" national_prefix="00" internal_prefix="" desc="TC" />
+    <operation op_code="Orange" mncs="03" national_prefix="00" internal_prefix="" desc="Orange" />
+    <operation op_code="Nationlink" mncs="04" national_prefix="00" internal_prefix="" desc="Nationlink" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Centrafrique Telecom Plus" op_prefix="" />
+        <prefix op_code="Telecel Centrafrique" op_prefix="" />
+        <prefix op_code="Orange RCA" op_prefix="" />
+        <prefix op_code="Nationlink Telecom RCA" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

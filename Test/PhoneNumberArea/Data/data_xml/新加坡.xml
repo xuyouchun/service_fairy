@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>新加坡</cn_name>
+    <en_name>Singapore</en_name>
+    <national_code>65</national_code>
+    <mcc>525</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到新加坡的A地电话顺序为“0065-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从新加坡的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0065-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0065XXXXXXXX、65XXXXXXXX、065XXXXXXXX、00065XXXXXXXX；如果来电显示开头是00650、00651、00652、00653、00654、00655、00656、00657、00658、00659，一般也都表示国际区号是0065，后面一位是新加坡内部的号码的开头第一位；如果是在新加坡通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="SingTel" mncs="01" national_prefix="001" internal_prefix="" desc="SingTel" />
+    <operation op_code="SingTel-G18" mncs="02" national_prefix="001" internal_prefix="" desc="SingTel-G18" />
+    <operation op_code="M1" mncs="03" national_prefix="001" internal_prefix="" desc="M1" />
+    <operation op_code="StarHub" mncs="05" national_prefix="001" internal_prefix="" desc="StarHub" />
+    <operation op_code="" mncs="12" national_prefix="001" internal_prefix="" desc="" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Singapore Telecom" op_prefix="" />
+        <prefix op_code="Singapore Telecom" op_prefix="" />
+        <prefix op_code="MobileOne Asia" op_prefix="" />
+        <prefix op_code="StarHub Mobile" op_prefix="" />
+        <prefix op_code="Digital Trunked Radio Network" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

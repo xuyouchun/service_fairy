@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>利比亚</cn_name>
+    <en_name>Libya</en_name>
+    <national_code>218</national_code>
+    <mcc>606</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到利比亚的A地电话顺序为“00218-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从利比亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00218-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00218XXXXXXXX、218XXXXXXXX、0218XXXXXXXX、000218XXXXXXXX；如果来电显示开头是002180、002181、002182、002183、002184、002185、002186、002187、002188、002189，一般也都表示国际区号是00218，后面一位是利比亚内部的号码的开头第一位；如果是在利比亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Libyana" mncs="00" national_prefix="00" internal_prefix="0" desc="Libyana" />
+    <operation op_code="Madar" mncs="01" national_prefix="00" internal_prefix="0" desc="Madar" />
+    <operation op_code="Al-Jeel Phone" mncs="02" national_prefix="00" internal_prefix="0" desc="Al-Jeel Phone" />
+    <operation op_code="Libya Phone" mncs="03" national_prefix="00" internal_prefix="0" desc="Libya Phone" />
+    <operation op_code="Hatef Libya" mncs="06" national_prefix="00" internal_prefix="0" desc="Hatef Libya" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Libyana" op_prefix="" />
+        <prefix op_code="Al-Madar Al-Jadeed" op_prefix="" />
+        <prefix op_code="Al-Jeel Al-Jadeed" op_prefix="" />
+        <prefix op_code="Libya Telecom and Technology (LTT)" op_prefix="" />
+        <prefix op_code="Hatef Libya" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿吉拉持" city="" area_code="282" cn_name="阿吉拉持" en_name="Agelat" />
+        <city province="班加西" city="" area_code="61" cn_name="班加西" en_name="Benghazi" />
+        <city province="贝尼纳" city="" area_code="63" cn_name="贝尼纳" en_name="Benina" />
+        <city province="德尔纳" city="" area_code="81" cn_name="德尔纳" en_name="Derna" />
+        <city province="米苏拉塔" city="" area_code="51" cn_name="米苏拉塔" en_name="Misuratha" />
+        <city province="塞卜拉泰" city="" area_code="24" cn_name="塞卜拉泰" en_name="Sabratha" />
+        <city province="塞卜哈" city="" area_code="71" cn_name="塞卜哈" en_name="Sebha" />
+        <city province="泰古拉" city="" area_code="26" cn_name="泰古拉" en_name="Taigura" />
+        <city province="的黎波里" city="" area_code="21" cn_name="的黎波里" en_name="Tripoli" />
+        <city province="的黎波里国际机场" city="" area_code="22" cn_name="的黎波里国际机场" en_name="Tripoli International Airport" />
+        <city province="扎维耶" city="" area_code="23" cn_name="扎维耶" en_name="Zawai" />
+        <city province="祖瓦拉" city="" area_code="25" cn_name="祖瓦拉" en_name="Zuara" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

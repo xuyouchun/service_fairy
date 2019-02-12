@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>圣文森特岛</cn_name>
+    <en_name>Saint Vincent and the Grenadines</en_name>
+    <national_code>1784</national_code>
+    <mcc>360</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到圣文森特岛的A地电话顺序为“001784-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从圣文森特岛的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001784-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001784XXXXXXXX、1784XXXXXXXX、01784XXXXXXXX、0001784XXXXXXXX；如果来电显示开头是0017840、0017841、0017842、0017843、0017844、0017845、0017846、0017847、0017848、0017849，一般也都表示国际区号是001784，后面一位是圣文森特岛内部的号码的开头第一位；如果是在圣文森特岛通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>圣文森特岛(英)</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Digicel" mncs="070" national_prefix="011" internal_prefix="1" desc="Digicel" />
+    <operation op_code="Cingular Wireless" mncs="100" national_prefix="011" internal_prefix="1" desc="Cingular Wireless" />
+    <operation op_code="Cable &amp; Wireless" mncs="110" national_prefix="011" internal_prefix="1" desc="Cable &amp; Wireless" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Cable &amp; Wireless" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

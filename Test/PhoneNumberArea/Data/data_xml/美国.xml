@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>美国</cn_name>
+    <en_name>U.S.</en_name>
+    <national_code>1</national_code>
+    <mcc>310</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到美国的A地电话顺序为“001-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从美国的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001XXXXXXXX、1XXXXXXXX、01XXXXXXXX、0001XXXXXXXX；如果来电显示开头是0010、0011、0012、0013、0014、0015、0016、0017、0018、0019，一般也都表示国际区号是001，后面一位是美国内部的号码的开头第一位；如果是在美国通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>美利坚合众国</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Virgin Mobile US" mncs="053" national_prefix="011" internal_prefix="1" desc="Virgin Mobile US" />
+    <operation op_code="Alltel US" mncs="054" national_prefix="011" internal_prefix="1" desc="Alltel US" />
+    <operation op_code="U.S. Cellular" mncs="066" national_prefix="011" internal_prefix="1" desc="U.S. Cellular" />
+    <operation op_code="Verizon" mncs="004,005,012,480" national_prefix="011" internal_prefix="1" desc="Verizon" />
+    <operation op_code="MCI" mncs="010" national_prefix="011" internal_prefix="1" desc="MCI" />
+    <operation op_code="MobileTel" mncs="013" national_prefix="011" internal_prefix="1" desc="MobileTel" />
+    <operation op_code="Testing" mncs="014" national_prefix="011" internal_prefix="1" desc="Testing" />
+    <operation op_code="Cricket Communications" mncs="016" national_prefix="011" internal_prefix="1" desc="Cricket Communications" />
+    <operation op_code="North Sight Communications Inc." mncs="017" national_prefix="011" internal_prefix="1" desc="North Sight Communications Inc." />
+    <operation op_code="Union Telephone Company" mncs="020" national_prefix="011" internal_prefix="1" desc="Union Telephone Company" />
+    <operation op_code="T-Mobile" mncs="026,160,170,200,210,220,230,240,250,260,270,280,290,310,330,490,580,660,800" national_prefix="011" internal_prefix="1" desc="T-Mobile" />
+    <operation op_code="Centennial" mncs="030" national_prefix="011" internal_prefix="1" desc="Centennial" />
+    <operation op_code="Airpeak" mncs="034" national_prefix="011" internal_prefix="1" desc="Airpeak" />
+    <operation op_code="Concho" mncs="040" national_prefix="011" internal_prefix="1" desc="Concho" />
+    <operation op_code="SIMMETRY" mncs="046" national_prefix="011" internal_prefix="1" desc="SIMMETRY" />
+    <operation op_code="Consolidated Telcom" mncs="060" national_prefix="011" internal_prefix="1" desc="Consolidated Telcom" />
+    <operation op_code="Highland Cellular" mncs="070" national_prefix="011" internal_prefix="1" desc="Highland Cellular" />
+    <operation op_code="Corr" mncs="080" national_prefix="011" internal_prefix="1" desc="Corr" />
+    <operation op_code="AT&amp;T" mncs="090,150,380,410,560,680" national_prefix="011" internal_prefix="1" desc="AT&amp;T" />
+    <operation op_code="Plateau Wireless" mncs="100,960" national_prefix="011" internal_prefix="1" desc="Plateau Wireless" />
+    <operation op_code="PTI Pacifica" mncs="110" national_prefix="011" internal_prefix="1" desc="PTI Pacifica" />
+    <operation op_code="Sprint" mncs="120" national_prefix="011" internal_prefix="1" desc="Sprint" />
+    <operation op_code="West Central" mncs="180" national_prefix="011" internal_prefix="1" desc="West Central" />
+    <operation op_code="Dutch Harbor" mncs="190" national_prefix="011" internal_prefix="1" desc="Dutch Harbor" />
+    <operation op_code="iSmart Mobile" mncs="300" national_prefix="011" internal_prefix="1" desc="iSmart Mobile" />
+    <operation op_code="Farmers Wireless" mncs="311" national_prefix="011" internal_prefix="1" desc="Farmers Wireless" />
+    <operation op_code="Cellular One" mncs="320,440,570" national_prefix="011" internal_prefix="1" desc="Cellular One" />
+    <operation op_code="Westlink" mncs="340" national_prefix="011" internal_prefix="1" desc="Westlink" />
+    <operation op_code="Carolina Phone" mncs="350" national_prefix="011" internal_prefix="1" desc="Carolina Phone" />
+    <operation op_code="Cellular One of East Texas" mncs="390" national_prefix="011" internal_prefix="1" desc="Cellular One of East Texas" />
+    <operation op_code="i CAN_GSM" mncs="400" national_prefix="011" internal_prefix="1" desc="i CAN_GSM" />
+    <operation op_code="Cincinnati Bell" mncs="420" national_prefix="011" internal_prefix="1" desc="Cincinnati Bell" />
+    <operation op_code="Alaska Digitel" mncs="430" national_prefix="011" internal_prefix="1" desc="Alaska Digitel" />
+    <operation op_code="Viaero" mncs="450" national_prefix="011" internal_prefix="1" desc="Viaero" />
+    <operation op_code="Simmetry" mncs="460" national_prefix="011" internal_prefix="1" desc="Simmetry" />
+    <operation op_code="nTelos" mncs="470" national_prefix="011" internal_prefix="1" desc="nTelos" />
+    <operation op_code="Choice Phone" mncs="480,120" national_prefix="011" internal_prefix="1" desc="Choice Phone" />
+    <operation op_code="Alltel" mncs="500,590" national_prefix="011" internal_prefix="1" desc="Alltel" />
+    <operation op_code="Airtel" mncs="510" national_prefix="011" internal_prefix="1" desc="Airtel" />
+    <operation op_code="VeriSign" mncs="520" national_prefix="011" internal_prefix="1" desc="VeriSign" />
+    <operation op_code="West Virginia Wireless" mncs="530" national_prefix="011" internal_prefix="1" desc="West Virginia Wireless" />
+    <operation op_code="Oklahoma Western" mncs="540" national_prefix="011" internal_prefix="1" desc="Oklahoma Western" />
+    <operation op_code="Epic Touch" mncs="610" national_prefix="011" internal_prefix="1" desc="Epic Touch" />
+    <operation op_code="Coleman County Telecom" mncs="620" national_prefix="011" internal_prefix="1" desc="Coleman County Telecom" />
+    <operation op_code="AmeriLink PCS" mncs="630" national_prefix="011" internal_prefix="1" desc="AmeriLink PCS" />
+    <operation op_code="Airadigm" mncs="640" national_prefix="011" internal_prefix="1" desc="Airadigm" />
+    <operation op_code="Jasper" mncs="650" national_prefix="011" internal_prefix="1" desc="Jasper" />
+    <operation op_code="Northstar" mncs="670" national_prefix="011" internal_prefix="1" desc="Northstar" />
+    <operation op_code="Conestoga" mncs="690" national_prefix="011" internal_prefix="1" desc="Conestoga" />
+    <operation op_code="SeaMobile" mncs="730" national_prefix="011" internal_prefix="1" desc="SeaMobile" />
+    <operation op_code="Convey" mncs="740" national_prefix="011" internal_prefix="1" desc="Convey" />
+    <operation op_code="Panhandle" mncs="760" national_prefix="011" internal_prefix="1" desc="Panhandle" />
+    <operation op_code="i wireless" mncs="770" national_prefix="011" internal_prefix="1" desc="i wireless" />
+    <operation op_code="Airlink PCS" mncs="780" national_prefix="011" internal_prefix="1" desc="Airlink PCS" />
+    <operation op_code="PinPoint" mncs="790" national_prefix="011" internal_prefix="1" desc="PinPoint" />
+    <operation op_code="Caprock" mncs="830" national_prefix="011" internal_prefix="1" desc="Caprock" />
+    <operation op_code="telna Mobile" mncs="840" national_prefix="011" internal_prefix="1" desc="telna Mobile" />
+    <operation op_code="Aeris" mncs="850" national_prefix="011" internal_prefix="1" desc="Aeris" />
+    <operation op_code="PACE" mncs="870" national_prefix="011" internal_prefix="1" desc="PACE" />
+    <operation op_code="Advantage" mncs="880" national_prefix="011" internal_prefix="1" desc="Advantage" />
+    <operation op_code="Unicel" mncs="890" national_prefix="011" internal_prefix="1" desc="Unicel" />
+    <operation op_code="Mid-Rivers Wireless" mncs="900" national_prefix="011" internal_prefix="1" desc="Mid-Rivers Wireless" />
+    <operation op_code="First Cellular" mncs="910" national_prefix="011" internal_prefix="1" desc="First Cellular" />
+    <operation op_code="Iris Wireless LLC" mncs="940" national_prefix="011" internal_prefix="1" desc="Iris Wireless LLC" />
+    <operation op_code="XIT Wireless" mncs="950" national_prefix="011" internal_prefix="1" desc="XIT Wireless" />
+    <operation op_code="Globalstar" mncs="970" national_prefix="011" internal_prefix="1" desc="Globalstar" />
+    <operation op_code="AT&amp;T Mobility" mncs="980,990" national_prefix="011" internal_prefix="1" desc="AT&amp;T Mobility" />
+    <operation op_code="Mid-Tex Cellular" mncs="000" national_prefix="011" internal_prefix="1" desc="Mid-Tex Cellular" />
+    <operation op_code="Chariton Valley" mncs="010" national_prefix="011" internal_prefix="1" desc="Chariton Valley" />
+    <operation op_code="Missouri RSA 5 Partnership" mncs="020" national_prefix="011" internal_prefix="1" desc="Missouri RSA 5 Partnership" />
+    <operation op_code="Indigo Wireless" mncs="030" national_prefix="011" internal_prefix="1" desc="Indigo Wireless" />
+    <operation op_code="Commnet Wireless" mncs="040" national_prefix="011" internal_prefix="1" desc="Commnet Wireless" />
+    <operation op_code="Wikes Cellular" mncs="050" national_prefix="011" internal_prefix="1" desc="Wikes Cellular" />
+    <operation op_code="Farmers Cellular" mncs="060" national_prefix="011" internal_prefix="1" desc="Farmers Cellular" />
+    <operation op_code="Easterbrooke" mncs="070" national_prefix="011" internal_prefix="1" desc="Easterbrooke" />
+    <operation op_code="Pine Cellular" mncs="080" national_prefix="011" internal_prefix="1" desc="Pine Cellular" />
+    <operation op_code="Long Lines Wireless" mncs="090" national_prefix="011" internal_prefix="1" desc="Long Lines Wireless" />
+    <operation op_code="High Plains Wireless" mncs="100,110" national_prefix="011" internal_prefix="1" desc="High Plains Wireless" />
+    <operation op_code="Cell One Amarillo" mncs="130" national_prefix="011" internal_prefix="1" desc="Cell One Amarillo" />
+    <operation op_code="Sprocket" mncs="140" national_prefix="011" internal_prefix="1" desc="Sprocket" />
+    <operation op_code="Wilkes Cellular" mncs="150" national_prefix="011" internal_prefix="1" desc="Wilkes Cellular" />
+    <operation op_code="Endless Mountains Wireless" mncs="160" national_prefix="011" internal_prefix="1" desc="Endless Mountains Wireless" />
+    <operation op_code="PetroCom" mncs="170" national_prefix="011" internal_prefix="1" desc="PetroCom" />
+    <operation op_code="Cingular Wireless" mncs="180" national_prefix="011" internal_prefix="1" desc="Cingular Wireless" />
+    <operation op_code="Cellular Properties" mncs="190" national_prefix="011" internal_prefix="1" desc="Cellular Properties" />
+    <operation op_code="Emery Telcom Wireless" mncs="210" national_prefix="011" internal_prefix="1" desc="Emery Telcom Wireless" />
+    <operation op_code="C Spire Wireless" mncs="230" national_prefix="011" internal_prefix="1" desc="C Spire Wireless" />
+    <operation op_code="Bug Tussel Wireless" mncs="330" national_prefix="011" internal_prefix="1" desc="Bug Tussel Wireless" />
+    <operation op_code="metroPCS" mncs="660" national_prefix="011" internal_prefix="1" desc="metroPCS" />
+    <operation op_code="Nextel" mncs="010" national_prefix="011" internal_prefix="1" desc="Nextel" />
+    <operation op_code="Southern Communications Services" mncs="011" national_prefix="011" internal_prefix="1" desc="Southern Communications Services" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Virgin Mobile US" op_prefix="" />
+        <prefix op_code="Alltel US" op_prefix="" />
+        <prefix op_code="U.S. Cellular" op_prefix="" />
+        <prefix op_code="Verizon" op_prefix="" />
+        <prefix op_code="Verizon" op_prefix="" />
+        <prefix op_code="MCI" op_prefix="" />
+        <prefix op_code="Verizon" op_prefix="" />
+        <prefix op_code="MobileTel" op_prefix="" />
+        <prefix op_code="Testing" op_prefix="" />
+        <prefix op_code="Cricket Communications" op_prefix="" />
+        <prefix op_code="North Sight Communications Inc." op_prefix="" />
+        <prefix op_code="Union Telephone Company" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="Centennial" op_prefix="" />
+        <prefix op_code="Airpeak" op_prefix="" />
+        <prefix op_code="Concho" op_prefix="" />
+        <prefix op_code="SIMMETRY" op_prefix="" />
+        <prefix op_code="Consolidated Telcom" op_prefix="" />
+        <prefix op_code="Highland Cellular" op_prefix="" />
+        <prefix op_code="Corr" op_prefix="" />
+        <prefix op_code="AT&amp;T" op_prefix="" />
+        <prefix op_code="Plateau Wireless" op_prefix="" />
+        <prefix op_code="PTI Pacifica" op_prefix="" />
+        <prefix op_code="Sprint" op_prefix="" />
+        <prefix op_code="AT&amp;T" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="West Central" op_prefix="" />
+        <prefix op_code="Dutch Harbor" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="iSmart Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="Farmers Wireless" op_prefix="" />
+        <prefix op_code="Cellular One" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="Westlink" op_prefix="" />
+        <prefix op_code="Carolina Phone" op_prefix="" />
+        <prefix op_code="AT&amp;T" op_prefix="" />
+        <prefix op_code="Cellular One of East Texas" op_prefix="" />
+        <prefix op_code="i CAN_GSM" op_prefix="" />
+        <prefix op_code="AT&amp;T" op_prefix="" />
+        <prefix op_code="Cincinnati Bell" op_prefix="" />
+        <prefix op_code="Alaska Digitel" op_prefix="" />
+        <prefix op_code="Cellular One" op_prefix="" />
+        <prefix op_code="Viaero" op_prefix="" />
+        <prefix op_code="Simmetry" op_prefix="" />
+        <prefix op_code="nTelos" op_prefix="" />
+        <prefix op_code="Choice Phone" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="Alltel" op_prefix="" />
+        <prefix op_code="Airtel" op_prefix="" />
+        <prefix op_code="VeriSign" op_prefix="" />
+        <prefix op_code="West Virginia Wireless" op_prefix="" />
+        <prefix op_code="Oklahoma Western" op_prefix="" />
+        <prefix op_code="AT&amp;T" op_prefix="" />
+        <prefix op_code="Cellular One" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="Alltel" op_prefix="" />
+        <prefix op_code="Epic Touch" op_prefix="" />
+        <prefix op_code="Coleman County Telecom" op_prefix="" />
+        <prefix op_code="AmeriLink PCS" op_prefix="" />
+        <prefix op_code="Airadigm" op_prefix="" />
+        <prefix op_code="Jasper" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="Northstar" op_prefix="" />
+        <prefix op_code="AT&amp;T" op_prefix="" />
+        <prefix op_code="Conestoga" op_prefix="" />
+        <prefix op_code="SeaMobile" op_prefix="" />
+        <prefix op_code="Convey" op_prefix="" />
+        <prefix op_code="Panhandle" op_prefix="" />
+        <prefix op_code="i wireless" op_prefix="" />
+        <prefix op_code="Airlink PCS" op_prefix="" />
+        <prefix op_code="PinPoint" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="Caprock" op_prefix="" />
+        <prefix op_code="telna Mobile" op_prefix="" />
+        <prefix op_code="Aeris" op_prefix="" />
+        <prefix op_code="PACE" op_prefix="" />
+        <prefix op_code="Advantage" op_prefix="" />
+        <prefix op_code="Unicel" op_prefix="" />
+        <prefix op_code="Mid-Rivers Wireless" op_prefix="" />
+        <prefix op_code="First Cellular" op_prefix="" />
+        <prefix op_code="Iris Wireless LLC" op_prefix="" />
+        <prefix op_code="XIT Wireless" op_prefix="" />
+        <prefix op_code="Plateau Wireless" op_prefix="" />
+        <prefix op_code="Globalstar" op_prefix="" />
+        <prefix op_code="AT&amp;T Mobility" op_prefix="" />
+        <prefix op_code="AT&amp;T Mobility" op_prefix="" />
+        <prefix op_code="Mid-Tex Cellular" op_prefix="" />
+        <prefix op_code="Chariton Valley" op_prefix="" />
+        <prefix op_code="Missouri RSA 5 Partnership" op_prefix="" />
+        <prefix op_code="Indigo Wireless" op_prefix="" />
+        <prefix op_code="Commnet Wireless" op_prefix="" />
+        <prefix op_code="Wikes Cellular" op_prefix="" />
+        <prefix op_code="Farmers Cellular" op_prefix="" />
+        <prefix op_code="Easterbrooke" op_prefix="" />
+        <prefix op_code="Pine Cellular" op_prefix="" />
+        <prefix op_code="Long Lines Wireless" op_prefix="" />
+        <prefix op_code="High Plains Wireless" op_prefix="" />
+        <prefix op_code="High Plains Wireless" op_prefix="" />
+        <prefix op_code="Choice Phone" op_prefix="" />
+        <prefix op_code="Cell One Amarillo" op_prefix="" />
+        <prefix op_code="Sprocket" op_prefix="" />
+        <prefix op_code="Wilkes Cellular" op_prefix="" />
+        <prefix op_code="Endless Mountains Wireless" op_prefix="" />
+        <prefix op_code="PetroCom" op_prefix="" />
+        <prefix op_code="Cingular Wireless" op_prefix="" />
+        <prefix op_code="Cellular Properties" op_prefix="" />
+        <prefix op_code="Emery Telcom Wireless" op_prefix="" />
+        <prefix op_code="C Spire Wireless" op_prefix="" />
+        <prefix op_code="Bug Tussel Wireless" op_prefix="" />
+        <prefix op_code="Verizon" op_prefix="" />
+        <prefix op_code="metroPCS" op_prefix="" />
+        <prefix op_code="Nextel" op_prefix="" />
+        <prefix op_code="Southern Communications Services" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="新泽西州" city="" area_code="201" />
+        <city province="华盛顿哥伦比亚特区" city="" area_code="202" />
+        <city province="康乃狄克州" city="" area_code="203" />
+        <city province="阿拉巴马州" city="" area_code="205" />
+        <city province="缅因州" city="" area_code="207" />
+        <city province="爱德荷州" city="" area_code="208" />
+        <city province="加利福尼亚州" city="" area_code="209" />
+        <city province="德克萨斯州" city="" area_code="210" />
+        <city province="德克萨斯州" city="" area_code="214" />
+        <city province="宾夕法尼亚州" city="" area_code="215" />
+        <city province="俄亥俄州" city="" area_code="216" />
+        <city province="伊利诺州" city="" area_code="217" />
+        <city province="明尼苏达州" city="" area_code="218" />
+        <city province="印第安纳州" city="" area_code="219" />
+        <city province="路易斯安那州" city="" area_code="225" />
+        <city province="密西西比州" city="" area_code="228" />
+        <city province="佐治亚州" city="" area_code="229" />
+        <city province="密歇根州" city="" area_code="231" />
+        <city province="俄亥俄州" city="" area_code="234" />
+        <city province="佛罗里达州" city="" area_code="239" />
+        <city province="马里兰州" city="" area_code="240" />
+        <city province="密歇根州" city="" area_code="248" />
+        <city province="阿拉巴马州" city="" area_code="251" />
+        <city province="北卡罗莱那州" city="" area_code="252" />
+        <city province="华盛顿州" city="" area_code="253" />
+        <city province="德克萨斯州" city="" area_code="254" />
+        <city province="阿拉巴马州" city="" area_code="256" />
+        <city province="印第安纳州" city="" area_code="260" />
+        <city province="威斯康辛州" city="" area_code="262" />
+        <city province="宾夕法尼亚州" city="" area_code="267" />
+        <city province="密歇根州" city="" area_code="269" />
+        <city province="肯塔基州" city="" area_code="270" />
+        <city province="维吉尼亚州" city="" area_code="276" />
+        <city province="马里兰州" city="" area_code="301" />
+        <city province="德拉瓦州" city="" area_code="302" />
+        <city province="科罗拉多州" city="" area_code="303" />
+        <city province="西维吉尼亚州" city="" area_code="304" />
+        <city province="佛罗里达州" city="" area_code="305" />
+        <city province="怀俄明州" city="" area_code="307" />
+        <city province="内布拉斯加州" city="" area_code="308" />
+        <city province="伊利诺州" city="" area_code="309" />
+        <city province="加利福尼亚州" city="" area_code="310" />
+        <city province="密歇根州" city="" area_code="313" />
+        <city province="密苏里州" city="" area_code="314" />
+        <city province="纽约州" city="" area_code="315" />
+        <city province="堪萨斯州" city="" area_code="316" />
+        <city province="印第安纳州" city="" area_code="317" />
+        <city province="路易斯安那州" city="" area_code="318" />
+        <city province="艾奥瓦州" city="" area_code="319" />
+        <city province="明尼苏达州" city="" area_code="320" />
+        <city province="佛罗里达州" city="" area_code="321" />
+        <city province="加利福尼亚州" city="" area_code="323" />
+        <city province="德克萨斯州" city="" area_code="325" />
+        <city province="俄亥俄州" city="" area_code="330" />
+        <city province="阿拉巴马州" city="" area_code="334" />
+        <city province="北卡罗莱那州" city="" area_code="336" />
+        <city province="路易斯安那州" city="" area_code="337" />
+        <city province="麻萨诸塞州" city="" area_code="339" />
+        <city province="纽约州" city="" area_code="347" />
+        <city province="麻萨诸塞州" city="" area_code="351" />
+        <city province="佛罗里达州" city="" area_code="352" />
+        <city province="华盛顿州" city="" area_code="360" />
+        <city province="德克萨斯州" city="" area_code="361" />
+        <city province="佛罗里达州" city="" area_code="386" />
+        <city province="罗德岛州" city="" area_code="401" />
+        <city province="内布拉斯加州" city="" area_code="402" />
+        <city province="佐治亚州" city="" area_code="404" />
+        <city province="奥克拉荷马州" city="" area_code="405" />
+        <city province="蒙大拿州" city="" area_code="406" />
+        <city province="佛罗里达州" city="" area_code="407" />
+        <city province="加利福尼亚州" city="" area_code="408" />
+        <city province="德克萨斯州" city="" area_code="409" />
+        <city province="马里兰州" city="" area_code="410" />
+        <city province="宾夕法尼亚州" city="" area_code="412" />
+        <city province="麻萨诸塞州" city="" area_code="413" />
+        <city province="威斯康辛州" city="" area_code="414" />
+        <city province="加利福尼亚州" city="" area_code="415" />
+        <city province="密苏里州" city="" area_code="417" />
+        <city province="俄亥俄州" city="" area_code="419" />
+        <city province="田纳西州" city="" area_code="423" />
+        <city province="华盛顿州" city="" area_code="425" />
+        <city province="德克萨斯州" city="" area_code="430" />
+        <city province="德克萨斯州" city="" area_code="432" />
+        <city province="维吉尼亚州" city="" area_code="434" />
+        <city province="犹他州" city="" area_code="435" />
+        <city province="俄亥俄州" city="" area_code="440" />
+        <city province="马里兰州" city="" area_code="443" />
+        <city province="宾夕法尼亚州" city="" area_code="445" />
+        <city province="德克萨斯州" city="" area_code="469" />
+        <city province="佐治亚州" city="" area_code="470" />
+        <city province="康乃狄克州" city="" area_code="475" />
+        <city province="佐治亚州" city="" area_code="478" />
+        <city province="阿肯色州" city="" area_code="479" />
+        <city province="亚利桑那州" city="" area_code="480" />
+        <city province="宾夕法尼亚州" city="" area_code="484" />
+        <city province="阿肯色州" city="" area_code="501" />
+        <city province="肯塔基州" city="" area_code="502" />
+        <city province="奥勒冈州" city="" area_code="503" />
+        <city province="路易斯安那州" city="" area_code="504" />
+        <city province="新墨西哥州" city="" area_code="505" />
+        <city province="明尼苏达州" city="" area_code="507" />
+        <city province="麻萨诸塞州" city="" area_code="508" />
+        <city province="华盛顿州" city="" area_code="509" />
+        <city province="加利福尼亚州" city="" area_code="510" />
+        <city province="德克萨斯州" city="" area_code="512" />
+        <city province="俄亥俄州" city="" area_code="513" />
+        <city province="艾奥瓦州" city="" area_code="515" />
+        <city province="纽约州" city="" area_code="516" />
+        <city province="密歇根州" city="" area_code="517" />
+        <city province="纽约州" city="" area_code="518" />
+        <city province="亚历桑那州" city="" area_code="520" />
+        <city province="加利福尼亚州" city="" area_code="530" />
+        <city province="维吉尼亚州" city="" area_code="540" />
+        <city province="奥勒冈州" city="" area_code="541" />
+        <city province="目录服务 - 555-1212" city="" area_code="555" />
+        <city province="加利福尼亚州" city="" area_code="559" />
+        <city province="佛罗里达州" city="" area_code="561" />
+        <city province="加利福尼亚州" city="" area_code="562" />
+        <city province="艾奥瓦州" city="" area_code="563" />
+        <city province="华盛顿州" city="" area_code="564" />
+        <city province="俄亥俄州" city="" area_code="567" />
+        <city province="宾夕法尼亚州" city="" area_code="570" />
+        <city province="维吉尼亚州" city="" area_code="571" />
+        <city province="密苏里州" city="" area_code="573" />
+        <city province="印第安纳州" city="" area_code="574" />
+        <city province="奥克拉何马州" city="" area_code="580" />
+        <city province="纽约州" city="" area_code="585" />
+        <city province="密歇根州" city="" area_code="586" />
+        <city province="密西西比" city="" area_code="601" />
+        <city province="亚利桑那州" city="" area_code="602" />
+        <city province="新罕布什尔州" city="" area_code="603" />
+        <city province="南达科他州" city="" area_code="605" />
+        <city province="肯塔基州" city="" area_code="606" />
+        <city province="纽约州" city="" area_code="607" />
+        <city province="威斯康辛州" city="" area_code="608" />
+        <city province="新泽西州" city="" area_code="609" />
+        <city province="宾夕法尼亚州" city="" area_code="610" />
+        <city province="明尼苏达州" city="" area_code="612" />
+        <city province="俄亥俄州" city="" area_code="614" />
+        <city province="田纳西州" city="" area_code="615" />
+        <city province="密歇根州" city="" area_code="616" />
+        <city province="麻萨诸塞州" city="" area_code="617" />
+        <city province="伊利诺州" city="" area_code="618" />
+        <city province="加利福尼亚州" city="" area_code="619" />
+        <city province="堪萨斯州" city="" area_code="620" />
+        <city province="亚利桑那州" city="" area_code="623" />
+        <city province="加利福尼亚州" city="" area_code="626" />
+        <city province="伊利诺州" city="" area_code="630" />
+        <city province="纽约" city="" area_code="631" />
+        <city province="密苏里州" city="" area_code="636" />
+        <city province="艾奥瓦州" city="" area_code="641" />
+        <city province="纽约州" city="" area_code="646" />
+        <city province="明尼苏达州" city="" area_code="651" />
+        <city province="密苏里州" city="" area_code="660" />
+        <city province="加利福尼亚州" city="" area_code="661" />
+        <city province="密西西比" city="" area_code="662" />
+        <city province="关岛" city="" area_code="671" />
+        <city province="佐治亚州" city="" area_code="678" />
+        <city province="德克萨斯州" city="" area_code="682" />
+        <city province="北达科他州" city="" area_code="701" />
+        <city province="内华达" city="" area_code="702" />
+        <city province="维吉尼亚州" city="" area_code="703" />
+        <city province="北卡罗莱那州" city="" area_code="704" />
+        <city province="佐治亚州" city="" area_code="706" />
+        <city province="加利福尼亚州" city="" area_code="707" />
+        <city province="伊利诺州" city="" area_code="708" />
+        <city province="艾奥瓦州" city="" area_code="712" />
+        <city province="德克萨斯州" city="" area_code="713" />
+        <city province="加利福尼亚州" city="" area_code="714" />
+        <city province="威斯康辛州" city="" area_code="715" />
+        <city province="纽约" city="" area_code="716" />
+        <city province="宾夕法尼亚州" city="" area_code="717" />
+        <city province="纽约" city="" area_code="718" />
+        <city province="科罗拉多州" city="" area_code="719" />
+        <city province="科罗拉多州" city="" area_code="720" />
+        <city province="宾夕法尼亚州" city="" area_code="724" />
+        <city province="佛罗里达州" city="" area_code="727" />
+        <city province="田纳西州" city="" area_code="731" />
+        <city province="新泽西州" city="" area_code="732" />
+        <city province="密歇根州" city="" area_code="734" />
+        <city province="俄亥俄州" city="" area_code="740" />
+        <city province="佛罗里达州" city="" area_code="754" />
+        <city province="维吉尼亚州" city="" area_code="757" />
+        <city province="加利福尼亚州" city="" area_code="760" />
+        <city province="明尼苏达州" city="" area_code="763" />
+        <city province="印第安纳州" city="" area_code="765" />
+        <city province="密西西比" city="" area_code="769" />
+        <city province="佐治亚州" city="" area_code="770" />
+        <city province="佛罗里达州" city="" area_code="772" />
+        <city province="伊利诺州" city="" area_code="773" />
+        <city province="麻萨诸塞州" city="" area_code="774" />
+        <city province="内华达州" city="" area_code="775" />
+        <city province="麻萨诸塞州" city="" area_code="781" />
+        <city province="堪萨斯州" city="" area_code="785" />
+        <city province="佛罗里达州" city="" area_code="786" />
+        <city province="波多黎各" city="" area_code="787" />
+        <city province="免费电话" city="" area_code="800" />
+        <city province="犹他州" city="" area_code="801" />
+        <city province="佛蒙特州" city="" area_code="802" />
+        <city province="南卡罗来纳州" city="" area_code="803" />
+        <city province="维吉尼亚州" city="" area_code="804" />
+        <city province="加利福尼亚州" city="" area_code="805" />
+        <city province="德克萨斯州" city="" area_code="806" />
+        <city province="西北安大略省" city="" area_code="807" />
+        <city province="夏威夷" city="" area_code="808" />
+        <city province="密歇根州" city="" area_code="810" />
+        <city province="印第安纳州" city="" area_code="812" />
+        <city province="佛罗里达州" city="" area_code="813" />
+        <city province="宾夕法尼亚州" city="" area_code="814" />
+        <city province="伊利诺州" city="" area_code="815" />
+        <city province="密苏里州" city="" area_code="816" />
+        <city province="德克萨斯州" city="" area_code="817" />
+        <city province="加利福尼亚州" city="" area_code="818" />
+        <city province="免费电话" city="" area_code="822" />
+        <city province="北卡罗莱那州" city="" area_code="828" />
+        <city province="德克萨斯州" city="" area_code="830" />
+        <city province="加利福尼亚州" city="" area_code="831" />
+        <city province="德克萨斯州" city="" area_code="832" />
+        <city province="免费电话" city="" area_code="833" />
+        <city province="宾夕法尼亚州" city="" area_code="835" />
+        <city province="北卡罗来纳州" city="" area_code="843" />
+        <city province="免费电话" city="" area_code="844" />
+        <city province="纽约" city="" area_code="845" />
+        <city province="伊利诺州" city="" area_code="847" />
+        <city province="佛罗里达州" city="" area_code="850" />
+        <city province="免费电话" city="" area_code="855" />
+        <city province="新泽西州" city="" area_code="856" />
+        <city province="麻萨诸塞州" city="" area_code="857" />
+        <city province="加利福尼亚州" city="" area_code="858" />
+        <city province="肯塔基州" city="" area_code="859" />
+        <city province="康乃狄克州" city="" area_code="860" />
+        <city province="佛罗里达州" city="" area_code="863" />
+        <city province="南卡罗来纳州" city="" area_code="864" />
+        <city province="田纳西州" city="" area_code="865" />
+        <city province="免费电话" city="" area_code="866" />
+        <city province="阿肯色州" city="" area_code="870" />
+        <city province="免费电话" city="" area_code="877" />
+        <city province="宾夕法尼亚州" city="" area_code="878" />
+        <city province="免费电话" city="" area_code="888" />
+        <city province="Excess Charge" city="" area_code="900" />
+        <city province="田纳西州" city="" area_code="901" />
+        <city province="德克萨斯州" city="" area_code="903" />
+        <city province="佛罗里达州" city="" area_code="904" />
+        <city province="安大略省" city="" area_code="905" />
+        <city province="密歇根州" city="" area_code="906" />
+        <city province="阿拉斯加" city="" area_code="907" />
+        <city province="新泽西州" city="" area_code="908" />
+        <city province="加利福尼亚州" city="" area_code="909" />
+        <city province="北卡罗莱那州" city="" area_code="910" />
+        <city province="佐治亚州" city="" area_code="912" />
+        <city province="堪萨斯州" city="" area_code="913" />
+        <city province="纽约" city="" area_code="914" />
+        <city province="德克萨斯州" city="" area_code="915" />
+        <city province="加利福尼亚州" city="" area_code="916" />
+        <city province="纽约" city="" area_code="917" />
+        <city province="俄克拉荷马州" city="" area_code="918" />
+        <city province="北卡罗莱那州" city="" area_code="919" />
+        <city province="威斯康辛州" city="" area_code="920" />
+        <city province="加利福尼亚州" city="" area_code="925" />
+        <city province="亚利桑那州" city="" area_code="928" />
+        <city province="田纳西州" city="" area_code="931" />
+        <city province="德克萨斯州" city="" area_code="936" />
+        <city province="俄亥俄州" city="" area_code="937" />
+        <city province="波多黎各" city="" area_code="939" />
+        <city province="德克萨斯州" city="" area_code="940" />
+        <city province="佛罗里达州" city="" area_code="941" />
+        <city province="密歇根州" city="" area_code="947" />
+        <city province="加利福尼亚州" city="" area_code="949" />
+        <city province="加利福尼亚州" city="" area_code="951" />
+        <city province="明尼苏达州" city="" area_code="952" />
+        <city province="佛罗里达州" city="" area_code="954" />
+        <city province="德克萨斯州" city="" area_code="956" />
+        <city province="康乃狄克州" city="" area_code="959" />
+        <city province="科罗拉多州" city="" area_code="970" />
+        <city province="俄勒冈州" city="" area_code="971" />
+        <city province="德克萨斯州" city="" area_code="972" />
+        <city province="新泽西州" city="" area_code="973" />
+        <city province="麻萨诸塞州" city="" area_code="978" />
+        <city province="德克萨斯州" city="" area_code="979" />
+        <city province="北卡罗莱那州" city="" area_code="980" />
+        <city province="路易斯安那州" city="" area_code="985" />
+        <city province="密歇根州" city="" area_code="989" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

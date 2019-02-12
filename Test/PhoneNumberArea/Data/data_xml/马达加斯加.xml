@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>马达加斯加</cn_name>
+    <en_name>Madagascar</en_name>
+    <national_code>261</national_code>
+    <mcc>646</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到马达加斯加的A地电话顺序为“00261-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从马达加斯加的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00261-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00261XXXXXXXX、261XXXXXXXX、0261XXXXXXXX、000261XXXXXXXX；如果来电显示开头是002610、002611、002612、002613、002614、002615、002616、002617、002618、002619，一般也都表示国际区号是00261，后面一位是马达加斯加内部的号码的开头第一位；如果是在马达加斯加通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Airtel" mncs="01" national_prefix="00" internal_prefix="0" desc="Airtel" />
+    <operation op_code="Orange" mncs="02" national_prefix="00" internal_prefix="0" desc="Orange" />
+    <operation op_code="Sacel" mncs="03" national_prefix="00" internal_prefix="0" desc="Sacel" />
+    <operation op_code="Telma" mncs="04" national_prefix="00" internal_prefix="0" desc="Telma" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Bharti Airtel" op_prefix="" />
+        <prefix op_code="Orange Madagascar S.A." op_prefix="" />
+        <prefix op_code="Sacel Madagascar S.A." op_prefix="" />
+        <prefix op_code="Telma Mobile S.A." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="安巴托兰皮" city="" area_code="42" cn_name="安巴托兰皮" en_name="Ambatolampy" />
+        <city province="Ambositra" city="" area_code="47" cn_name="暂无中文" en_name="Ambositra" />
+        <city province="Ambotondrazaka" city="" area_code="54" cn_name="暂无中文" en_name="Ambotondrazaka" />
+        <city province="塔那那利佛" city="" area_code="22" cn_name="塔那那利佛" en_name="Antananarivo" />
+        <city province="Antsirabe" city="" area_code="44" cn_name="暂无中文" en_name="Antsirabe" />
+        <city province="安齐拉纳纳（迪埃戈苏瓦雷斯）" city="" area_code="82" cn_name="安齐拉纳纳（迪埃戈苏瓦雷斯）" en_name="Antsiranana (Diego Suarez)" />
+        <city province="Antsohihy" city="" area_code="67" cn_name="暂无中文" en_name="Antsohihy" />
+        <city province="Farafangana" city="" area_code="73" cn_name="暂无中文" en_name="Farafangana" />
+        <city province="菲亚纳兰楚阿" city="" area_code="75" cn_name="菲亚纳兰楚阿" en_name="Fianarantsoa" />
+        <city province="马哈赞加" city="" area_code="62" cn_name="马哈赞加" en_name="Mahajanga" />
+        <city province="Maintirano" city="" area_code="69" cn_name="暂无中文" en_name="Maintirano" />
+        <city province="Manakara" city="" area_code="72" cn_name="暂无中文" en_name="Manakara" />
+        <city province="Mananjary" city="" area_code="72" cn_name="暂无中文" en_name="Mananjary" />
+        <city province="Mideast Region" city="" area_code="13" cn_name="暂无中文" en_name="Mideast Region" />
+        <city province="穆拉曼加" city="" area_code="56" cn_name="穆拉曼加" en_name="Moramanga" />
+        <city province="Morondava" city="" area_code="95" cn_name="暂无中文" en_name="Morondava" />
+        <city province="Nosy Be Is." city="" area_code="86" cn_name="暂无中文" en_name="Nosy Be Is." />
+        <city province="Sainte Marie" city="" area_code="57" cn_name="暂无中文" en_name="Sainte Marie" />
+        <city province="Sambava" city="" area_code="88" cn_name="暂无中文" en_name="Sambava" />
+        <city province="图阿马西拉" city="" area_code="53" cn_name="图阿马西拉" en_name="Toamasina" />
+        <city province="Tolagnaro" city="" area_code="92" cn_name="暂无中文" en_name="Tolagnaro" />
+        <city province="图利亚拉" city="" area_code="94" cn_name="图利亚拉" en_name="Toliaray" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Orange</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>32</prefix>
+      </op>
+      <op>
+        <op_name>MADACOM</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>33</prefix>
+      </op>
+      <op>
+        <op_name>TELECEL</op_name>
+        <wireless_type>AMPS Cellular</wireless_type>
+        <prefix>30</prefix>
+      </op>
+      <op>
+        <op_name>Telecom Malagasy</op_name>
+        <wireless_type>TELMA</wireless_type>
+        <prefix>20</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

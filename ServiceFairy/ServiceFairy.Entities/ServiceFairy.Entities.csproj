@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4930AD49-98E9-46C5-8910-4FCBD5D7E5D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ServiceFairy.Entities</RootNamespace>
+    <AssemblyName>ServiceFairy.Entities</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\ServiceFairy\Common\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\ServiceFairy\Common\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addins\MesssageSubscript\MesasgeSubscript_ApplyMessage.cs" />
+    <Compile Include="Addins\MyTest\Hello1.cs" />
+    <Compile Include="Cache\CacheRequestEntity.cs" />
+    <Compile Include="Cache\Cache_Get.cs" />
+    <Compile Include="Cache\Cache_GetKeys.cs" />
+    <Compile Include="Cache\Cache_GetRange.cs" />
+    <Compile Include="Cache\Cache_Increase.cs" />
+    <Compile Include="Cache\Cache_Remove.cs" />
+    <Compile Include="Cache\Cache_SetRange.cs" />
+    <Compile Include="Cache\Cache_Set.cs" />
+    <Compile Include="DatabaseCenter\DatabaseCenterStatusCode.cs" />
+    <Compile Include="DatabaseCenter\DatabaseCenter_GetConStr.cs" />
+    <Compile Include="Database\DatabaseEntity.cs" />
+    <Compile Include="Database\Database_Delete.cs" />
+    <Compile Include="Database\Database_ExecuteSql.cs" />
+    <Compile Include="Database\Database_GetTableInfos.cs" />
+    <Compile Include="Database\Database_InitMetadata.cs" />
+    <Compile Include="Database\Database_Insert.cs" />
+    <Compile Include="Database\Database_Merge.cs" />
+    <Compile Include="Database\Database_Select.cs" />
+    <Compile Include="Database\Database_Update.cs" />
+    <Compile Include="DocAttributes.cs" />
+    <Compile Include="Entities.cs" />
+    <Compile Include="File\Entities.cs" />
+    <Compile Include="File\FileStatusCode.cs" />
+    <Compile Include="File\FileUtility.cs" />
+    <Compile Include="File\File_BeginDownload.cs" />
+    <Compile Include="File\File_BeginDownloadStreamTable.cs" />
+    <Compile Include="File\File_BeginUpload.cs" />
+    <Compile Include="File\File_BeginUploadStreamTable.cs" />
+    <Compile Include="File\File_Cancel.cs" />
+    <Compile Include="File\File_Delete.cs" />
+    <Compile Include="File\File_DownloadAll.cs" />
+    <Compile Include="File\File_Download.cs" />
+    <Compile Include="File\File_DownloadDirect.cs" />
+    <Compile Include="File\File_DownloadStreamTable.cs" />
+    <Compile Include="File\File_End.cs" />
+    <Compile Include="File\File_GetDirectoryInfos.cs" />
+    <Compile Include="File\File_GetFileInfos.cs" />
+    <Compile Include="File\File_GetRouteInfo.cs" />
+    <Compile Include="File\File_Upload.cs" />
+    <Compile Include="File\File_UploadAll.cs" />
+    <Compile Include="File\File_UploadDirect.cs" />
+    <Compile Include="File\File_UploadStreamTable.cs" />
+    <Compile Include="Group\Entities.cs" />
+    <Compile Include="Group\EventEntities.cs" />
+    <Compile Include="Group\GroupStatusCode.cs" />
+    <Compile Include="Group\Group_AddMember.cs" />
+    <Compile Include="Group\Group_AddMembers.cs" />
+    <Compile Include="Group\Group_ExitGroup.cs" />
+    <Compile Include="Group\Group_GetGroupInfos.cs" />
+    <Compile Include="Group\Group_GetGroupVersions.cs" />
+    <Compile Include="Group\Group_GetMembers.cs" />
+    <Compile Include="Group\Group_GetMembersEx.cs" />
+    <Compile Include="Group\Group_GetGroupInfo.cs" />
+    <Compile Include="Group\Group_GetMyGroupInfos.cs" />
+    <Compile Include="Group\Group_GetMyGroupInfosEx.cs" />
+    <Compile Include="Group\Group_GetMyGroups.cs" />
+    <Compile Include="Group\Group_GetMyGroupVersions.cs" />
+    <Compile Include="Group\Group_ModifyGroupInfo.cs" />
+    <Compile Include="Group\Group_RemoveGroup.cs" />
+    <Compile Include="Group\Group_RemoveMember.cs" />
+    <Compile Include="Group\Group_RemoveMembers.cs" />
+    <Compile Include="Group\Group_RemoveGroups.cs" />
+    <Compile Include="Group\Group_SendMessage.cs" />
+    <Compile Include="Group\MessageEntities.cs" />
+    <Compile Include="Log\Entities.cs" />
+    <Compile Include="Log\Log_DeleteLog.cs" />
+    <Compile Include="Log\Log_GetAnalyzeResult.cs" />
+    <Compile Include="Log\Log_ReadLog.cs" />
+    <Compile Include="MessageCenter\Entities.cs" />
+    <Compile Include="MessageCenter\MessageCenter_Clear.cs" />
+    <Compile Include="MessageCenter\MessageCenter_Read.cs" />
+    <Compile Include="MessageCenter\MessageCenter_Save.cs" />
+    <Compile Include="Message\Entities.cs" />
+    <Compile Include="Message\Message_RemoveMessage.cs" />
+    <Compile Include="Message\Message_ResendMessage.cs" />
+    <Compile Include="Message\Message_SendMessages.cs" />
+    <Compile Include="Message\Message_RemoveMessages.cs" />
+    <Compile Include="Message\Message_GetMessages.cs" />
+    <Compile Include="Message\Message_SendMessage.cs" />
+    <Compile Include="Navigation\Navigation_GetProxy.cs" />
+    <Compile Include="Navigation\Navigation_GetProxyList.cs" />
+    <Compile Include="Navigation\Navigation_GetProxyUrl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\Proxy_GetOnlineUsers.cs" />
+    <Compile Include="Proxy\Proxy_Init.cs" />
+    <Compile Include="Queue\Queue_AddTask.cs" />
+    <Compile Include="ServiceAddinNames.cs" />
+    <Compile Include="ServiceCookieNames.cs" />
+    <Compile Include="ServiceEventNames.cs" />
+    <Compile Include="Sms\Sms_Send.cs" />
+    <Compile Include="Test\TaskArgsParser.cs" />
+    <Compile Include="Test\Test_GetAllTestTasksTypeInfos.cs" />
+    <Compile Include="Test\Test_GetTaskProgress.cs" />
+    <Compile Include="Test\Test_StartTest.cs" />
+    <Compile Include="Test\Test_StopTest.cs" />
+    <Compile Include="UserCenter\Entities.cs" />
+    <Compile Include="UserCenter\EventEntities.cs" />
+    <Compile Include="UserCenter\UserCenterUtility.cs" />
+    <Compile Include="UserCenter\UserCenter_GetGroupInfos.cs" />
+    <Compile Include="UserCenter\UserCenter_GetUserGroups.cs" />
+    <Compile Include="UserCenter\UserCenter_GetUserInfos.cs" />
+    <Compile Include="UserCenter\UserCenter_ConvertUserIdToNames.cs" />
+    <Compile Include="UserCenter\UserCenter_ParseToUserNames.cs" />
+    <Compile Include="Group\Group_CreateGroup.cs" />
+    <Compile Include="UserCenter\UserCenter_UserDisconnectedNotify.cs" />
+    <Compile Include="User\Entities.cs" />
+    <Compile Include="User\User_AddContact.cs" />
+    <Compile Include="User\User_AddContactsEx.cs" />
+    <Compile Include="User\User_GetContactList.cs" />
+    <Compile Include="User\User_GetUserId.cs" />
+    <Compile Include="User\User_GetUserIds.cs" />
+    <Compile Include="User\User_GetUserInfos.cs" />
+    <Compile Include="User\User_GetFollowers.cs" />
+    <Compile Include="User\User_GetFollowings.cs" />
+    <Compile Include="User\User_GetMyInfo.cs" />
+    <Compile Include="UserCenter\UserCenter_GetUserList.cs" />
+    <Compile Include="UserCenter\UserCenter_GetUserStatusInfos.cs" />
+    <Compile Include="UserCenter\UserCenter_ExistsUser.cs" />
+    <Compile Include="UserCenter\UserCenter_GetAllOnlineUsers.cs" />
+    <Compile Include="UserCenter\UserCenter_GetUserConnectionInfos.cs" />
+    <Compile Include="UserCenter\UserCenter_GetUserPositions.cs" />
+    <Compile Include="UserCenter\UserCenter_KeepUserConnection.cs" />
+    <Compile Include="UserCenter\UserCenter_GetRelation.cs" />
+    <Compile Include="UserCenter\UserCenter_ConvertUserNameToIds.cs" />
+    <Compile Include="UserCenter\UserCenter_ParseUsers.cs" />
+    <Compile Include="User\EventEntities.cs" />
+    <Compile Include="User\MessageEntities.cs" />
+    <Compile Include="User\UserEntity.cs" />
+    <Compile Include="User\UserStatusCode.cs" />
+    <Compile Include="User\User_AddContacts.cs" />
+    <Compile Include="User\User_GetStatus.cs" />
+    <Compile Include="User\User_GetUserInfo.cs" />
+    <Compile Include="User\User_GetUserName.cs" />
+    <Compile Include="User\User_GetUserNames.cs" />
+    <Compile Include="User\User_Login.cs" />
+    <Compile Include="User\User_Logout.cs" />
+    <Compile Include="User\User_MobileActive.cs" />
+    <Compile Include="User\User_MobileDeactive.cs" />
+    <Compile Include="User\User_ModifyPassword.cs" />
+    <Compile Include="User\User_ModifyPhoneNumber.cs" />
+    <Compile Include="User\User_ModifyMyInfo.cs" />
+    <Compile Include="User\User_PreModifyPhoneNumber.cs" />
+    <Compile Include="User\User_Register.cs" />
+    <Compile Include="User\User_RemoveContact.cs" />
+    <Compile Include="User\User_RemoveContacts.cs" />
+    <Compile Include="User\User_ResetPassword.cs" />
+    <Compile Include="User\User_SendMessage.cs" />
+    <Compile Include="User\User_SendVerifyCode.cs" />
+    <Compile Include="User\User_SetStatus.cs" />
+    <Compile Include="User\User_UpdateContactList.cs" />
+    <Compile Include="Watch\Watch_GetWatchInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.Communication\Common.Communication.csproj">
+      <Project>{DE2353F5-D22D-4B09-ADA6-09A7CA757ED1}</Project>
+      <Name>Common.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Data\Common.Data.csproj">
+      <Project>{AFF90909-CAE0-4A76-8E87-C8E7479A905F}</Project>
+      <Name>Common.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.File\Common.File.csproj">
+      <Project>{F04EB1AF-1C68-424F-9BAD-A1843C0DE880}</Project>
+      <Name>Common.File</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Package\Common.Package.csproj">
+      <Project>{5B657644-8038-44E7-895B-F6A82AD596EE}</Project>
+      <Name>Common.Package</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy\ServiceFairy.csproj">
+      <Project>{915745C6-F6D5-45E6-AB2E-E0D087E19EF7}</Project>
+      <Name>ServiceFairy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

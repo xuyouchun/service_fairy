@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>马绍尔群岛</cn_name>
+    <en_name>Marshall Islands</en_name>
+    <national_code>692</national_code>
+    <mcc />
+    <example><![CDATA[从中国的固定电话或者手机拨到马绍尔群岛的A地电话顺序为“00692-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从马绍尔群岛的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00692-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00692XXXXXXXX、692XXXXXXXX、0692XXXXXXXX、000692XXXXXXXX；如果来电显示开头是006920、006921、006922、006923、006924、006925、006926、006927、006928、006929，一般也都表示国际区号是00692，后面一位是马绍尔群岛内部的号码的开头第一位；如果是在马绍尔群岛通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>马绍尔</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="" mncs="" national_prefix="011" internal_prefix="1" desc="" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="埃贝耶，夸贾林" city="" area_code="" cn_name="埃贝耶，夸贾林" en_name="Ebeye Island, Kwajelien Atoll" />
+        <city province="贾卢伊特" city="" area_code="525 - 无线" cn_name="贾卢伊特" en_name="Jaluit Atoll" />
+        <city province="吉利" city="" area_code="545 - 无线" cn_name="吉利" en_name="Kili Island" />
+        <city province="马朱罗（首都）" city="" area_code="" cn_name="马朱罗（首都）" en_name="Majuro Island, Majuro Atoll" />
+        <city province="朗格拉普" city="" area_code="545 - 无线" cn_name="朗格拉普" en_name="Rongelap Atoll" />
+        <city province="沃特杰" city="" area_code="535 - 无线" cn_name="沃特杰" en_name="Wotje Atoll" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

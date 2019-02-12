@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>卢旺达</cn_name>
+    <en_name>Rwanda</en_name>
+    <national_code>250</national_code>
+    <mcc>635</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到卢旺达的A地电话顺序为“00250-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从卢旺达的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00250-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00250XXXXXXXX、250XXXXXXXX、0250XXXXXXXX、000250XXXXXXXX；如果来电显示开头是002500、002501、002502、002503、002504、002505、002506、002507、002508、002509，一般也都表示国际区号是00250，后面一位是卢旺达内部的号码的开头第一位；如果是在卢旺达通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="MTN" mncs="10" national_prefix="00" internal_prefix="" desc="MTN" />
+    <operation op_code="Rwandatel" mncs="12" national_prefix="00" internal_prefix="" desc="Rwandatel" />
+    <operation op_code="Tigo" mncs="13" national_prefix="00" internal_prefix="" desc="Tigo" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="MTN Rwandacell SARL" op_prefix="" />
+        <prefix op_code="Rwandatel S.A." op_prefix="" />
+        <prefix op_code="TIGO RWANDA S.A" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

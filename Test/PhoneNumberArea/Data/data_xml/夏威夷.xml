@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>美国</cn_name>
+    <en_name>U.S.</en_name>
+    <national_code>1</national_code>
+    <mcc>310</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到美国的A地电话顺序为“001-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从美国的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001XXXXXXXX、1XXXXXXXX、01XXXXXXXX、0001XXXXXXXX；如果来电显示开头是0010、0011、0012、0013、0014、0015、0016、0017、0018、0019，一般也都表示国际区号是001，后面一位是美国内部的号码的开头第一位；如果是在美国通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>美利坚合众国</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="" mncs="053,054,066,010,014,016,017,020,060,070,160,170,200,210,220,230,240,250,260,270,280,290,310,311,350,430,480,530,780,800,940,980,990,000,020,030,040,050,100,110,120,130,150,160,180,190,210,230,011" national_prefix="011" internal_prefix="1" desc="" />
+    <operation op_code="Verizon" mncs="004,005,012,480" national_prefix="011" internal_prefix="1" desc="Verizon" />
+    <operation op_code="MobileTel" mncs="013" national_prefix="011" internal_prefix="1" desc="MobileTel" />
+    <operation op_code="T-Mobile" mncs="026,330,490,580,660" national_prefix="011" internal_prefix="1" desc="T-Mobile" />
+    <operation op_code="Centennial" mncs="030" national_prefix="011" internal_prefix="1" desc="Centennial" />
+    <operation op_code="Airpeak" mncs="034" national_prefix="011" internal_prefix="1" desc="Airpeak" />
+    <operation op_code="Concho" mncs="040" national_prefix="011" internal_prefix="1" desc="Concho" />
+    <operation op_code="SIMMETRY" mncs="046" national_prefix="011" internal_prefix="1" desc="SIMMETRY" />
+    <operation op_code="Corr" mncs="080" national_prefix="011" internal_prefix="1" desc="Corr" />
+    <operation op_code="AT&amp;T" mncs="090,150,380,410,560,680" national_prefix="011" internal_prefix="1" desc="AT&amp;T" />
+    <operation op_code="Plateau Wireless" mncs="100,960" national_prefix="011" internal_prefix="1" desc="Plateau Wireless" />
+    <operation op_code="PTI Pacifica" mncs="110" national_prefix="011" internal_prefix="1" desc="PTI Pacifica" />
+    <operation op_code="Sprint" mncs="120" national_prefix="011" internal_prefix="1" desc="Sprint" />
+    <operation op_code="West Central" mncs="180" national_prefix="011" internal_prefix="1" desc="West Central" />
+    <operation op_code="Dutch Harbor" mncs="190" national_prefix="011" internal_prefix="1" desc="Dutch Harbor" />
+    <operation op_code="iSmart Mobile" mncs="300" national_prefix="011" internal_prefix="1" desc="iSmart Mobile" />
+    <operation op_code="Cellular One" mncs="320,440,570" national_prefix="011" internal_prefix="1" desc="Cellular One" />
+    <operation op_code="Westlink" mncs="340" national_prefix="011" internal_prefix="1" desc="Westlink" />
+    <operation op_code="Cellular One of East Texas" mncs="390" national_prefix="011" internal_prefix="1" desc="Cellular One of East Texas" />
+    <operation op_code="i CAN_GSM" mncs="400" national_prefix="011" internal_prefix="1" desc="i CAN_GSM" />
+    <operation op_code="Cincinnati Bell" mncs="420" national_prefix="011" internal_prefix="1" desc="Cincinnati Bell" />
+    <operation op_code="Viaero" mncs="450" national_prefix="011" internal_prefix="1" desc="Viaero" />
+    <operation op_code="Simmetry" mncs="460" national_prefix="011" internal_prefix="1" desc="Simmetry" />
+    <operation op_code="nTelos" mncs="470" national_prefix="011" internal_prefix="1" desc="nTelos" />
+    <operation op_code="Alltel" mncs="500,590" national_prefix="011" internal_prefix="1" desc="Alltel" />
+    <operation op_code="Airtel" mncs="510" national_prefix="011" internal_prefix="1" desc="Airtel" />
+    <operation op_code="VeriSign" mncs="520" national_prefix="011" internal_prefix="1" desc="VeriSign" />
+    <operation op_code="Oklahoma Western" mncs="540" national_prefix="011" internal_prefix="1" desc="Oklahoma Western" />
+    <operation op_code="Epic Touch" mncs="610" national_prefix="011" internal_prefix="1" desc="Epic Touch" />
+    <operation op_code="Coleman County Telecom" mncs="620" national_prefix="011" internal_prefix="1" desc="Coleman County Telecom" />
+    <operation op_code="AmeriLink PCS" mncs="630" national_prefix="011" internal_prefix="1" desc="AmeriLink PCS" />
+    <operation op_code="Airadigm" mncs="640" national_prefix="011" internal_prefix="1" desc="Airadigm" />
+    <operation op_code="Jasper" mncs="650" national_prefix="011" internal_prefix="1" desc="Jasper" />
+    <operation op_code="Northstar" mncs="670" national_prefix="011" internal_prefix="1" desc="Northstar" />
+    <operation op_code="Conestoga" mncs="690" national_prefix="011" internal_prefix="1" desc="Conestoga" />
+    <operation op_code="SeaMobile" mncs="730" national_prefix="011" internal_prefix="1" desc="SeaMobile" />
+    <operation op_code="Convey" mncs="740" national_prefix="011" internal_prefix="1" desc="Convey" />
+    <operation op_code="Panhandle" mncs="760" national_prefix="011" internal_prefix="1" desc="Panhandle" />
+    <operation op_code="i wireless" mncs="770" national_prefix="011" internal_prefix="1" desc="i wireless" />
+    <operation op_code="PinPoint" mncs="790" national_prefix="011" internal_prefix="1" desc="PinPoint" />
+    <operation op_code="Caprock" mncs="830" national_prefix="011" internal_prefix="1" desc="Caprock" />
+    <operation op_code="telna Mobile" mncs="840" national_prefix="011" internal_prefix="1" desc="telna Mobile" />
+    <operation op_code="Aeris" mncs="850" national_prefix="011" internal_prefix="1" desc="Aeris" />
+    <operation op_code="PACE" mncs="870" national_prefix="011" internal_prefix="1" desc="PACE" />
+    <operation op_code="Advantage" mncs="880" national_prefix="011" internal_prefix="1" desc="Advantage" />
+    <operation op_code="Unicel" mncs="890" national_prefix="011" internal_prefix="1" desc="Unicel" />
+    <operation op_code="Mid-Rivers Wireless" mncs="900" national_prefix="011" internal_prefix="1" desc="Mid-Rivers Wireless" />
+    <operation op_code="First Cellular" mncs="910" national_prefix="011" internal_prefix="1" desc="First Cellular" />
+    <operation op_code="XIT Wireless" mncs="950" national_prefix="011" internal_prefix="1" desc="XIT Wireless" />
+    <operation op_code="Globalstar" mncs="970" national_prefix="011" internal_prefix="1" desc="Globalstar" />
+    <operation op_code="Chariton Valley" mncs="010" national_prefix="011" internal_prefix="1" desc="Chariton Valley" />
+    <operation op_code="Farmers Cellular" mncs="060" national_prefix="011" internal_prefix="1" desc="Farmers Cellular" />
+    <operation op_code="Easterbrooke" mncs="070" national_prefix="011" internal_prefix="1" desc="Easterbrooke" />
+    <operation op_code="Pine Cellular" mncs="080" national_prefix="011" internal_prefix="1" desc="Pine Cellular" />
+    <operation op_code="Long Lines Wireless" mncs="090" national_prefix="011" internal_prefix="1" desc="Long Lines Wireless" />
+    <operation op_code="Sprocket" mncs="140" national_prefix="011" internal_prefix="1" desc="Sprocket" />
+    <operation op_code="PetroCom" mncs="170" national_prefix="011" internal_prefix="1" desc="PetroCom" />
+    <operation op_code="Bug Tussel Wireless" mncs="330" national_prefix="011" internal_prefix="1" desc="Bug Tussel Wireless" />
+    <operation op_code="metroPCS" mncs="660" national_prefix="011" internal_prefix="1" desc="metroPCS" />
+    <operation op_code="Nextel" mncs="010" national_prefix="011" internal_prefix="1" desc="Nextel" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Virgin Mobile US" op_prefix="" />
+        <prefix op_code="Alltel US" op_prefix="" />
+        <prefix op_code="U.S. Cellular" op_prefix="" />
+        <prefix op_code="Verizon Wireless" op_prefix="" />
+        <prefix op_code="Verizon Wireless" op_prefix="" />
+        <prefix op_code="MCI" op_prefix="" />
+        <prefix op_code="Verizon Wireless" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Testing" op_prefix="" />
+        <prefix op_code="Cricket Communications" op_prefix="" />
+        <prefix op_code="North Sight Communications Inc." op_prefix="" />
+        <prefix op_code="Union Telephone Company" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Centennial Communications" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Concho Cellular Telephone Co., Inc." op_prefix="" />
+        <prefix op_code="TMP Corp" op_prefix="" />
+        <prefix op_code="Consolidated Telcom" op_prefix="" />
+        <prefix op_code="Highland Cellular" op_prefix="" />
+        <prefix op_code="Corr Wireless Communications LLC" op_prefix="" />
+        <prefix op_code="AT&amp;T Mobility" op_prefix="" />
+        <prefix op_code="New Mexico RSA 4 East Ltd. Partnership" op_prefix="" />
+        <prefix op_code="PTI Pacifica Inc." op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="AT&amp;T Mobility" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="West Central Wireless" op_prefix="" />
+        <prefix op_code="Alaska Wireless Communications, LLC" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="Smart Call (Truphone)" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="Farmers Wireless" op_prefix="" />
+        <prefix op_code="Smith Bagley, Inc." op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Westlink Communications" op_prefix="" />
+        <prefix op_code="Carolina Phone" op_prefix="" />
+        <prefix op_code="AT&amp;T Mobility" op_prefix="" />
+        <prefix op_code="TX-11 Acquisition, LLC" op_prefix="" />
+        <prefix op_code="Wave Runner LLC (Guam)" op_prefix="" />
+        <prefix op_code="AT&amp;T Mobility" op_prefix="" />
+        <prefix op_code="Cincinnati Bell Wireless" op_prefix="" />
+        <prefix op_code="Alaska Digitel" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Viaero Wireless" op_prefix="" />
+        <prefix op_code="TMP Corporation" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Choice Phone" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Airtel Wireless" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="West Virginia Wireless" op_prefix="" />
+        <prefix op_code="Oklahoma Western Telephone Company" op_prefix="" />
+        <prefix op_code="AT&amp;T Mobility" op_prefix="" />
+        <prefix op_code="MTPCS, LLC" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Alltel Communications Inc" op_prefix="" />
+        <prefix op_code="Elkhart Telephone Co." op_prefix="" />
+        <prefix op_code="Coleman County Telecommunications" op_prefix="" />
+        <prefix op_code="Choice Wireless" op_prefix="" />
+        <prefix op_code="Airadigm Communications" op_prefix="" />
+        <prefix op_code="Jasper Wireless, inc" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="AT&amp;T Mobility" op_prefix="" />
+        <prefix op_code="Conestoga Wireless Company" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Convey Communications Inc." op_prefix="" />
+        <prefix op_code="Panhandle Telecommunications Systems Inc." op_prefix="" />
+        <prefix op_code="Iowa Wireless Services" op_prefix="" />
+        <prefix op_code="Airlink PCS" op_prefix="" />
+        <prefix op_code="PinPoint Communications" op_prefix="" />
+        <prefix op_code="T-Mobile" op_prefix="" />
+        <prefix op_code="Caprock Cellular" op_prefix="" />
+        <prefix op_code="Telecom North America Mobile, Inc." op_prefix="" />
+        <prefix op_code="Aeris Communications, Inc." op_prefix="" />
+        <prefix op_code="Kaplan Telephone Company" op_prefix="" />
+        <prefix op_code="Advantage Cellular Systems" op_prefix="" />
+        <prefix op_code="Rural Cellular Corporation" op_prefix="" />
+        <prefix op_code="Mid-Rivers Communications" op_prefix="" />
+        <prefix op_code="First Cellular of Southern Illinois" op_prefix="" />
+        <prefix op_code="Iris Wireless LLC" op_prefix="" />
+        <prefix op_code="Texas RSA 1 dba XIT Cellular" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="AT&amp;T Mobility" op_prefix="" />
+        <prefix op_code="AT&amp;T Mobility" op_prefix="" />
+        <prefix op_code="Mid-Tex Cellular" op_prefix="" />
+        <prefix op_code="Chariton Valley Communications" op_prefix="" />
+        <prefix op_code="Missouri RSA 5 Partnership" op_prefix="" />
+        <prefix op_code="Indigo Wireless" op_prefix="" />
+        <prefix op_code="Commnet Wireless" op_prefix="" />
+        <prefix op_code="Wikes Cellular" op_prefix="" />
+        <prefix op_code="Farmers Cellular Telephone" op_prefix="" />
+        <prefix op_code="Easterbrooke Cellular Corporation" op_prefix="" />
+        <prefix op_code="Pine Telephone Company" op_prefix="" />
+        <prefix op_code="Long Lines Wireless LLC" op_prefix="" />
+        <prefix op_code="High Plains Wireless" op_prefix="" />
+        <prefix op_code="High Plains Wireless" op_prefix="" />
+        <prefix op_code="Choice Phone" op_prefix="" />
+        <prefix op_code="Cell One Amarillo" op_prefix="" />
+        <prefix op_code="MBO Wireless" op_prefix="" />
+        <prefix op_code="Wilkes Cellular" op_prefix="" />
+        <prefix op_code="Endless Mountains Wireless" op_prefix="" />
+        <prefix op_code="Broadpoint Inc" op_prefix="" />
+        <prefix op_code="Cingular Wireless" op_prefix="" />
+        <prefix op_code="Cellular Properties" op_prefix="" />
+        <prefix op_code="Emery Telcom Wireless" op_prefix="" />
+        <prefix op_code="C Spire Wireless" op_prefix="" />
+        <prefix op_code="Bug Tussel Wireless" op_prefix="" />
+        <prefix op_code="Verizon Wireless" op_prefix="" />
+        <prefix op_code="metroPCS" op_prefix="" />
+        <prefix op_code="Nextel Communications" op_prefix="" />
+        <prefix op_code="Southern Communications Services" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

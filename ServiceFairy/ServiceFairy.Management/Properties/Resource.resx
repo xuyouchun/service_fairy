@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Application" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\application.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="System" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\system.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FakeCluster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fakecluster.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FakeAppClient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\fakeappclient.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientlist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientCommunicationList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientcommunicationlist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientInvokeInfoList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientinvokeinfolist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppServiceInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appserviceinfo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Root" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\root.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientCommunication" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientcommunication.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SystemManagement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\systemmanagement.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Others" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\others.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclient.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientInvokeInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientinvokeinfo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientInvokeInfoWatchType" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientinvokeinfowatchtype.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SceneTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\scenetest.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Core" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\core.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppServiceDeployList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appservicedeploylist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Balancing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\balancing.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatabaseManager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\databasemanager.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppServiceConfiguration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appserviceconfiguration.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaultDiagnosis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\faultdiagnosis.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeployMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\deploymap.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeployManager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\deploymanager.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServiceDeployPackage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\servicedeploypackage.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ServiceDeployPackageList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\servicedeploypackagelist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlatformDeployPackageList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\platformdeploypackagelist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlatformDeployPackage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\platformdeploypackage.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppCommand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appcommand.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppCommandList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appcommandlist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppComponent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appcomponent.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppComponentList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appcomponentlist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppComponentProperty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appcomponentproperty.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppServiceFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appservicefile.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppServiceFileList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appservicefilelist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientLocalLogList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientlocalloglist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeployPackageFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\deploypackagefile.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientFileSystem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientfilesystem.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientLocalLogGroup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientlocalloggroup.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientLocalLogItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientlocallogitem.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientLocalLogItem_Error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientlocallogitem_error.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientLocalLogItem_Message" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientlocallogitem_message.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientLocalLogItem_Warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientlocallogitem_warning.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientFileSystemDirectory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientfilesystemdirectory.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientFileSystemFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientfilesystemfile.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientFileSystemDirectory_Driver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientfilesystemdirectory_driver.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientFileSystemDirectory_System" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientfilesystemdirectory_system.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientFileSystemDirectory_Special" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientfilesystemdirectory_special.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientFileSystemDirectory_CDRom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientfilesystemdirectory_cdrom.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientFileSystemDirectory_Movable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientfilesystemdirectory_movable.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientProcess" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientprocess.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientProcessList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientprocesslist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientServiceList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientservicelist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientThread" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientthread.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppServiceAddinList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appserviceaddinlist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppServiceAddin_In" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appserviceaddin_in.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppServiceAddin_Out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appserviceaddin_out.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientOnlineUserList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientonlineuserlist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientOnlineUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientonlineuser.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientSystemLogList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientsystemloglist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientSystemLogGroup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientsystemloggroup.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientSystemLogItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientsystemlogitem.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientSystemLogItem_Error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientsystemlogitem_error.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientSystemLogItem_Message" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientsystemlogitem_message.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientSystemLogItem_Warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientsystemlogitem_warning.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientPropertyList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientpropertylist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientProperty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientproperty.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientSystemEnvironmentVariable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientsystemenvironmentvariable.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppClientSystemEnvironmentVariableList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\appclientsystemenvironmentvariablelist.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

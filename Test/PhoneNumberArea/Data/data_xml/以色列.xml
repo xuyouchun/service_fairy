@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>以色列</cn_name>
+    <en_name>Israel</en_name>
+    <national_code>972</national_code>
+    <mcc>425</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到以色列的A地电话顺序为“00972-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从以色列的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00972-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00972XXXXXXXX、972XXXXXXXX、0972XXXXXXXX、000972XXXXXXXX；如果来电显示开头是009720、009721、009722、009723、009724、009725、009726、009727、009728、009729，一般也都表示国际区号是00972，后面一位是以色列内部的号码的开头第一位；如果是在以色列通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>מְדִינַת יִשְׂרָאֵל</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Orange" mncs="01" national_prefix="00" internal_prefix="0" desc="Orange" />
+    <operation op_code="Cellcom" mncs="02" national_prefix="00" internal_prefix="0" desc="Cellcom" />
+    <operation op_code="Pelephone" mncs="03" national_prefix="00" internal_prefix="0" desc="Pelephone" />
+    <operation op_code="Mirs" mncs="77" national_prefix="00" internal_prefix="0" desc="Mirs" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Partner Communications Company Ltd" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿夫拉" city="" area_code="4" cn_name="阿夫拉" en_name="Afula" />
+        <city province="阿卡" city="" area_code="4" cn_name="阿卡" en_name="Akko (Acre)" />
+        <city province="阿什杜德" city="" area_code="8" cn_name="阿什杜德" en_name="Ashdod" />
+        <city province="阿什凯隆" city="" area_code="8" cn_name="阿什凯隆" en_name="Ashkelon" />
+        <city province="？" city="" area_code="3" cn_name="？" en_name="Bat Iam" />
+        <city province="贝尔谢巴" city="" area_code="8" cn_name="贝尔谢巴" en_name="Beersheva" />
+        <city province="卡米埃勒" city="" area_code="4" cn_name="卡米埃勒" en_name="Carmiel" />
+        <city province="迪摩纳" city="" area_code="8" cn_name="迪摩纳" en_name="Dimona" />
+        <city province="埃拉特" city="" area_code="8" cn_name="埃拉特" en_name="Eilat" />
+        <city province="哈得拉" city="" area_code="4" cn_name="哈得拉" en_name="Hadera" />
+        <city province="海法" city="" area_code="4" cn_name="海法" en_name="Haifa" />
+        <city province="赫兹利亚" city="" area_code="9" cn_name="赫兹利亚" en_name="Herzliya" />
+        <city province="霍隆" city="" area_code="3" cn_name="霍隆" en_name="Holon" />
+        <city province="雅法" city="" area_code="3" cn_name="雅法" en_name="Jaffa" />
+        <city province="耶路撒冷" city="" area_code="2" cn_name="耶路撒冷" en_name="Jerusalem" />
+        <city province="拿撒勒" city="" area_code="4" cn_name="拿撒勒" en_name="Nazareth" />
+        <city province="尼坦亚" city="" area_code="9" cn_name="尼坦亚" en_name="Netanya" />
+        <city province="基亚特·史莫纳" city="" area_code="4" cn_name="基亚特·史莫纳" en_name="Qiryat Shmona" />
+        <city province="拉玛特甘" city="" area_code="3" cn_name="拉玛特甘" en_name="Ramat Gan" />
+        <city province="若纳纳" city="" area_code="9" cn_name="若纳纳" en_name="Raanana" />
+        <city province="雷霍沃特" city="" area_code="8" cn_name="雷霍沃特" en_name="Rehovot" />
+        <city province="特拉维夫" city="" area_code="3" cn_name="特拉维夫" en_name="Tel Aviv" />
+        <city province="提比利亚" city="" area_code="4" cn_name="提比利亚" en_name="Tiberias" />
+        <city province="？" city="" area_code="4" cn_name="？" en_name="Tsefat" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Amigo/Mirs</op_name>
+        <wireless_type>iDen</wireless_type>
+        <prefix>57</prefix>
+      </op>
+      <op>
+        <op_name>Cellcom</op_name>
+        <wireless_type>TDMA800/GSM 1800</wireless_type>
+        <prefix>52</prefix>
+      </op>
+      <op>
+        <op_name>Paltel</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>59</prefix>
+      </op>
+      <op>
+        <op_name>Partner (Orange)</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>54</prefix>
+      </op>
+      <op>
+        <op_name>Pelephone</op_name>
+        <wireless_type>AMPS/CDMA800</wireless_type>
+        <prefix>50</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

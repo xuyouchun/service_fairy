@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>英国</cn_name>
+    <en_name>U.K.</en_name>
+    <national_code>44</national_code>
+    <mcc>234</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到英国的A地电话顺序为“0044-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从英国的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0044-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0044XXXXXXXX、44XXXXXXXX、044XXXXXXXX、00044XXXXXXXX；如果来电显示开头是00440、00441、00442、00443、00444、00445、00446、00447、00448、00449，一般也都表示国际区号是0044，后面一位是英国内部的号码的开头第一位；如果是在英国通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>大不列颠及北爱尔兰联合王国</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Sure Mobile" mncs="55" national_prefix="00" internal_prefix="0" desc="Sure Mobile" />
+    <operation op_code="Wave Telecom" mncs="50" national_prefix="00" internal_prefix="0" desc="Wave Telecom" />
+    <operation op_code="Airtel Vodafone" mncs="03" national_prefix="00" internal_prefix="0" desc="Airtel Vodafone" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Cable &amp; Wireless Guernsey" op_prefix="" />
+        <prefix op_code="Wave Telecom (JT-Wave)" op_prefix="" />
+        <prefix op_code="Guernsey Airtel Ltd" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿伯丁" city="" area_code="1224" cn_name="阿伯丁" en_name="Aberdeen" />
+        <city province="巴尼特" city="" area_code="181" cn_name="巴尼特" en_name="Barnet" />
+        <city province="巴思" city="" area_code="1225" cn_name="巴思" en_name="Bath" />
+        <city province="贝尔法斯特" city="" area_code="1232" cn_name="贝尔法斯特" en_name="Belfast" />
+        <city province="伯明翰" city="" area_code="121" cn_name="伯明翰" en_name="Birmingham" />
+        <city province="布拉克普耳" city="" area_code="1253" cn_name="布拉克普耳" en_name="Blackpool" />
+        <city province="博尔顿" city="" area_code="1204" cn_name="博尔顿" en_name="Bolton" />
+        <city province="伯恩默思" city="" area_code="1202" cn_name="伯恩默思" en_name="Bournemouth" />
+        <city province="布莱德福德" city="" area_code="1274" cn_name="布莱德福德" en_name="Bradford" />
+        <city province="布赖顿" city="" area_code="1273" cn_name="布赖顿" en_name="Brighton" />
+        <city province="布里斯特耳" city="" area_code="117" cn_name="布里斯特耳" en_name="Bristol" />
+        <city province="布里克斯顿" city="" area_code="171" cn_name="布里克斯顿" en_name="Brixton" />
+        <city province="剑桥" city="" area_code="1223" cn_name="剑桥" en_name="Cambrideg" />
+        <city province="坎特伯雷" city="" area_code="1227" cn_name="坎特伯雷" en_name="Canterbury" />
+        <city province="加的夫" city="" area_code="1222" cn_name="加的夫" en_name="Cardiff" />
+        <city province="考文垂" city="" area_code="1203" cn_name="考文垂" en_name="Coventry" />
+        <city province="克罗伊登" city="" area_code="181" cn_name="克罗伊登" en_name="Crogdon" />
+        <city province="戴根纳姆" city="" area_code="181" cn_name="戴根纳姆" en_name="Dagenham" />
+        <city province="德比" city="" area_code="1332" cn_name="德比" en_name="Derby" />
+        <city province="多佛" city="" area_code="1304" cn_name="多佛" en_name="Dover" />
+        <city province="敦提" city="" area_code="1382" cn_name="敦提" en_name="Dundee" />
+        <city province="达勒姆" city="" area_code="1385" cn_name="达勒姆" en_name="Durham" />
+        <city province="爱西堡" city="" area_code="131" cn_name="爱西堡" en_name="Ediburgh" />
+        <city province="富勒姆" city="" area_code="171" cn_name="富勒姆" en_name="Fulham" />
+        <city province="格拉斯哥" city="" area_code="141" cn_name="格拉斯哥" en_name="Glasgow" />
+        <city province="希思罗" city="" area_code="181" cn_name="希思罗" en_name="Heathrow" />
+        <city province="赫尔" city="" area_code="1482" cn_name="赫尔" en_name="Hull" />
+        <city province="内伦敦" city="" area_code="171" cn_name="内伦敦" en_name="Inner London" />
+        <city province="伊普斯威奇" city="" area_code="1473" cn_name="伊普斯威奇" en_name="Ipswich" />
+        <city province="肯第史城" city="" area_code="171" cn_name="肯第史城" en_name="Kentish town" />
+        <city province="利兹" city="" area_code="113" cn_name="利兹" en_name="Leeds" />
+        <city province="莱斯特" city="" area_code="116" cn_name="莱斯特" en_name="Leicester" />
+        <city province="利物浦" city="" area_code="151" cn_name="利物浦" en_name="Liverpool" />
+        <city province="曼彻斯特" city="" area_code="161" cn_name="曼彻斯特" en_name="Manchester" />
+        <city province="纽卡斯尔/泰因河畔" city="" area_code="1632" cn_name="纽卡斯尔/泰因河畔" en_name="Newcastle-Upon-Tyne" />
+        <city province="诺思安普敦" city="" area_code="1604" cn_name="诺思安普敦" en_name="Northampton" />
+        <city province="诺丁汉" city="" area_code="115" cn_name="诺丁汉" en_name="Nottingham" />
+        <city province="外伦敦" city="" area_code="181" cn_name="外伦敦" en_name="Outer London" />
+        <city province="牛津" city="" area_code="1865" cn_name="牛津" en_name="Oxford" />
+        <city province="普利茅斯" city="" area_code="1752" cn_name="普利茅斯" en_name="Plymouth" />
+        <city province="朴次茅斯" city="" area_code="1705" cn_name="朴次茅斯" en_name="Portsmouth" />
+        <city province="里丁" city="" area_code="1734" cn_name="里丁" en_name="Reading" />
+        <city province="谢菲尔德" city="" area_code="114" cn_name="谢菲尔德" en_name="Sheffield" />
+        <city province="斯劳" city="" area_code="1753" cn_name="斯劳" en_name="Slough" />
+        <city province="南普敦" city="" area_code="1703" cn_name="南普敦" en_name="Southampton" />
+        <city province="绍森德/滨海" city="" area_code="1702" cn_name="绍森德/滨海" en_name="Southend-on-sea" />
+        <city province="斯托克/特伦特河畔" city="" area_code="1782" cn_name="斯托克/特伦特河畔" en_name="Stoke-on-trent" />
+        <city province="森德兰" city="" area_code="1783" cn_name="森德兰" en_name="Sunderland" />
+        <city province="斯旺西" city="" area_code="1792" cn_name="斯旺西" en_name="Swansea" />
+        <city province="沃尔弗汉普顿" city="" area_code="1902" cn_name="沃尔弗汉普顿" en_name="Wolverhampton" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

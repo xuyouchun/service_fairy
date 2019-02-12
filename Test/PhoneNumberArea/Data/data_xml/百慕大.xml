@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>百慕大群岛</cn_name>
+    <en_name>the Bermuda Island</en_name>
+    <national_code>1441</national_code>
+    <mcc>350</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到百慕大群岛的A地电话顺序为“001441-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从百慕大群岛的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001441-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001441XXXXXXXX、1441XXXXXXXX、01441XXXXXXXX、0001441XXXXXXXX；如果来电显示开头是0014410、0014411、0014412、0014413、0014414、0014415、0014416、0014417、0014418、0014419，一般也都表示国际区号是001441，后面一位是百慕大群岛内部的号码的开头第一位；如果是在百慕大群岛通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>百慕达</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Digicel Bermuda" mncs="01,050" national_prefix="011" internal_prefix="1" desc="Digicel Bermuda" />
+    <operation op_code="Mobility" mncs="02" national_prefix="011" internal_prefix="1" desc="Mobility" />
+    <operation op_code="Cellular One" mncs="59" national_prefix="011" internal_prefix="1" desc="Cellular One" />
+  </operations>
+  <remarks>
+    <remark>从百慕大群岛拨出内部直拨长途电话前缀：1</remark>
+  </remarks>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

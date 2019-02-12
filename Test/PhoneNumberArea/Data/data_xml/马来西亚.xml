@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>马来西亚</cn_name>
+    <en_name>Malaysia</en_name>
+    <national_code>60</national_code>
+    <mcc>502</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到马来西亚的A地电话顺序为“0060-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从马来西亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0060-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0060XXXXXXXX、60XXXXXXXX、060XXXXXXXX、00060XXXXXXXX；如果来电显示开头是00600、00601、00602、00603、00604、00605、00606、00607、00608、00609，一般也都表示国际区号是0060，后面一位是马来西亚内部的号码的开头第一位；如果是在马来西亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="ATUR 450" mncs="01" national_prefix="00" internal_prefix="0" desc="ATUR 450" />
+    <operation op_code="" mncs="10,14,20,151" national_prefix="00" internal_prefix="0" desc="" />
+    <operation op_code="TM Homeline" mncs="11,18" national_prefix="00" internal_prefix="0" desc="TM Homeline" />
+    <operation op_code="Maxis" mncs="12" national_prefix="00" internal_prefix="0" desc="Maxis" />
+    <operation op_code="Celcom" mncs="13,19" national_prefix="00" internal_prefix="0" desc="Celcom" />
+    <operation op_code="DiGi" mncs="16" national_prefix="00" internal_prefix="0" desc="DiGi" />
+    <operation op_code="Hotlink" mncs="17" national_prefix="00" internal_prefix="0" desc="Hotlink" />
+    <operation op_code="U Mobile" mncs="18" national_prefix="00" internal_prefix="0" desc="U Mobile" />
+    <operation op_code="Tune Talk" mncs="150" national_prefix="00" internal_prefix="0" desc="Tune Talk" />
+    <operation op_code="Yes" mncs="152" national_prefix="00" internal_prefix="0" desc="Yes" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Telekom Malaysia Bhd" op_prefix="" />
+        <prefix op_code="DiGi Telecommunications" op_prefix="" />
+        <prefix op_code="Telekom Malaysia Bhd [78]" op_prefix="" />
+        <prefix op_code="Maxis Mobile Services SDN Berhad" op_prefix="" />
+        <prefix op_code="Celcom Axiata Berhad" op_prefix="" />
+        <prefix op_code="Telekom Malaysia Berhad for PSTN SMS" op_prefix="" />
+        <prefix op_code="DiGi Telecommunications" op_prefix="" />
+        <prefix op_code="Maxis Prepaid" op_prefix="" />
+        <prefix op_code="U Mobile Sdn Bhd" op_prefix="" />
+        <prefix op_code="Telekom Malaysia Bhd" op_prefix="" />
+        <prefix op_code="Celcom Axiata Berhad" op_prefix="" />
+        <prefix op_code="Electcoms Wireless Sdn Bhd" op_prefix="" />
+        <prefix op_code="Tune Talk Sdn Bhd" op_prefix="" />
+        <prefix op_code="Baraka Telecom Sdn Bhd (MVNE)" op_prefix="" />
+        <prefix op_code="YTL Communications Sdn Bhd" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="亚罗士打" city="" area_code="4" cn_name="亚罗士打" en_name="Alor Setar" />
+        <city province="Beranang" city="" area_code="3" cn_name="暂无中文" en_name="Beranang" />
+        <city province="民都鲁" city="" area_code="8" cn_name="民都鲁" en_name="Bintulu" />
+        <city province="Broga" city="" area_code="3" cn_name="暂无中文" en_name="Broga" />
+        <city province="Cheras" city="" area_code="3" cn_name="暂无中文" en_name="Cheras" />
+        <city province="Dengkil" city="" area_code="3" cn_name="暂无中文" en_name="Dengkil" />
+        <city province="怡保" city="" area_code="5" cn_name="怡保" en_name="Ipoh" />
+        <city province="柔佛巴鲁（新山）" city="" area_code="7" cn_name="柔佛巴鲁（新山）" en_name="Johor Bahru" />
+        <city province="柔佛" city="" area_code="7" cn_name="柔佛" en_name="Johore" />
+        <city province="加影" city="" area_code="3" cn_name="加影" en_name="Kajang" />
+        <city province="吉打" city="" area_code="4" cn_name="吉打" en_name="Kedah" />
+        <city province="吉兰丹" city="" area_code="9" cn_name="吉兰丹" en_name="Kelantan" />
+        <city province="Kepala Batas" city="" area_code="4" cn_name="暂无中文" en_name="Kepala Batas" />
+        <city province="哥打巴鲁" city="" area_code="9" cn_name="哥打巴鲁" en_name="Kota Bharu" />
+        <city province="哥打基纳巴卢" city="" area_code="8" cn_name="哥打基纳巴卢" en_name="Kota Kinabalu" />
+        <city province="吉隆坡" city="" area_code="3" cn_name="吉隆坡" en_name="Kuala Lumpur" />
+        <city province="瓜拉西加奴" city="" area_code="9" cn_name="瓜拉西加奴" en_name="Kuala Terengganu" />
+        <city province="关丹" city="" area_code="9" cn_name="关丹" en_name="Kuantan" />
+        <city province="古晋" city="" area_code="8" cn_name="古晋" en_name="Kuching" />
+        <city province="纳闽" city="" area_code="8" cn_name="纳闽" en_name="Labuan" />
+        <city province="马樟" city="" area_code="9" cn_name="马樟" en_name="Machang" />
+        <city province="马兰" city="" area_code="9" cn_name="马兰" en_name="Maran" />
+        <city province="马六甲" city="" area_code="6" cn_name="马六甲" en_name="Melaka" />
+        <city province="米里" city="" area_code="8" cn_name="米里" en_name="Miri" />
+        <city province="麻坡" city="" area_code="6" cn_name="麻坡" en_name="Muar" />
+        <city province="森美兰" city="" area_code="6" cn_name="森美兰" en_name="Negeri Sembilan" />
+        <city province="彭亨" city="" area_code="9" cn_name="彭亨" en_name="Pahang" />
+        <city province="槟榔屿" city="" area_code="4" cn_name="槟榔屿" en_name="Penang" />
+        <city province="霹雳" city="" area_code="4" cn_name="霹雳" en_name="Perak" />
+        <city province="玻璃市" city="" area_code="4" cn_name="玻璃市" en_name="Perlis" />
+        <city province="波德申" city="" area_code="6" cn_name="波德申" en_name="Port Dickson" />
+        <city province="山打根" city="" area_code="8" cn_name="山打根" en_name="Sandakan" />
+        <city province="沙捞越" city="" area_code="8" cn_name="沙捞越" en_name="Sarawak" />
+        <city province="雪兰莪" city="" area_code="3" cn_name="雪兰莪" en_name="Selangor" />
+        <city province="沙巴" city="" area_code="8" cn_name="沙巴" en_name="Sabah" />
+        <city province="Semenyih" city="" area_code="3" cn_name="暂无中文" en_name="Semenyih" />
+        <city province="芙蓉" city="" area_code="6" cn_name="芙蓉" en_name="Seremban" />
+        <city province="锡布" city="" area_code="8" cn_name="锡布" en_name="Sibu" />
+        <city province="Sintok" city="" area_code="4" cn_name="暂无中文" en_name="Sintok" />
+        <city province="斯里阿曼" city="" area_code="8" cn_name="斯里阿曼" en_name="Sri Aman" />
+        <city province="双溪伯西" city="" area_code="3" cn_name="双溪伯西" en_name="Sungei Besi" />
+        <city province="双溪邦令金" city="" area_code="3" cn_name="双溪邦令金" en_name="Sungei Renggam" />
+        <city province="丁加奴" city="" area_code="9" cn_name="丁加奴" en_name="Terengganu" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Celcom</op_name>
+        <wireless_type>GSM 900/1800, 3G 2100</wireless_type>
+        <prefix>13, 19</prefix>
+      </op>
+      <op>
+        <op_name>DiGi</op_name>
+        <wireless_type>GSM 1800</wireless_type>
+        <prefix>16</prefix>
+      </op>
+      <op>
+        <op_name>Maxis</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>12, 14, 17</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

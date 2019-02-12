@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>哥伦比亚</cn_name>
+    <en_name>Colombia</en_name>
+    <national_code>57</national_code>
+    <mcc>732</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到哥伦比亚的A地电话顺序为“0057-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从哥伦比亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0057-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0057XXXXXXXX、57XXXXXXXX、057XXXXXXXX、00057XXXXXXXX；如果来电显示开头是00570、00571、00572、00573、00574、00575、00576、00577、00578、00579，一般也都表示国际区号是0057，后面一位是哥伦比亚内部的号码的开头第一位；如果是在哥伦比亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>新格拉纳达</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="" mncs="001" national_prefix="" internal_prefix="" desc="" />
+    <operation op_code="Edatel" mncs="002" national_prefix="" internal_prefix="" desc="Edatel" />
+    <operation op_code="Comcel" mncs="101" national_prefix="" internal_prefix="" desc="Comcel" />
+    <operation op_code="movistar" mncs="102,123" national_prefix="" internal_prefix="" desc="movistar" />
+    <operation op_code="Tigo" mncs="103,111" national_prefix="" internal_prefix="" desc="Tigo" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Colombia Telecomunicaciones S.A." op_prefix="" />
+        <prefix op_code="Edatel S.A." op_prefix="" />
+        <prefix op_code="Comcel Colombia" op_prefix="" />
+        <prefix op_code="Bellsouth Colombia" op_prefix="" />
+        <prefix op_code="Colombia Móvil" op_prefix="" />
+        <prefix op_code="Colombia Móvil" op_prefix="" />
+        <prefix op_code="Telefónica Móviles Colombia" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="亚马孙" city="" area_code="Leticia" cn_name="亚马孙" en_name="Amazonas" />
+        <city province="安提奥基亚" city="" area_code="Medellín" cn_name="安提奥基亚" en_name="Antioquia" />
+        <city province="阿劳卡" city="" area_code="Arauca" cn_name="阿劳卡" en_name="Arauca" />
+        <city province="大西洋" city="" area_code="Barranquilla" cn_name="大西洋" en_name="Atlántico" />
+        <city province="博利瓦尔" city="" area_code="Cartagena" cn_name="博利瓦尔" en_name="Bolívar" />
+        <city province="博亚卡" city="" area_code="Tunja" cn_name="博亚卡" en_name="Boyacá" />
+        <city province="卡尔达斯" city="" area_code="Manizales" cn_name="卡尔达斯" en_name="Caldas" />
+        <city province="卡克塔" city="" area_code="Florencia" cn_name="卡克塔" en_name="Caquetá" />
+        <city province="卡萨纳雷" city="" area_code="Yopal" cn_name="卡萨纳雷" en_name="Casanare" />
+        <city province="考卡" city="" area_code="Popayán" cn_name="考卡" en_name="Cauca" />
+        <city province="塞萨尔" city="" area_code="Valledupar" cn_name="塞萨尔" en_name="Cesár" />
+        <city province="乔科" city="" area_code="Quibdo" cn_name="乔科" en_name="Chocó" />
+        <city province="科尔多巴" city="" area_code="Montería" cn_name="科尔多巴" en_name="Córdoba" />
+        <city province="昆迪纳马卡" city="" area_code="Bogotá D.C." cn_name="昆迪纳马卡" en_name="Cundinamarca" />
+        <city province="瓜伊尼亚" city="" area_code="Puerto Inárida" cn_name="瓜伊尼亚" en_name="Guainía" />
+        <city province="瓜维亚雷" city="" area_code="San José de Guaviare" cn_name="瓜维亚雷" en_name="Guaviare" />
+        <city province="乌伊拉" city="" area_code="Neiva" cn_name="乌伊拉" en_name="Huila" />
+        <city province="瓜希拉" city="" area_code="Riohacha" cn_name="瓜希拉" en_name="La Guajira" />
+        <city province="马格达雷那" city="" area_code="Santa Marta" cn_name="马格达雷那" en_name="Magdalena" />
+        <city province="梅塔" city="" area_code="Villavicencio" cn_name="梅塔" en_name="Meta" />
+        <city province="纳里尼奥" city="" area_code="Pasto" cn_name="纳里尼奥" en_name="Nariño" />
+        <city province="北桑坦德" city="" area_code="Cúcuta" cn_name="北桑坦德" en_name="Norte de Santander" />
+        <city province="普图马约" city="" area_code="Mocoa" cn_name="普图马约" en_name="Putumayo" />
+        <city province="金迪奥" city="" area_code="Armenia" cn_name="金迪奥" en_name="Quindío" />
+        <city province="利萨拉尔达" city="" area_code="Pereira" cn_name="利萨拉尔达" en_name="Risaralda" />
+        <city province="圣安德烈斯-普罗维登西亚" city="" area_code="San Andrés" cn_name="圣安德烈斯-普罗维登西亚" en_name="Archipiélago de San Andrés, Providencia y Santa Catalina" />
+        <city province="桑坦德" city="" area_code="Bucaramanga" cn_name="桑坦德" en_name="Santander" />
+        <city province="苏克雷" city="" area_code="Sincelejo" cn_name="苏克雷" en_name="Sucre" />
+        <city province="托利马" city="" area_code="Ibagué" cn_name="托利马" en_name="Tolima" />
+        <city province="考卡山谷" city="" area_code="Cali" cn_name="考卡山谷" en_name="Valle del Cauca" />
+        <city province="沃佩斯" city="" area_code="Mitú" cn_name="沃佩斯" en_name="Vaupés" />
+        <city province="维查达" city="" area_code="Puerto Carre" cn_name="维查达" en_name="Vichada" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

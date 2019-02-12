@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>基里巴斯</cn_name>
+    <en_name>Kiribati</en_name>
+    <national_code>686</national_code>
+    <mcc>545</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到基里巴斯的A地电话顺序为“00686-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从基里巴斯的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00686-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00686XXXXXXXX、686XXXXXXXX、0686XXXXXXXX、000686XXXXXXXX；如果来电显示开头是006860、006861、006862、006863、006864、006865、006866、006867、006868、006869，一般也都表示国际区号是00686，后面一位是基里巴斯内部的号码的开头第一位；如果是在基里巴斯通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Kiribati Frigate" mncs="09" national_prefix="00" internal_prefix="0" desc="Kiribati Frigate" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Telecom Services Kiribati Ltd" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

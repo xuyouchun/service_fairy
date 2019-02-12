@@ -1,0 +1,57 @@
+﻿Agdam 阿格达姆 192  
+Agdash 阿格达斯 193  
+Agdjabedi 阿格加巴迪 113  
+Agstafa 阿克斯塔法 244  
+Agsu 阿格苏 198  
+Ali-Bayramli 阿里·拜拉姆雷 197  
+Astara 阿斯塔拉 195  
+Baku 巴库（首都） 12  
+Balaken 巴拉坎 119  
+Barda  110  
+Beylagan 贝拉甘 152  
+Bilesuvar  159  
+Dashkesan  216  
+Devechi  115  
+Djalilabad  114  
+Eizuli  141  
+Gabala  160  
+Gakh  144  
+Gazakh  279  
+Geokchay  167  
+Geranboy  234  
+Gobustan  150  
+Guba 库巴 169  
+Gyandia  22  
+Hachmaz  172  
+Hadjigabul  140  
+Hanlar  230  
+Hizi  199  
+Imishli  154  
+Ismayilli  178  
+Kedabek  232  
+Kusari  138  
+Kyurdamir  145  
+Lenkaran 连科兰 171  
+Lerik  157  
+Masalli  151  
+Mingechevir 明盖恰乌尔 147  
+Naftalan  255  
+Nahichevan 纳希切万 136  
+Neftechala  153  
+Oguz  111  
+Saatli  168  
+Sabirabad  143  
+Salyan 萨利亚内 163  
+Samukh  265  
+Shamaha  176  
+Shamkir  241  
+Sheki 舍基 177  
+Siyazan 锡亚赞 190  
+Sumgayit 苏姆盖特 164  
+Ter-Ter  246  
+Tovuz  231  
+Udjar  170  
+Yardimli  175  
+Yevlakh  166  
+Zagatala  174  
+Zardab  135  

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>波多黎各</cn_name>
+    <en_name>Puerto Rico</en_name>
+    <national_code>1809</national_code>
+    <mcc>330</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到波多黎各的A地电话顺序为“001-787/939-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从波多黎各的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001-787/939-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001-787/939XXXXXXXX、1-787/939XXXXXXXX、01-787/939XXXXXXXX、0001-787/939XXXXXXXX；如果来电显示开头是001-787/9390、001-787/9391、001-787/9392、001-787/9393、001-787/9394、001-787/9395、001-787/9396、001-787/9397、001-787/9398、001-787/9399，一般也都表示国际区号是001-787/939，后面一位是波多黎各内部的号码的开头第一位；如果是在波多黎各通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>波多黎各(美)</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Claro" mncs="110" national_prefix="011" internal_prefix="1" desc="Claro" />
+    <operation op_code="Open Mobile" mncs="00" national_prefix="011" internal_prefix="1" desc="Open Mobile" />
+  </operations>
+  <remarks>
+    <remark>&lt;b&gt;国际区号：&lt;/b&gt;&lt;a href="/001787" title="001787"&gt;+1+787&lt;/a&gt; 和 &lt;a href="/001939" title="001939"&gt;+1+939&lt;/a&gt; （属于北美区号规划）</remark>
+    <remark>&lt;b&gt;别名：&lt;/b&gt;&lt;a href="/%E6%B3%A2%E5%A4%9A%E9%BB%8E%E5%90%84(%E7%BE%8E)" title="波多黎各(美)"&gt;波多黎各(美)&lt;/a&gt;。</remark>
+  </remarks>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

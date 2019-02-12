@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>意大利</cn_name>
+    <en_name>Italy</en_name>
+    <national_code>39</national_code>
+    <mcc>222</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到意大利的A地电话顺序为“0039-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从意大利的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0039-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0039XXXXXXXX、39XXXXXXXX、039XXXXXXXX、00039XXXXXXXX；如果来电显示开头是00390、00391、00392、00393、00394、00395、00396、00397、00398、00399，一般也都表示国际区号是0039，后面一位是意大利内部的号码的开头第一位；如果是在意大利通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>意</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="TIM" mncs="01" national_prefix="00" internal_prefix="" desc="TIM" />
+    <operation op_code="Elsacom" mncs="02" national_prefix="00" internal_prefix="" desc="Elsacom" />
+    <operation op_code="Vodafone" mncs="10" national_prefix="00" internal_prefix="" desc="Vodafone" />
+    <operation op_code="RFI" mncs="30" national_prefix="00" internal_prefix="" desc="RFI" />
+    <operation op_code="IPSE 2000" mncs="77" national_prefix="00" internal_prefix="" desc="IPSE 2000" />
+    <operation op_code="Wind" mncs="88" national_prefix="00" internal_prefix="" desc="Wind" />
+    <operation op_code="Blu" mncs="98" national_prefix="00" internal_prefix="" desc="Blu" />
+    <operation op_code="3 Italia" mncs="99" national_prefix="00" internal_prefix="" desc="3 Italia" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Telecom Italia SpA" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Vodafone Omnitel N.V." op_prefix="" />
+        <prefix op_code="Rete Ferroviaria Italiana" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Wind Telecomunicazioni SpA" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Hutchison 3G" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="安科纳" city="" area_code="71" cn_name="安科纳" en_name="Ancona" />
+        <city province="巴里" city="" area_code="80" cn_name="巴里" en_name="Bari" />
+        <city province="贝尔加莫" city="" area_code="35" cn_name="贝尔加莫" en_name="Bergamo" />
+        <city province="博洛尼亚" city="" area_code="51" cn_name="博洛尼亚" en_name="Bologna" />
+        <city province="布雷西亚" city="" area_code="30" cn_name="布雷西亚" en_name="Brescia" />
+        <city province="布林迪西" city="" area_code="831" cn_name="布林迪西" en_name="Brindisi" />
+        <city province="卡利亚里" city="" area_code="70" cn_name="卡利亚里" en_name="Cagliari" />
+        <city province="卡普里" city="" area_code="81" cn_name="卡普里" en_name="Capri" />
+        <city province="卡塔尼亚" city="" area_code="95" cn_name="卡塔尼亚" en_name="Catania" />
+        <city province="科莫" city="" area_code="31" cn_name="科莫" en_name="Como" />
+        <city province="佛罗伦萨" city="" area_code="55" cn_name="佛罗伦萨" en_name="Florence (Firenze)" />
+        <city province="热内亚" city="" area_code="10" cn_name="热内亚" en_name="Genoa" />
+        <city province="莫德纳-坎帕尼亚" city="" area_code="465" cn_name="莫德纳-坎帕尼亚" en_name="Madonna de Campiglio" />
+        <city province="曼弗雷多尼亚" city="" area_code="884" cn_name="曼弗雷多尼亚" en_name="Manfredonia" />
+        <city province="梅西纳" city="" area_code="90" cn_name="梅西纳" en_name="Messina" />
+        <city province="米兰" city="" area_code="2" cn_name="米兰" en_name="Milan" />
+        <city province="蒙扎" city="" area_code="39" cn_name="蒙扎" en_name="Monza" />
+        <city province="那不勒斯" city="" area_code="81" cn_name="那不勒斯" en_name="Naples" />
+        <city province="帕多瓦" city="" area_code="49" cn_name="帕多瓦" en_name="Padova" />
+        <city province="马勒莫" city="" area_code="91" cn_name="马勒莫" en_name="Palermo" />
+        <city province="比萨" city="" area_code="50" cn_name="比萨" en_name="Pisa" />
+        <city province="勒佐艾米利亚" city="" area_code="522" cn_name="勒佐艾米利亚" en_name="Reggio Emilia" />
+        <city province="里米尼" city="" area_code="541" cn_name="里米尼" en_name="Rimini" />
+        <city province="罗马" city="" area_code="6" cn_name="罗马" en_name="Rome" />
+        <city province="萨沃纳" city="" area_code="19" cn_name="萨沃纳" en_name="Savona" />
+        <city province="都灵" city="" area_code="11" cn_name="都灵" en_name="Torino" />
+        <city province="的里雅斯特" city="" area_code="40" cn_name="的里雅斯特" en_name="Trieste" />
+        <city province="威尼斯" city="" area_code="41" cn_name="威尼斯" en_name="Venice" />
+        <city province="维罗纳" city="" area_code="45" cn_name="维罗纳" en_name="Verona" />
+        <city province="维琴察" city="" area_code="444" cn_name="维琴察" en_name="Vicenza" />
+        <city province="梵蒂冈" city="" area_code="6" cn_name="梵蒂冈" en_name="Vatican" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

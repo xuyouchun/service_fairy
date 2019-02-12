@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>白俄罗斯</cn_name>
+    <en_name>Belarus</en_name>
+    <national_code>375</national_code>
+    <mcc>257</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到白俄罗斯的A地电话顺序为“00375-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从白俄罗斯的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00375-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00375XXXXXXXX、375XXXXXXXX、0375XXXXXXXX、000375XXXXXXXX；如果来电显示开头是003750、003751、003752、003753、003754、003755、003756、003757、003758、003759，一般也都表示国际区号是00375，后面一位是白俄罗斯内部的号码的开头第一位；如果是在白俄罗斯通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Беларусь</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="velcom" mncs="01" national_prefix="8" internal_prefix="8" desc="velcom" />
+    <operation op_code="MTS" mncs="02" national_prefix="8" internal_prefix="8" desc="MTS" />
+    <operation op_code="DIALLOG" mncs="03" national_prefix="8" internal_prefix="8" desc="DIALLOG" />
+    <operation op_code="life:)" mncs="04" national_prefix="8" internal_prefix="8" desc="life:)" />
+    <operation op_code="BelCel JV" mncs="501" national_prefix="8" internal_prefix="8" desc="BelCel JV" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Mobile TeleSystems" op_prefix="" />
+        <prefix op_code="BelCel" op_prefix="" />
+        <prefix op_code="Belarussian Telecommunications Network" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="布列斯特" city="" area_code="16" cn_name="布列斯特" en_name="Brest Oblast" />
+        <city province="维捷布斯克" city="" area_code="21" cn_name="维捷布斯克" en_name="Vitebsk Oblast" />
+        <city province="戈梅利" city="" area_code="23" cn_name="戈梅利" en_name="Gomel Oblast" />
+        <city province="格罗德诺" city="" area_code="15" cn_name="格罗德诺" en_name="Grodno Oblast" />
+        <city province="明斯克" city="" area_code="17" cn_name="明斯克" en_name="Minsk Oblast" />
+        <city province="莫吉廖夫" city="" area_code="22" cn_name="莫吉廖夫" en_name="Mogilev Oblast" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

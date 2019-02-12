@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>中途岛</cn_name>
+    <en_name>Midway Atoll</en_name>
+    <national_code>1808</national_code>
+    <mcc />
+    <example><![CDATA[从中国的固定电话或者手机拨到中途岛的A地电话顺序为“001808-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从中途岛的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001808-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001808XXXXXXXX、1808XXXXXXXX、01808XXXXXXXX、0001808XXXXXXXX；如果来电显示开头是0018080、0018081、0018082、0018083、0018084、0018085、0018086、0018087、0018088、0018089，一般也都表示国际区号是001808，后面一位是中途岛内部的号码的开头第一位；如果是在中途岛通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <remarks>
+    <remark>从中途岛拨出内部直拨长途电话前缀：1</remark>
+  </remarks>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

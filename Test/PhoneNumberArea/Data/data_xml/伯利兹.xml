@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>伯利兹</cn_name>
+    <en_name>Belize</en_name>
+    <national_code>501</national_code>
+    <mcc>702</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到伯利兹的A地电话顺序为“00501-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从伯利兹的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00501-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00501XXXXXXXX、501XXXXXXXX、0501XXXXXXXX、000501XXXXXXXX；如果来电显示开头是005010、005011、005012、005013、005014、005015、005016、005017、005018、005019，一般也都表示国际区号是00501，后面一位是伯利兹内部的号码的开头第一位；如果是在伯利兹通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>貝里斯</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="DigiCell" mncs="67" national_prefix="00" internal_prefix="" desc="DigiCell" />
+    <operation op_code="Smart" mncs="99" national_prefix="00" internal_prefix="" desc="Smart" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Belize Telemedia" op_prefix="" />
+        <prefix op_code="SpeedNet Communications Limited" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="伯利兹市" city="" area_code="2" cn_name="伯利兹市" en_name="Belize City" />
+        <city province="本克别霍" city="" area_code="93" cn_name="本克别霍" en_name="Benque Viejo" />
+        <city province="卡约(包括贝尔莫潘、圣伊格纳西奥和本克别霍)" city="" area_code="9" cn_name="卡约(包括贝尔莫潘、圣伊格纳西奥和本克别霍)" en_name="Cayo" />
+        <city province="科罗萨尔" city="" area_code="4" cn_name="科罗萨尔" en_name="Corozal" />
+        <city province="丹格里加" city="" area_code="5" cn_name="丹格里加" en_name="Dangriga" />
+        <city province="因德彭登西(独立)" city="" area_code="6" cn_name="因德彭登西(独立)" en_name="Independence" />
+        <city province="奥兰治沃克(橘园)" city="" area_code="3" cn_name="奥兰治沃克(橘园)" en_name="Orange Walk" />
+        <city province="蓬塔戈尔达" city="" area_code="7" cn_name="蓬塔戈尔达" en_name="Punta Gorda" />
+        <city province="斯坦克里克(斯坦港)" city="" area_code="5" cn_name="斯坦克里克(斯坦港)" en_name="Stann Creek" />
+        <city province="托莱多" city="" area_code="7" cn_name="托莱多" en_name="Toledo" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Mobile</op_name>
+        <wireless_type>国内移动漫游 - 所有运营商</wireless_type>
+        <prefix>6</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

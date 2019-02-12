@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>纳米比亚</cn_name>
+    <en_name>Namibia</en_name>
+    <national_code>264</national_code>
+    <mcc>649</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到纳米比亚的A地电话顺序为“00264-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从纳米比亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00264-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00264XXXXXXXX、264XXXXXXXX、0264XXXXXXXX、000264XXXXXXXX；如果来电显示开头是002640、002641、002642、002643、002644、002645、002646、002647、002648、002649，一般也都表示国际区号是00264，后面一位是纳米比亚内部的号码的开头第一位；如果是在纳米比亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="MTC" mncs="01" national_prefix="00" internal_prefix="0" desc="MTC" />
+    <operation op_code="switch" mncs="02" national_prefix="00" internal_prefix="0" desc="switch" />
+    <operation op_code="Leo" mncs="03" national_prefix="00" internal_prefix="0" desc="Leo" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="MTC Namibia" op_prefix="" />
+        <prefix op_code="Telecom Namibia" op_prefix="" />
+        <prefix op_code="Orascom Telecom Holding" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Abenab" city="" area_code="67" cn_name="" en_name="Abenab" />
+        <city province="Aminuis" city="" area_code="63" cn_name="" en_name="Aminuis" />
+        <city province="Anamulenge" city="" area_code="65" cn_name="" en_name="Anamulenge" />
+        <city province="Andara" city="" area_code="67" cn_name="" en_name="Andara" />
+        <city province="Anker" city="" area_code="67" cn_name="" en_name="Anker" />
+        <city province="Aoba" city="" area_code="67" cn_name="" en_name="Aoba" />
+        <city province="Arandis" city="" area_code="64" cn_name="" en_name="Arandis" />
+        <city province="Aranos" city="" area_code="63" cn_name="" en_name="Aranos" />
+        <city province="Aranos (party line)" city="" area_code="6642" cn_name="" en_name="Aranos (party line)" />
+        <city province="Ariamsvlei" city="" area_code="63" cn_name="" en_name="Ariamsvlei" />
+        <city province="Aroab" city="" area_code="63" cn_name="" en_name="Aroab" />
+        <city province="Asab" city="" area_code="668" cn_name="" en_name="Asab" />
+        <city province="Aus" city="" area_code="63" cn_name="" en_name="Aus" />
+        <city province="Babi-Babi" city="" area_code="62" cn_name="" en_name="Babi-Babi" />
+        <city province="Bagani" city="" area_code="66" cn_name="" en_name="Bagani" />
+        <city province="Bethanie" city="" area_code="63" cn_name="" en_name="Bethanie" />
+        <city province="Biermanskool" city="" area_code="67" cn_name="" en_name="Biermanskool" />
+        <city province="Blue Sodalite Mine" city="" area_code="65" cn_name="" en_name="Blue Sodalite Mine" />
+        <city province="Blumfelde" city="" area_code="62" cn_name="" en_name="Blumfelde" />
+        <city province="Bralano" city="" area_code="6642" cn_name="" en_name="Bralano" />
+        <city province="Buitepos" city="" area_code="62" cn_name="" en_name="Buitepos" />
+        <city province="Bukalo" city="" area_code="66" cn_name="" en_name="Bukalo" />
+        <city province="Bulwana" city="" area_code="668" cn_name="" en_name="Bulwana" />
+        <city province="Bunia" city="" area_code="66" cn_name="" en_name="Bunia" />
+        <city province="Dawiab" city="" area_code="63" cn_name="" en_name="Dawiab" />
+        <city province="Deurstamp" city="" area_code="63" cn_name="" en_name="Deurstamp" />
+        <city province="Dordabis" city="" area_code="62" cn_name="" en_name="Dordabis" />
+        <city province="Drimiopsis" city="" area_code="62" cn_name="" en_name="Drimiopsis" />
+        <city province="Edundja" city="" area_code="65" cn_name="" en_name="Edundja" />
+        <city province="Eenhana" city="" area_code="65" cn_name="" en_name="Eenhana" />
+        <city province="Ehomba" city="" area_code="65" cn_name="" en_name="Ehomba" />
+        <city province="Eland" city="" area_code="62" cn_name="" en_name="Eland" />
+        <city province="Elim" city="" area_code="65" cn_name="" en_name="Elim" />
+        <city province="Endola" city="" area_code="65" cn_name="" en_name="Endola" />
+        <city province="Epikuru" city="" area_code="62" cn_name="" en_name="Epikuru" />
+        <city province="Epupa" city="" area_code="67" cn_name="" en_name="Epupa" />
+        <city province="Etanga" city="" area_code="65" cn_name="" en_name="Etanga" />
+        <city province="埃托沙" city="" area_code="67" cn_name="埃托沙" en_name="Etosha Rurtel" />
+        <city province="Etunda" city="" area_code="65" cn_name="" en_name="Etunda" />
+        <city province="Feldschuhorn" city="" area_code="63" cn_name="" en_name="Feldschuhorn" />
+        <city province="Friedental" city="" area_code="62" cn_name="" en_name="Friedental" />
+        <city province="Gaibis" city="" area_code="63" cn_name="" en_name="Gaibis" />
+        <city province="Gam" city="" area_code="67" cn_name="" en_name="Gam" />
+        <city province="Gibeon" city="" area_code="63" cn_name="" en_name="Gibeon" />
+        <city province="Gibeon party line" city="" area_code="668" cn_name="" en_name="Gibeon party line" />
+        <city province="Goageb" city="" area_code="63" cn_name="" en_name="Goageb" />
+        <city province="戈巴比斯" city="" area_code="62" cn_name="戈巴比斯" en_name="Gobabis" />
+        <city province="Gochas" city="" area_code="63" cn_name="" en_name="Gochas" />
+        <city province="Grenslyn" city="" area_code="63" cn_name="" en_name="Grenslyn" />
+        <city province="Groot – Aub" city="" area_code="62" cn_name="" en_name="Groot – Aub" />
+        <city province="Grootfontein" city="" area_code="67" cn_name="" en_name="Grootfontein" />
+        <city province="Grunau" city="" area_code="63" cn_name="" en_name="Grunau" />
+        <city province="Guibis" city="" area_code="63" cn_name="" en_name="Guibis" />
+        <city province="Haiyandja" city="" area_code="65" cn_name="" en_name="Haiyandja" />
+        <city province="Hakasembe" city="" area_code="66" cn_name="" en_name="Hakasembe" />
+        <city province="Halali" city="" area_code="67" cn_name="" en_name="Halali" />
+        <city province="Hamab" city="" area_code="63" cn_name="" en_name="Hamab" />
+        <city province="Helmeringhausen" city="" area_code="63" cn_name="" en_name="Helmeringhausen" />
+        <city province="Helmeringhausen (party line)" city="" area_code="6362" cn_name="" en_name="Helmeringhausen (party line)" />
+        <city province="Henties Bay" city="" area_code="64" cn_name="" en_name="Henties Bay" />
+        <city province="Hoachanas" city="" area_code="63" cn_name="" en_name="Hoachanas" />
+        <city province="Hobas" city="" area_code="6342" cn_name="" en_name="Hobas" />
+        <city province="Hochfeld" city="" area_code="62" cn_name="" en_name="Hochfeld" />
+        <city province="Hochland" city="" area_code="62" cn_name="" en_name="Hochland" />
+        <city province="Horabe" city="" area_code="67" cn_name="" en_name="Horabe" />
+        <city province="Hosea Kutako INT Airport" city="" area_code="62" cn_name="" en_name="Hosea Kutako INT Airport" />
+        <city province="K. Murangi" city="" area_code="66" cn_name="" en_name="K. Murangi" />
+        <city province="Kahenge" city="" area_code="66" cn_name="" en_name="Kahenge" />
+        <city province="Kais" city="" area_code="63" cn_name="" en_name="Kais" />
+        <city province="Kalahariplaas" city="" area_code="63" cn_name="" en_name="Kalahariplaas" />
+        <city province="Kalahariplaas – Party Lines" city="" area_code="6642" cn_name="" en_name="Kalahariplaas – Party Lines" />
+        <city province="Kalkfeld" city="" area_code="67" cn_name="" en_name="Kalkfeld" />
+        <city province="Kalkfeld (party lines)" city="" area_code="6642" cn_name="" en_name="Kalkfeld (party lines)" />
+        <city province="Kalkrand" city="" area_code="63" cn_name="" en_name="Kalkrand" />
+        <city province="Kamanjab" city="" area_code="67" cn_name="" en_name="Kamanjab" />
+        <city province="Kaolo Otavi" city="" area_code="65" cn_name="" en_name="Kaolo Otavi" />
+        <city province="卡拉斯" city="" area_code="63" cn_name="卡拉斯" en_name="Karasburg" />
+        <city province="Karibib" city="" area_code="64" cn_name="" en_name="Karibib" />
+        <city province="卡蒂玛姆利洛" city="" area_code="66" cn_name="卡蒂玛姆利洛" en_name="Katima-Mulilo" />
+        <city province="基特曼斯胡普" city="" area_code="63" cn_name="基特曼斯胡普" en_name="Keetmanshoop" />
+        <city province="Keetmanshoop (party line)" city="" area_code="638" cn_name="" en_name="Keetmanshoop (party line)" />
+        <city province="KhoriXas" city="" area_code="67" cn_name="" en_name="KhoriXas" />
+        <city province="Klein Aub" city="" area_code="62" cn_name="" en_name="Klein Aub" />
+        <city province="Klein Karas" city="" area_code="63" cn_name="" en_name="Klein Karas" />
+        <city province="Klein Waterberg" city="" area_code="67" cn_name="" en_name="Klein Waterberg" />
+        <city province="Köes" city="" area_code="63" cn_name="" en_name="Köes" />
+        <city province="Koes (party line)" city="" area_code="632532" cn_name="" en_name="Koes (party line)" />
+        <city province="Kombat" city="" area_code="67" cn_name="" en_name="Kombat" />
+        <city province="Kongola" city="" area_code="66" cn_name="" en_name="Kongola" />
+        <city province="Kumakams" city="" area_code="6638" cn_name="" en_name="Kumakams" />
+        <city province="库内内" city="" area_code="65" cn_name="库内内" en_name="Kunene River Lodge" />
+        <city province="Langstrand" city="" area_code="64" cn_name="" en_name="Langstrand" />
+        <city province="Leoburn" city="" area_code="64" cn_name="" en_name="Leoburn" />
+        <city province="Leonardville" city="" area_code="62" cn_name="" en_name="Leonardville" />
+        <city province="Lindequest" city="" area_code="67" cn_name="" en_name="Lindequest" />
+        <city province="Lorelei" city="" area_code="63" cn_name="" en_name="Lorelei" />
+        <city province="Luderitz" city="" area_code="63" cn_name="" en_name="Luderitz" />
+        <city province="Luderitz -Elizabeth Bay" city="" area_code="63" cn_name="" en_name="Luderitz -Elizabeth Bay" />
+        <city province="Mahanene" city="" area_code="65" cn_name="" en_name="Mahanene" />
+        <city province="Maltahohe" city="" area_code="63" cn_name="" en_name="Maltahohe" />
+        <city province="Maltahohe (party line)" city="" area_code="6638" cn_name="" en_name="Maltahohe (party line)" />
+        <city province="Mangetti duin" city="" area_code="67" cn_name="" en_name="Mangetti duin" />
+        <city province="Many Hills" city="" area_code="62" cn_name="" en_name="Many Hills" />
+        <city province="Marangi" city="" area_code="66" cn_name="" en_name="Marangi" />
+        <city province="马林诺尔" city="" area_code="63" cn_name="马林诺尔" en_name="Mariental" />
+        <city province="Mariental (party line)" city="" area_code="668" cn_name="" en_name="Mariental (party line)" />
+        <city province="Maroelaboom" city="" area_code="67" cn_name="" en_name="Maroelaboom" />
+        <city province="Mashare" city="" area_code="66" cn_name="" en_name="Mashare" />
+        <city province="Matava" city="" area_code="66" cn_name="" en_name="Matava" />
+        <city province="移动电话" city="" area_code="81" cn_name="移动电话" en_name="Mobile Phones" />
+        <city province="Mokuti" city="" area_code="67" cn_name="" en_name="Mokuti" />
+        <city province="Mpacha" city="" area_code="66" cn_name="" en_name="Mpacha" />
+        <city province="Muveke" city="" area_code="66" cn_name="" en_name="Muveke" />
+        <city province="Nakayale" city="" area_code="66" cn_name="" en_name="Nakayale" />
+        <city province="Namasvrede" city="" area_code="63" cn_name="" en_name="Namasvrede" />
+        <city province="Namgorab" city="" area_code="6638" cn_name="" en_name="Namgorab" />
+        <city province="Namib Grens" city="" area_code="62" cn_name="" en_name="Namib Grens" />
+        <city province="Namutoni" city="" area_code="67" cn_name="" en_name="Namutoni" />
+        <city province="Narubis" city="" area_code="63" cn_name="" en_name="Narubis" />
+        <city province="Neudamm" city="" area_code="62" cn_name="" en_name="Neudamm" />
+        <city province="Nina" city="" area_code="62" cn_name="" en_name="Nina" />
+        <city province="Nkurenkuru" city="" area_code="66" cn_name="" en_name="Nkurenkuru" />
+        <city province="Noordoewer" city="" area_code="63" cn_name="" en_name="Noordoewer" />
+        <city province="Nouas" city="" area_code="62" cn_name="" en_name="Nouas" />
+        <city province="Nudaus" city="" area_code="63" cn_name="" en_name="Nudaus" />
+        <city province="Nyangana" city="" area_code="66" cn_name="" en_name="Nyangana" />
+        <city province="Nzinze" city="" area_code="66" cn_name="" en_name="Nzinze" />
+        <city province="Oabis" city="" area_code="6342" cn_name="" en_name="Oabis" />
+        <city province="Oamites" city="" area_code="62" cn_name="" en_name="Oamites" />
+        <city province="Oamseb" city="" area_code="63" cn_name="" en_name="Oamseb" />
+        <city province="Obombo" city="" area_code="65" cn_name="" en_name="Obombo" />
+        <city province="Odibo" city="" area_code="65" cn_name="" en_name="Odibo" />
+        <city province="Ogongo" city="" area_code="65" cn_name="" en_name="Ogongo" />
+        <city province="Ohandungu" city="" area_code="65" cn_name="" en_name="Ohandungu" />
+        <city province="奥汉圭纳" city="" area_code="65" cn_name="奥汉圭纳" en_name="Ohangwena" />
+        <city province="奥卡汉贾" city="" area_code="62" cn_name="奥卡汉贾" en_name="Okahandja" />
+        <city province="Okahao" city="" area_code="65" cn_name="" en_name="Okahao" />
+        <city province="Okakarara" city="" area_code="67" cn_name="" en_name="Okakarara" />
+        <city province="Okalongo" city="" area_code="65" cn_name="" en_name="Okalongo" />
+        <city province="Okamatapati" city="" area_code="67" cn_name="" en_name="Okamatapati" />
+        <city province="Okandjatu" city="" area_code="62" cn_name="" en_name="Okandjatu" />
+        <city province="Okangwati" city="" area_code="65" cn_name="" en_name="Okangwati" />
+        <city province="Okaputa" city="" area_code="67" cn_name="" en_name="Okaputa" />
+        <city province="Okatope" city="" area_code="65" cn_name="" en_name="Okatope" />
+        <city province="Okaukuejo" city="" area_code="67" cn_name="" en_name="Okaukuejo" />
+        <city province="Okorosave" city="" area_code="65" cn_name="" en_name="Okorosave" />
+        <city province="Okurusu" city="" area_code="67" cn_name="" en_name="Okurusu" />
+        <city province="Oluno" city="" area_code="65" cn_name="" en_name="Oluno" />
+        <city province="Omaere" city="" area_code="" cn_name="" en_name="Omaere" />
+        <city province="Omafu" city="" area_code="65" cn_name="" en_name="Omafu" />
+        <city province="Omaruru" city="" area_code="64" cn_name="" en_name="Omaruru" />
+        <city province="Omaruru (party line)" city="" area_code="628" cn_name="" en_name="Omaruru (party line)" />
+        <city province="Omatjene" city="" area_code="67" cn_name="" en_name="Omatjene" />
+        <city province="Ombalantu" city="" area_code="65" cn_name="" en_name="Ombalantu" />
+        <city province="Ombika" city="" area_code="67" cn_name="" en_name="Ombika" />
+        <city province="Ombotozu" city="" area_code="62" cn_name="" en_name="Ombotozu" />
+        <city province="Omega" city="" area_code="66" cn_name="" en_name="Omega" />
+        <city province="Omitara" city="" area_code="62" cn_name="" en_name="Omitara" />
+        <city province="Omitara (party line)" city="" area_code="62" cn_name="" en_name="Omitara (party line)" />
+        <city province="Omungwelume" city="" area_code="65" cn_name="" en_name="Omungwelume" />
+        <city province="Omuthya" city="" area_code="65" cn_name="" en_name="Omuthya" />
+        <city province="Onandjokwe" city="" area_code="65" cn_name="" en_name="Onandjokwe" />
+        <city province="Onathinge" city="" area_code="65" cn_name="" en_name="Onathinge" />
+        <city province="Ondangwa" city="" area_code="65" cn_name="" en_name="Ondangwa" />
+        <city province="Ondjona" city="" area_code="62" cn_name="" en_name="Ondjona" />
+        <city province="Ondobe" city="" area_code="65" cn_name="" en_name="Ondobe" />
+        <city province="Ondundu" city="" area_code="65" cn_name="" en_name="Ondundu" />
+        <city province="Onesi" city="" area_code="65" cn_name="" en_name="Onesi" />
+        <city province="Ongangdjera" city="" area_code="65" cn_name="" en_name="Ongangdjera" />
+        <city province="Ongava" city="" area_code="67" cn_name="" en_name="Ongava" />
+        <city province="Ongenga" city="" area_code="65" cn_name="" en_name="Ongenga" />
+        <city province="Ongha" city="" area_code="65" cn_name="" en_name="Ongha" />
+        <city province="Ongwediva" city="" area_code="65" cn_name="" en_name="Ongwediva" />
+        <city province="Onkoshi" city="" area_code="" cn_name="" en_name="Onkoshi" />
+        <city province="Onuno" city="" area_code="65" cn_name="" en_name="Onuno" />
+        <city province="Opuwo" city="" area_code="65" cn_name="" en_name="Opuwo" />
+        <city province="Oranjemund" city="" area_code="63" cn_name="" en_name="Oranjemund" />
+        <city province="Orumana" city="" area_code="65" cn_name="" en_name="Orumana" />
+        <city province="奥沙卡蒂" city="" area_code="65" cn_name="奥沙卡蒂" en_name="Oshakati" />
+        <city province="Oshifo" city="" area_code="65" cn_name="" en_name="Oshifo" />
+        <city province="Oshigambo" city="" area_code="65" cn_name="" en_name="Oshigambo" />
+        <city province="Oshikango" city="" area_code="65" cn_name="" en_name="Oshikango" />
+        <city province="Oshikango  Rurtel" city="" area_code="6751" cn_name="" en_name="Oshikango  Rurtel" />
+        <city province="Oshikuku" city="" area_code="65" cn_name="" en_name="Oshikuku" />
+        <city province="Oshitayi" city="" area_code="65" cn_name="" en_name="Oshitayi" />
+        <city province="Oshivello" city="" area_code="67" cn_name="" en_name="Oshivello" />
+        <city province="Otavi" city="" area_code="67" cn_name="" en_name="Otavi" />
+        <city province="Otjerunda" city="" area_code="65" cn_name="" en_name="Otjerunda" />
+        <city province="Otjihase" city="" area_code="62" cn_name="" en_name="Otjihase" />
+        <city province="Otjikondo" city="" area_code="67" cn_name="" en_name="Otjikondo" />
+        <city province="Otjimbingwe" city="" area_code="64" cn_name="" en_name="Otjimbingwe" />
+        <city province="Otjinene" city="" area_code="62" cn_name="" en_name="Otjinene" />
+        <city province="Otjiwa" city="" area_code="62" cn_name="" en_name="Otjiwa" />
+        <city province="Otjiwarongo" city="" area_code="67" cn_name="" en_name="Otjiwarongo" />
+        <city province="Otjondeka" city="" area_code="65" cn_name="" en_name="Otjondeka" />
+        <city province="Otjozondu" city="" area_code="62" cn_name="" en_name="Otjozondu" />
+        <city province="Otwani" city="" area_code="65" cn_name="" en_name="Otwani" />
+        <city province="奥普沃" city="" area_code="67" cn_name="奥普沃" en_name="Outjo" />
+        <city province="Ovitoto" city="" area_code="62" cn_name="" en_name="Ovitoto" />
+        <city province="Panosa" city="" area_code="65" cn_name="" en_name="Panosa" />
+        <city province="Plessisplaas" city="" area_code="62" cn_name="" en_name="Plessisplaas" />
+        <city province="Prosit" city="" area_code="658" cn_name="" en_name="Prosit" />
+        <city province="Rehoboth" city="" area_code="62" cn_name="" en_name="Rehoboth" />
+        <city province="Rehoboth Station" city="" area_code="62" cn_name="" en_name="Rehoboth Station" />
+        <city province="Rietfontein" city="" area_code="67" cn_name="" en_name="Rietfontein" />
+        <city province="Rietoog" city="" area_code="62" cn_name="" en_name="Rietoog" />
+        <city province="Rosh Pinah" city="" area_code="63" cn_name="" en_name="Rosh Pinah" />
+        <city province="Rossing Centrex" city="" area_code="64" cn_name="" en_name="Rossing Centrex" />
+        <city province="Rössing Mine" city="" area_code="64" cn_name="" en_name="Rössing Mine" />
+        <city province="Ruacana" city="" area_code="65" cn_name="" en_name="Ruacana" />
+        <city province="龙杜" city="" area_code="66" cn_name="龙杜" en_name="Rundu" />
+        <city province="Rupara" city="" area_code="66" cn_name="" en_name="Rupara" />
+        <city province="Ruuga" city="" area_code="66" cn_name="" en_name="Ruuga" />
+        <city province="Sandveld" city="" area_code="62" cn_name="" en_name="Sandveld" />
+        <city province="Schilp" city="" area_code="63" cn_name="" en_name="Schilp" />
+        <city province="Seeheim" city="" area_code="63" cn_name="" en_name="Seeheim" />
+        <city province="Seeis" city="" area_code="62" cn_name="" en_name="Seeis" />
+        <city province="Sesfontein" city="" area_code="65" cn_name="" en_name="Sesfontein" />
+        <city province="Sikono" city="" area_code="66" cn_name="" en_name="Sikono" />
+        <city province="Sodalite" city="" area_code="65" cn_name="" en_name="Sodalite" />
+        <city province="Solitaire" city="" area_code="63" cn_name="" en_name="Solitaire" />
+        <city province="Sorris-Sorris" city="" area_code="67" cn_name="" en_name="Sorris-Sorris" />
+        <city province="Spatzenfeld" city="" area_code="62" cn_name="" en_name="Spatzenfeld" />
+        <city province="Stampriet" city="" area_code="63" cn_name="" en_name="Stampriet" />
+        <city province="Steinhausen" city="" area_code="62" cn_name="" en_name="Steinhausen" />
+        <city province="Stinkdoring" city="" area_code="63" cn_name="" en_name="Stinkdoring" />
+        <city province="Summerdown" city="" area_code="62" cn_name="" en_name="Summerdown" />
+        <city province="斯瓦科普蒙德" city="" area_code="64" cn_name="斯瓦科普蒙德" en_name="Swakopmund" />
+        <city province="Toshari" city="" area_code="67" cn_name="" en_name="Toshari" />
+        <city province="Tsandi" city="" area_code="65" cn_name="" en_name="Tsandi" />
+        <city province="Tsaobis" city="" area_code="64" cn_name="" en_name="Tsaobis" />
+        <city province="Tses" city="" area_code="63" cn_name="" en_name="Tses" />
+        <city province="楚梅布" city="" area_code="67" cn_name="楚梅布" en_name="Tsumeb" />
+        <city province="Tsumispark" city="" area_code="63" cn_name="" en_name="Tsumispark" />
+        <city province="Tsumkwe" city="" area_code="67" cn_name="" en_name="Tsumkwe" />
+        <city province="Uchab" city="" area_code="67" cn_name="" en_name="Uchab" />
+        <city province="Uhabis" city="" area_code="63" cn_name="" en_name="Uhabis" />
+        <city province="Uib" city="" area_code="67" cn_name="" en_name="Uib" />
+        <city province="Uis" city="" area_code="64" cn_name="" en_name="Uis" />
+        <city province="Usakos" city="" area_code="64" cn_name="" en_name="Usakos" />
+        <city province="Vineta" city="" area_code="64" cn_name="" en_name="Vineta" />
+        <city province="Walvis Bay" city="" area_code="64" cn_name="" en_name="Walvis Bay" />
+        <city province="Warmbad" city="" area_code="63" cn_name="" en_name="Warmbad" />
+        <city province="Warmquelle" city="" area_code="65" cn_name="" en_name="Warmquelle" />
+        <city province="Waterberg Plateau Park" city="" area_code="67" cn_name="" en_name="Waterberg Plateau Park" />
+        <city province="Wilhemsthal" city="" area_code="62" cn_name="" en_name="Wilhemsthal" />
+        <city province="Witvlei" city="" area_code="62" cn_name="" en_name="Witvlei" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

@@ -1,0 +1,22 @@
+﻿Build started 2012/5/7 18:00:16.
+     1>Project "D:\Work\Dev\ServiceFairy.Client.Cpp\ServiceFairy.Client\ServiceFairy.Client.vcxproj" on node 4 (Build target(s)).
+         C:\Program Files\Microsoft Visual Studio 1x1.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVICEFAIRYCLIENT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ServiceFairy.Client.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 1x1.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVICEFAIRYCLIENT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files\Microsoft Visual Studio 1x1.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVICEFAIRYCLIENT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ServiceFairy.Client.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ServiceFairy.Client.cpp
+         Skipping... (no relevant changes detected)
+         ServiceFairy.Client.cpp
+         C:\Program Files\Microsoft Visual Studio 1x1.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Work\Dev\ServiceFairy.Client.Cpp\Debug\ServiceFairy.Client.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ServiceFairy.Client.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Work\Dev\ServiceFairy.Client.Cpp\Debug\ServiceFairy.Client.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Work\Dev\ServiceFairy.Client.Cpp\Debug\ServiceFairy.Client.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\ServiceFairy.Client.obj
+         Debug\stdafx.obj
+         D:\Work\Dev\ServiceFairy.Client.Cpp\Debug\Common.Communication.lib
+         D:\Work\Dev\ServiceFairy.Client.Cpp\Debug\Common.lib
+         Debug\ServiceFairy.Client.dll.embed.manifest.res
+         C:\Program Files\Windows Kits\8.0\bin\x86\mt.exe /nologo /verbose /out:"Debug\ServiceFairy.Client.dll.embed.manifest" /manifest Debug\ServiceFairy.Client.dll.intermediate.manifest
+         ServiceFairy.Client.vcxproj -> D:\Work\Dev\ServiceFairy.Client.Cpp\Debug\ServiceFairy.Client.dll
+     1>Done Building Project "D:\Work\Dev\ServiceFairy.Client.Cpp\ServiceFairy.Client\ServiceFairy.Client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.65

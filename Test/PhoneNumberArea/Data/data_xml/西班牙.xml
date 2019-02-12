@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>西班牙</cn_name>
+    <en_name>Spain</en_name>
+    <national_code>34</national_code>
+    <mcc>214</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到西班牙的A地电话顺序为“0034-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从西班牙的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0034-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0034XXXXXXXX、34XXXXXXXX、034XXXXXXXX、00034XXXXXXXX；如果来电显示开头是00340、00341、00342、00343、00344、00345、00346、00347、00348、00349，一般也都表示国际区号是0034，后面一位是西班牙内部的号码的开头第一位；如果是在西班牙通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>西班牙王国</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Vodafone" mncs="01,06" national_prefix="00" internal_prefix="" desc="Vodafone" />
+    <operation op_code="Orange" mncs="03,09" national_prefix="00" internal_prefix="" desc="Orange" />
+    <operation op_code="Yoigo" mncs="04" national_prefix="00" internal_prefix="" desc="Yoigo" />
+    <operation op_code="TME" mncs="05" national_prefix="00" internal_prefix="" desc="TME" />
+    <operation op_code="movistar" mncs="07" national_prefix="00" internal_prefix="" desc="movistar" />
+    <operation op_code="Euskaltel" mncs="08" national_prefix="00" internal_prefix="" desc="Euskaltel" />
+    <operation op_code="BT" mncs="15" national_prefix="00" internal_prefix="" desc="BT" />
+    <operation op_code="TeleCable" mncs="16" national_prefix="00" internal_prefix="" desc="TeleCable" />
+    <operation op_code="Móbil R" mncs="17" national_prefix="00" internal_prefix="" desc="Móbil R" />
+    <operation op_code="ONO" mncs="18" national_prefix="00" internal_prefix="" desc="ONO" />
+    <operation op_code="Simyo" mncs="19" national_prefix="00" internal_prefix="" desc="Simyo" />
+    <operation op_code="Fonyou" mncs="20" national_prefix="00" internal_prefix="" desc="Fonyou" />
+    <operation op_code="Jazztel" mncs="21" national_prefix="00" internal_prefix="" desc="Jazztel" />
+    <operation op_code="DigiMobil" mncs="22" national_prefix="00" internal_prefix="" desc="DigiMobil" />
+    <operation op_code="Barablu" mncs="23" national_prefix="00" internal_prefix="" desc="Barablu" />
+    <operation op_code="Eroski" mncs="24" national_prefix="00" internal_prefix="" desc="Eroski" />
+    <operation op_code="LycaMobile" mncs="25" national_prefix="00" internal_prefix="" desc="LycaMobile" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Vodafone Spain" op_prefix="" />
+        <prefix op_code="France Telecom España SA" op_prefix="" />
+        <prefix op_code="Xfera Moviles SA" op_prefix="" />
+        <prefix op_code="Telefónica Móviles España" op_prefix="" />
+        <prefix op_code="Vodafone Spain" op_prefix="" />
+        <prefix op_code="Telefónica Móviles España" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="France Telecom España SA" op_prefix="" />
+        <prefix op_code="BT Group España Compañia de Servicios Globales de Telecomunicaciones S.A.U." op_prefix="" />
+        <prefix op_code="Telecable de Asturias S.A.U." op_prefix="" />
+        <prefix op_code="R Cable y Telecomunicaciones Galicia S.A." op_prefix="" />
+        <prefix op_code="Cableuropa S.A.U." op_prefix="" />
+        <prefix op_code="E-PLUS Moviles Virtuales España S.L.U." op_prefix="" />
+        <prefix op_code="Fonyou Telecom S.L." op_prefix="" />
+        <prefix op_code="Jazz Telecom S.A.U." op_prefix="" />
+        <prefix op_code="Best Spain Telecom" op_prefix="" />
+        <prefix op_code="Barablu Móvil España" op_prefix="" />
+        <prefix op_code="Eroski Móvil España" op_prefix="" />
+        <prefix op_code="LycaMobile S.L." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="拉科鲁尼亚" city="" area_code="981" cn_name="拉科鲁尼亚" en_name="A Coruña" />
+        <city province="阿拉瓦" city="" area_code="945" cn_name="阿拉瓦" en_name="Alava" />
+        <city province="阿尔瓦塞特" city="" area_code="967" cn_name="阿尔瓦塞特" en_name="Albacete" />
+        <city province="阿利坎特" city="" area_code="96" cn_name="阿利坎特" en_name="Alicante" />
+        <city province="阿尔梅里亚" city="" area_code="950" cn_name="阿尔梅里亚" en_name="Almeria" />
+        <city province="阿斯图利亚斯" city="" area_code="985" cn_name="阿斯图利亚斯" en_name="Asturias" />
+        <city province="阿维拉" city="" area_code="920" cn_name="阿维拉" en_name="Avila" />
+        <city province="巴达霍斯" city="" area_code="924" cn_name="巴达霍斯" en_name="Badajoz" />
+        <city province="巴利阿里" city="" area_code="971" cn_name="巴利阿里" en_name="Baleares" />
+        <city province="巴塞罗那" city="" area_code="93" cn_name="巴塞罗那" en_name="Barcelona" />
+        <city province="毕尔巴鄂" city="" area_code="94" cn_name="毕尔巴鄂" en_name="Bilbao" />
+        <city province="布尔戈斯" city="" area_code="947" cn_name="布尔戈斯" en_name="Burgos" />
+        <city province="卡塞雷斯" city="" area_code="927" cn_name="卡塞雷斯" en_name="Caceres" />
+        <city province="加的斯" city="" area_code="956" cn_name="加的斯" en_name="Cadiz" />
+        <city province="坎塔布利亚" city="" area_code="942" cn_name="坎塔布利亚" en_name="Cantabria" />
+        <city province="卡斯特利翁" city="" area_code="964" cn_name="卡斯特利翁" en_name="Castellon" />
+        <city province="休达" city="" area_code="952" cn_name="休达" en_name="Ceuta" />
+        <city province="科尔多瓦" city="" area_code="957" cn_name="科尔多瓦" en_name="Cordoba" />
+        <city province="昆卡" city="" area_code="969" cn_name="昆卡" en_name="Cuenca" />
+        <city province="赫罗纳" city="" area_code="972" cn_name="赫罗纳" en_name="Girona" />
+        <city province="格拉纳达" city="" area_code="958" cn_name="格拉纳达" en_name="Granada" />
+        <city province="瓜达拉哈拉" city="" area_code="949" cn_name="瓜达拉哈拉" en_name="Guadalajara" />
+        <city province="吉普斯夸" city="" area_code="943" cn_name="吉普斯夸" en_name="Guipuzcoa" />
+        <city province="韦尔瓦" city="" area_code="959" cn_name="韦尔瓦" en_name="Huelva" />
+        <city province="韦斯卡" city="" area_code="974" cn_name="韦斯卡" en_name="Huesca" />
+        <city province="伊瓜拉达" city="" area_code="93" cn_name="伊瓜拉达" en_name="Igualada" />
+        <city province="哈恩" city="" area_code="953" cn_name="哈恩" en_name="Jaen" />
+        <city province="拉里奥哈" city="" area_code="941" cn_name="拉里奥哈" en_name="La Rioja" />
+        <city province="拉斯帕尔马斯" city="" area_code="928" cn_name="拉斯帕尔马斯" en_name="Las Palmas" />
+        <city province="加那利" city="" area_code="928" cn_name="加那利" en_name="Las Palmas de Gran Canaria" />
+        <city province="莱昂" city="" area_code="987" cn_name="莱昂" en_name="Leon" />
+        <city province="莱里达" city="" area_code="973" cn_name="莱里达" en_name="Lerida" />
+        <city province="卢戈" city="" area_code="982" cn_name="卢戈" en_name="Lugo" />
+        <city province="马德里" city="" area_code="91" cn_name="马德里" en_name="Madrid" />
+        <city province="马拉加" city="" area_code="95" cn_name="马拉加" en_name="Malaga" />
+        <city province="梅利利亚" city="" area_code="952" cn_name="梅利利亚" en_name="Melilla" />
+        <city province="穆尔西亚" city="" area_code="968" cn_name="穆尔西亚" en_name="Murcia" />
+        <city province="纳瓦拉" city="" area_code="948" cn_name="纳瓦拉" en_name="Navarra" />
+        <city province="奥伦塞" city="" area_code="988" cn_name="奥伦塞" en_name="Orense" />
+        <city province="帕伦西亚" city="" area_code="979" cn_name="帕伦西亚" en_name="Palencia" />
+        <city province="帕尔马" city="" area_code="971" cn_name="帕尔马" en_name="Palma De Mallorca" />
+        <city province="潘普洛纳" city="" area_code="948" cn_name="潘普洛纳" en_name="Pamplona" />
+        <city province="蓬特韦德拉" city="" area_code="986" cn_name="蓬特韦德拉" en_name="Pontevedra" />
+        <city province="萨拉曼卡" city="" area_code="923" cn_name="萨拉曼卡" en_name="Salamanca" />
+        <city province="圣克鲁斯-德特内里费" city="" area_code="922" cn_name="圣克鲁斯-德特内里费" en_name="Santa Cruz de Tenerife" />
+        <city province="桑坦德" city="" area_code="942" cn_name="桑坦德" en_name="Santander" />
+        <city province="塞哥维亚" city="" area_code="921" cn_name="塞哥维亚" en_name="Segovia" />
+        <city province="塞维利亚" city="" area_code="95" cn_name="塞维利亚" en_name="Seville" />
+        <city province="索里亚" city="" area_code="954" cn_name="索里亚" en_name="Soria" />
+        <city province="塔拉戈纳" city="" area_code="977" cn_name="塔拉戈纳" en_name="Tarragona" />
+        <city province="德特内里费" city="" area_code="922" cn_name="德特内里费" en_name="Tenerife" />
+        <city province="特鲁埃尔" city="" area_code="978" cn_name="特鲁埃尔" en_name="Turuel" />
+        <city province="托莱多" city="" area_code="925" cn_name="托莱多" en_name="Toledo" />
+        <city province="托雷莫利诺斯" city="" area_code="952" cn_name="托雷莫利诺斯" en_name="Torremolinos" />
+        <city province="巴伦西亚" city="" area_code="96" cn_name="巴伦西亚" en_name="Valencia" />
+        <city province="巴利亚多利德" city="" area_code="983" cn_name="巴利亚多利德" en_name="Valladolid" />
+        <city province="比斯开" city="" area_code="94" cn_name="比斯开" en_name="Vizcaya" />
+        <city province="萨莫拉" city="" area_code="980" cn_name="萨莫拉" en_name="Zamora" />
+        <city province="萨拉戈萨" city="" area_code="976" cn_name="萨拉戈萨" en_name="Zaragoza" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Airtel</op_name>
+        <wireless_type>GSM</wireless_type>
+        <prefix>607,670</prefix>
+      </op>
+      <op>
+        <op_name>MoviLine</op_name>
+        <wireless_type />
+        <prefix>608</prefix>
+      </op>
+      <op>
+        <op_name>MoviStar</op_name>
+        <wireless_type>GSM</wireless_type>
+        <prefix>609,629,639</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>特立尼达和多巴哥</cn_name>
+    <en_name>Trinidad and Tobago</en_name>
+    <national_code>1809</national_code>
+    <mcc>374</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到特立尼达和多巴哥的A地电话顺序为“001868-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从特立尼达和多巴哥的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001868-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001868XXXXXXXX、1868XXXXXXXX、01868XXXXXXXX、0001868XXXXXXXX；如果来电显示开头是0018680、0018681、0018682、0018683、0018684、0018685、0018686、0018687、0018688、0018689，一般也都表示国际区号是001868，后面一位是特立尼达和多巴哥内部的号码的开头第一位；如果是在特立尼达和多巴哥通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="bmobile" mncs="12" national_prefix="011" internal_prefix="1" desc="bmobile" />
+    <operation op_code="Digicel" mncs="130" national_prefix="011" internal_prefix="1" desc="Digicel" />
+  </operations>
+  <remarks>
+    <remark>从特立尼达和多巴哥拨出内部直拨长途电话前缀：1</remark>
+  </remarks>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

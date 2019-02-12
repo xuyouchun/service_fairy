@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AFF90909-CAE0-4A76-8E87-C8E7479A905F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common.Data</RootNamespace>
+    <AssemblyName>Common.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataListBuilder.cs" />
+    <Compile Include="DataListReader.cs" />
+    <Compile Include="DataUtility.cs" />
+    <Compile Include="DbAction.cs" />
+    <Compile Include="DbColumnIndexType.cs" />
+    <Compile Include="DbColumnType.cs" />
+    <Compile Include="DbConnectionUsageType.cs" />
+    <Compile Include="Entities\Attribute.cs" />
+    <Compile Include="Entities\DbEntity.Convert.cs" />
+    <Compile Include="Entities\DbEntity.cs" />
+    <Compile Include="DbQuery.cs" />
+    <Compile Include="DbQueryParam.cs" />
+    <Compile Include="DbRouteType.cs" />
+    <Compile Include="DbSearchParam.cs" />
+    <Compile Include="Entities\DbEntity.Query.cs" />
+    <Compile Include="Entities\DbEntity.Query.Delete.cs" />
+    <Compile Include="Entities\DbEntity.Query.DeleteAll.cs" />
+    <Compile Include="Entities\DbEntity.Query.DeleteByRouteKey.cs" />
+    <Compile Include="Entities\DbEntity.Query.DeleteIn.cs" />
+    <Compile Include="Entities\DbEntity.Query.Exists.cs" />
+    <Compile Include="Entities\DbEntity.Query.Insert.cs" />
+    <Compile Include="Entities\DbEntity.Query.Merge.cs" />
+    <Compile Include="Entities\DbEntity.Query.MergeGroup.cs" />
+    <Compile Include="Entities\DbEntity.Query.Select.cs" />
+    <Compile Include="Entities\DbEntity.Query.SelectAllColumns.cs" />
+    <Compile Include="Entities\DbEntity.Query.SelectGroup.cs" />
+    <Compile Include="Entities\DbEntity.Query.SelectIn.cs" />
+    <Compile Include="Entities\DbEntity.Query.SelectKeyValues.cs" />
+    <Compile Include="Entities\DbEntity.Query.SelectOne.cs" />
+    <Compile Include="Entities\DbEntity.Query.SelectOneColumn.cs" />
+    <Compile Include="Entities\DbEntity.Query.SelectOneColumnIn.cs" />
+    <Compile Include="Entities\DbEntity.Query.SelectTop.cs" />
+    <Compile Include="Entities\DbEntity.Query.SelectValue.cs" />
+    <Compile Include="Entities\DbEntity.Query.Update.cs" />
+    <Compile Include="Entities\DbEntity.Query.UpdateByRouteKey.cs" />
+    <Compile Include="Entities\DbEntity.Query.UpdateGroup.cs" />
+    <Compile Include="Entities\DbEntity.Query.UpdateIn.cs" />
+    <Compile Include="Entities\DbEntityException.cs" />
+    <Compile Include="Entities\DbEntityTableInfo.cs" />
+    <Compile Include="ColumnInfo.cs" />
+    <Compile Include="Entities\DbTableGroupEntity.cs" />
+    <Compile Include="SqlExpressions\Analyzer\SymbolType.cs" />
+    <Compile Include="SqlExpressions\ArraySqlExpression.cs" />
+    <Compile Include="SqlExpressions\FunctionSqlExpression.cs" />
+    <Compile Include="SqlUtility.cs" />
+    <Compile Include="UnionTable\ConnectionPointUsage.cs" />
+    <Compile Include="UnionTable\DbAccess.cs" />
+    <Compile Include="UnionTable\IConnectionPointFactory.cs" />
+    <Compile Include="UnionTable\IConnectionPointManager.cs" />
+    <Compile Include="UnionTable\IMetadataManager.cs" />
+    <Compile Include="UnionTable\IUtConnectionProvider.cs" />
+    <Compile Include="UnionTable\IUtSchema.cs" />
+    <Compile Include="UnionTable\IUtEditor.cs" />
+    <Compile Include="UnionTable\IUtProvider.cs" />
+    <Compile Include="UnionTable\IUtRoute.cs" />
+    <Compile Include="UnionTable\IUtConnection.cs" />
+    <Compile Include="UnionTable\Metadata\MtBase.cs" />
+    <Compile Include="UnionTable\Metadata\MtCollection.cs" />
+    <Compile Include="UnionTable\Metadata\MtColumn.cs" />
+    <Compile Include="UnionTable\Metadata\MtDatabase.cs" />
+    <Compile Include="UnionTable\Metadata\MtTable.cs" />
+    <Compile Include="UnionTable\Metadata\MtConnectionPoint.cs" />
+    <Compile Include="UnionTable\Metadata\MtTableGroup.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlConnectionPoint.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlConnectionPointManager.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlMetadataManager.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlUtConnection.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlUtConnection.Delete.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlUtConnection.Insert.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlUtConnection.Merge.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlUtConnection.Update.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlUtProvider.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlUtSchema.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlUtRoute.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlUtility.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlUtEditor.cs" />
+    <Compile Include="UnionTable\MsSql\MsSqlUtSchema.PrimaryKeyContext.cs" />
+    <Compile Include="UnionTable\UtConnection.cs" />
+    <Compile Include="UnionTable\UtConnectionBase.cs" />
+    <Compile Include="UnionTable\UtConnectionBase.GroupInfo.cs" />
+    <Compile Include="UnionTable\UtContext.cs" />
+    <Compile Include="UnionTable\Metadata\MtConnection.cs" />
+    <Compile Include="UnionTable\UtInvokeSettings.cs" />
+    <Compile Include="UnionTable\UtUtility.cs" />
+    <Compile Include="UnionTable\UtDatabase.cs" />
+    <Compile Include="UnionTable\UtService.cs" />
+    <Compile Include="DbTranscation.cs" />
+    <Compile Include="IDbQuery.cs" />
+    <Compile Include="ITranscation.cs" />
+    <Compile Include="SqlDbQuery.cs" />
+    <Compile Include="SqlExpressions\SqlExpressionBase.cs" />
+    <Compile Include="DataList.cs" />
+    <Compile Include="DbException.cs" />
+    <Compile Include="DataListRow.cs" />
+    <Compile Include="SqlExpressions\Analyzer\AnalyzerStack.cs" />
+    <Compile Include="SqlExpressions\Analyzer\SqlExpressionAnalyzer.cs" />
+    <Compile Include="SqlExpressions\Analyzer\Symbol.cs" />
+    <Compile Include="SqlExpressions\Analyzer\SymbolReader.cs" />
+    <Compile Include="SqlExpressions\DualitySqlExpression.cs" />
+    <Compile Include="SqlExpressions\ISqlExpressionWithFieldName.cs" />
+    <Compile Include="SqlExpressions\OrderExpression.cs" />
+    <Compile Include="SqlExpressions\ParameterSqlExpression.cs" />
+    <Compile Include="SqlExpressions\SqlExpression.cs" />
+    <Compile Include="SqlExpressions\SqlExpressionOperator.cs" />
+    <Compile Include="SqlExpressions\SqlExpressionOperatorAttribute.cs" />
+    <Compile Include="SqlExpressions\UnarySqlExpression.cs" />
+    <Compile Include="SqlExpressions\ValueExpression.cs" />
+    <Compile Include="SqlExpressions\VariableSqlExpression.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Package\Common.Package.csproj">
+      <Project>{5B657644-8038-44E7-895B-F6A82AD596EE}</Project>
+      <Name>Common.Package</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\DbEntity.Metadata.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UnionTable\MsSql\MsSqlUtConnection.Select.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UnionTable\MySql\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

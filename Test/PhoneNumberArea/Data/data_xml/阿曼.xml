@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>阿曼</cn_name>
+    <en_name>Oman</en_name>
+    <national_code>968</national_code>
+    <mcc>422</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到阿曼的A地电话顺序为“00968-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从阿曼的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00968-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00968XXXXXXXX、968XXXXXXXX、0968XXXXXXXX、000968XXXXXXXX；如果来电显示开头是009680、009681、009682、009683、009684、009685、009686、009687、009688、009689，一般也都表示国际区号是00968，后面一位是阿曼内部的号码的开头第一位；如果是在阿曼通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Oman Mobile" mncs="02" national_prefix="00" internal_prefix="" desc="Oman Mobile" />
+    <operation op_code="Nawras" mncs="03" national_prefix="00" internal_prefix="" desc="Nawras" />
+  </operations>
+  <remarks>
+    <remark>不需要城市区号</remark>
+    <remark>所有号码都为6位数字</remark>
+  </remarks>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

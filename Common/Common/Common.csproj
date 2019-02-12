@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common</RootNamespace>
+    <AssemblyName>Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\Assembly\Externs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\Algorithm.cs" />
+    <Compile Include="Algorithms\LargeDataCryptoServiceProvider.cs" />
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="Array.cs" />
+    <Compile Include="Collection\CollectionChangedEventArgs.cs" />
+    <Compile Include="Algorithms\ConsistentHashing.cs" />
+    <Compile Include="Collection\DictList.cs" />
+    <Compile Include="Collection\HashList.cs" />
+    <Compile Include="Collection\IDictionaryRange.cs" />
+    <Compile Include="Collection\IgnoreCaseConcurrentDictionary.cs" />
+    <Compile Include="Collection\IgnoreCaseDictionary.cs" />
+    <Compile Include="Collection\IgnoreCaseHashSet.cs" />
+    <Compile Include="Collection\IReadOnlyList.cs" />
+    <Compile Include="Collection\LargeDictionary.cs" />
+    <Compile Include="Collection\PriorityQueue.cs" />
+    <Compile Include="Collection\ThreadSafeDictionaryWrapper.cs" />
+    <Compile Include="Collection\Tree.cs" />
+    <Compile Include="DescAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventHandlers.cs" />
+    <Compile Include="Exceptions.cs" />
+    <Compile Include="IPriority.cs" />
+    <Compile Include="RwLocker.cs" />
+    <Compile Include="UsableAttribute.cs" />
+    <Compile Include="SortType.cs" />
+    <Compile Include="Utility\BufferUtility.cs" />
+    <Compile Include="Utility\CollectionUtility.cs" />
+    <Compile Include="Utility\CommonUtility.cs" />
+    <Compile Include="Utility\ConvertUtility.cs" />
+    <Compile Include="Utility\EnumUtility.cs" />
+    <Compile Include="Utility\JsonUtility.cs" />
+    <Compile Include="Utility\MathUtility.cs" />
+    <Compile Include="Utility\NetworkUtility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\PathUtility.cs" />
+    <Compile Include="Utility\ReflectionUtility.cs" />
+    <Compile Include="Utility\SecurityUtility.cs" />
+    <Compile Include="Utility\StreamUtility.cs" />
+    <Compile Include="Utility\StringUtility.cs" />
+    <Compile Include="Utility\SystemUtility.cs" />
+    <Compile Include="Utility\ThreadUtility.cs" />
+    <Compile Include="Utility\TimeUtility.cs" />
+    <Compile Include="Utility\XmlUtility.cs" />
+    <Compile Include="ValueWrapper.cs" />
+    <Compile Include="WeakReference.cs" />
+    <Compile Include="Collection\WeakReferenceDictionary.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

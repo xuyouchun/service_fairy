@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>开曼群岛</cn_name>
+    <en_name>Cayman Islands</en_name>
+    <national_code>1345</national_code>
+    <mcc>346</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到开曼群岛的A地电话顺序为“001345-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从开曼群岛的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001345-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001345XXXXXXXX、1345XXXXXXXX、01345XXXXXXXX、0001345XXXXXXXX；如果来电显示开头是0013450、0013451、0013452、0013453、0013454、0013455、0013456、0013457、0013458、0013459，一般也都表示国际区号是001345，后面一位是开曼群岛内部的号码的开头第一位；如果是在开曼群岛通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>开曼</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="LIME" mncs="140" national_prefix="011" internal_prefix="1" desc="LIME" />
+    <operation op_code="Digicel" mncs="050" national_prefix="011" internal_prefix="1" desc="Digicel" />
+  </operations>
+  <remarks>
+    <remark>从开曼群岛拨出内部直拨长途电话前缀：1</remark>
+  </remarks>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

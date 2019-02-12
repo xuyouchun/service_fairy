@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>拉脱维亚</cn_name>
+    <en_name>Latvia</en_name>
+    <national_code>371</national_code>
+    <mcc>247</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到拉脱维亚的A地电话顺序为“00371-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从拉脱维亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00371-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00371XXXXXXXX、371XXXXXXXX、0371XXXXXXXX、000371XXXXXXXX；如果来电显示开头是003710、003711、003712、003713、003714、003715、003716、003717、003718、003719，一般也都表示国际区号是00371，后面一位是拉脱维亚内部的号码的开头第一位；如果是在拉脱维亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>拉托维亚</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="LMT" mncs="01" national_prefix="00" internal_prefix="" desc="LMT" />
+    <operation op_code="Tele2" mncs="02" national_prefix="00" internal_prefix="" desc="Tele2" />
+    <operation op_code="TRIATEL" mncs="03" national_prefix="00" internal_prefix="" desc="TRIATEL" />
+    <operation op_code="Bite" mncs="05" national_prefix="00" internal_prefix="" desc="Bite" />
+    <operation op_code="" mncs="06" national_prefix="00" internal_prefix="" desc="" />
+    <operation op_code="MTS" mncs="07" national_prefix="00" internal_prefix="" desc="MTS" />
+    <operation op_code="IZZI" mncs="08" national_prefix="00" internal_prefix="" desc="IZZI" />
+    <operation op_code="Camel Mobile" mncs="09" national_prefix="00" internal_prefix="" desc="Camel Mobile" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Latvian Mobile Telephone" op_prefix="" />
+        <prefix op_code="Tele2" op_prefix="" />
+        <prefix op_code="Telekom Baltija" op_prefix="" />
+        <prefix op_code="Bite Latvija" op_prefix="" />
+        <prefix op_code="Rigatta" op_prefix="" />
+        <prefix op_code="Master Telecom" op_prefix="" />
+        <prefix op_code="IZZI" op_prefix="" />
+        <prefix op_code="Camel Mobile" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="爱兹克劳克雷" city="" area_code="651" cn_name="爱兹克劳克雷" en_name="Aizkraukle" />
+        <city province="阿卢克斯内" city="" area_code="643" cn_name="阿卢克斯内" en_name="Aluksne" />
+        <city province="巴尔维" city="" area_code="645" cn_name="巴尔维" en_name="Balvi" />
+        <city province="包斯卡" city="" area_code="639" cn_name="包斯卡" en_name="Bauska" />
+        <city province="采西斯" city="" area_code="641" cn_name="采西斯" en_name="Cesis" />
+        <city province="陶格夫皮尔斯" city="" area_code="654" cn_name="陶格夫皮尔斯" en_name="Daugavpils" />
+        <city province="多贝莱" city="" area_code="637" cn_name="多贝莱" en_name="Dobele" />
+        <city province="古尔贝内" city="" area_code="644" cn_name="古尔贝内" en_name="Gulbene" />
+        <city province="杰卡布皮尔斯" city="" area_code="652" cn_name="杰卡布皮尔斯" en_name="Jekabpils" />
+        <city province="叶尔加瓦" city="" area_code="630" cn_name="叶尔加瓦" en_name="Jelgava" />
+        <city province="克拉斯拉瓦" city="" area_code="656" cn_name="克拉斯拉瓦" en_name="Kraslava" />
+        <city province="库尔迪加" city="" area_code="633" cn_name="库尔迪加" en_name="Kuldīga" />
+        <city province="利耶帕亚" city="" area_code="634" cn_name="利耶帕亚" en_name="Liepaja" />
+        <city province="林巴济" city="" area_code="640" cn_name="林巴济" en_name="Limbazi" />
+        <city province="卢扎" city="" area_code="657" cn_name="卢扎" en_name="Ludza" />
+        <city province="马多纳" city="" area_code="648" cn_name="马多纳" en_name="Madona" />
+        <city province="奥格雷" city="" area_code="650" cn_name="奥格雷" en_name="Ogre" />
+        <city province="普雷利" city="" area_code="653" cn_name="普雷利" en_name="Preili" />
+        <city province="雷泽克内" city="" area_code="646" cn_name="雷泽克内" en_name="Rezekne" />
+        <city province="里加" city="" area_code="66" cn_name="里加" en_name="Riga" />
+        <city province="萨尔杜斯" city="" area_code="638" cn_name="萨尔杜斯" en_name="Saldus" />
+        <city province="塔尔西" city="" area_code="632" cn_name="塔尔西" en_name="Talsi" />
+        <city province="图库马" city="" area_code="631" cn_name="图库马" en_name="Tukums" />
+        <city province="瓦尔加" city="" area_code="647" cn_name="瓦尔加" en_name="Valka" />
+        <city province="瓦尔米耶拉" city="" area_code="642" cn_name="瓦尔米耶拉" en_name="Valmiera" />
+        <city province="文茨皮尔斯" city="" area_code="636" cn_name="文茨皮尔斯" en_name="Ventspils" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

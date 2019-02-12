@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>摩尔多瓦</cn_name>
+    <en_name>Moldova</en_name>
+    <national_code>373</national_code>
+    <mcc>259</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到摩尔多瓦的A地电话顺序为“00373-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从摩尔多瓦的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00373-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00373XXXXXXXX、373XXXXXXXX、0373XXXXXXXX、000373XXXXXXXX；如果来电显示开头是003730、003731、003732、003733、003734、003735、003736、003737、003738、003739，一般也都表示国际区号是00373，后面一位是摩尔多瓦内部的号码的开头第一位；如果是在摩尔多瓦通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Orange" mncs="01" national_prefix="00" internal_prefix="0" desc="Orange" />
+    <operation op_code="Moldcell" mncs="02" national_prefix="00" internal_prefix="0" desc="Moldcell" />
+    <operation op_code="IDC" mncs="03" national_prefix="00" internal_prefix="0" desc="IDC" />
+    <operation op_code="Unité" mncs="03,05" national_prefix="00" internal_prefix="0" desc="Unité" />
+    <operation op_code="Eventis" mncs="04" national_prefix="00" internal_prefix="0" desc="Eventis" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Orange Moldova" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Interdnestrcom" op_prefix="" />
+        <prefix op_code="Moldtelecom" op_prefix="" />
+        <prefix op_code="Eventis Telecom" op_prefix="" />
+        <prefix op_code="Moldtelecom" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="新阿内尼" city="" area_code="265" cn_name="新阿内尼" en_name="Anenii Noi" />
+        <city province="伯尔齐" city="" area_code="231" cn_name="伯尔齐" en_name="Bălţi" />
+        <city province="巴萨拉比亚斯卡" city="" area_code="297" cn_name="巴萨拉比亚斯卡" en_name="Basarabeasca" />
+        <city province="本德尔" city="" area_code="552" cn_name="本德尔" en_name="Bender" />
+        <city province="布里切尼" city="" area_code="247" cn_name="布里切尼" en_name="Briceni" />
+        <city province="卡胡尔" city="" area_code="299" cn_name="卡胡尔" en_name="Cahul" />
+        <city province="Căinari" city="" area_code="277" cn_name="暂无中文" en_name="Căinari" />
+        <city province="格勒拉什" city="" area_code="244" cn_name="格勒拉什" en_name="Călăraşi" />
+        <city province="Camenca" city="" area_code="216" cn_name="暂无中文" en_name="Camenca" />
+        <city province="冈代米尔" city="" area_code="273" cn_name="冈代米尔" en_name="Cantemir" />
+        <city province="格乌舍尼" city="" area_code="243" cn_name="格乌舍尼" en_name="Căuşeni" />
+        <city province="Ceadîr – Lunga" city="" area_code="291" cn_name="暂无中文" en_name="Ceadîr – Lunga" />
+        <city province="基希讷乌" city="" area_code="22" cn_name="基希讷乌" en_name="Chişinau" />
+        <city province="奇米什利亚" city="" area_code="241" cn_name="奇米什利亚" en_name="Cimislia" />
+        <city province="科姆拉茨" city="" area_code="298" cn_name="科姆拉茨" en_name="Comrat" />
+        <city province="克柳列尼" city="" area_code="248" cn_name="克柳列尼" en_name="Criuleni" />
+        <city province="德涅斯特罗夫斯基" city="" area_code="219" cn_name="德涅斯特罗夫斯基" en_name="Dnestrovsk" />
+        <city province="敦杜舍尼" city="" area_code="251" cn_name="敦杜舍尼" en_name="Donduşeni" />
+        <city province="德罗恰" city="" area_code="252" cn_name="德罗恰" en_name="Drochia" />
+        <city province="杜伯萨里" city="" area_code="215" cn_name="杜伯萨里" en_name="Dubăsari" />
+        <city province="埃迪奈茨" city="" area_code="246" cn_name="埃迪奈茨" en_name="Edineţ" />
+        <city province="弗列什蒂" city="" area_code="259" cn_name="弗列什蒂" en_name="Făleşti" />
+        <city province="弗洛列什蒂" city="" area_code="250" cn_name="弗洛列什蒂" en_name="Floreşti" />
+        <city province="格洛代尼" city="" area_code="249" cn_name="格洛代尼" en_name="Glodeni" />
+        <city province="Grigoriopol" city="" area_code="210" cn_name="暂无中文" en_name="Grigoriopol" />
+        <city province="亨切什蒂" city="" area_code="269" cn_name="亨切什蒂" en_name="Hînceşti" />
+        <city province="亚洛维尼" city="" area_code="268" cn_name="亚洛维尼" en_name="Ialoveni" />
+        <city province="辽瓦" city="" area_code="263" cn_name="辽瓦" en_name="Leova" />
+        <city province="尼斯波列尼" city="" area_code="264" cn_name="尼斯波列尼" en_name="Nisporeni" />
+        <city province="奥克尼察" city="" area_code="271" cn_name="奥克尼察" en_name="Ocniţa" />
+        <city province="奥尔海" city="" area_code="235" cn_name="奥尔海" en_name="Orhei" />
+        <city province="雷齐纳" city="" area_code="254" cn_name="雷齐纳" en_name="Rezina" />
+        <city province="Rîbnita" city="" area_code="555" cn_name="暂无中文" en_name="Rîbnita" />
+        <city province="勒什坎尼" city="" area_code="256" cn_name="勒什坎尼" en_name="Rîşcani" />
+        <city province="森杰雷" city="" area_code="262" cn_name="森杰雷" en_name="Sîngerei" />
+        <city province="斯洛博齐亚" city="" area_code="557" cn_name="斯洛博齐亚" en_name="Slobozia" />
+        <city province="绍尔德奈什蒂" city="" area_code="272" cn_name="绍尔德奈什蒂" en_name="Şoldăneşti" />
+        <city province="索洛卡" city="" area_code="230" cn_name="索洛卡" en_name="Soroca" />
+        <city province="什特凡大公" city="" area_code="242" cn_name="什特凡大公" en_name="Ştefan Vodă" />
+        <city province="斯特勒舍尼" city="" area_code="237" cn_name="斯特勒舍尼" en_name="Străşeni" />
+        <city province="塔拉克里亚" city="" area_code="294" cn_name="塔拉克里亚" en_name="Taraclia" />
+        <city province="泰莱奈什蒂" city="" area_code="258" cn_name="泰莱奈什蒂" en_name="Teleneşti" />
+        <city province="蒂拉斯波尔" city="" area_code="533" cn_name="蒂拉斯波尔" en_name="Tiraspol" />
+        <city province="温盖尼" city="" area_code="236" cn_name="温盖尼" en_name="Ungheni" />
+        <city province="Vulcăneşti" city="" area_code="293" cn_name="暂无中文" en_name="Vulcăneşti" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

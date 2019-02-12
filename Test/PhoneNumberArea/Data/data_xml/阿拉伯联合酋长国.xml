@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>阿拉伯联合酋长国</cn_name>
+    <en_name>United Arab Emirates</en_name>
+    <national_code>971</national_code>
+    <mcc>424</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到阿拉伯联合酋长国的A地电话顺序为“00971-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从阿拉伯联合酋长国的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00971-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00971XXXXXXXX、971XXXXXXXX、0971XXXXXXXX、000971XXXXXXXX；如果来电显示开头是009710、009711、009712、009713、009714、009715、009716、009717、009718、009719，一般也都表示国际区号是00971，后面一位是阿拉伯联合酋长国内部的号码的开头第一位；如果是在阿拉伯联合酋长国通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>阿联酋</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Etisalat" mncs="02" national_prefix="00" internal_prefix="0" desc="Etisalat" />
+    <operation op_code="du" mncs="03" national_prefix="00" internal_prefix="0" desc="du" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="E mirates Telecom Corp" op_prefix="" />
+        <prefix op_code="Emirates Integrated Telecommunications Company" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿布扎比" city="" area_code="2" cn_name="阿布扎比" en_name="Abu Dhabi" />
+        <city province="阿治曼" city="" area_code="6" cn_name="阿治曼" en_name="Ajman" />
+        <city province="艾恩" city="" area_code="3" cn_name="艾恩" en_name="Al Ain" />
+        <city province="Aweir" city="" area_code="58" cn_name="暂无中文" en_name="Aweir" />
+        <city province="Dhayd" city="" area_code="6" cn_name="暂无中文" en_name="Dhayd" />
+        <city province="迪巴" city="" area_code="9" cn_name="迪巴" en_name="Dibba" />
+        <city province="迪拜" city="" area_code="4" cn_name="迪拜" en_name="Dubai" />
+        <city province="Falaj-al-Moalla" city="" area_code="6" cn_name="暂无中文" en_name="Falaj-al-Moalla" />
+        <city province="富查伊拉" city="" area_code="70" cn_name="富查伊拉" en_name="Fujairah" />
+        <city province="Khawanij" city="" area_code="48" cn_name="暂无中文" en_name="Khawanij" />
+        <city province="哈伊马角" city="" area_code="77" cn_name="哈伊马角" en_name="Ras-al-Khaimah" />
+        <city province="沙迦" city="" area_code="6" cn_name="沙迦" en_name="Sharjah" />
+        <city province="Tarif" city="" area_code="88" cn_name="暂无中文" en_name="Tarif" />
+        <city province="乌姆盖万" city="" area_code="6" cn_name="乌姆盖万" en_name="Umm-al-Qaiwain" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>DU</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>55</prefix>
+      </op>
+      <op>
+        <op_name>Etisalat</op_name>
+        <wireless_type>GSM 900/3G 2100</wireless_type>
+        <prefix>50</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

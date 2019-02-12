@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>阿尔及利亚</cn_name>
+    <en_name>Algeria</en_name>
+    <national_code>213</national_code>
+    <mcc>603</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到阿尔及利亚的A地电话顺序为“00213-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从阿尔及利亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00213-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00213XXXXXXXX、213XXXXXXXX、0213XXXXXXXX、000213XXXXXXXX；如果来电显示开头是002130、002131、002132、002133、002134、002135、002136、002137、002138、002139，一般也都表示国际区号是00213，后面一位是阿尔及利亚内部的号码的开头第一位；如果是在阿尔及利亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Algerienne</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Mobilis" mncs="01" national_prefix="00" internal_prefix="0" desc="Mobilis" />
+    <operation op_code="Djezzy" mncs="02" national_prefix="00" internal_prefix="0" desc="Djezzy" />
+    <operation op_code="Nedjma" mncs="03" national_prefix="00" internal_prefix="0" desc="Nedjma" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="ATM Mobilis" op_prefix="" />
+        <prefix op_code="Orascom Telecom Algerie Spa" op_prefix="" />
+        <prefix op_code="Wataniya Telecom Algerie" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿德拉尔" city="" area_code="49" cn_name="阿德拉尔" en_name="Adrar" />
+        <city province="艾因·德夫拉" city="" area_code="27" cn_name="艾因·德夫拉" en_name="Ain Defla" />
+        <city province="艾因·蒂姆尚特" city="" area_code="43" cn_name="艾因·蒂姆尚特" en_name="Ain Temouchent" />
+        <city province="阿尔及尔" city="" area_code="21" cn_name="阿尔及尔" en_name="Alger" />
+        <city province="安纳巴" city="" area_code="38" cn_name="安纳巴" en_name="Annaba" />
+        <city province="巴特纳" city="" area_code="33" cn_name="巴特纳" en_name="Batna" />
+        <city province="贝沙尔" city="" area_code="49" cn_name="贝沙尔" en_name="Bechar" />
+        <city province="贝贾亚" city="" area_code="34" cn_name="贝贾亚" en_name="Bejaia" />
+        <city province="比斯克拉" city="" area_code="33" cn_name="比斯克拉" en_name="Biskra" />
+        <city province="布利达" city="" area_code="25" cn_name="布利达" en_name="Blida" />
+        <city province="布尔吉·布阿雷里吉" city="" area_code="35" cn_name="布尔吉·布阿雷里吉" en_name="Bordj Bou Arreridj" />
+        <city province="布依拉" city="" area_code="26" cn_name="布依拉" en_name="Bouira" />
+        <city province="布迈德斯" city="" area_code="24" cn_name="布迈德斯" en_name="Boumerdes" />
+        <city province="谢里夫" city="" area_code="27" cn_name="谢里夫" en_name="Chlef" />
+        <city province="君士坦丁" city="" area_code="31" cn_name="君士坦丁" en_name="Constantine" />
+        <city province="杰勒法" city="" area_code="27" cn_name="杰勒法" en_name="Djelfa" />
+        <city province="贝伊德" city="" area_code="49" cn_name="贝伊德" en_name="El Bayadh" />
+        <city province="瓦德" city="" area_code="32" cn_name="瓦德" en_name="El Oued" />
+        <city province="塔里夫" city="" area_code="38" cn_name="塔里夫" en_name="El Tarf" />
+        <city province="盖尔达耶" city="" area_code="29" cn_name="盖尔达耶" en_name="Ghardaia" />
+        <city province="盖尔马" city="" area_code="37" cn_name="盖尔马" en_name="Guelma" />
+        <city province="伊利齐" city="" area_code="29" cn_name="伊利齐" en_name="Illizi" />
+        <city province="吉杰尔" city="" area_code="34" cn_name="吉杰尔" en_name="Jijel" />
+        <city province="罕西拉" city="" area_code="32" cn_name="罕西拉" en_name="Khenchela" />
+        <city province="拉格瓦特" city="" area_code="29" cn_name="拉格瓦特" en_name="Laghouat" />
+        <city province="马斯卡拉" city="" area_code="45" cn_name="马斯卡拉" en_name="Mascara" />
+        <city province="麦迪亚" city="" area_code="25" cn_name="麦迪亚" en_name="Mede" />
+        <city province="密拉" city="" area_code="31" cn_name="密拉" en_name="Mila" />
+        <city province="莫斯塔加纳姆" city="" area_code="45" cn_name="莫斯塔加纳姆" en_name="Mostaganem" />
+        <city province="姆西拉" city="" area_code="35" cn_name="姆西拉" en_name="M’sila" />
+        <city province="纳阿马" city="" area_code="49" cn_name="纳阿马" en_name="Naama" />
+        <city province="奥兰" city="" area_code="41" cn_name="奥兰" en_name="Oran" />
+        <city province="瓦尔格拉" city="" area_code="29" cn_name="瓦尔格拉" en_name="Ouargla" />
+        <city province="乌姆布阿基" city="" area_code="32" cn_name="乌姆布阿基" en_name="Oum El Bouaghi" />
+        <city province="赫利赞" city="" area_code="46" cn_name="赫利赞" en_name="Relizane" />
+        <city province="赛伊达" city="" area_code="48" cn_name="赛伊达" en_name="Saida" />
+        <city province="塞蒂夫" city="" area_code="36" cn_name="塞蒂夫" en_name="Setif" />
+        <city province="西迪·贝勒·阿贝斯" city="" area_code="48" cn_name="西迪·贝勒·阿贝斯" en_name="Sidi Bel Abbes" />
+        <city province="斯基克达" city="" area_code="38" cn_name="斯基克达" en_name="Skikda" />
+        <city province="苏克·阿赫拉斯" city="" area_code="37" cn_name="苏克·阿赫拉斯" en_name="Souk Ahras" />
+        <city province="塔曼拉塞特" city="" area_code="29" cn_name="塔曼拉塞特" en_name="Tamenrasset" />
+        <city province="特贝萨" city="" area_code="37" cn_name="特贝萨" en_name="Tebessa" />
+        <city province="提亚雷特" city="" area_code="46" cn_name="提亚雷特" en_name="Tiaret" />
+        <city province="廷杜夫" city="" area_code="49" cn_name="廷杜夫" en_name="Tindouf" />
+        <city province="蒂巴扎" city="" area_code="24" cn_name="蒂巴扎" en_name="Tipaza" />
+        <city province="蒂斯姆西勒特" city="" area_code="46" cn_name="蒂斯姆西勒特" en_name="Tissemsilt" />
+        <city province="提济乌祖" city="" area_code="26" cn_name="提济乌祖" en_name="Tizi Ouzou" />
+        <city province="特莱姆森" city="" area_code="43" cn_name="特莱姆森" en_name="Tlemcen" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>移动手机</op_name>
+        <wireless_type />
+        <prefix>61</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

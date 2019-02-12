@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>玻利维亚</cn_name>
+    <en_name>Bolivia</en_name>
+    <national_code>591</national_code>
+    <mcc>736</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到玻利维亚的A地电话顺序为“00591-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从玻利维亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00591-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00591XXXXXXXX、591XXXXXXXX、0591XXXXXXXX、000591XXXXXXXX；如果来电显示开头是005910、005911、005912、005913、005914、005915、005916、005917、005918、005919，一般也都表示国际区号是00591，后面一位是玻利维亚内部的号码的开头第一位；如果是在玻利维亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Nuevatel" mncs="01" national_prefix="" internal_prefix="" desc="Nuevatel" />
+    <operation op_code="Entel" mncs="02" national_prefix="" internal_prefix="" desc="Entel" />
+    <operation op_code="Tigo" mncs="03" national_prefix="" internal_prefix="" desc="Tigo" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Nuevatel PCS De Bolivia SA" op_prefix="" />
+        <prefix op_code="Entel SA" op_prefix="" />
+        <prefix op_code="Telefonica Celular De Bolivia S.A" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Entel</op_name>
+        <wireless_type>GSM 1900</wireless_type>
+        <prefix>720, 721, 722, 724, 728, 729</prefix>
+      </op>
+      <op>
+        <op_name>Entel</op_name>
+        <wireless_type>TDMA</wireless_type>
+        <prefix>710, 711, 714, 715, 716, 717, 718, 719</prefix>
+      </op>
+      <op>
+        <op_name>Telecel</op_name>
+        <wireless_type>TDMA</wireless_type>
+        <prefix>770, 771, 772, 773, 774, 775</prefix>
+      </op>
+      <op>
+        <op_name>Viva</op_name>
+        <wireless_type>GSM 1900</wireless_type>
+        <prefix>706, 707, 708</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

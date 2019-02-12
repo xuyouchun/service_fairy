@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FBA8D7A4-152F-40D4-BB62-20978FE8D4C2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ServiceFairy.WinForm</RootNamespace>
+    <AssemblyName>ServiceFairy.WinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\ServiceFairy\Common\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\ServiceFairy\Common\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=6.7.2.0, Culture=neutral, PublicKeyToken=bd7258ab2241255c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Assembly\Externs\DevComponents\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\..\Assembly\Externs\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppCommandInvokeControls\ArgumentSampleInvokeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AppCommandInvokeControls\ArgumentSampleInvokeControl.Designer.cs">
+      <DependentUpon>ArgumentSampleInvokeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppCommandInvokeControls\ArgumentSampleInvokeControlContext.cs" />
+    <Compile Include="AppCommandInvokeControls\DocInvokeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AppCommandInvokeControls\DocInvokeControl.Designer.cs">
+      <DependentUpon>DocInvokeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppCommandInvokeControls\DocInvokeControlContext.cs" />
+    <Compile Include="AppCommandInvokeControls\EmptyInvokeControlContext.cs" />
+    <Compile Include="AppCommandInvokeControls\InvokeControlBase.cs" />
+    <Compile Include="AppCommandInvokeControls\InvokeControlContext.cs" />
+    <Compile Include="AppCommandInvokeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppCommandInvokeDialog.Designer.cs">
+      <DependentUpon>AppCommandInvokeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommunicationDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommunicationDialog.Designer.cs">
+      <DependentUpon>CommunicationDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditTitleAndDescDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditTitleAndDescDialog.Designer.cs">
+      <DependentUpon>EditTitleAndDescDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputServiceAddressDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputServiceAddressDialog.Designer.cs">
+      <DependentUpon>InputServiceAddressDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginDialog.Designer.cs">
+      <DependentUpon>LoginDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogItemViewDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogItemViewDialog.Designer.cs">
+      <DependentUpon>LogItemViewDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SyncPlatformDeployPackageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SyncPlatformDeployPackageDialog.Designer.cs">
+      <DependentUpon>SyncPlatformDeployPackageDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SyncServiceDeployPackageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SyncServiceDeployPackageDialog.Designer.cs">
+      <DependentUpon>SyncServiceDeployPackageDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UploadPackageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UploadPackageDialog.Designer.cs">
+      <DependentUpon>UploadPackageDialog.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AppCommandInvokeControls\ArgumentSampleInvokeControl.resx">
+      <DependentUpon>ArgumentSampleInvokeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppCommandInvokeControls\DocInvokeControl.resx">
+      <DependentUpon>DocInvokeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppCommandInvokeDialog.resx">
+      <DependentUpon>AppCommandInvokeDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommunicationDialog.resx">
+      <DependentUpon>CommunicationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTitleAndDescDialog.resx">
+      <DependentUpon>EditTitleAndDescDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputServiceAddressDialog.resx">
+      <DependentUpon>InputServiceAddressDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginDialog.resx">
+      <DependentUpon>LoginDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogItemViewDialog.resx">
+      <DependentUpon>LogItemViewDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SyncPlatformDeployPackageDialog.resx">
+      <DependentUpon>SyncPlatformDeployPackageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SyncServiceDeployPackageDialog.resx">
+      <DependentUpon>SyncServiceDeployPackageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UploadPackageDialog.resx">
+      <DependentUpon>UploadPackageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.Communication\Common.Communication.csproj">
+      <Project>{DE2353F5-D22D-4B09-ADA6-09A7CA757ED1}</Project>
+      <Name>Common.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Package\Common.Package.csproj">
+      <Project>{5B657644-8038-44E7-895B-F6A82AD596EE}</Project>
+      <Name>Common.Package</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.WinForm\Common.WinForm.csproj">
+      <Project>{64265183-5883-4D4E-9ED8-7E996C2727E4}</Project>
+      <Name>Common.WinForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.Entities\ServiceFairy.Entities.csproj">
+      <Project>{4930AD49-98E9-46C5-8910-4FCBD5D7E5D1}</Project>
+      <Name>ServiceFairy.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy.SystemInvoke\ServiceFairy.SystemInvoke.csproj">
+      <Project>{8BB052AF-7B66-4839-9253-E8F07A1B540F}</Project>
+      <Name>ServiceFairy.SystemInvoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceFairy\ServiceFairy.csproj">
+      <Project>{915745C6-F6D5-45E6-AB2E-E0D087E19EF7}</Project>
+      <Name>ServiceFairy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Service.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resource.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Platform.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>澳大利亚</cn_name>
+    <en_name>Australia</en_name>
+    <national_code>61</national_code>
+    <mcc>505</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到澳大利亚的A地电话顺序为“0061-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从澳大利亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0061-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0061XXXXXXXX、61XXXXXXXX、061XXXXXXXX、00061XXXXXXXX；如果来电显示开头是00610、00611、00612、00613、00614、00615、00616、00617、00618、00619，一般也都表示国际区号是0061，后面一位是澳大利亚内部的号码的开头第一位；如果是在澳大利亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>澳</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Telstra" mncs="01,71,72" national_prefix="" internal_prefix="" desc="Telstra" />
+    <operation op_code="Optus" mncs="02,90" national_prefix="" internal_prefix="" desc="Optus" />
+    <operation op_code="沃达丰" mncs="03" national_prefix="" internal_prefix="" desc="沃达丰" />
+    <operation op_code="" mncs="04" national_prefix="" internal_prefix="" desc="" />
+    <operation op_code="Ozitel" mncs="05" national_prefix="" internal_prefix="" desc="Ozitel" />
+    <operation op_code="3" mncs="06,12" national_prefix="" internal_prefix="" desc="3" />
+    <operation op_code="One.Tel" mncs="08,99" national_prefix="" internal_prefix="" desc="One.Tel" />
+    <operation op_code="Airnet" mncs="09" national_prefix="" internal_prefix="" desc="Airnet" />
+    <operation op_code="Railcorp" mncs="13" national_prefix="" internal_prefix="" desc="Railcorp" />
+    <operation op_code="AAPT" mncs="14" national_prefix="" internal_prefix="" desc="AAPT" />
+    <operation op_code="3GIS" mncs="15" national_prefix="" internal_prefix="" desc="3GIS" />
+    <operation op_code="Victorian Rail Track" mncs="16" national_prefix="" internal_prefix="" desc="Victorian Rail Track" />
+    <operation op_code="SOUL" mncs="21" national_prefix="" internal_prefix="" desc="SOUL" />
+    <operation op_code="Advance Communications Technologies Pty. Ltd." mncs="24" national_prefix="" internal_prefix="" desc="Advance Communications Technologies Pty. Ltd." />
+    <operation op_code="Crazy John's" mncs="38" national_prefix="" internal_prefix="" desc="Crazy John's" />
+    <operation op_code="Localstar Holding Pty. Ltd." mncs="88" national_prefix="" internal_prefix="" desc="Localstar Holding Pty. Ltd." />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Telstra Corporation Limited" op_prefix="" />
+        <prefix op_code="Singtel Optus Proprietary Limited" op_prefix="" />
+        <prefix op_code="沃达丰和记澳洲" op_prefix="" />
+        <prefix op_code="Department of Defence" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="沃达丰和记澳洲" op_prefix="" />
+        <prefix op_code="One.Tel Limited" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="沃达丰和记澳洲" op_prefix="" />
+        <prefix op_code="Rail Corporation New South Wales" op_prefix="" />
+        <prefix op_code="Telecom New Zealand" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="TPG Telecom Limited" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="沃达丰和记澳洲" op_prefix="" />
+        <prefix op_code="Telstra Corporation Limited" op_prefix="" />
+        <prefix op_code="Telstra Corporation Limited" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Singtel Optus Proprietary Limited" op_prefix="" />
+        <prefix op_code="One.Tel" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

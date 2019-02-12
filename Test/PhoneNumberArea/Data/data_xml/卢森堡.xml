@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>卢森堡</cn_name>
+    <en_name>Luxembourg</en_name>
+    <national_code>352</national_code>
+    <mcc>270</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到卢森堡的A地电话顺序为“00352-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从卢森堡的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00352-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00352XXXXXXXX、352XXXXXXXX、0352XXXXXXXX、000352XXXXXXXX；如果来电显示开头是003520、003521、003522、003523、003524、003525、003526、003527、003528、003529，一般也都表示国际区号是00352，后面一位是卢森堡内部的号码的开头第一位；如果是在卢森堡通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Lëtzebuerg</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="LuxGSM" mncs="01" national_prefix="00" internal_prefix="" desc="LuxGSM" />
+    <operation op_code="Tango" mncs="77" national_prefix="00" internal_prefix="" desc="Tango" />
+    <operation op_code="Orange" mncs="99" national_prefix="00" internal_prefix="" desc="Orange" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="P&amp;T Luxembourg" op_prefix="" />
+        <prefix op_code="Tango SA" op_prefix="" />
+        <prefix op_code="Orange S.A." op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

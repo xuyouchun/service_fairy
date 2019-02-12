@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>克罗地亚</cn_name>
+    <en_name>Croatia</en_name>
+    <national_code>385</national_code>
+    <mcc>219</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到克罗地亚的A地电话顺序为“00385-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从克罗地亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00385-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00385XXXXXXXX、385XXXXXXXX、0385XXXXXXXX、000385XXXXXXXX；如果来电显示开头是003850、003851、003852、003853、003854、003855、003856、003857、003858、003859，一般也都表示国际区号是00385，后面一位是克罗地亚内部的号码的开头第一位；如果是在克罗地亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Hrvatska</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="T-Mobile" mncs="01" national_prefix="00" internal_prefix="0" desc="T-Mobile" />
+    <operation op_code="Tele2" mncs="02" national_prefix="00" internal_prefix="0" desc="Tele2" />
+    <operation op_code="Vip" mncs="10" national_prefix="00" internal_prefix="0" desc="Vip" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="T-Mobile Croatia" op_prefix="" />
+        <prefix op_code="Tele2" op_prefix="" />
+        <prefix op_code="Vipnet" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="别洛瓦尔" city="" area_code="43" cn_name="别洛瓦尔" en_name="Bjelovar" />
+        <city province="查科韦茨" city="" area_code="40" cn_name="查科韦茨" en_name="Cakovec" />
+        <city province="杜布罗夫尼克" city="" area_code="20" cn_name="杜布罗夫尼克" en_name="Dubrovnik" />
+        <city province="戈斯皮奇" city="" area_code="53" cn_name="戈斯皮奇" en_name="Gospic" />
+        <city province="卡尔洛瓦茨" city="" area_code="47" cn_name="卡尔洛瓦茨" en_name="Karlovac" />
+        <city province="科普里夫尼察" city="" area_code="48" cn_name="科普里夫尼察" en_name="Koprivnica" />
+        <city province="克拉皮纳" city="" area_code="49" cn_name="克拉皮纳" en_name="Krapina" />
+        <city province="奥西耶克" city="" area_code="31" cn_name="奥西耶克" en_name="Osijek" />
+        <city province="帕津" city="" area_code="52" cn_name="帕津" en_name="Pazin" />
+        <city province="波热加" city="" area_code="34" cn_name="波热加" en_name="Pozega" />
+        <city province="里耶卡" city="" area_code="51" cn_name="里耶卡" en_name="Rijeka" />
+        <city province="希贝尼克" city="" area_code="22" cn_name="希贝尼克" en_name="Sibenik" />
+        <city province="锡萨克" city="" area_code="44" cn_name="锡萨克" en_name="Sisak" />
+        <city province="斯拉沃尼亚布罗德" city="" area_code="35" cn_name="斯拉沃尼亚布罗德" en_name="Slavonski Brod" />
+        <city province="斯普利特" city="" area_code="21" cn_name="斯普利特" en_name="Split" />
+        <city province="瓦拉日丁" city="" area_code="42" cn_name="瓦拉日丁" en_name="Varazdin" />
+        <city province="温科夫齐" city="" area_code="32" cn_name="温科夫齐" en_name="Vinkovci" />
+        <city province="维罗维蒂察" city="" area_code="33" cn_name="维罗维蒂察" en_name="Virovitica" />
+        <city province="扎达尔" city="" area_code="23" cn_name="扎达尔" en_name="Zadar" />
+        <city province="萨格勒布" city="" area_code="1" cn_name="萨格勒布" en_name="Zagreb" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>T-Mobile</op_name>
+        <wireless_type>GSM 900, 3G 2100</wireless_type>
+        <prefix>98, 99</prefix>
+      </op>
+      <op>
+        <op_name>Tele 2</op_name>
+        <wireless_type>GSM 1800</wireless_type>
+        <prefix>95</prefix>
+      </op>
+      <op>
+        <op_name>VIP</op_name>
+        <wireless_type>GSM 900, 3G 2100</wireless_type>
+        <prefix>91, 92</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

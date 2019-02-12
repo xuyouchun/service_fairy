@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>梵蒂冈</cn_name>
+    <en_name>Vatican</en_name>
+    <national_code>379</national_code>
+    <mcc>225</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到梵蒂冈的A地电话顺序为“00379-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从梵蒂冈的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00379-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00379XXXXXXXX、379XXXXXXXX、0379XXXXXXXX、000379XXXXXXXX；如果来电显示开头是003790、003791、003792、003793、003794、003795、003796、003797、003798、003799，一般也都表示国际区号是00379，后面一位是梵蒂冈内部的号码的开头第一位；如果是在梵蒂冈通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>梵蒂冈城</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="" mncs="" national_prefix="00" internal_prefix="" desc="" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="梵蒂冈城" city="" area_code="06" cn_name="梵蒂冈城" en_name="Vatican City" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

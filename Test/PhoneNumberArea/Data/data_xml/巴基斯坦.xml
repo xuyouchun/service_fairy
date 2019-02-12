@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>巴基斯坦</cn_name>
+    <en_name>Pakistan</en_name>
+    <national_code>92</national_code>
+    <mcc>410</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到巴基斯坦的A地电话顺序为“0092-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从巴基斯坦的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0092-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0092XXXXXXXX、92XXXXXXXX、092XXXXXXXX、00092XXXXXXXX；如果来电显示开头是00920、00921、00922、00923、00924、00925、00926、00927、00928、00929，一般也都表示国际区号是0092，后面一位是巴基斯坦内部的号码的开头第一位；如果是在巴基斯坦通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Mobilink" mncs="01" national_prefix="00" internal_prefix="0" desc="Mobilink" />
+    <operation op_code="Ufone" mncs="03" national_prefix="00" internal_prefix="0" desc="Ufone" />
+    <operation op_code="Zong" mncs="04" national_prefix="00" internal_prefix="0" desc="Zong" />
+    <operation op_code="Telenor" mncs="06" national_prefix="00" internal_prefix="0" desc="Telenor" />
+    <operation op_code="Warid" mncs="07" national_prefix="00" internal_prefix="0" desc="Warid" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Mobilink-PMCL" op_prefix="" />
+        <prefix op_code="Pakistan Telecommunication Mobile Ltd" op_prefix="" />
+        <prefix op_code="China Mobile" op_prefix="" />
+        <prefix op_code="Telenor Pakistan" op_prefix="" />
+        <prefix op_code="WaridTel" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿伯塔巴德" city="" area_code="992" cn_name="阿伯塔巴德" en_name="Abbotabad" />
+        <city province="巴哈瓦尔布尔" city="" area_code="621" cn_name="巴哈瓦尔布尔" en_name="Bahawalpur" />
+        <city province="费萨拉巴德" city="" area_code="41" cn_name="费萨拉巴德" en_name="Faisalabad" />
+        <city province="Ghourghushi" city="" area_code="5799" cn_name="暂无中文" en_name="Ghourghushi" />
+        <city province="古杰兰瓦拉" city="" area_code="431" cn_name="古杰兰瓦拉" en_name="Gujranwala" />
+        <city province="海得拉巴" city="" area_code="221" cn_name="海得拉巴" en_name="Hyderabad" />
+        <city province="伊斯兰堡" city="" area_code="51" cn_name="伊斯兰堡" en_name="Islamabad" />
+        <city province="卡拉奇" city="" area_code="21" cn_name="卡拉奇" en_name="Karachi" />
+        <city province="拉合尔" city="" area_code="42" cn_name="拉合尔" en_name="Lahore" />
+        <city province="木尔坦" city="" area_code="61" cn_name="木尔坦" en_name="Multan" />
+        <city province="奥卡拉" city="" area_code="442" cn_name="奥卡拉" en_name="Okara" />
+        <city province="白沙瓦" city="" area_code="91" cn_name="白沙瓦" en_name="Peshawar" />
+        <city province="奎达" city="" area_code="81" cn_name="奎达" en_name="Quetta" />
+        <city province="罗钱" city="" area_code="604" cn_name="罗钱" en_name="Rojhan" />
+        <city province="萨希瓦尔" city="" area_code="441" cn_name="萨希瓦尔" en_name="Sahiwal" />
+        <city province="萨果达" city="" area_code="451" cn_name="萨果达" en_name="Sarhodha" />
+        <city province="锡亚尔科特" city="" area_code="524" cn_name="锡亚尔科特" en_name="Sialkot" />
+        <city province="苏库尔" city="" area_code="71" cn_name="苏库尔" en_name="Sukkur" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

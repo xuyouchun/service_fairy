@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>阿尔巴尼亚</cn_name>
+    <en_name>Albania</en_name>
+    <national_code>355</national_code>
+    <mcc>276</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到阿尔巴尼亚的A地电话顺序为“00355-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从阿尔巴尼亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00355-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00355XXXXXXXX、355XXXXXXXX、0355XXXXXXXX、000355XXXXXXXX；如果来电显示开头是003550、003551、003552、003553、003554、003555、003556、003557、003558、003559，一般也都表示国际区号是00355，后面一位是阿尔巴尼亚内部的号码的开头第一位；如果是在阿尔巴尼亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Shqipërisë</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="AMC" mncs="01" national_prefix="00" internal_prefix="0" desc="AMC" />
+    <operation op_code="Vodafone" mncs="02" national_prefix="00" internal_prefix="0" desc="Vodafone" />
+    <operation op_code="Eagle Mobile" mncs="03" national_prefix="00" internal_prefix="0" desc="Eagle Mobile" />
+    <operation op_code="Plus Communication" mncs="04" national_prefix="00" internal_prefix="0" desc="Plus Communication" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Albanian Mobile Communications" op_prefix="" />
+        <prefix op_code="Vodafone Albania" op_prefix="" />
+        <prefix op_code="Eagle Mobile" op_prefix="" />
+        <prefix op_code="Plus Communication" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="巴比采" city="" area_code="394" cn_name="巴比采" en_name="Babicë" />
+        <city province="巴尔什" city="" area_code="313" cn_name="巴尔什" en_name="Ballsh" />
+        <city province="巴依拉姆·楚里城" city="" area_code="213" cn_name="巴依拉姆·楚里城" en_name="Bajram Curri" />
+        <city province="Bajzë" city="" area_code="211" cn_name="暂无中文" en_name="Bajzë" />
+        <city province="培拉特" city="" area_code="32" cn_name="培拉特" en_name="Berat" />
+        <city province="比利什特" city="" area_code="811" cn_name="比利什特" en_name="Bilisht" />
+        <city province="布尔奇察" city="" area_code="219" cn_name="布尔奇察" en_name="Bulqizë" />
+        <city province="布雷利" city="" area_code="217" cn_name="布雷利" en_name="Burrel" />
+        <city province="Cakran" city="" area_code="387" cn_name="暂无中文" en_name="Cakran" />
+        <city province="Çërrik" city="" area_code="581" cn_name="暂无中文" en_name="Çërrik" />
+        <city province="乔尔沃达" city="" area_code="312" cn_name="乔尔沃达" en_name="Çorovodë" />
+        <city province="达尔维那" city="" area_code="815" cn_name="达尔维那" en_name="Delvinë" />
+        <city province="Divjakë" city="" area_code="371" cn_name="暂无中文" en_name="Divjakë" />
+        <city province="都拉斯" city="" area_code="52" cn_name="都拉斯" en_name="Durrës" />
+        <city province="爱尔巴桑" city="" area_code="545" cn_name="爱尔巴桑" en_name="Elbasan" />
+        <city province="爱尔塞克" city="" area_code="812" cn_name="爱尔塞克" en_name="Ersekë" />
+        <city province="费里" city="" area_code="34" cn_name="费里" en_name="Fier" />
+        <city province="富舍克鲁亚" city="" area_code="563" cn_name="富舍克鲁亚" en_name="Fushë-Krujë" />
+        <city province="吉诺卡斯特" city="" area_code="84" cn_name="吉诺卡斯特" en_name="Gjirokastër" />
+        <city province="格拉姆什" city="" area_code="513" cn_name="格拉姆什" en_name="Gramsh" />
+        <city province="Himarë" city="" area_code="393" cn_name="暂无中文" en_name="Himarë" />
+        <city province="卡耶亚" city="" area_code="554" cn_name="卡耶亚" en_name="Kavajë" />
+        <city province="科普利克" city="" area_code="211" cn_name="科普利克" en_name="Koplik" />
+        <city province="科尔察" city="" area_code="82" cn_name="科尔察" en_name="Korçë" />
+        <city province="卡瓦亚" city="" area_code="511" cn_name="卡瓦亚" en_name="Krujë" />
+        <city province="克鲁马" city="" area_code="214" cn_name="克鲁马" en_name="Krumë" />
+        <city province="Ksamil" city="" area_code="893" cn_name="暂无中文" en_name="Ksamil" />
+        <city province="库乔亚" city="" area_code="311" cn_name="库乔亚" en_name="Kuçovë" />
+        <city province="库克斯" city="" area_code="242" cn_name="库克斯" en_name="Kukës" />
+        <city province="拉奇" city="" area_code="53" cn_name="拉奇" en_name="Laç" />
+        <city province="莱文" city="" area_code="388" cn_name="莱文" en_name="Levan" />
+        <city province="莱什" city="" area_code="215" cn_name="莱什" en_name="Lezhë" />
+        <city province="Libohovë" city="" area_code="881" cn_name="暂无中文" en_name="Libohovë" />
+        <city province="利布拉什德" city="" area_code="514" cn_name="利布拉什德" en_name="Librazhd" />
+        <city province="卢什涅" city="" area_code="35" cn_name="卢什涅" en_name="Lushnjë" />
+        <city province="Maliq" city="" area_code="861" cn_name="暂无中文" en_name="Maliq" />
+        <city province="Mamurras" city="" area_code="561" cn_name="暂无中文" en_name="Mamurras" />
+        <city province="Memaliaj" city="" area_code="885" cn_name="暂无中文" en_name="Memaliaj" />
+        <city province="Orikum" city="" area_code="391" cn_name="暂无中文" en_name="Orikum" />
+        <city province="帕托斯" city="" area_code="342" cn_name="帕托斯" en_name="Patos" />
+        <city province="波钦" city="" area_code="512" cn_name="波钦" en_name="Peqin" />
+        <city province="佩尔梅特" city="" area_code="813" cn_name="佩尔梅特" en_name="Përmet" />
+        <city province="Përrenjas" city="" area_code="591" cn_name="暂无中文" en_name="Përrenjas" />
+        <city province="佩什科比" city="" area_code="218" cn_name="佩什科比" en_name="Peshkopi" />
+        <city province="波格拉德茨" city="" area_code="832" cn_name="波格拉德茨" en_name="Pogradec" />
+        <city province="Poliçan" city="" area_code="368" cn_name="暂无中文" en_name="Poliçan" />
+        <city province="普克" city="" area_code="212" cn_name="普克" en_name="Pukë" />
+        <city province="勒谢尼" city="" area_code="216" cn_name="勒谢尼" en_name="Rrëshen" />
+        <city province="Rrogozhinë" city="" area_code="577" cn_name="暂无中文" en_name="Rrogozhinë" />
+        <city province="萨兰达" city="" area_code="852" cn_name="萨兰达" en_name="Sarandë" />
+        <city province="Selenicë" city="" area_code="392" cn_name="暂无中文" en_name="Selenicë" />
+        <city province="Shijak" city="" area_code="571" cn_name="暂无中文" en_name="Shijak" />
+        <city province="斯库台" city="" area_code="22" cn_name="斯库台" en_name="Shkodër" />
+        <city province="台佩莱纳" city="" area_code="814" cn_name="台佩莱纳" en_name="Tepelenë" />
+        <city province="地拉那" city="" area_code="4" cn_name="地拉那" en_name="Tiranë" />
+        <city province="特罗波亚" city="" area_code="213" cn_name="特罗波亚" en_name="Tropojë" />
+        <city province="Ura Vajgurore" city="" area_code="361" cn_name="暂无中文" en_name="Ura Vajgurore" />
+        <city province="发罗拉" city="" area_code="33" cn_name="发罗拉" en_name="Vlorë" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>阿尔巴尼亚移动通信</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>68</prefix>
+      </op>
+      <op>
+        <op_name>沃达丰</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>69</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

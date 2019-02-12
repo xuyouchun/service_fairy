@@ -1,0 +1,57 @@
+﻿<ProfilerProject>
+  <StartInfo>
+    <ProfilingType>Application</ProfilingType>
+    <ProgramPath>D:\Work\Dev\Assembly\BhFairy\Dev\AssemblyHost.Console.exe</ProgramPath>
+    <ProgramArguments />
+    <WorkingDirectory />
+    <ServiceName />
+    <WebPort>0</WebPort>
+    <VirtualPath />
+    <RequestUrl />
+    <ConnectAction>None</ConnectAction>
+  </StartInfo>
+  <SessionSettings>
+    <EnableDelayedObjectCleanup>True</EnableDelayedObjectCleanup>
+    <EnableRootIdentification>True</EnableRootIdentification>
+    <CollectRealTime>True</CollectRealTime>
+    <MaxCollectedMemory>1024</MaxCollectedMemory>
+    <MaxUncollectedMemory>2048</MaxUncollectedMemory>
+    <EnableDisposeTracker>True</EnableDisposeTracker>
+    <DisableInlining>True</DisableInlining>
+    <EnableResourceTracker>False</EnableResourceTracker>
+    <HookAllUnmanagedFunctions>True</HookAllUnmanagedFunctions>
+    <UseCodeInjection>0</UseCodeInjection>
+    <EnableNativeProfiling>False</EnableNativeProfiling>
+    <TrackHeapUtilization>False</TrackHeapUtilization>
+    <SessionEndAction>0</SessionEndAction>
+    <AutosaveFolder>D:\Users\xuyc\Documents</AutosaveFolder>
+    <AutosaveFilePattern>Autosaved session (%DATE% %TIME%)</AutosaveFilePattern>
+    <MemoryLeakAction>0</MemoryLeakAction>
+    <EnableLowTrust2>True</EnableLowTrust2>
+    <CollectFullSnapshot>True</CollectFullSnapshot>
+    <StartUI>True</StartUI>
+    <StopSession>False</StopSession>
+    <HaltThread>False</HaltThread>
+    <EnableAllocationCallStacks>True</EnableAllocationCallStacks>
+    <AutomaticallySaveSnapShots>True</AutomaticallySaveSnapShots>
+    <IncludeInstanceData>True</IncludeInstanceData>
+    <MaxTriggeredSnapShots>10</MaxTriggeredSnapShots>
+    <SelectSaveSnapShots>True</SelectSaveSnapShots>
+    <LoadSymbols>1</LoadSymbols>
+    <AutoCollectSnapshots>False</AutoCollectSnapshots>
+    <AutoCollectInterval>10</AutoCollectInterval>
+  </SessionSettings>
+  <InstanceDataCollectionRules>
+    <CollectInstanceData>True</CollectInstanceData>
+    <InstanceDataCollectionRule>
+      <DataCollection>AlwaysIfSizeLess</DataCollection>
+      <Size>512</Size>
+      <DataCollectionTypes>
+        <DataCollectionType>
+          <Kind>Any</Kind>
+        </DataCollectionType>
+      </DataCollectionTypes>
+    </InstanceDataCollectionRule>
+  </InstanceDataCollectionRules>
+  <SessionFileHeaders />
+</ProfilerProject>

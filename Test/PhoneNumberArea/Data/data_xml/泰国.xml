@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>泰国</cn_name>
+    <en_name>Thailand</en_name>
+    <national_code>66</national_code>
+    <mcc>520</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到泰国的A地电话顺序为“0066-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从泰国的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0066-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0066XXXXXXXX、66XXXXXXXX、066XXXXXXXX、00066XXXXXXXX；如果来电显示开头是00660、00661、00662、00663、00664、00665、00666、00667、00668、00669，一般也都表示国际区号是0066，后面一位是泰国内部的号码的开头第一位；如果是在泰国通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="&quot;my&quot; CAT 3G+" mncs="00" national_prefix="001" internal_prefix="0" desc="&quot;my&quot; CAT 3G+" />
+    <operation op_code="AIS" mncs="01" national_prefix="001" internal_prefix="0" desc="AIS" />
+    <operation op_code="CAT CDMA" mncs="02" national_prefix="001" internal_prefix="0" desc="CAT CDMA" />
+    <operation op_code="?" mncs="10" national_prefix="001" internal_prefix="0" desc="?" />
+    <operation op_code="TOT 3G" mncs="15" national_prefix="001" internal_prefix="0" desc="TOT 3G" />
+    <operation op_code="dtac" mncs="18" national_prefix="001" internal_prefix="0" desc="dtac" />
+    <operation op_code="AIS GSM 1800" mncs="23" national_prefix="001" internal_prefix="0" desc="AIS GSM 1800" />
+    <operation op_code="True Move" mncs="99" national_prefix="001" internal_prefix="0" desc="True Move" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="CAT Telecom" op_prefix="" />
+        <prefix op_code="Advanced Info Service" op_prefix="" />
+        <prefix op_code="CAT Telecom" op_prefix="" />
+        <prefix op_code="WCS IQ" op_prefix="" />
+        <prefix op_code="Telephone Organization of Thailand (TOT)" op_prefix="" />
+        <prefix op_code="Total Access Communication" op_prefix="" />
+        <prefix op_code="Digital Phone (AIS)" op_prefix="" />
+        <prefix op_code="True Corporation" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="曼谷" city="" area_code="2" cn_name="曼谷" en_name="Bangkok" />
+        <city province="武里南" city="" area_code="44" cn_name="武里南" en_name="Buri Ram" />
+        <city province="尖竹汶(庄他武里)" city="" area_code="39" cn_name="尖竹汶(庄他武里)" en_name="Chanthaburi" />
+        <city province="清迈" city="" area_code="53" cn_name="清迈" en_name="Chiang Mai" />
+        <city province="清莱" city="" area_code="54" cn_name="清莱" en_name="Chiang Rai" />
+        <city province="春武里(万佛岁)" city="" area_code="38" cn_name="春武里(万佛岁)" en_name="Chon Buri" />
+        <city province="北碧(干乍那武里)" city="" area_code="34" cn_name="北碧(干乍那武里)" en_name="Kanchanaburi" />
+        <city province="南邦" city="" area_code="54" cn_name="南邦" en_name="Lampang" />
+        <city province="呵叻" city="" area_code="44" cn_name="呵叻" en_name="Nakhon Ratchasima" />
+        <city province="北榄坡(那空沙旺)" city="" area_code="56" cn_name="北榄坡(那空沙旺)" en_name="Nakhon Sawan" />
+        <city province="甘烹碧" city="" area_code="55" cn_name="甘烹碧" en_name="Kamphaeng Phet" />
+        <city province="廊开" city="" area_code="42" cn_name="廊开" en_name="Nong Khai" />
+        <city province="北大年" city="" area_code="73" cn_name="北大年" en_name="Pattani" />
+        <city province="芭堤雅" city="" area_code="38" cn_name="芭堤雅" en_name="Pattaya" />
+        <city province="彭世洛" city="" area_code="55" cn_name="彭世洛" en_name="Phitsanulok" />
+        <city province="普吉" city="" area_code="76" cn_name="普吉" en_name="Phuket" />
+        <city province="叻丕" city="" area_code="32" cn_name="叻丕" en_name="Ratchaburi" />
+        <city province="北标(沙拉武里)" city="" area_code="36" cn_name="北标(沙拉武里)" en_name="Saraburi" />
+        <city province="宋卡" city="" area_code="74" cn_name="宋卡" en_name="Songkhla" />
+        <city province="素叻" city="" area_code="77" cn_name="素叻" en_name="Surat Thani" />
+        <city province="达" city="" area_code="55" cn_name="达" en_name="Tak" />
+        <city province="乌汶" city="" area_code="45" cn_name="乌汶" en_name="Ubon Ratchathani" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

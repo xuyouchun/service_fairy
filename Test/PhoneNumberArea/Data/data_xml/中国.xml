@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name />
+    <en_name>China</en_name>
+    <national_code>86</national_code>
+    <mcc>460</mcc>
+    <example><![CDATA[]]></example>
+    <call_display><![CDATA[]]></call_display>
+    <alias>中</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="中国移动（China Mobile）" mncs="00,02,07" national_prefix="00" internal_prefix="" desc="中国移动（China Mobile）" />
+    <operation op_code="中国联通（China Unicom）" mncs="01,06" national_prefix="00" internal_prefix="" desc="中国联通（China Unicom）" />
+    <operation op_code="中国电信（China Telecom）" mncs="03,05" national_prefix="00" internal_prefix="" desc="中国电信（China Telecom）" />
+    <operation op_code="中国铁通（China Tietong）" mncs="20" national_prefix="00" internal_prefix="" desc="中国铁通（China Tietong）" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="中国移动（China Mobile）" op_prefix="" />
+        <prefix op_code="中国联通（China Unicom）" op_prefix="" />
+        <prefix op_code="中国移动（China Mobile）" op_prefix="" />
+        <prefix op_code="中国电信（China Telecom）" op_prefix="" />
+        <prefix op_code="中国电信（China Telecom）" op_prefix="" />
+        <prefix op_code="中国联通（China Unicom）" op_prefix="" />
+        <prefix op_code="中国移动（China Mobile）" op_prefix="" />
+        <prefix op_code="中国铁通（China Tietong）" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Xinjiang" city="" area_code="阿克苏" cn_name="Xinjiang" en_name="Akesu" />
+        <city province="Shaanxi" city="" area_code="安康" cn_name="Shaanxi" en_name="Ankang" />
+        <city province="Anhui" city="" area_code="安庆" cn_name="Anhui" en_name="Anqing" />
+        <city province="Shandong" city="" area_code="安丘" cn_name="Shandong" en_name="Anqiu" />
+        <city province="Guizhou" city="" area_code="安顺" cn_name="Guizhou" en_name="Anshun" />
+        <city province="Jilin" city="" area_code="安图" cn_name="Jilin" en_name="Antu" />
+        <city province="Gansu" city="" area_code="安溪" cn_name="Gansu" en_name="Anxi" />
+        <city province="Henan" city="" area_code="安阳" cn_name="Henan" en_name="Anyang" />
+        <city province="Xinjiang" city="" area_code="阿图什" cn_name="Xinjiang" en_name="Atushi" />
+        <city province="Jilin" city="" area_code="白城" cn_name="Jilin" en_name="Baicheng" />
+        <city province="Guangxi" city="" area_code="白色" cn_name="Guangxi" en_name="Baise" />
+        <city province="Guangxi" city="" area_code="巴马" cn_name="Guangxi" en_name="Bama" />
+        <city province="Hebei" city="" area_code="保定" cn_name="Hebei" en_name="Baodin" />
+        <city province="Shaanxi" city="" area_code="宝鸡" cn_name="Shaanxi" en_name="Baoji" />
+        <city province="Nei Mongol" city="" area_code="包头" cn_name="Nei Mongol" en_name="Baotou" />
+        <city province="Sichuan" city="" area_code="巴中" cn_name="Sichuan" en_name="Bazhong" />
+        <city province="Guangxi" city="" area_code="北海" cn_name="Guangxi" en_name="Beihai" />
+        <city province="Beijing" city="" area_code="北京" cn_name="Beijing" en_name="Beijing" />
+        <city province="Liaoning" city="" area_code="北票" cn_name="Liaoning" en_name="Beipiao" />
+        <city province="Anhui" city="" area_code="蚌埠" cn_name="Anhui" en_name="Bengbu" />
+        <city province="Liaoning" city="" area_code="本溪" cn_name="Liaoning" en_name="Benxi" />
+        <city province="Xinjiang" city="" area_code="伯勒" cn_name="Xinjiang" en_name="Bole" />
+        <city province="Guangxi" city="" area_code="苍梧" cn_name="Guangxi" en_name="Cangwu" />
+        <city province="Shaanxi" city="" area_code="长安" cn_name="Shaanxi" en_name="Chang-an" />
+        <city province="Jilin" city="" area_code="长白" cn_name="Jilin" en_name="Changbai" />
+        <city province="Jilin" city="" area_code="长春" cn_name="Jilin" en_name="Changchun" />
+        <city province="Hunan" city="" area_code="常德" cn_name="Hunan" en_name="Changde" />
+        <city province="Xizang (Tibet)" city="" area_code="昌都" cn_name="Xizang (Tibet)" en_name="Changdu" />
+        <city province="Anhui" city="" area_code="长风" cn_name="Anhui" en_name="Changfeng" />
+        <city province="Xinjiang" city="" area_code="昌吉" cn_name="Xinjiang" en_name="Changji" />
+        <city province="Fujian" city="" area_code="长乐" cn_name="Fujian" en_name="Changle" />
+        <city province="Hunan" city="" area_code="长沙" cn_name="Hunan" en_name="Changsha" />
+        <city province="Jiangsu" city="" area_code="常熟" cn_name="Jiangsu" en_name="Changshu" />
+        <city province="Shanxi" city="" area_code="长野" cn_name="Shanxi" en_name="Changye" />
+        <city province="Jiangsu" city="" area_code="常州" cn_name="Jiangsu" en_name="Changzhou" />
+        <city province="Guangdong" city="" area_code="潮州" cn_name="Guangdong" en_name="Chaozhou" />
+        <city province="Hebei" city="" area_code="承德" cn_name="Hebei" en_name="Chengde" />
+        <city province="Sichuan" city="" area_code="成都" cn_name="Sichuan" en_name="Chengdu" />
+        <city province="Nei Mongol" city="" area_code="赤峰" cn_name="Nei Mongol" en_name="Chifeng" />
+        <city province="Sichuan" city="" area_code="重庆" cn_name="Sichuan" en_name="Chongqing" />
+        <city province="Yunnan" city="" area_code="楚雄" cn_name="Yunnan" en_name="Chuxiong" />
+        <city province="Zhejiang" city="" area_code="慈溪" cn_name="Zhejiang" en_name="Cixi" />
+        <city province="Guangdong" city="" area_code="从化" cn_name="Guangdong" en_name="Conghua" />
+        <city province="Yunnan" city="" area_code="大理" cn_name="Yunnan" en_name="Dali" />
+        <city province="Liaoning" city="" area_code="大连" cn_name="Liaoning" en_name="Dalian" />
+        <city province="Liaoning" city="" area_code="大东" cn_name="Liaoning" en_name="Dandong" />
+        <city province="Jiangsu" city="" area_code="丹阳" cn_name="Jiangsu" en_name="Danyang" />
+        <city province="Heilongjiang" city="" area_code="大庆" cn_name="Heilongjiang" en_name="Daqing" />
+        <city province="Qinghai" city="" area_code="大同" cn_name="Qinghai" en_name="Da-tong" />
+        <city province="Shanxi" city="" area_code="大同" cn_name="Shanxi" en_name="Datong" />
+        <city province="Shandong" city="" area_code="德州" cn_name="Shandong" en_name="Dezhou" />
+        <city province="Gansu" city="" area_code="定西" cn_name="Gansu" en_name="Dinxi" />
+        <city province="Anhui" city="" area_code="定远" cn_name="Anhui" en_name="Dinyuan" />
+        <city province="Hainan" city="" area_code="东方" cn_name="Hainan" en_name="Dongfang" />
+        <city province="Guangdong" city="" area_code="东莞" cn_name="Guangdong" en_name="Dongwan" />
+        <city province="Zhejiang" city="" area_code="东阳" cn_name="Zhejiang" en_name="Dongyang" />
+        <city province="Sichuan" city="" area_code="都江堰" cn_name="Sichuan" en_name="Dujiangyan" />
+        <city province="Jilin" city="" area_code="敦化" cn_name="Jilin" en_name="Dunhua" />
+        <city province="Gansu" city="" area_code="敦煌" cn_name="Gansu" en_name="Dunhuang" />
+        <city province="Nei Mongol" city="" area_code="二连浩特" cn_name="Nei Mongol" en_name="Erlianhaote" />
+        <city province="Nei Mongol" city="" area_code="鄂伦春" cn_name="Nei Mongol" en_name="Erlunchun" />
+        <city province="Hubei" city="" area_code="鄂州" cn_name="Hubei" en_name="Ezhou" />
+        <city province="Guangdong" city="" area_code="番禹" cn_name="Guangdong" en_name="Fanyu" />
+        <city province="Zhejiang" city="" area_code="奉化" cn_name="Zhejiang" en_name="Fenghua" />
+        <city province="Hunan" city="" area_code="凤凰" cn_name="Hunan" en_name="Fenghuang" />
+        <city province="Nei Mongol" city="" area_code="丰镇" cn_name="Nei Mongol" en_name="Fengzhen" />
+        <city province="Sichuan" city="" area_code="奉节" cn_name="Sichuan" en_name="Fenjie" />
+        <city province="Henan" city="" area_code="封丘" cn_name="Henan" en_name="Fenqiu" />
+        <city province="Shanxi" city="" area_code="汾阳" cn_name="Shanxi" en_name="Fenyang" />
+        <city province="Guangdong" city="" area_code="佛山" cn_name="Guangdong" en_name="Foshan" />
+        <city province="Fujian" city="" area_code="福安" cn_name="Fujian" en_name="Fu-an" />
+        <city province="Yunnan" city="" area_code="富民" cn_name="Yunnan" en_name="Fumin" />
+        <city province="Shaanxi" city="" area_code="佛品" cn_name="Shaanxi" en_name="Fuopin" />
+        <city province="Liaoning" city="" area_code="抚顺" cn_name="Liaoning" en_name="Fushun" />
+        <city province="Liaoning" city="" area_code="阜新" cn_name="Liaoning" en_name="Fuxin" />
+        <city province="Zhejiang" city="" area_code="富阳" cn_name="Zhejiang" en_name="Fuyang" />
+        <city province="Fujian" city="" area_code="福州" cn_name="Fujian" en_name="Fuzhou" />
+        <city province="Jiangxi" city="" area_code="抚州" cn_name="Jiangxi" en_name="Fu-zhou" />
+        <city province="Jiangxi" city="" area_code="赣州" cn_name="Jiangxi" en_name="Ganzhou" />
+        <city province="Jiangxi" city="" area_code="高安" cn_name="Jiangxi" en_name="Gao-an" />
+        <city province="Jiangsu" city="" area_code="高邮" cn_name="Jiangsu" en_name="Gaoyou" />
+        <city province="Yunnan" city="" area_code="个旧" cn_name="Yunnan" en_name="Gejiu" />
+        <city province="Qinghai" city="" area_code="格尔木" cn_name="Qinghai" en_name="Germu" />
+        <city province="Sichuan" city="" area_code="广安" cn_name="Sichuan" en_name="Guang-an" />
+        <city province="Shanxi" city="" area_code="广陵" cn_name="Shanxi" en_name="Guangling" />
+        <city province="Guangdong" city="" area_code="广宁" cn_name="Guangdong" en_name="Guangning" />
+        <city province="Guangdong" city="" area_code="广州" cn_name="Guangdong" en_name="Guangzhou" />
+        <city province="Guangxi" city="" area_code="桂林" cn_name="Guangxi" en_name="Guilin" />
+        <city province="Guizhou" city="" area_code="贵阳" cn_name="Guizhou" en_name="Guiyang" />
+        <city province="Gansu" city="" area_code="古浪" cn_name="Gansu" en_name="Gulang" />
+        <city province="Xinjiang" city="" area_code="骨碌" cn_name="Xinjiang" en_name="Guliu" />
+        <city province="Fujian" city="" area_code="古田" cn_name="Fujian" en_name="Gutian" />
+        <city province="Neimengu" city="" area_code="谷阳" cn_name="Neimengu" en_name="Guyang" />
+        <city province="Ningxia" city="" area_code="固原" cn_name="Ningxia" en_name="Guyuan" />
+        <city province="Guangdong" city="" area_code="海风" cn_name="Guangdong" en_name="Haifeng" />
+        <city province="Hainan" city="" area_code="海口" cn_name="Hainan" en_name="Haikou" />
+        <city province="Nei Mongol" city="" area_code="海拉尔" cn_name="Nei Mongol" en_name="Hailar" />
+        <city province="Heilongjiang" city="" area_code="海伦" cn_name="Heilongjiang" en_name="Hailun" />
+        <city province="Jiangsu" city="" area_code="海门" cn_name="Jiangsu" en_name="Haimen" />
+        <city province="Zhejiang" city="" area_code="海盐" cn_name="Zhejiang" en_name="Haiyan" />
+        <city province="Xinjiang" city="" area_code="哈密" cn_name="Xinjiang" en_name="Hami" />
+        <city province="Hebei" city="" area_code="邯郸" cn_name="Hebei" en_name="Handan" />
+        <city province="Zhejiang" city="" area_code="杭州" cn_name="Zhejiang" en_name="Hangzhou" />
+        <city province="Zhejiang" city="" area_code="海宁" cn_name="Zhejiang" en_name="Hanning" />
+        <city province="Hubei" city="" area_code="汉阳" cn_name="Hubei" en_name="Hanyang" />
+        <city province="Shaanxi" city="" area_code="汉中" cn_name="Shaanxi" en_name="Hanzhong" />
+        <city province="Heilongjiang" city="" area_code="哈尔滨" cn_name="Heilongjiang" en_name="Harbin" />
+        <city province="Guangxi" city="" area_code="河池" cn_name="Guangxi" en_name="Hechi" />
+        <city province="Anhui" city="" area_code="合肥" cn_name="Anhui" en_name="Hefei" />
+        <city province="Heilongjiang" city="" area_code="鹤岗" cn_name="Heilongjiang" en_name="Hegang" />
+        <city province="Liaoning" city="" area_code="黑山" cn_name="Liaoning" en_name="Heishan" />
+        <city province="Ningxia" city="" area_code="贺兰" cn_name="Ningxia" en_name="Helan" />
+        <city province="Hunan" city="" area_code="衡阳" cn_name="Hunan" en_name="Hengyang" />
+        <city province="Hunan" city="" area_code="衡山" cn_name="Hunan" en_name="Henshan" />
+        <city province="Xinjiang" city="" area_code="和硕" cn_name="Xinjiang" en_name="Heshuo" />
+        <city province="Xinjiang" city="" area_code="和田" cn_name="Xinjiang" en_name="Hetian" />
+        <city province="Shandong" city="" area_code="荷泽" cn_name="Shandong" en_name="Heze" />
+        <city province="Nei Mongol" city="" area_code="呼和浩特" cn_name="Nei Mongol" en_name="Hohhot" />
+        <city province="Shanxi" city="" area_code="侯马" cn_name="Shanxi" en_name="Houma" />
+        <city province="Gansu" city="" area_code="华池" cn_name="Gansu" en_name="Huachi" />
+        <city province="Jiangsu" city="" area_code="淮安" cn_name="Jiangsu" en_name="Huai-an" />
+        <city province="Hunan" city="" area_code="怀化" cn_name="Hunan" en_name="Huaihua" />
+        <city province="Anhui" city="" area_code="怀远" cn_name="Anhui" en_name="Huaiyuan" />
+        <city province="Shaanxi" city="" area_code="黄陵" cn_name="Shaanxi" en_name="Huanglin" />
+        <city province="Hubei" city="" area_code="黄梅" cn_name="Hubei" en_name="Huangmei" />
+        <city province="Anhui" city="" area_code="黄山市" cn_name="Anhui" en_name="Huangshanshi" />
+        <city province="Hubei" city="" area_code="黄石" cn_name="Hubei" en_name="Huangshi" />
+        <city province="Zhejiang" city="" area_code="黄岩" cn_name="Zhejiang" en_name="Huangyan" />
+        <city province="Guangdong" city="" area_code="花县" cn_name="Guangdong" en_name="Huaxian" />
+        <city province="Shaanxi" city="" area_code="华阴" cn_name="Shaanxi" en_name="Huayin" />
+        <city province="Fujian" city="" area_code="惠安" cn_name="Fujian" en_name="Hui-an" />
+        <city province="Guangdong" city="" area_code="惠州" cn_name="Guangdong" en_name="Huizhou" />
+        <city province="Jilin" city="" area_code="珲春" cn_name="Jilin" en_name="Hunchun" />
+        <city province="Jilin" city="" area_code="浑江" cn_name="Jilin" en_name="Hunjiang" />
+        <city province="Xinjiang" city="" area_code="霍城" cn_name="Xinjiang" en_name="Huocheng" />
+        <city province="Zhejiang" city="" area_code="湖州" cn_name="Zhejiang" en_name="Huzhou" />
+        <city province="Heilongjiang" city="" area_code="佳木斯" cn_name="Heilongjiang" en_name="Jiamusi" />
+        <city province="Jiangxi" city="" area_code="吉安" cn_name="Jiangxi" en_name="Ji-an" />
+        <city province="Jiangsu" city="" area_code="江都" cn_name="Jiangsu" en_name="Jiangdu" />
+        <city province="Sichuan" city="" area_code="江津" cn_name="Sichuan" en_name="Jiangjin" />
+        <city province="Hubei" city="" area_code="江陵" cn_name="Hubei" en_name="Jiangling" />
+        <city province="Guangdong" city="" area_code="江门" cn_name="Guangdong" en_name="Jiangmen" />
+        <city province="Jiangsu" city="" area_code="江阴" cn_name="Jiangsu" en_name="Jiangyin" />
+        <city province="Sichuan" city="" area_code="江油" cn_name="Sichuan" en_name="Jiangyou" />
+        <city province="Fujian" city="" area_code="建瓯" cn_name="Fujian" en_name="JianOu" />
+        <city province="Shandong" city="" area_code="胶州" cn_name="Shandong" en_name="Jiaozhou" />
+        <city province="Henan" city="" area_code="焦作" cn_name="Henan" en_name="Jiaozuo" />
+        <city province="Zhejiang" city="" area_code="嘉兴" cn_name="Zhejiang" en_name="Jiaxin" />
+        <city province="Gansu" city="" area_code="嘉峪关" cn_name="Gansu" en_name="Jiayuguan" />
+        <city province="Jilin" city="" area_code="吉林" cn_name="Jilin" en_name="Ji-lin" />
+        <city province="Shandong" city="" area_code="济南" cn_name="Shandong" en_name="Jinan" />
+        <city province="Jiangxi" city="" area_code="井冈山" cn_name="Jiangxi" en_name="Jingangshan" />
+        <city province="Jiangxi" city="" area_code="景德镇" cn_name="Jiangxi" en_name="Jingdezhen" />
+        <city province="Zhejiang" city="" area_code="金华" cn_name="Zhejiang" en_name="Jinhua" />
+        <city province="Nei Mongol" city="" area_code="集宁" cn_name="Nei Mongol" en_name="Ji-ning" />
+        <city province="Shandong" city="" area_code="济宁" cn_name="Shandong" en_name="Jining" />
+        <city province="Hubei" city="" area_code="荆门" cn_name="Hubei" en_name="Jinmen" />
+        <city province="Guizhou" city="" area_code="金沙" cn_name="Guizhou" en_name="Jinsha" />
+        <city province="Liaoning" city="" area_code="锦西" cn_name="Liaoning" en_name="Jinxi" />
+        <city province="Jiangxi" city="" area_code="泾县" cn_name="Jiangxi" en_name="Jinxian" />
+        <city province="Gansu" city="" area_code="金源" cn_name="Gansu" en_name="Jinyuan" />
+        <city province="Liaoning" city="" area_code="锦州" cn_name="Liaoning" en_name="Jinzhou" />
+        <city province="Jiangxi" city="" area_code="九江" cn_name="Jiangxi" en_name="Jiujiang" />
+        <city province="Gansu" city="" area_code="酒泉" cn_name="Gansu" en_name="Jiuquan" />
+        <city province="Heilongjiang" city="" area_code="鸡西" cn_name="Heilongjiang" en_name="Jixi" />
+        <city province="Shandong" city="" area_code="济阳" cn_name="Shandong" en_name="Jiyang" />
+        <city province="Henan" city="" area_code="济源" cn_name="Henan" en_name="Jiyuan" />
+        <city province="Hebei" city="" area_code="巨鹿" cn_name="Hebei" en_name="Julu" />
+        <city province="Shandong" city="" area_code="巨野" cn_name="Shandong" en_name="Juye" />
+        <city province="Henan" city="" area_code="开封" cn_name="Henan" en_name="Kaifeng" />
+        <city province="Zhejiang" city="" area_code="开化" cn_name="Zhejiang" en_name="Kaihua" />
+        <city province="Guizhou" city="" area_code="凯里" cn_name="Guizhou" en_name="Kaili" />
+        <city province="Liaoning" city="" area_code="开源" cn_name="Liaoning" en_name="Kaiyuan" />
+        <city province="Sichuan" city="" area_code="康定" cn_name="Sichuan" en_name="Kangdin" />
+        <city province="Xinjiang" city="" area_code="喀什" cn_name="Xinjiang" en_name="Kashi" />
+        <city province="Xinjiang" city="" area_code="克拉玛依" cn_name="Xinjiang" en_name="Kelamayi" />
+        <city province="Xinjiang" city="" area_code="奎屯" cn_name="Xinjiang" en_name="Kuitun" />
+        <city province="Yunnan" city="" area_code="昆明" cn_name="Yunnan" en_name="Kunming" />
+        <city province="Jiangsu" city="" area_code="昆山" cn_name="Jiangsu" en_name="Kunshan" />
+        <city province="Xinjiang" city="" area_code="库尔勒" cn_name="Xinjiang" en_name="Kurle" />
+        <city province="Hunan" city="" area_code="耒阳" cn_name="Hunan" en_name="Laiyang" />
+        <city province="Shandong" city="" area_code="莱阳" cn_name="Shandong" en_name="Lai-yang" />
+        <city province="Henan" city="" area_code="兰考" cn_name="Henan" en_name="Lankao" />
+        <city province="Zhejiang" city="" area_code="兰溪" cn_name="Zhejiang" en_name="Lanxi" />
+        <city province="Gansu" city="" area_code="兰州" cn_name="Gansu" en_name="Lanzhou" />
+        <city province="Sichuan" city="" area_code="乐山" cn_name="Sichuan" en_name="Leshan" />
+        <city province="Xizang (Tibet)" city="" area_code="拉萨" cn_name="Xizang (Tibet)" en_name="Lhasa" />
+        <city province="Fujian" city="" area_code="连城" cn_name="Fujian" en_name="Liancheng" />
+        <city province="Nei Mongol" city="" area_code="凉城" cn_name="Nei Mongol" en_name="Liangcheng" />
+        <city province="Jiangsu" city="" area_code="连云港" cn_name="Jiangsu" en_name="Lianyungang" />
+        <city province="Liaoning" city="" area_code="辽阳" cn_name="Liaoning" en_name="Liaoyang" />
+        <city province="Jilin" city="" area_code="辽源" cn_name="Jilin" en_name="Liaoyuan" />
+        <city province="Yunnan" city="" area_code="丽江市" cn_name="Yunnan" en_name="Lijiangshi" />
+        <city province="Shandong" city="" area_code="利津" cn_name="Shandong" en_name="Lijin" />
+        <city province="Zhejiang" city="" area_code="临安" cn_name="Zhejiang" en_name="Lin-an" />
+        <city province="Shanxi" city="" area_code="临汾" cn_name="Shanxi" en_name="Linfen" />
+        <city province="Zhejiang" city="" area_code="临海" cn_name="Zhejiang" en_name="Linhai" />
+        <city province="Shaanxi" city="" area_code="临潼" cn_name="Shaanxi" en_name="Lintong" />
+        <city province="Neimengu" city="" area_code="临西" cn_name="Neimengu" en_name="Linxi" />
+        <city province="Shandong" city="" area_code="临沂" cn_name="Shandong" en_name="Linyi" />
+        <city province="Xizang (Tibet)" city="" area_code="林芝" cn_name="Xizang (Tibet)" en_name="Linzhi" />
+        <city province="Guangxi" city="" area_code="柳江" cn_name="Guangxi" en_name="Liujiang" />
+        <city province="Hunan" city="" area_code="浏阳" cn_name="Hunan" en_name="Liuyang" />
+        <city province="Guangxi" city="" area_code="柳州" cn_name="Guangxi" en_name="Liuzhou" />
+        <city province="Zhejiang" city="" area_code="龙泉" cn_name="Zhejiang" en_name="Longquan" />
+        <city province="Gansu" city="" area_code="陇西" cn_name="Gansu" en_name="Longxi" />
+        <city province="Xinjiang" city="" area_code="轮台" cn_name="Xinjiang" en_name="Luntai" />
+        <city province="Henan" city="" area_code="洛阳" cn_name="Henan" en_name="Luoyang" />
+        <city province="Jiangxi" city="" area_code="庐山市" cn_name="Jiangxi" en_name="Lushanshi" />
+        <city province="Anhui" city="" area_code="马鞍山" cn_name="Anhui" en_name="Ma-anshan" />
+        <city province="Hubei" city="" area_code="麻城" cn_name="Hubei" en_name="Machen" />
+        <city province="Xizang" city="" area_code="芒康" cn_name="Xizang" en_name="Mangkang" />
+        <city province="Nei Mongol" city="" area_code="满洲里" cn_name="Nei Mongol" en_name="Manzhouli" />
+        <city province="Guangdong" city="" area_code="茂名" cn_name="Guangdong" en_name="Maomin" />
+        <city province="Sichuan" city="" area_code="眉山" cn_name="Sichuan" en_name="Meishan" />
+        <city province="Guangdong" city="" area_code="梅州" cn_name="Guangdong" en_name="Meizhou" />
+        <city province="Sichuan" city="" area_code="绵阳" cn_name="Sichuan" en_name="Mianyang" />
+        <city province="Fujian" city="" area_code="闽侯" cn_name="Fujian" en_name="Minhou" />
+        <city province="Xinjiang" city="" area_code="米泉" cn_name="Xinjiang" en_name="Miquan" />
+        <city province="Heilongjiang" city="" area_code="漠河" cn_name="Heilongjiang" en_name="Mohe" />
+        <city province="Heilongjiang" city="" area_code="牡丹江" cn_name="Heilongjiang" en_name="Mudanjiang" />
+        <city province="Jiangxi" city="" area_code="南昌" cn_name="Jiangxi" en_name="Nanchang" />
+        <city province="Jiangxi" city="" area_code="南丰" cn_name="Jiangxi" en_name="Nanfeng" />
+        <city province="Jiangsu" city="" area_code="南京" cn_name="Jiangsu" en_name="Nanjing" />
+        <city province="Guangxi" city="" area_code="南宁" cn_name="Guangxi" en_name="Nanning" />
+        <city province="Jiangsu" city="" area_code="南通" cn_name="Jiangsu" en_name="Nantong" />
+        <city province="Henan" city="" area_code="南阳" cn_name="Henan" en_name="Nanyang" />
+        <city province="Heilongjiang" city="" area_code="嫩江" cn_name="Heilongjiang" en_name="Nenjiang" />
+        <city province="Zhejiang" city="" area_code="宁波" cn_name="Zhejiang" en_name="Ningbo" />
+        <city province="Nei Mongol" city="" area_code="宁城" cn_name="Nei Mongol" en_name="Ningcheng" />
+        <city province="Anhui" city="" area_code="宁国" cn_name="Anhui" en_name="Ningguo" />
+        <city province="Fujian" city="" area_code="宁化" cn_name="Fujian" en_name="Ninghua" />
+        <city province="Sichuan" city="" area_code="攀枝花" cn_name="Sichuan" en_name="Panzhihua" />
+        <city province="Sichuan" city="" area_code="涪陵" cn_name="Sichuan" en_name="Peilin" />
+        <city province="Shandong" city="" area_code="蓬莱" cn_name="Shandong" en_name="Penglai" />
+        <city province="Henan" city="" area_code="平顶山" cn_name="Henan" en_name="Pindinshan" />
+        <city province="Gansu" city="" area_code="平凉" cn_name="Gansu" en_name="Pingliang" />
+        <city province="Guangxi" city="" area_code="凭祥" cn_name="Guangxi" en_name="Pingxiang" />
+        <city province="Jiangxi" city="" area_code="萍乡" cn_name="Jiangxi" en_name="Ping-xiang" />
+        <city province="Guangxi" city="" area_code="平乐" cn_name="Guangxi" en_name="Pinle" />
+        <city province="Fujian" city="" area_code="莆田" cn_name="Fujian" en_name="Putian" />
+        <city province="Jiangsu" city="" area_code="启东" cn_name="Jiangsu" en_name="Qidong" />
+        <city province="Gansu" city="" area_code="秦安" cn_name="Gansu" en_name="Qin-an" />
+        <city province="Shandong" city="" area_code="青岛" cn_name="Shandong" en_name="Qingdao" />
+        <city province="Hebei" city="" area_code="秦皇岛" cn_name="Hebei" en_name="Qinhuangdao" />
+        <city province="Hainan" city="" area_code="琼山" cn_name="Hainan" en_name="Qiongshan" />
+        <city province="Heilongjiang" city="" area_code="齐齐哈尔" cn_name="Heilongjiang" en_name="Qiqihar" />
+        <city province="Xinjiang" city="" area_code="七台" cn_name="Xinjiang" en_name="Qitai" />
+        <city province="Fujian" city="" area_code="泉州" cn_name="Fujian" en_name="Quanzhou" />
+        <city province="Shandong" city="" area_code="曲阜" cn_name="Shandong" en_name="Qufu" />
+        <city province="Guangdong" city="" area_code="曲江" cn_name="Guangdong" en_name="Qujiang" />
+        <city province="Hebei" city="" area_code="任丘" cn_name="Hebei" en_name="Renqiu" />
+        <city province="Xizang (Tibet)" city="" area_code="日喀则" cn_name="Xizang (Tibet)" en_name="Rikeze" />
+        <city province="Guangxi" city="" area_code="容县" cn_name="Guangxi" en_name="Rongxian" />
+        <city province="Jiangxi" city="" area_code="瑞金" cn_name="Jiangxi" en_name="Ruijin" />
+        <city province="Yunnan" city="" area_code="瑞丽" cn_name="Yunnan" en_name="Ruili" />
+        <city province="Henan" city="" area_code="汝南" cn_name="Henan" en_name="Runan" />
+        <city province="Zhejiang" city="" area_code="三门" cn_name="Zhejiang" en_name="Sanmen" />
+        <city province="Henan" city="" area_code="三门峡" cn_name="Henan" en_name="Sanmenxia" />
+        <city province="Hainan" city="" area_code="三亚" cn_name="Hainan" en_name="Sanya" />
+        <city province="Nei Mongol" city="" area_code="商都" cn_name="Nei Mongol" en_name="Shangdu" />
+        <city province="Jiangxi" city="" area_code="上高" cn_name="Jiangxi" en_name="Shanggao" />
+        <city province="Shanghai" city="" area_code="上海" cn_name="Shanghai" en_name="Shanghai" />
+        <city province="Henan" city="" area_code="商丘" cn_name="Henan" en_name="Shangqiu" />
+        <city province="Jiangxi" city="" area_code="上饶" cn_name="Jiangxi" en_name="Shangrao" />
+        <city province="Shaanxi" city="" area_code="商州" cn_name="Shaanxi" en_name="Shangzhou" />
+        <city province="Guangdong" city="" area_code="汕头" cn_name="Guangdong" en_name="Shantou" />
+        <city province="Guangdong" city="" area_code="韶关" cn_name="Guangdong" en_name="Shaoguan" />
+        <city province="Hunan" city="" area_code="韶山" cn_name="Hunan" en_name="Shaoshan" />
+        <city province="Zhejiang" city="" area_code="绍兴" cn_name="Zhejiang" en_name="Shaoxing" />
+        <city province="Hunan" city="" area_code="邵阳" cn_name="Hunan" en_name="Shaoyang" />
+        <city province="Shaanxi" city="" area_code="神木" cn_name="Shaanxi" en_name="Shenmu" />
+        <city province="Liaoning" city="" area_code="沈阳" cn_name="Liaoning" en_name="Shenyang" />
+        <city province="Guangdong" city="" area_code="深圳" cn_name="Guangdong" en_name="Shenzhen" />
+        <city province="Xinjiang" city="" area_code="石河子" cn_name="Xinjiang" en_name="Shihezi" />
+        <city province="Hebei" city="" area_code="石家庄" cn_name="Hebei" en_name="Shijiazhuang" />
+        <city province="Hunan" city="" area_code="石门" cn_name="Hunan" en_name="Shimen" />
+        <city province="Sichuan" city="" area_code="石棉" cn_name="Sichuan" en_name="Shimian" />
+        <city province="Fujian" city="" area_code="石狮" cn_name="Fujian" en_name="Shishi" />
+        <city province="Hubei" city="" area_code="十堰" cn_name="Hubei" en_name="Shiyan" />
+        <city province="Heilongjiang" city="" area_code="双城" cn_name="Heilongjiang" en_name="Shuangcheng" />
+        <city province="Jilin" city="" area_code="四平" cn_name="Jilin" en_name="Siping" />
+        <city province="Shandong" city="" area_code="汜水" cn_name="Shandong" en_name="Sishui" />
+        <city province="Jilin" city="" area_code="松原" cn_name="Jilin" en_name="Songyuan" />
+        <city province="Heilongjiang" city="" area_code="绥芬河" cn_name="Heilongjiang" en_name="Suifenhe" />
+        <city province="Jiangsu" city="" area_code="苏州" cn_name="Jiangsu" en_name="Suzhou" />
+        <city province="Xinjiang" city="" area_code="塔城" cn_name="Xinjiang" en_name="Tacheng" />
+        <city province="Shandong" city="" area_code="泰安" cn_name="Shandong" en_name="Tai-an" />
+        <city province="Jiangsu" city="" area_code="太仓" cn_name="Jiangsu" en_name="Taicang" />
+        <city province="Anhui" city="" area_code="太湖" cn_name="Anhui" en_name="Tai-hu" />
+        <city province="Shanxi" city="" area_code="太原" cn_name="Shanxi" en_name="Taiyuan" />
+        <city province="Jiangsu" city="" area_code="泰州" cn_name="Jiangsu" en_name="Taizhou" />
+        <city province="Hebei" city="" area_code="唐山" cn_name="Hebei" en_name="Tangshan" />
+        <city province="Tianjin" city="" area_code="天津" cn_name="Tianjin" en_name="Tianjin" />
+        <city province="Gansu" city="" area_code="天水" cn_name="Gansu" en_name="Tianshui" />
+        <city province="Zhejiang" city="" area_code="天台" cn_name="Zhejiang" en_name="Tiantai" />
+        <city province="Shaanxi" city="" area_code="铜川" cn_name="Shaanxi" en_name="Tongchuan" />
+        <city province="Shaanxi" city="" area_code="潼关" cn_name="Shaanxi" en_name="Tongguan" />
+        <city province="Jilin" city="" area_code="通化" cn_name="Jilin" en_name="Tonghua" />
+        <city province="Nei Mongol" city="" area_code="通辽" cn_name="Nei Mongol" en_name="Tongliao" />
+        <city province="Anhui" city="" area_code="铜陵" cn_name="Anhui" en_name="Tongling" />
+        <city province="Guizhou" city="" area_code="铜仁" cn_name="Guizhou" en_name="Tongren" />
+        <city province="Jilin" city="" area_code="图门" cn_name="Jilin" en_name="Tumen" />
+        <city province="Neimengu" city="" area_code="突泉" cn_name="Neimengu" en_name="Tuquan" />
+        <city province="Xinjiang" city="" area_code="吐鲁番" cn_name="Xinjiang" en_name="Turufan" />
+        <city province="Xinjiang" city="" area_code="乌鲁木齐" cn_name="Xinjiang" en_name="Urumqi" />
+        <city province="Sichuan" city="" area_code="万县" cn_name="Sichuan" en_name="Wanxian" />
+        <city province="Shandong" city="" area_code="潍坊" cn_name="Shandong" en_name="Weifang" />
+        <city province="Xinjiang" city="" area_code="威利" cn_name="Xinjiang" en_name="Weili" />
+        <city province="Shaanxi" city="" area_code="渭南" cn_name="Shaanxi" en_name="Weinan" />
+        <city province="Yunnan" city="" area_code="文山" cn_name="Yunnan" en_name="Wenshan" />
+        <city province="Zhejiang" city="" area_code="温州" cn_name="Zhejiang" en_name="Wenzhou" />
+        <city province="Nei Mongol" city="" area_code="吴川" cn_name="Nei Mongol" en_name="Wuchuan" />
+        <city province="Gansu" city="" area_code="武都" cn_name="Gansu" en_name="Wudu" />
+        <city province="Nei Mongol" city="" area_code="乌海" cn_name="Nei Mongol" en_name="Wuhai" />
+        <city province="Hubei" city="" area_code="武汉" cn_name="Hubei" en_name="Wuhan" />
+        <city province="Anhui" city="" area_code="芜湖" cn_name="Anhui" en_name="Wuhu" />
+        <city province="Nei Mongol" city="" area_code="乌兰浩特" cn_name="Nei Mongol" en_name="Wulanhaote" />
+        <city province="Gansu" city="" area_code="武威" cn_name="Gansu" en_name="Wuwei" />
+        <city province="Jiangsu" city="" area_code="无锡" cn_name="Jiangsu" en_name="Wuxi" />
+        <city province="Jiangsu" city="" area_code="吴县" cn_name="Jiangsu" en_name="Wuxian" />
+        <city province="Hubei" city="" area_code="武穴" cn_name="Hubei" en_name="Wuxue" />
+        <city province="Fujian" city="" area_code="武夷山" cn_name="Fujian" en_name="Wuyishan" />
+        <city province="Neimengu" city="" area_code="五原" cn_name="Neimengu" en_name="Wuyuan" />
+        <city province="Fujian" city="" area_code="厦门" cn_name="Fujian" en_name="Xiamen" />
+        <city province="Shaanxi" city="" area_code="西安" cn_name="Shaanxi" en_name="Xi'an" />
+        <city province="Hubei" city="" area_code="襄樊" cn_name="Hubei" en_name="Xiangfan" />
+        <city province="Hunan" city="" area_code="湘潭" cn_name="Hunan" en_name="Xiangtan" />
+        <city province="Zhejiang" city="" area_code="仙居" cn_name="Zhejiang" en_name="Xianju" />
+        <city province="Shaanxi" city="" area_code="咸阳" cn_name="Shaanxi" en_name="Xianyang" />
+        <city province="Sichuan" city="" area_code="西昌" cn_name="Sichuan" en_name="Xichang" />
+        <city province="Gansu" city="" area_code="西丰" cn_name="Gansu" en_name="Xi-feng" />
+        <city province="Guizhou" city="" area_code="息烽" cn_name="Guizhou" en_name="Xifeng" />
+        <city province="Jiangxi" city="" area_code="兴国" cn_name="Jiangxi" en_name="Xingguo" />
+        <city province="Guangdong" city="" area_code="新会" cn_name="Guangdong" en_name="Xinhui" />
+        <city province="Qinghai" city="" area_code="西宁" cn_name="Qinghai" en_name="Xining" />
+        <city province="Liaoning" city="" area_code="新民" cn_name="Liaoning" en_name="Xinmin" />
+        <city province="Hebei" city="" area_code="邢台" cn_name="Hebei" en_name="Xintai" />
+        <city province="Shandong" city="" area_code="新泰" cn_name="Shandong" en_name="Xin-tai" />
+        <city province="Henan" city="" area_code="新乡" cn_name="Henan" en_name="Xinxiang" />
+        <city province="Guizhou" city="" area_code="新义" cn_name="Guizhou" en_name="Xinyi" />
+        <city province="Jiangxi" city="" area_code="新余" cn_name="Jiangxi" en_name="Xinyu" />
+        <city province="Xinjiang" city="" area_code="信元" cn_name="Xinjiang" en_name="Xinyuan" />
+        <city province="Hebei" city="" area_code="宣化" cn_name="Hebei" en_name="Xuanhua" />
+        <city province="Henan" city="" area_code="许昌" cn_name="Henan" en_name="Xuchang" />
+        <city province="Nei Mongol" city="" area_code="薛家湾" cn_name="Nei Mongol" en_name="Xuejiawan" />
+        <city province="Jiangsu" city="" area_code="徐州" cn_name="Jiangsu" en_name="Xuzhou" />
+        <city province="Sichuan" city="" area_code="雅安" cn_name="Sichuan" en_name="Ya-an" />
+        <city province="Shaanxi" city="" area_code="延安" cn_name="Shaanxi" en_name="Yan-an" />
+        <city province="Jiangsu" city="" area_code="盐城" cn_name="Jiangsu" en_name="Yancheng" />
+        <city province="Hainan" city="" area_code="洋浦" cn_name="Hainan" en_name="Yangpu" />
+        <city province="Shanxi" city="" area_code="阳泉" cn_name="Shanxi" en_name="Yangquan" />
+        <city province="Jiangsu" city="" area_code="扬州" cn_name="Jiangsu" en_name="Yangzhou" />
+        <city province="Jilin" city="" area_code="延吉" cn_name="Jilin" en_name="Yanji" />
+        <city province="Henan" city="" area_code="延津" cn_name="Henan" en_name="Yanjin" />
+        <city province="Shandong" city="" area_code="烟台" cn_name="Shandong" en_name="Yantai" />
+        <city province="Sichuan" city="" area_code="宜宾" cn_name="Sichuan" en_name="Yibin" />
+        <city province="Heilongjiang" city="" area_code="伊春" cn_name="Heilongjiang" en_name="Yichun" />
+        <city province="Jiangxi" city="" area_code="宜春" cn_name="Jiangxi" en_name="Yi-chun" />
+        <city province="Nei Mongol" city="" area_code="益民" cn_name="Nei Mongol" en_name="Yimin" />
+        <city province="Ningxia" city="" area_code="银川" cn_name="Ningxia" en_name="Yinchuan" />
+        <city province="Liaoning" city="" area_code="营口" cn_name="Liaoning" en_name="Yingkou" />
+        <city province="Jiangxi" city="" area_code="英泰" cn_name="Jiangxi" en_name="Yingtan" />
+        <city province="Xinjiang" city="" area_code="伊宁" cn_name="Xinjiang" en_name="Yining" />
+        <city province="Shandong" city="" area_code="易水" cn_name="Shandong" en_name="Yishui" />
+        <city province="Zhejiang" city="" area_code="义乌" cn_name="Zhejiang" en_name="Yiwu" />
+        <city province="Jiangsu" city="" area_code="宜兴" cn_name="Jiangsu" en_name="Yixin" />
+        <city province="Hunan" city="" area_code="益阳" cn_name="Hunan" en_name="Yi-yang" />
+        <city province="Jiangxi" city="" area_code="亿阳" cn_name="Jiangxi" en_name="Yiyang" />
+        <city province="Sichuan" city="" area_code="永川" cn_name="Sichuan" en_name="Yongchuan" />
+        <city province="Guangxi" city="" area_code="永福" cn_name="Guangxi" en_name="Yongfu" />
+        <city province="Jiangxi" city="" area_code="永修" cn_name="Jiangxi" en_name="Yongxiu" />
+        <city province="Yunnan" city="" area_code="元谋" cn_name="Yunnan" en_name="Yuanmou" />
+        <city province="Hunan" city="" area_code="岳阳" cn_name="Hunan" en_name="Yueyang" />
+        <city province="Zhejiang" city="" area_code="余杭" cn_name="Zhejiang" en_name="Yuhang" />
+        <city province="Shaanxi" city="" area_code="榆林" cn_name="Shaanxi" en_name="Yulin" />
+        <city province="Gansu" city="" area_code="玉门" cn_name="Gansu" en_name="Yumen" />
+        <city province="Jilin" city="" area_code="榆树" cn_name="Jilin" en_name="Yu-shu" />
+        <city province="Qinghai" city="" area_code="玉树" cn_name="Qinghai" en_name="Yushu" />
+        <city province="Yunnan" city="" area_code="玉溪" cn_name="Yunnan" en_name="Yuxi" />
+        <city province="Zhejiang" city="" area_code="余姚" cn_name="Zhejiang" en_name="Yuyao" />
+        <city province="Gansu" city="" area_code="渝中" cn_name="Gansu" en_name="Yuzhong" />
+        <city province="Jiangsu" city="" area_code="张家港" cn_name="Jiangsu" en_name="Zhangjiagang" />
+        <city province="Hebei" city="" area_code="张家口" cn_name="Hebei" en_name="Zhangjiakou" />
+        <city province="Jiangxi" city="" area_code="樟树" cn_name="Jiangxi" en_name="Zhangshu" />
+        <city province="Fujian" city="" area_code="漳州" cn_name="Fujian" en_name="Zhangzhou" />
+        <city province="Guangdong" city="" area_code="湛江" cn_name="Guangdong" en_name="Zhanjiang" />
+        <city province="Henan" city="" area_code="郑州" cn_name="Henan" en_name="Zhengzhou" />
+        <city province="Jiangsu" city="" area_code="镇江" cn_name="Jiangsu" en_name="Zhenjiang" />
+        <city province="Hubei" city="" area_code="枝城" cn_name="Hubei" en_name="Zhicheng" />
+        <city province="Hunan" city="" area_code="芷江" cn_name="Hunan" en_name="Zhijiang" />
+        <city province="Guangdong" city="" area_code="中山" cn_name="Guangdong" en_name="Zhongshan" />
+        <city province="Guangdong" city="" area_code="珠海" cn_name="Guangdong" en_name="Zhuhai" />
+        <city province="Henan" city="" area_code="驻马店" cn_name="Henan" en_name="Zhumadian" />
+        <city province="Nei Mongol" city="" area_code="准格尔" cn_name="Nei Mongol" en_name="Zhunger" />
+        <city province="Hunan" city="" area_code="株洲" cn_name="Hunan" en_name="Zhuzhou" />
+        <city province="Shandong" city="" area_code="淄博" cn_name="Shandong" en_name="Zibo" />
+        <city province="Sichuan" city="" area_code="自贡" cn_name="Sichuan" en_name="Zigong" />
+        <city province="Hubei" city="" area_code="秭归" cn_name="Hubei" en_name="Zigui" />
+        <city province="Guangxi" city="" area_code="自远" cn_name="Guangxi" en_name="Ziyuan" />
+        <city province="Hebei" city="" area_code="遵化" cn_name="Hebei" en_name="Zunhua" />
+        <city province="Guizhou" city="" area_code="遵义" cn_name="Guizhou" en_name="Zunyi" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>中国移动China Mobile</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>135, 136, 137, 138, 139</prefix>
+      </op>
+      <op>
+        <op_name>中国联通China Unicom</op_name>
+        <wireless_type>GSM 900/CDMA</wireless_type>
+        <prefix>130, 131, 133</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

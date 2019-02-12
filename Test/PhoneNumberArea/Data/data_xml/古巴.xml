@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>古巴</cn_name>
+    <en_name>Cuba</en_name>
+    <national_code>53</national_code>
+    <mcc>368</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到古巴的A地电话顺序为“0053-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从古巴的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0053-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0053XXXXXXXX、53XXXXXXXX、053XXXXXXXX、00053XXXXXXXX；如果来电显示开头是00530、00531、00532、00533、00534、00535、00536、00537、00538、00539，一般也都表示国际区号是0053，后面一位是古巴内部的号码的开头第一位；如果是在古巴通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="CUBACEL" mncs="01" national_prefix="119" internal_prefix="0" desc="CUBACEL" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Empresa de Telecomunicaciones de Cuba, SA" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Abreus" city="" area_code="43" cn_name="" en_name="Abreus" />
+        <city province="Aguacate" city="" area_code="64" cn_name="" en_name="Aguacate" />
+        <city province="Aguada de Pasajeros" city="" area_code="43" cn_name="" en_name="Aguada de Pasajeros" />
+        <city province="Alquízar" city="" area_code="67" cn_name="" en_name="Alquízar" />
+        <city province="Alto Cedro" city="" area_code="24" cn_name="" en_name="Alto Cedro" />
+        <city province="Amancio" city="" area_code="31" cn_name="" en_name="Amancio" />
+        <city province="Antilla" city="" area_code="24" cn_name="" en_name="Antilla" />
+        <city province="Artemisa" city="" area_code="63" cn_name="" en_name="Artemisa" />
+        <city province="Baguanos" city="" area_code="24" cn_name="" en_name="Baguanos" />
+        <city province="Batabanó" city="" area_code="62" cn_name="" en_name="Batabanó" />
+        <city province="Bahia Honda" city="" area_code="86" cn_name="" en_name="Bahia Honda" />
+        <city province="Banes" city="" area_code="24" cn_name="" en_name="Banes" />
+        <city province="Baragua" city="" area_code="33" cn_name="" en_name="Baragua" />
+        <city province="Bartle" city="" area_code="31" cn_name="" en_name="Bartle" />
+        <city province="Bartolome Maso" city="" area_code="23" cn_name="" en_name="Bartolome Maso" />
+        <city province="Batalla de Las Guasimas" city="" area_code="32" cn_name="" en_name="Batalla de Las Guasimas" />
+        <city province="巴亚莫" city="" area_code="23" cn_name="巴亚莫" en_name="Bayamo" />
+        <city province="Bauta" city="" area_code="680" cn_name="" en_name="Bauta" />
+        <city province="Bejucal" city="" area_code="66" cn_name="" en_name="Bejucal" />
+        <city province="比兰" city="" area_code="24" cn_name="比兰" en_name="Biran" />
+        <city province="Boca de Jaruco" city="" area_code="6929" cn_name="" en_name="Boca de Jaruco" />
+        <city province="Bolivia" city="" area_code="33" cn_name="" en_name="Bolivia" />
+        <city province="Brasil" city="" area_code="32" cn_name="" en_name="Brasil" />
+        <city province="Buey Arriba" city="" area_code="23" cn_name="" en_name="Buey Arriba" />
+        <city province="Cabañas" city="" area_code="63" cn_name="" en_name="Cabañas" />
+        <city province="Cacocum" city="" area_code="24" cn_name="" en_name="Cacocum" />
+        <city province="Calimete" city="" area_code="5" cn_name="" en_name="Calimete" />
+        <city province="卡马圭" city="" area_code="32" cn_name="卡马圭" en_name="Camagüey" />
+        <city province="Camalote" city="" area_code="32" cn_name="" en_name="Camalote" />
+        <city province="Camarioca" city="" area_code="5" cn_name="" en_name="Camarioca" />
+        <city province="Caimito del Guayabal" city="" area_code="680" cn_name="" en_name="Caimito del Guayabal" />
+        <city province="Calixto Garcia" city="" area_code="24" cn_name="" en_name="Calixto Garcia" />
+        <city province="Camilo Cienfuegos" city="" area_code="692" cn_name="" en_name="Camilo Cienfuegos" />
+        <city province="Camino" city="" area_code="61" cn_name="" en_name="Camino" />
+        <city province="Campechuela" city="" area_code="23" cn_name="" en_name="Campechuela" />
+        <city province="Canasí" city="" area_code="6929" cn_name="" en_name="Canasí" />
+        <city province="Candelaria" city="" area_code="85" cn_name="" en_name="Candelaria" />
+        <city province="Candido Gonzalez" city="" area_code="32" cn_name="" en_name="Candido Gonzalez" />
+        <city province="Cárdenas" city="" area_code="45" cn_name="" en_name="Cárdenas" />
+        <city province="Cascorro" city="" area_code="32" cn_name="" en_name="Cascorro" />
+        <city province="Catalina de Güines" city="" area_code="62" cn_name="" en_name="Catalina de Güines" />
+        <city province="Cauto Cristo" city="" area_code="23" cn_name="" en_name="Cauto Cristo" />
+        <city province="Cayo Coco" city="" area_code="33" cn_name="" en_name="Cayo Coco" />
+        <city province="Cayo Largo del Sur" city="" area_code="5" cn_name="" en_name="Cayo Largo del Sur" />
+        <city province="Ceba Mocha" city="" area_code="5" cn_name="" en_name="Ceba Mocha" />
+        <city province="Ceballos" city="" area_code="33" cn_name="" en_name="Ceballos" />
+        <city province="Ceiba Nuevo" city="" area_code="680" cn_name="" en_name="Ceiba Nuevo" />
+        <city province="Cespedes" city="" area_code="32" cn_name="" en_name="Cespedes" />
+        <city province="Chambas" city="" area_code="33" cn_name="" en_name="Chambas" />
+        <city province="Chile" city="" area_code="22" cn_name="" en_name="Chile" />
+        <city province="Cidra" city="" area_code="5" cn_name="" en_name="Cidra" />
+        <city province="Ciro Redondo" city="" area_code="33" cn_name="" en_name="Ciro Redondo" />
+        <city province="谢戈德阿维拉" city="" area_code="33" cn_name="谢戈德阿维拉" en_name="Ciego de Ávila" />
+        <city province="Ciénaga de Zapata" city="" area_code="59" cn_name="" en_name="Ciénaga de Zapata" />
+        <city province="西恩富戈斯" city="" area_code="432" cn_name="西恩富戈斯" en_name="Cienfuegos" />
+        <city province="Colombia" city="" area_code="31" cn_name="" en_name="Colombia" />
+        <city province="Colón" city="" area_code="5" cn_name="" en_name="Colón" />
+        <city province="Communidad Pueblo Nuevo" city="" area_code="32" cn_name="" en_name="Communidad Pueblo Nuevo" />
+        <city province="Consolación del Sur" city="" area_code="8" cn_name="" en_name="Consolación del Sur" />
+        <city province="Contramaestre" city="" area_code="22" cn_name="" en_name="Contramaestre" />
+        <city province="Cortés" city="" area_code="84" cn_name="" en_name="Cortés" />
+        <city province="Cristino Naranjo" city="" area_code="24" cn_name="" en_name="Cristino Naranjo" />
+        <city province="Cueto" city="" area_code="24" cn_name="" en_name="Cueto" />
+        <city province="Delicias" city="" area_code="315" cn_name="" en_name="Delicias" />
+        <city province="Dos Caminos de San Luis" city="" area_code="22" cn_name="" en_name="Dos Caminos de San Luis" />
+        <city province="El Cobre" city="" area_code="22" cn_name="" en_name="El Cobre" />
+        <city province="El Cristo" city="" area_code="22" cn_name="" en_name="El Cristo" />
+        <city province="Enrique Varona" city="" area_code="33" cn_name="" en_name="Enrique Varona" />
+        <city province="Entronque de Herradura" city="" area_code="8" cn_name="" en_name="Entronque de Herradura" />
+        <city province="Esmeralda" city="" area_code="32" cn_name="" en_name="Esmeralda" />
+        <city province="Felton" city="" area_code="24" cn_name="" en_name="Felton" />
+        <city province="Florencia" city="" area_code="33" cn_name="" en_name="Florencia" />
+        <city province="Florida" city="" area_code="32" cn_name="" en_name="Florida" />
+        <city province="Floro Perez" city="" area_code="24" cn_name="" en_name="Floro Perez" />
+        <city province="Frank Pais" city="" area_code="24" cn_name="" en_name="Frank Pais" />
+        <city province="Gaspar" city="" area_code="33" cn_name="" en_name="Gaspar" />
+        <city province="Gibara" city="" area_code="24" cn_name="" en_name="Gibara" />
+        <city province="格拉玛" city="" area_code="23" cn_name="格拉玛" en_name="Gramma" />
+        <city province="Guaimaro" city="" area_code="32" cn_name="" en_name="Guaimaro" />
+        <city province="Guanajay" city="" area_code="686" cn_name="" en_name="Guanajay" />
+        <city province="Guane" city="" area_code="84" cn_name="" en_name="Guane" />
+        <city province="关塔那摩" city="" area_code="21" cn_name="关塔那摩" en_name="Guantánamo" />
+        <city province="Guardalavaca" city="" area_code="24" cn_name="" en_name="Guardalavaca" />
+        <city province="Guaro" city="" area_code="24" cn_name="" en_name="Guaro" />
+        <city province="Guatemala" city="" area_code="24" cn_name="" en_name="Guatemala" />
+        <city province="Guayabal" city="" area_code="31" cn_name="" en_name="Guayabal" />
+        <city province="Güines" city="" area_code="62" cn_name="" en_name="Güines" />
+        <city province="Güira de Melena" city="" area_code="67" cn_name="" en_name="Güira de Melena" />
+        <city province="Guisa" city="" area_code="23" cn_name="" en_name="Guisa" />
+        <city province="Guayacanas" city="" area_code="33" cn_name="" en_name="Guayacanas" />
+        <city province="Haiti" city="" area_code="32" cn_name="" en_name="Haiti" />
+        <city province="哈瓦那" city="" area_code="7" cn_name="哈瓦那" en_name="Havana" />
+        <city province="奥尔金" city="" area_code="24" cn_name="奥尔金" en_name="Holguín" />
+        <city province="Imias" city="" area_code="32" cn_name="" en_name="Imias" />
+        <city province="Isabel Rubio" city="" area_code="84" cn_name="" en_name="Isabel Rubio" />
+        <city province="Isla de la Juventud" city="" area_code="61" cn_name="" en_name="Isla de la Juventud" />
+        <city province="Jaruco" city="" area_code="64" cn_name="" en_name="Jaruco" />
+        <city province="Jagüey Grande" city="" area_code="59" cn_name="" en_name="Jagüey Grande" />
+        <city province="Jiguani" city="" area_code="23" cn_name="" en_name="Jiguani" />
+        <city province="Jimaguayu" city="" area_code="32" cn_name="" en_name="Jimaguayu" />
+        <city province="Jobabo" city="" area_code="31" cn_name="" en_name="Jobabo" />
+        <city province="Jovellanos" city="" area_code="5" cn_name="" en_name="Jovellanos" />
+        <city province="Jucaro" city="" area_code="33" cn_name="" en_name="Jucaro" />
+        <city province="Julio Antonio Mella" city="" area_code="225" cn_name="" en_name="Julio Antonio Mella" />
+        <city province="La Boca" city="" area_code="31" cn_name="" en_name="La Boca" />
+        <city province="La Coloma" city="" area_code="8" cn_name="" en_name="La Coloma" />
+        <city province="La Demajagua" city="" area_code="61" cn_name="" en_name="La Demajagua" />
+        <city province="La Fé" city="" area_code="61" cn_name="" en_name="La Fé" />
+        <city province="La Jagua" city="" area_code="32" cn_name="" en_name="La Jagua" />
+        <city province="La Palma" city="" area_code="8" cn_name="" en_name="La Palma" />
+        <city province="La Reforma" city="" area_code="61" cn_name="" en_name="La Reforma" />
+        <city province="La Victoria" city="" area_code="61" cn_name="" en_name="La Victoria" />
+        <city province="Las Martinas" city="" area_code="84" cn_name="" en_name="Las Martinas" />
+        <city province="Las Mercedes" city="" area_code="23" cn_name="" en_name="Las Mercedes" />
+        <city province="Las Ovas" city="" area_code="8" cn_name="" en_name="Las Ovas" />
+        <city province="Las Parras" city="" area_code="31" cn_name="" en_name="Las Parras" />
+        <city province="Lopez Peña" city="" area_code="85" cn_name="" en_name="Lopez Peña" />
+        <city province="La Salud" city="" area_code="66" cn_name="" en_name="La Salud" />
+        <city province="拉斯图纳斯" city="" area_code="31" cn_name="拉斯图纳斯" en_name="Las Tunas" />
+        <city province="Limonar" city="" area_code="5" cn_name="" en_name="Limonar" />
+        <city province="Los Angeles" city="" area_code="32" cn_name="" en_name="Los Angeles" />
+        <city province="Los Arabos" city="" area_code="5" cn_name="" en_name="Los Arabos" />
+        <city province="Los Palacios" city="" area_code="8" cn_name="" en_name="Los Palacios" />
+        <city province="Los Reynaldos" city="" area_code="22" cn_name="" en_name="Los Reynaldos" />
+        <city province="Lugareño" city="" area_code="32" cn_name="" en_name="Lugareño" />
+        <city province="Mabay" city="" area_code="23" cn_name="" en_name="Mabay" />
+        <city province="Maceo" city="" area_code="24" cn_name="" en_name="Maceo" />
+        <city province="Madruga" city="" area_code="64" cn_name="" en_name="Madruga" />
+        <city province="Majagua" city="" area_code="33" cn_name="" en_name="Majagua" />
+        <city province="Majibacoa" city="" area_code="31" cn_name="" en_name="Majibacoa" />
+        <city province="Manati" city="" area_code="31" cn_name="" en_name="Manati" />
+        <city province="Mangos de Baragua" city="" area_code="225" cn_name="" en_name="Mangos de Baragua" />
+        <city province="Mantua" city="" area_code="84" cn_name="" en_name="Mantua" />
+        <city province="曼萨尼罗" city="" area_code="23" cn_name="曼萨尼罗" en_name="Manzanillo" />
+        <city province="Marcane" city="" area_code="24" cn_name="" en_name="Marcane" />
+        <city province="Marea de Portillo" city="" area_code="23" cn_name="" en_name="Marea de Portillo" />
+        <city province="Mariel" city="" area_code="63" cn_name="" en_name="Mariel" />
+        <city province="Martí" city="" area_code="5" cn_name="" en_name="Martí" />
+        <city province="马坦萨斯" city="" area_code="52" cn_name="马坦萨斯" en_name="Matanzas" />
+        <city province="Maximo Gomez" city="" area_code="33" cn_name="" en_name="Maximo Gomez" />
+        <city province="Máximo Gomez" city="" area_code="5" cn_name="" en_name="Máximo Gomez" />
+        <city province="马亚里" city="" area_code="24" cn_name="马亚里" en_name="Mayari" />
+        <city province="Media Luna" city="" area_code="23" cn_name="" en_name="Media Luna" />
+        <city province="Melena del Sur" city="" area_code="62" cn_name="" en_name="Melena del Sur" />
+        <city province="Menendez" city="" area_code="31" cn_name="" en_name="Menendez" />
+        <city province="Minas" city="" area_code="32" cn_name="" en_name="Minas" />
+        <city province="Minas de Matahumbre" city="" area_code="8" cn_name="" en_name="Minas de Matahumbre" />
+        <city province="Mir" city="" area_code="24" cn_name="" en_name="Mir" />
+        <city province="Miraflores" city="" area_code="338" cn_name="" en_name="Miraflores" />
+        <city province="Moa" city="" area_code="24" cn_name="" en_name="Moa" />
+        <city province="Moron" city="" area_code="335" cn_name="" en_name="Moron" />
+        <city province="Najasa" city="" area_code="32" cn_name="" en_name="Najasa" />
+        <city province="Nicaragua" city="" area_code="32" cn_name="" en_name="Nicaragua" />
+        <city province="Nicaro-Levisa" city="" area_code="24" cn_name="" en_name="Nicaro-Levisa" />
+        <city province="Niquero" city="" area_code="23" cn_name="" en_name="Niquero" />
+        <city province="新赫罗纳" city="" area_code="61" cn_name="新赫罗纳" en_name="Nueva Gerona" />
+        <city province="Nueva Paz" city="" area_code="62" cn_name="" en_name="Nueva Paz" />
+        <city province="Neuvitas" city="" area_code="32" cn_name="" en_name="Neuvitas" />
+        <city province="Orlando Gonzalez" city="" area_code="33" cn_name="" en_name="Orlando Gonzalez" />
+        <city province="Omaja" city="" area_code="31" cn_name="" en_name="Omaja" />
+        <city province="Pablo de Torriente" city="" area_code="86" cn_name="" en_name="Pablo de Torriente" />
+        <city province="Palma Soriano" city="" area_code="225" cn_name="" en_name="Palma Soriano" />
+        <city province="Pedro Betancourt" city="" area_code="5" cn_name="" en_name="Pedro Betancourt" />
+        <city province="Peralejo" city="" area_code="23" cn_name="" en_name="Peralejo" />
+        <city province="Perico" city="" area_code="23" cn_name="" en_name="Perico" />
+        <city province="Pilon" city="" area_code="23" cn_name="" en_name="Pilon" />
+        <city province="比那尔德里奥" city="" area_code="82" cn_name="比那尔德里奥" en_name="Pinar del Río" />
+        <city province="Playa Baracoa" city="" area_code="680" cn_name="" en_name="Playa Baracoa" />
+        <city province="Playa Garón" city="" area_code="5" cn_name="" en_name="Playa Garón" />
+        <city province="Playa Santa Lucia" city="" area_code="32" cn_name="" en_name="Playa Santa Lucia" />
+        <city province="Primero de Enero" city="" area_code="33" cn_name="" en_name="Primero de Enero" />
+        <city province="Puerto Esperanza" city="" area_code="8" cn_name="" en_name="Puerto Esperanza" />
+        <city province="Puerto Marti" city="" area_code="31" cn_name="" en_name="Puerto Marti" />
+        <city province="Puerto Padre" city="" area_code="31" cn_name="" en_name="Puerto Padre" />
+        <city province="Quivicán" city="" area_code="67" cn_name="" en_name="Quivicán" />
+        <city province="Rafael Freyre" city="" area_code="24" cn_name="" en_name="Rafael Freyre" />
+        <city province="Rio Cauto" city="" area_code="23" cn_name="" en_name="Rio Cauto" />
+        <city province="Rodolfo Ramirez Esquivel" city="" area_code="32" cn_name="" en_name="Rodolfo Ramirez Esquivel" />
+        <city province="Ruta Invasora" city="" area_code="33" cn_name="" en_name="Ruta Invasora" />
+        <city province="Sábalo" city="" area_code="84" cn_name="" en_name="Sábalo" />
+        <city province="Sagua de Tanamo" city="" area_code="24" cn_name="" en_name="Sagua de Tanamo" />
+        <city province="San Andres" city="" area_code="24" cn_name="" en_name="San Andres" />
+        <city province="San Antonio" city="" area_code="32" cn_name="" en_name="San Antonio" />
+        <city province="San Antonio de Las Vegas" city="" area_code="64" cn_name="" en_name="San Antonio de Las Vegas" />
+        <city province="San Antonio de Los Baños" city="" area_code="650" cn_name="" en_name="San Antonio de Los Baños" />
+        <city province="San Cristóbal" city="" area_code="85" cn_name="" en_name="San Cristóbal" />
+        <city province="San Juan y Martínez" city="" area_code="8" cn_name="" en_name="San Juan y Martínez" />
+        <city province="San Jose de Las Lajas" city="" area_code="64" cn_name="" en_name="San Jose de Las Lajas" />
+        <city province="San Luis" city="" area_code="8" cn_name="" en_name="San Luis" />
+        <city province="San Nicolás de Bari" city="" area_code="62" cn_name="" en_name="San Nicolás de Bari" />
+        <city province="Sanguili" city="" area_code="33" cn_name="" en_name="Sanguili" />
+        <city province="Santa Cruz del Norte" city="" area_code="692" cn_name="" en_name="Santa Cruz del Norte" />
+        <city province="Santa Cruz del Sur" city="" area_code="32" cn_name="" en_name="Santa Cruz del Sur" />
+        <city province="圣斯皮里图斯" city="" area_code="41" cn_name="圣斯皮里图斯" en_name="Sancti Spiritus" />
+        <city province="古巴圣地亚哥" city="" area_code="226" cn_name="古巴圣地亚哥" en_name="Santiago de Cuba" />
+        <city province="Sibanicu" city="" area_code="32" cn_name="" en_name="Sibanicu" />
+        <city province="Siboney" city="" area_code="32" cn_name="" en_name="Siboney" />
+        <city province="Silvio Caro" city="" area_code="63" cn_name="" en_name="Silvio Caro" />
+        <city province="Sola" city="" area_code="32" cn_name="" en_name="Sola" />
+        <city province="Tacajo" city="" area_code="24" cn_name="" en_name="Tacajo" />
+        <city province="Tamarindo" city="" area_code="33" cn_name="" en_name="Tamarindo" />
+        <city province="Tapaste" city="" area_code="64" cn_name="" en_name="Tapaste" />
+        <city province="Unión de Reyes" city="" area_code="5" cn_name="" en_name="Unión de Reyes" />
+        <city province="Urbano Noris" city="" area_code="24" cn_name="" en_name="Urbano Noris" />
+        <city province="Varadero" city="" area_code="5" cn_name="" en_name="Varadero" />
+        <city province="Vasquez" city="" area_code="31" cn_name="" en_name="Vasquez" />
+        <city province="Velasco" city="" area_code="24" cn_name="" en_name="Velasco" />
+        <city province="Venezuela" city="" area_code="33" cn_name="" en_name="Venezuela" />
+        <city province="Vertientes" city="" area_code="32" cn_name="" en_name="Vertientes" />
+        <city province="比亚克拉拉" city="" area_code="42" cn_name="比亚克拉拉" en_name="Villa Clara" />
+        <city province="Viñales" city="" area_code="8" cn_name="" en_name="Viñales" />
+        <city province="Yado del Yeso" city="" area_code="23" cn_name="" en_name="Yado del Yeso" />
+        <city province="Yara" city="" area_code="23" cn_name="" en_name="Yara" />
+        <city province="Yarual" city="" area_code="338" cn_name="" en_name="Yarual" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

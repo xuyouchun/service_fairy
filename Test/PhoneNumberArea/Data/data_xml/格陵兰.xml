@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>格陵兰岛</cn_name>
+    <en_name>Greenland</en_name>
+    <national_code>299</national_code>
+    <mcc>290</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到格陵兰岛的A地电话顺序为“00299-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从格陵兰岛的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00299-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00299XXXXXXXX、299XXXXXXXX、0299XXXXXXXX、000299XXXXXXXX；如果来电显示开头是002990、002991、002992、002993、002994、002995、002996、002997、002998、002999，一般也都表示国际区号是00299，后面一位是格陵兰岛内部的号码的开头第一位；如果是在格陵兰岛通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="" mncs="01" national_prefix="00" internal_prefix="" desc="" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="TELE Greenland A/S" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿夕亚特" city="" area_code="89 XX XX" cn_name="阿夕亚特" en_name="Aasiaat" />
+        <city province="戈特霍布(努克)" city="" area_code="3X XX XX" cn_name="戈特霍布(努克)" en_name="Godthåb (Nuuk)" />
+        <city province="Illoqqortoormiut" city="" area_code="99 XX XX" cn_name="" en_name="Illoqqortoormiut" />
+        <city province="Ilulissat" city="" area_code="94 XX XX" cn_name="" en_name="Ilulissat" />
+        <city province="Ivittuut" city="" area_code="69 1X XX" cn_name="" en_name="Ivittuut" />
+        <city province="Kangaatsiaq" city="" area_code="87 XX XX" cn_name="" en_name="Kangaatsiaq" />
+        <city province="Kangerlussuaq" city="" area_code="84 XX XX" cn_name="" en_name="Kangerlussuaq" />
+        <city province="Maniitsoq" city="" area_code="81 XX XX" cn_name="" en_name="Maniitsoq" />
+        <city province="Nanortalik" city="" area_code="61 XX XX" cn_name="" en_name="Nanortalik" />
+        <city province="Narsaq" city="" area_code="66 XX XX" cn_name="" en_name="Narsaq" />
+        <city province="Paamiut" city="" area_code="68 XX XX" cn_name="" en_name="Paamiut" />
+        <city province="Qaanaaq" city="" area_code="97 XX XX" cn_name="" en_name="Qaanaaq" />
+        <city province="Qaqortoq" city="" area_code="64 XX XX" cn_name="" en_name="Qaqortoq" />
+        <city province="Qasigannguit" city="" area_code="91 XX XX" cn_name="" en_name="Qasigannguit" />
+        <city province="Qeqertasuaq" city="" area_code="92 XX XX" cn_name="" en_name="Qeqertasuaq" />
+        <city province="西西米乌" city="" area_code="86 XX XX" cn_name="西西米乌" en_name="Sisimiut" />
+        <city province="塔西拉克" city="" area_code="98 XX XX" cn_name="塔西拉克" en_name="Tasiilaq" />
+        <city province="乌佩纳维克" city="" area_code="96 XX XX" cn_name="乌佩纳维克" en_name="Upernavik" />
+        <city province="乌玛纳哥" city="" area_code="95 XX XX" cn_name="乌玛纳哥" en_name="Uummannaq" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

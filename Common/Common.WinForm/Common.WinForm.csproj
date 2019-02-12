@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{64265183-5883-4D4E-9ED8-7E996C2727E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common.WinForm</RootNamespace>
+    <AssemblyName>Common.WinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\..\Assembly\Externs\DevComponents\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\..\Assembly\Externs\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CollectionEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CollectionEditDialog.Designer.cs">
+      <DependentUpon>CollectionEditDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CollectionEditDialogContext.cs" />
+    <Compile Include="Docking\DockingWindows\ListViewDockingWindow.PageNavigation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docking\DockingWindows\MyListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DropdownSelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DropdownSelectDialog.Designer.cs">
+      <DependentUpon>DropdownSelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PathSelectDialog.cs" />
+    <Compile Include="ProgressWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressWindow.Designer.cs">
+      <DependentUpon>ProgressWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectAllCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SelectAllCheckBox.Designer.cs">
+      <DependentUpon>SelectAllCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectDialog.Designer.cs">
+      <DependentUpon>SelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docking\DockContentEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docking\DockContentEx.Designer.cs">
+      <DependentUpon>DockContentEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docking\DockingWindowLayout.cs" />
+    <Compile Include="Docking\DockingWindowManager.cs" />
+    <Compile Include="Docking\DockingWindowLayoutState.cs" />
+    <Compile Include="Docking\DockingWindows\ListViewDockingWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docking\DockingWindows\ListViewDockingWindow.Designer.cs">
+      <DependentUpon>ListViewDockingWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docking\DockingWindows\NavigationDockingWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docking\DockingWindows\NavigationDockingWindow.Designer.cs">
+      <DependentUpon>NavigationDockingWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docking\DockingWindows\TreeViewDockingWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docking\DockingWindows\TreeViewDockingWindow.Designer.cs">
+      <DependentUpon>TreeViewDockingWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docking\IDockContentOperation.cs" />
+    <Compile Include="IUIOperation.cs" />
+    <Compile Include="ListViewWindowManager.cs" />
+    <Compile Include="Docking\DockingWindows\OutputDockingWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docking\DockingWindows\OutputDockingWindow.Designer.cs">
+      <DependentUpon>OutputDockingWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docking\DockingWindows\PropertyDockingWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docking\DockingWindows\PropertyDockingWindow.Designer.cs">
+      <DependentUpon>PropertyDockingWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docking\IDockingWindowFactory.cs" />
+    <Compile Include="ErrorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorDialog.Designer.cs">
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputDialog.Designer.cs">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuStripCommandManager.cs" />
+    <Compile Include="ObjectViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProgressBarDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressBarDialog.Designer.cs">
+      <DependentUpon>ProgressBarDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IUIAction.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectPathButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ServiceObjectContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextViewDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextViewDialog.Designer.cs">
+      <DependentUpon>TextViewDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolStripMenuItemGroup.cs" />
+    <Compile Include="TreeViewUIActionManager.cs" />
+    <Compile Include="WinFormUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XDataGridView.Designer.cs">
+      <DependentUpon>XDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XDialog.Designer.cs">
+      <DependentUpon>XDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XForm.Designer.cs">
+      <DependentUpon>XForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XUserControl.Designer.cs">
+      <DependentUpon>XUserControl.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Package\Common.Package.csproj">
+      <Project>{5B657644-8038-44E7-895B-F6A82AD596EE}</Project>
+      <Name>Common.Package</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CollectionEditDialog.resx">
+      <DependentUpon>CollectionEditDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DropdownSelectDialog.resx">
+      <DependentUpon>DropdownSelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressWindow.resx">
+      <DependentUpon>ProgressWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectAllCheckBox.resx">
+      <DependentUpon>SelectAllCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectDialog.resx">
+      <DependentUpon>SelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docking\DockContentEx.resx">
+      <DependentUpon>DockContentEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docking\DockingWindows\ListViewDockingWindow.resx">
+      <DependentUpon>ListViewDockingWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docking\DockingWindows\NavigationDockingWindow.resx">
+      <DependentUpon>NavigationDockingWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docking\DockingWindows\OutputDockingWindow.resx">
+      <DependentUpon>OutputDockingWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docking\DockingWindows\PropertyDockingWindow.resx">
+      <DependentUpon>PropertyDockingWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docking\DockingWindows\TreeViewDockingWindow.resx">
+      <DependentUpon>TreeViewDockingWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorDialog.resx">
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputDialog.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBarDialog.resx">
+      <DependentUpon>ProgressBarDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectPathButton.resx">
+      <DependentUpon>SelectPathButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextViewDialog.resx">
+      <DependentUpon>TextViewDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XDialog.resx">
+      <DependentUpon>XDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XForm.resx">
+      <DependentUpon>XForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Docking\DockingWindows\ListViewDockingWindow.ListTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Docking\DockingWindows\ListViewDockingWindow.HistoryManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

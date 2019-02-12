@@ -1,0 +1,28 @@
+
+以下国家没有找到移动国家码MCC
+
+AC	阿森松(英)	ASCENSION
+IC	加那利群岛	CANARIES IS.
+DG	迪戈加西亚岛	DIEGO GARCIA I.
+FK	福克兰群岛（马尔维纳斯）	FALKLAND IS.
+RI	印度尼西亚	INDONESIA
+SH	圣赫勒拿	ST.HELENA
+TK	托克劳	TOKELAU IS.
+VI	维尔京群岛和圣罗克伊	VIRGIN IS. AND ST.CROIX I.
+UM	威克岛(美)	WAKE I.
+WF	瓦利斯和富图纳群岛	WALLIS AND FUTUNA IS.
+EH	西撒哈拉	WESTERN SAHARA
+
+
+
+以下国家的MCC重复
+AU	澳大利亚	505
+NF	诺福克岛	505
+
+GP	瓜德罗普	340
+MQ	马提尼克	340
+
+US	美国		310
+GU	关岛（美）	310
+
+

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>伊拉克</cn_name>
+    <en_name>Iraq</en_name>
+    <national_code>964</national_code>
+    <mcc>418</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到伊拉克的A地电话顺序为“00964-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从伊拉克的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00964-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00964XXXXXXXX、964XXXXXXXX、0964XXXXXXXX、000964XXXXXXXX；如果来电显示开头是009640、009641、009642、009643、009644、009645、009646、009647、009648、009649，一般也都表示国际区号是00964，后面一位是伊拉克内部的号码的开头第一位；如果是在伊拉克通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>الجمهورية العراقية</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Asia Cell" mncs="05" national_prefix="00" internal_prefix="0" desc="Asia Cell" />
+    <operation op_code="SanaTel" mncs="08" national_prefix="00" internal_prefix="0" desc="SanaTel" />
+    <operation op_code="Zain" mncs="20,30" national_prefix="00" internal_prefix="0" desc="Zain" />
+    <operation op_code="Korek" mncs="40" national_prefix="00" internal_prefix="0" desc="Korek" />
+    <operation op_code="Mobitel" mncs="45" national_prefix="00" internal_prefix="0" desc="Mobitel" />
+    <operation op_code="IRAQNA" mncs="?" national_prefix="00" internal_prefix="0" desc="IRAQNA" />
+    <operation op_code="Omnnea" mncs="92" national_prefix="00" internal_prefix="0" desc="Omnnea" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Asia Cell Telecommunications Company" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Zain Iraq" op_prefix="" />
+        <prefix op_code="Zain Iraq" op_prefix="" />
+        <prefix op_code="Korek Telecom Ltd" op_prefix="" />
+        <prefix op_code="Mobitel Co. Ltd." op_prefix="" />
+        <prefix op_code="Orascom Telecom Iraq Corporation" op_prefix="" />
+        <prefix op_code="Omnnea Wireless" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="巴格达" city="" area_code="1" cn_name="巴格达" en_name="Baghdad" />
+        <city province="巴士拉" city="" area_code="40" cn_name="巴士拉" en_name="Basra" />
+        <city province="卡尔巴拉" city="" area_code="32" cn_name="卡尔巴拉" en_name="Kerbela" />
+        <city province="基尔库克" city="" area_code="50" cn_name="基尔库克" en_name="Kirkuk" />
+        <city province="摩苏尔" city="" area_code="60" cn_name="摩苏尔" en_name="Mousil" />
+        <city province="纳杰夫" city="" area_code="33" cn_name="纳杰夫" en_name="Najaf" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

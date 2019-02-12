@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>黎巴嫩</cn_name>
+    <en_name>Lebanon</en_name>
+    <national_code>961</national_code>
+    <mcc>415</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到黎巴嫩的A地电话顺序为“00961-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从黎巴嫩的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00961-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00961XXXXXXXX、961XXXXXXXX、0961XXXXXXXX、000961XXXXXXXX；如果来电显示开头是009610、009611、009612、009613、009614、009615、009616、009617、009618、009619，一般也都表示国际区号是00961，后面一位是黎巴嫩内部的号码的开头第一位；如果是在黎巴嫩通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Alfa" mncs="01" national_prefix="00" internal_prefix="0" desc="Alfa" />
+    <operation op_code="mtc touch" mncs="03" national_prefix="00" internal_prefix="0" desc="mtc touch" />
+    <operation op_code="Ogero Mobile" mncs="05" national_prefix="00" internal_prefix="0" desc="Ogero Mobile" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="MIC 1" op_prefix="" />
+        <prefix op_code="MIC 2" op_prefix="" />
+        <prefix op_code="Ogero Telecom" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="山省" city="" area_code="4" cn_name="山省" en_name="Antelias" />
+        <city province="巴卜达" city="" area_code="5" cn_name="巴卜达" en_name="Baabda" />
+        <city province="贝鲁特" city="" area_code="1" cn_name="贝鲁特" en_name="Beirut" />
+        <city province="杰津" city="" area_code="7" cn_name="杰津" en_name="Jezine" />
+        <city province="朱尼耶" city="" area_code="9" cn_name="朱尼耶" en_name="Jounieh" />
+        <city province="赛达" city="" area_code="7" cn_name="赛达" en_name="Saida" />
+        <city province="的黎波里" city="" area_code="6" cn_name="的黎波里" en_name="Tripoli" />
+        <city province="扎赫勒" city="" area_code="8" cn_name="扎赫勒" en_name="Zahle" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Cellis</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>3</prefix>
+      </op>
+      <op>
+        <op_name>LibanCell</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>3</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>秘鲁</cn_name>
+    <en_name>Peru</en_name>
+    <national_code>51</national_code>
+    <mcc>716</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到秘鲁的A地电话顺序为“0051-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从秘鲁的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0051-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0051XXXXXXXX、51XXXXXXXX、051XXXXXXXX、00051XXXXXXXX；如果来电显示开头是00510、00511、00512、00513、00514、00515、00516、00517、00518、00519，一般也都表示国际区号是0051，后面一位是秘鲁内部的号码的开头第一位；如果是在秘鲁通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Movistar" mncs="06" national_prefix="00" internal_prefix="0" desc="Movistar" />
+    <operation op_code="NEXTEL" mncs="07" national_prefix="00" internal_prefix="0" desc="NEXTEL" />
+    <operation op_code="Claro" mncs="10" national_prefix="00" internal_prefix="0" desc="Claro" />
+  </operations>
+  <remarks>
+    <remark>手机前缀为9，2008年4月5日升级为9位号码</remark>
+  </remarks>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

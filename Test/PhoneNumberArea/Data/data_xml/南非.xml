@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>南非</cn_name>
+    <en_name>South Africa</en_name>
+    <national_code>27</national_code>
+    <mcc>655</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到南非的A地电话顺序为“0027-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从南非的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0027-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0027XXXXXXXX、27XXXXXXXX、027XXXXXXXX、00027XXXXXXXX；如果来电显示开头是00270、00271、00272、00273、00274、00275、00276、00277、00278、00279，一般也都表示国际区号是0027，后面一位是南非内部的号码的开头第一位；如果是在南非通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Vodacom" mncs="01" national_prefix="00" internal_prefix="0" desc="Vodacom" />
+    <operation op_code="Telkom Mobile / 8.ta" mncs="02" national_prefix="00" internal_prefix="0" desc="Telkom Mobile / 8.ta" />
+    <operation op_code="Sentech" mncs="06" national_prefix="00" internal_prefix="0" desc="Sentech" />
+    <operation op_code="Cell C" mncs="07" national_prefix="00" internal_prefix="0" desc="Cell C" />
+    <operation op_code="MTN" mncs="10" national_prefix="00" internal_prefix="0" desc="MTN" />
+    <operation op_code="" mncs="11,21,30,31,32,33" national_prefix="00" internal_prefix="0" desc="" />
+    <operation op_code="Neotel" mncs="13" national_prefix="00" internal_prefix="0" desc="Neotel" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Vodacom" op_prefix="" />
+        <prefix op_code="Telkom" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Cell C" op_prefix="" />
+        <prefix op_code="MTN Group" op_prefix="" />
+        <prefix op_code="South African Police Service Gauteng" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Cape Town Metropolitan Council" op_prefix="" />
+        <prefix op_code="Bokamoso Consortium" op_prefix="" />
+        <prefix op_code="Karabo Telecoms (Pty) Ltd." op_prefix="" />
+        <prefix op_code="Ilizwi Telecommunications" op_prefix="" />
+        <prefix op_code="Thinta Thinta Telecommunications" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="布隆方丹" city="" area_code="51" cn_name="布隆方丹" en_name="Bloemfontein" />
+        <city province="开普敦" city="" area_code="21" cn_name="开普敦" en_name="Cape Town" />
+        <city province="德阿尔" city="" area_code="571" cn_name="德阿尔" en_name="De Aar" />
+        <city province="德班" city="" area_code="31" cn_name="德班" en_name="Durban" />
+        <city province="东伦敦" city="" area_code="431" cn_name="东伦敦" en_name="East London" />
+        <city province="哥顿湾" city="" area_code="24" cn_name="哥顿湾" en_name="Gordons Bay" />
+        <city province="约翰内斯堡" city="" area_code="11" cn_name="约翰内斯堡" en_name="Johannesburg" />
+        <city province="约翰内斯堡CBD" city="" area_code="102,103" cn_name="约翰内斯堡CBD" en_name="Johannesburg CBD" />
+        <city province="露西亚" city="" area_code="31" cn_name="露西亚" en_name="La Lucia" />
+        <city province="彼德斯堡" city="" area_code="331" cn_name="彼德斯堡" en_name="Pietermaritzburg" />
+        <city province="伊丽莎白港" city="" area_code="41" cn_name="伊丽莎白港" en_name="Port Elizabeth" />
+        <city province="比勒陀利亚" city="" area_code="12" cn_name="比勒陀利亚" en_name="Pretoria" />
+        <city province="萨索尔堡" city="" area_code="16" cn_name="萨索尔堡" en_name="Sasolburg" />
+        <city province="斯特兰德" city="" area_code="21" cn_name="斯特兰德" en_name="Somerset West" />
+        <city province="埃滕哈赫" city="" area_code="41" cn_name="埃滕哈赫" en_name="Uitenhage" />
+        <city province="韦尔科姆" city="" area_code="57" cn_name="韦尔科姆" en_name="Welkom" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

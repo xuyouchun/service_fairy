@@ -1,0 +1,77 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Runtime.Serialization;
+
+namespace ServiceFairy.Entities.User
+{
+    /// <summary>
+    /// 获取所关注的用户的信息－请求
+    /// </summary>
+    [Serializable, DataContract]
+    public class User_GetFollowingInfos_Request : RequestEntity
+    {
+        /// <summary>
+        /// 用户，如果为空引用，则获取全部的关注用户的信息
+        /// </summary>
+        [DataMember]
+        public string Users { get; set; }
+
+        /// <summary>
+        /// 起始变化时间
+        /// </summary>
+        [DataMember]
+        public DateTime Since { get; set; }
+    }
+
+    /// <summary>
+    /// 获取所关注用户的信息－应答
+    /// </summary>
+    [Serializable, DataContract]
+    public class User_GetFollowingInfos_Reply : ReplyEntity
+    {
+        /// <summary>
+        /// 所关注用户的信息
+        /// </summary>
+        [DataMember]
+        public FollowingInfo[] Infos { get; set; }
+    }
+
+    /// <summary>
+    /// 关注用户信息
+    /// </summary>
+    [Serializable, DataContract]
+    public class FollowingInfo
+    {
+        /// <summary>
+        /// 用户名
+        /// </summary>
+        [DataMember]
+        public string UserName { get; set; }
+
+        /// <summary>
+        /// 姓氏
+        /// </summary>
+        [DataMember]
+        public string FirstName { get; set; }
+
+        /// <summary>
+        /// 名字
+        /// </summary>
+        [DataMember]
+        public string LastName { get; set; }
+
+        /// <summary>
+        /// 手机号
+        /// </summary>
+        [DataMember]
+        public string PhoneNumber { get; set; }
+
+        /// <summary>
+        /// 新用户名
+        /// </summary>
+        [DataMember]
+        public string NewUserName { get; set; }
+    }
+}

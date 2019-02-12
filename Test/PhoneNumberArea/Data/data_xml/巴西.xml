@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>巴西</cn_name>
+    <en_name>Brazil</en_name>
+    <national_code>55</national_code>
+    <mcc>724</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到巴西的A地电话顺序为“0055-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从巴西的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0055-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0055XXXXXXXX、55XXXXXXXX、055XXXXXXXX、00055XXXXXXXX；如果来电显示开头是00550、00551、00552、00553、00554、00555、00556、00557、00558、00559，一般也都表示国际区号是0055，后面一位是巴西内部的号码的开头第一位；如果是在巴西通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Brasil</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="TIM" mncs="02/03/04" national_prefix="" internal_prefix="" desc="TIM" />
+    <operation op_code="Claro BR" mncs="05" national_prefix="" internal_prefix="" desc="Claro BR" />
+    <operation op_code="Vivo" mncs="06/10/11/23" national_prefix="" internal_prefix="" desc="Vivo" />
+    <operation op_code="Sercomtel" mncs="07" national_prefix="" internal_prefix="" desc="Sercomtel" />
+    <operation op_code="Oi" mncs="31" national_prefix="" internal_prefix="" desc="Oi" />
+    <operation op_code="CTBC Celular" mncs="15/32/33/34" national_prefix="" internal_prefix="" desc="CTBC Celular" />
+    <operation op_code="Nextel" mncs="00,39" national_prefix="" internal_prefix="" desc="Nextel" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Telecom Italia Mobile" op_prefix="" />
+        <prefix op_code="Claro" op_prefix="" />
+        <prefix op_code="Vivo S.A." op_prefix="" />
+        <prefix op_code="Sercomtel Celular" op_prefix="" />
+        <prefix op_code="TNL PCS" op_prefix="" />
+        <prefix op_code="CTBC Celular S.A." op_prefix="" />
+        <prefix op_code="NII Holdings, Inc." op_prefix="" />
+        <prefix op_code="NII Holdings, Inc." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="贝伦" city="" area_code="91" cn_name="贝伦" en_name="Belém" />
+        <city province="贝洛奥里藏特" city="" area_code="31" cn_name="贝洛奥里藏特" en_name="Belo Horizonte" />
+        <city province="布鲁门瑙" city="" area_code="47" cn_name="布鲁门瑙" en_name="Blumenau" />
+        <city province="巴西利亚" city="" area_code="61" cn_name="巴西利亚" en_name="Brasília" />
+        <city province="坎皮纳斯" city="" area_code="19" cn_name="坎皮纳斯" en_name="Campinas" />
+        <city province="库里蒂巴" city="" area_code="41" cn_name="库里蒂巴" en_name="Curitiba" />
+        <city province="弗洛里亚诺波利斯" city="" area_code="48" cn_name="弗洛里亚诺波利斯" en_name="Florianópolis" />
+        <city province="福塔莱萨" city="" area_code="85" cn_name="福塔莱萨" en_name="Fortaleza" />
+        <city province="戈亚尼亚" city="" area_code="62" cn_name="戈亚尼亚" en_name="Goiania" />
+        <city province="马卡埃" city="" area_code="24" cn_name="马卡埃" en_name="Macáe" />
+        <city province="马瑙斯" city="" area_code="92" cn_name="马瑙斯" en_name="Manaus" />
+        <city province="尼泰罗伊" city="" area_code="21" cn_name="尼泰罗伊" en_name="Niteroi" />
+        <city province="阿雷格里港" city="" area_code="51" cn_name="阿雷格里港" en_name="Porto Alegre" />
+        <city province="累西腓" city="" area_code="81" cn_name="累西腓" en_name="Recife" />
+        <city province="罗赖马" city="" area_code="95" cn_name="罗赖马" en_name="Roraima" />
+        <city province="里约热内卢" city="" area_code="21" cn_name="里约热内卢" en_name="Rio de Janeiro" />
+        <city province="萨尔瓦多" city="" area_code="71" cn_name="萨尔瓦多" en_name="Salvador" />
+        <city province="圣安德雷" city="" area_code="11" cn_name="圣安德雷" en_name="Santo Andre" />
+        <city province="桑托斯" city="" area_code="13" cn_name="桑托斯" en_name="Santos" />
+        <city province="圣若泽杜斯坎普斯" city="" area_code="12" cn_name="圣若泽杜斯坎普斯" en_name="São José dos Campos" />
+        <city province="圣保罗" city="" area_code="11" cn_name="圣保罗" en_name="São Paulo" />
+        <city province="维多利亚" city="" area_code="27" cn_name="维多利亚" en_name="Vitória" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

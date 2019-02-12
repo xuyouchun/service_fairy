@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>帕劳</cn_name>
+    <en_name>Palau</en_name>
+    <national_code>680</national_code>
+    <mcc>552</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到帕劳的A地电话顺序为“00680-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从帕劳的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00680-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00680XXXXXXXX、680XXXXXXXX、0680XXXXXXXX、000680XXXXXXXX；如果来电显示开头是006800、006801、006802、006803、006804、006805、006806、006807、006808、006809，一般也都表示国际区号是00680，后面一位是帕劳内部的号码的开头第一位；如果是在帕劳通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>帕劳(美)</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="PNCC" mncs="01" national_prefix="011" internal_prefix="" desc="PNCC" />
+    <operation op_code="Palau Mobile" mncs="80" national_prefix="011" internal_prefix="" desc="Palau Mobile" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Palau National Communications Corp." op_prefix="" />
+        <prefix op_code="Palau Mobile Corporation" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

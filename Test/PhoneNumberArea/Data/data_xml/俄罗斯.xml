@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>俄罗斯</cn_name>
+    <en_name>Russia</en_name>
+    <national_code>7</national_code>
+    <mcc>250</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到俄罗斯的A地电话顺序为“007-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从俄罗斯的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“007-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：007XXXXXXXX、7XXXXXXXX、07XXXXXXXX、0007XXXXXXXX；如果来电显示开头是0070、0071、0072、0073、0074、0075、0076、0077、0078、0079，一般也都表示国际区号是007，后面一位是俄罗斯内部的号码的开头第一位；如果是在俄罗斯通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>俄罗斯联邦</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="MTS" mncs="01" national_prefix="8" internal_prefix="8" desc="MTS" />
+    <operation op_code="MegaFon" mncs="02" national_prefix="8" internal_prefix="8" desc="MegaFon" />
+    <operation op_code="NCC" mncs="03" national_prefix="8" internal_prefix="8" desc="NCC" />
+    <operation op_code="Sibchallenge" mncs="04" national_prefix="8" internal_prefix="8" desc="Sibchallenge" />
+    <operation op_code="ETK" mncs="05" national_prefix="8" internal_prefix="8" desc="ETK" />
+    <operation op_code="Skylink [10]" mncs="06" national_prefix="8" internal_prefix="8" desc="Skylink [10]" />
+    <operation op_code="SMARTS" mncs="07,15" national_prefix="8" internal_prefix="8" desc="SMARTS" />
+    <operation op_code="Skylink" mncs="09" national_prefix="8" internal_prefix="8" desc="Skylink" />
+    <operation op_code="DTC" mncs="10" national_prefix="8" internal_prefix="8" desc="DTC" />
+    <operation op_code="" mncs="11,44,92,93" national_prefix="8" internal_prefix="8" desc="" />
+    <operation op_code="Baykalwestcom" mncs="12" national_prefix="8" internal_prefix="8" desc="Baykalwestcom" />
+    <operation op_code="Akos" mncs="12" national_prefix="8" internal_prefix="8" desc="Akos" />
+    <operation op_code="KUGSM" mncs="13" national_prefix="8" internal_prefix="8" desc="KUGSM" />
+    <operation op_code="NTC" mncs="16" national_prefix="8" internal_prefix="8" desc="NTC" />
+    <operation op_code="Utel" mncs="17,39" national_prefix="8" internal_prefix="8" desc="Utel" />
+    <operation op_code="INDIGO" mncs="19" national_prefix="8" internal_prefix="8" desc="INDIGO" />
+    <operation op_code="Tele2" mncs="20" national_prefix="8" internal_prefix="8" desc="Tele2" />
+    <operation op_code="Mobicom - Novosibirsk" mncs="23" national_prefix="8" internal_prefix="8" desc="Mobicom - Novosibirsk" />
+    <operation op_code="Beeline" mncs="28,99" national_prefix="8" internal_prefix="8" desc="Beeline" />
+    <operation op_code="MOTIV" mncs="35" national_prefix="8" internal_prefix="8" desc="MOTIV" />
+    <operation op_code="Tambov GSM" mncs="38" national_prefix="8" internal_prefix="8" desc="Tambov GSM" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Mobile TeleSystems" op_prefix="" />
+        <prefix op_code="MegaFon OJSC" op_prefix="" />
+        <prefix op_code="Nizhegorodskaya Cellular Communications" op_prefix="" />
+        <prefix op_code="Sibchallenge" op_prefix="" />
+        <prefix op_code="Yeniseytelecom" op_prefix="" />
+        <prefix op_code="CJSC Saratov System of Cellular Communications" op_prefix="" />
+        <prefix op_code="Zao SMARTS" op_prefix="" />
+        <prefix op_code="Khabarovsky Cellular Phone" op_prefix="" />
+        <prefix op_code="Dontelekom" op_prefix="" />
+        <prefix op_code="Orensot" op_prefix="" />
+        <prefix op_code="Baykal Westcom / New Telephone Company / Far Eastern Cellular" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Kuban GSM" op_prefix="" />
+        <prefix op_code="SMARTS Ufa, SMARTS Uljanovsk" op_prefix="" />
+        <prefix op_code="New Telephone Company" op_prefix="" />
+        <prefix op_code="JSC Uralsvyazinform" op_prefix="" />
+        <prefix op_code="INDIGO" op_prefix="" />
+        <prefix op_code="Tele2" op_prefix="" />
+        <prefix op_code="Mobicom - Novosibirsk" op_prefix="" />
+        <prefix op_code="Beeline" op_prefix="" />
+        <prefix op_code="MOTIV" op_prefix="" />
+        <prefix op_code="Central Telecommunication Company" op_prefix="" />
+        <prefix op_code="Uralsvyazinform" op_prefix="" />
+        <prefix op_code="Stavtelesot / North Caucasian GSM" op_prefix="" />
+        <prefix op_code="Primtelefon" op_prefix="" />
+        <prefix op_code="Telecom XXI" op_prefix="" />
+        <prefix op_code="OJSC Vimpel-Communications" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="别尔哥罗德" city="" area_code="472" cn_name="别尔哥罗德" en_name="Belgorod" />
+        <city province="布良斯克" city="" area_code="483" cn_name="布良斯克" en_name="Bryansk" />
+        <city province="弗拉基米尔" city="" area_code="492" cn_name="弗拉基米尔" en_name="Vladimir" />
+        <city province="沃罗涅什" city="" area_code="473" cn_name="沃罗涅什" en_name="Voronezh" />
+        <city province="伊万诺沃" city="" area_code="493" cn_name="伊万诺沃" en_name="Ivanovo" />
+        <city province="加里宁格勒" city="" area_code="401" cn_name="加里宁格勒" en_name="Kaliningrad" />
+        <city province="卡卢加" city="" area_code="484" cn_name="卡卢加" en_name="Kaluga" />
+        <city province="科斯特罗马" city="" area_code="494" cn_name="科斯特罗马" en_name="Kostroma" />
+        <city province="库尔斯克" city="" area_code="471" cn_name="库尔斯克" en_name="Kursk" />
+        <city province="利佩茨克" city="" area_code="474" cn_name="利佩茨克" en_name="Lipetsk" />
+        <city province="莫斯科" city="" area_code="495" cn_name="莫斯科" en_name="Moscow (municipal)" />
+        <city province="莫斯科地区" city="" area_code="496" cn_name="莫斯科地区" en_name="Moscow (regional)" />
+        <city province="奥廖尔" city="" area_code="486" cn_name="奥廖尔" en_name="Oryol" />
+        <city province="梁赞" city="" area_code="491" cn_name="梁赞" en_name="Ryazan" />
+        <city province="斯摩棱斯克" city="" area_code="481" cn_name="斯摩棱斯克" en_name="Smolensk" />
+        <city province="坦波夫" city="" area_code="475" cn_name="坦波夫" en_name="Tambov" />
+        <city province="特维尔" city="" area_code="482" cn_name="特维尔" en_name="Tver" />
+        <city province="图拉" city="" area_code="487" cn_name="图拉" en_name="Tula" />
+        <city province="雅罗斯拉夫尔" city="" area_code="485" cn_name="雅罗斯拉夫尔" en_name="Yaroslavl" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>科摩罗</cn_name>
+    <en_name>Comoros</en_name>
+    <national_code>269</national_code>
+    <mcc>654</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到科摩罗的A地电话顺序为“00269-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从科摩罗的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00269-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00269XXXXXXXX、269XXXXXXXX、0269XXXXXXXX、000269XXXXXXXX；如果来电显示开头是002690、002691、002692、002693、002694、002695、002696、002697、002698、002699，一般也都表示国际区号是00269，后面一位是科摩罗内部的号码的开头第一位；如果是在科摩罗通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>科摩罗群岛</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="" mncs="01" national_prefix="00" internal_prefix="" desc="" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="HURI - SNPT" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="多莫尼" city="" area_code="71 9X XX" cn_name="多莫尼" en_name="Domoni" />
+        <city province="穆察穆杜" city="" area_code="71 0X XX to 71 6X  XX" cn_name="穆察穆杜" en_name="Mutsamudu" />
+        <city province="司马" city="" area_code="71 8X XX" cn_name="司马" en_name="Sima" />
+        <city province="丰博尼" city="" area_code="72 0X XX to 72 5X  XX" cn_name="丰博尼" en_name="Fomboni" />
+        <city province="尼勿玛筹阿" city="" area_code="72 6X XX" cn_name="尼勿玛筹阿" en_name="Nioumachoua" />
+        <city province="瓦纳尼" city="" area_code="72 8X XX" cn_name="瓦纳尼" en_name="Wanani" />
+        <city province="丰博尼和岛南部" city="" area_code="79 XX XX" cn_name="丰博尼和岛南部" en_name="Foumbouni and South of Island" />
+        <city province="Mbéni和岛东部" city="" area_code="77 XX XX" cn_name="Mbéni和岛东部" en_name="Mbéni and East of Island" />
+        <city province="密察妙利和岛北部" city="" area_code="78 XX XX" cn_name="密察妙利和岛北部" en_name="Mitsamiouli and North of Island" />
+        <city province="莫罗尼和岛中部" city="" area_code="73 XX XX 和 74 XX XX" cn_name="莫罗尼和岛中部" en_name="Moroni and Centre of Island" />
+        <city province="互联网和特别号码" city="" area_code="76 XX XX" cn_name="互联网和特别号码" en_name="Internet and special numbers" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

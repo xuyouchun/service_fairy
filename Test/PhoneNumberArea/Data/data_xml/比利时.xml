@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>比利时</cn_name>
+    <en_name>Belgium</en_name>
+    <national_code>32</national_code>
+    <mcc>206</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到比利时的A地电话顺序为“0032-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从比利时的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0032-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0032XXXXXXXX、32XXXXXXXX、032XXXXXXXX、00032XXXXXXXX；如果来电显示开头是00320、00321、00322、00323、00324、00325、00326、00327、00328、00329，一般也都表示国际区号是0032，后面一位是比利时内部的号码的开头第一位；如果是在比利时通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>België</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Proximus" mncs="01" national_prefix="00" internal_prefix="0" desc="Proximus" />
+    <operation op_code="Telenet" mncs="05" national_prefix="00" internal_prefix="0" desc="Telenet" />
+    <operation op_code="Mobistar" mncs="10" national_prefix="00" internal_prefix="0" desc="Mobistar" />
+    <operation op_code="BASE" mncs="20" national_prefix="00" internal_prefix="0" desc="BASE" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Belgacom Mobile" op_prefix="" />
+        <prefix op_code="Telenet" op_prefix="" />
+        <prefix op_code="France Telecom" op_prefix="" />
+        <prefix op_code="KPN" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿尔斯特" city="" area_code="53" cn_name="阿尔斯特" en_name="Aalst (Alost)" />
+        <city province="安特卫普" city="" area_code="3" cn_name="安特卫普" en_name="Antwerpen (Anvers) &quot;Antwerp&quot;" />
+        <city province="阿尔隆" city="" area_code="63" cn_name="阿尔隆" en_name="Arlon" />
+        <city province="阿特" city="" area_code="67" cn_name="阿特" en_name="Ath" />
+        <city province="布鲁日" city="" area_code="50" cn_name="布鲁日" en_name="Brugge (Bruges)" />
+        <city province="布鲁塞尔" city="" area_code="2" cn_name="布鲁塞尔" en_name="Brussel/Bruxelles &quot;Brussels&quot;" />
+        <city province="查雷洛依" city="" area_code="71" cn_name="查雷洛依" en_name="Charleroi" />
+        <city province="希迈" city="" area_code="60" cn_name="希迈" en_name="Chimay" />
+        <city province="锡奈" city="" area_code="83" cn_name="锡奈" en_name="Ciney" />
+        <city province="登德尔蒙德" city="" area_code="52" cn_name="登德尔蒙德" en_name="Dendermonde" />
+        <city province="迪斯特" city="" area_code="13" cn_name="迪斯特" en_name="Diest" />
+        <city province="迪南" city="" area_code="82" cn_name="迪南" en_name="Dinant" />
+        <city province="迪尔比伊" city="" area_code="86" cn_name="迪尔比伊" en_name="Durbuy" />
+        <city province="亨克" city="" area_code="89" cn_name="亨克" en_name="Genk" />
+        <city province="根特" city="" area_code="9" cn_name="根特" en_name="Gent (Gand) &quot;Ghent&quot;" />
+        <city province="哈瑟尔特" city="" area_code="11" cn_name="哈瑟尔特" en_name="Hasselt" />
+        <city province="赫伦塔尔斯" city="" area_code="14" cn_name="赫伦塔尔斯" en_name="Herentals" />
+        <city province="于伊" city="" area_code="85" cn_name="于伊" en_name="Huy (Hoei)" />
+        <city province="伊珀尔" city="" area_code="57" cn_name="伊珀尔" en_name="Ieper" />
+        <city province="科特赖克" city="" area_code="56" cn_name="科特赖克" en_name="Kortrijk (Courtrai)" />
+        <city province="拉卢维耶尔" city="" area_code="64" cn_name="拉卢维耶尔" en_name="La Louvière" />
+        <city province="勒芬" city="" area_code="16" cn_name="勒芬" en_name="Leuven (Louvain)" />
+        <city province="拉卢维耶尔" city="" area_code="61" cn_name="拉卢维耶尔" en_name="Libramont" />
+        <city province="列日" city="" area_code="4" cn_name="列日" en_name="Liège (Luik)" />
+        <city province="梅赫伦" city="" area_code="15" cn_name="梅赫伦" en_name="Mechelen (Malines)" />
+        <city province="蒙斯" city="" area_code="65" cn_name="蒙斯" en_name="Mons (Bergen)" />
+        <city province="那慕尔" city="" area_code="81" cn_name="那慕尔" en_name="Namur (Namen)" />
+        <city province="尼尔波特(新港)" city="" area_code="58" cn_name="尼尔波特(新港)" en_name="Nieuwpoort (Nieuport)" />
+        <city province="尼诺弗" city="" area_code="54" cn_name="尼诺弗" en_name="Ninove" />
+        <city province="尼韦勒" city="" area_code="67" cn_name="尼韦勒" en_name="Nivelles (Nijvel)" />
+        <city province="奥斯坦德" city="" area_code="59" cn_name="奥斯坦德" en_name="Oostende (Ostende) &quot;Ostend&quot;" />
+        <city province="鲁瑟拉勒" city="" area_code="51" cn_name="鲁瑟拉勒" en_name="Roeselare (Roulers)" />
+        <city province="龙瑟" city="" area_code="55" cn_name="龙瑟" en_name="Ronse" />
+        <city province="斯塔沃格" city="" area_code="80" cn_name="斯塔沃格" en_name="Stavelot" />
+        <city province="通厄伦" city="" area_code="12" cn_name="通厄伦" en_name="Tongeren (Tongres)" />
+        <city province="图尔奈" city="" area_code="69" cn_name="图尔奈" en_name="Tounai" />
+        <city province="蒂伦豪特" city="" area_code="14" cn_name="蒂伦豪特" en_name="Turnhout" />
+        <city province="韦尔维耶" city="" area_code="87" cn_name="韦尔维耶" en_name="Verviers" />
+        <city province="弗尔讷" city="" area_code="58" cn_name="弗尔讷" en_name="Veurne" />
+        <city province="瓦雷姆" city="" area_code="19" cn_name="瓦雷姆" en_name="Wareme" />
+        <city province="瓦雷" city="" area_code="10" cn_name="瓦雷" en_name="Wavre (Waver)" />
+        <city province="泽布鲁日" city="" area_code="50" cn_name="泽布鲁日" en_name="Zeebrugge" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Mobistar</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>495, 496, 497</prefix>
+      </op>
+      <op>
+        <op_name>Base</op_name>
+        <wireless_type>GSM 1800</wireless_type>
+        <prefix>485, 486</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

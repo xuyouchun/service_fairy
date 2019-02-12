@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DE2353F5-D22D-4B09-ADA6-09A7CA757ED1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common.Communication</RootNamespace>
+    <AssemblyName>Common.Communication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Assembly\Externs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Channels" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Wcf\Bindings\SocketTransport\AsyncResultBase.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\MessageAnalyzeQueue.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\MessageBufferAnalyzeQueue.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\SocketDuplexSessionChannel.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\SocketMessageBufferAnalyzeQueue.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\SocketReplyChannel.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\SocketRequestChannel.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\SocketRequestContext.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\SocketTransportSettings.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\SocketTransportUtility.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\SocketHelper.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\SocketChannelListener.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\SocketChannelFactory.cs" />
+    <Compile Include="Wcf\Common\ICommunicationObjectEx.cs" />
+    <Compile Include="Wcf\Strategies\WcfConnectionStrategies\SocketWcfCommunicationStrategy.cs" />
+    <Compile Include="Wcf\Strategies\WcfConnectionStrategies\SocketWcfConnection.cs" />
+    <Compile Include="Wcf\Behaviors\CallContextInitializer.cs" />
+    <Compile Include="Wcf\Behaviors\MessageFormatter.cs" />
+    <Compile Include="Wcf\Behaviors\MessageInspector.cs" />
+    <Compile Include="Wcf\Behaviors\OperationBehavior.cs" />
+    <Compile Include="Wcf\Behaviors\OperationInvoker.cs" />
+    <Compile Include="Wcf\Behaviors\ParameterInspector.cs" />
+    <Compile Include="Wcf\Bindings\CommonMessageEncoder.cs" />
+    <Compile Include="Wcf\Bindings\CommonMessageEncoderFactory.cs" />
+    <Compile Include="Wcf\Bindings\CommonMessageEncodingBindingElement.cs" />
+    <Compile Include="Wcf\Behaviors\EndpointBehavior.cs" />
+    <Compile Include="Wcf\Common\ChannelAdapterBase.cs" />
+    <Compile Include="Wcf\Common\ChannelFactoryAdapterBase.cs" />
+    <Compile Include="Wcf\Common\ChannelListenerAdapterBase.cs" />
+    <Compile Include="Wcf\Common\CommunicationObjectAdapterBase.cs" />
+    <Compile Include="Wcf\SessionStateManager.cs" />
+    <Compile Include="Wcf\Encoders\BinaryWcfMessageEncoder.cs" />
+    <Compile Include="Wcf\Encoders\EncoderFactory.cs" />
+    <Compile Include="Wcf\Encoders\EncoderSettings.cs" />
+    <Compile Include="Wcf\Encoders\EncoderUtility.cs" />
+    <Compile Include="Wcf\Strategies\WcfConnectionStrategies\HttpWcfMessageEncoderStrategy.cs" />
+    <Compile Include="Wcf\Encoders\IWcfMessageEncoder.cs" />
+    <Compile Include="Wcf\Encoders\IWcfMessageEncoderStrategy.cs" />
+    <Compile Include="Wcf\Encoders\JsonWcfMessageEncoder.cs" />
+    <Compile Include="Wcf\Encoders\JsonWcfMessageEncoderHelper.cs" />
+    <Compile Include="Wcf\Encoders\WcfMessageEncoderBase.cs" />
+    <Compile Include="Wcf\Encoders\XmlWcfMessageEncoder.cs" />
+    <Compile Include="Wcf\Service\EntityMessageHeader.cs" />
+    <Compile Include="Wcf\Service\StreamEntityMessage.cs" />
+    <Compile Include="Wcf\Strategies\WcfConnectionStrategies\HttpWcfConnection.cs" />
+    <Compile Include="Wcf\Strategies\WcfConnectionStrategies\SocketWcfMessageEncoderStrategy.cs" />
+    <Compile Include="Wcf\Strategies\WcfConnectionStrategies\TcpWcfCommunicationStrategy.cs" />
+    <Compile Include="Wcf\Strategies\WcfConnectionStrategies\TcpWcfConnection.cs" />
+    <Compile Include="Wcf\Bindings\SocketTransport\SocketTransportBindingElement.cs" />
+    <Compile Include="Wcf\Strategies\WcfConnectionStrategies\WcfConnectionBase.cs" />
+    <Compile Include="Wcf\InitiativeWcfConnection.cs" />
+    <Compile Include="Wcf\Service\EntityMessage.cs" />
+    <Compile Include="Wcf\Strategies\IWcfCommunicationStrategy.cs" />
+    <Compile Include="Wcf\Strategies\WcfConnectionStrategies\HttpWcfCommunicationStrategy.cs" />
+    <Compile Include="Wcf\Strategies\WcfConnectionStrategies\WcfCommunicationStrategyBase.cs" />
+    <Compile Include="Wcf\Strategies\WcfFactory.cs" />
+    <Compile Include="Wcf\Service\IDuplexWcfServiceInterface.cs" />
+    <Compile Include="Wcf\Service\IWcfServiceInterface.cs" />
+    <Compile Include="Wcf\Service\WcfServiceImplement.cs" />
+    <Compile Include="Wcf\SocketConnection.cs" />
+    <Compile Include="Wcf\WcfConnection.cs" />
+    <Compile Include="Wcf\WcfListener.cs" />
+    <Compile Include="Wcf\WcfRequestActions.cs" />
+    <Compile Include="Wcf\WcfService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Wcf\WcfSettings.cs" />
+    <Compile Include="Wcf\WcfStream.cs" />
+    <Compile Include="Wcf\WcfUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Package\Common.Package.csproj">
+      <Project>{5B657644-8038-44E7-895B-F6A82AD596EE}</Project>
+      <Name>Common.Package</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>科威特</cn_name>
+    <en_name>Kuwait</en_name>
+    <national_code>965</national_code>
+    <mcc>419</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到科威特的A地电话顺序为“00965-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从科威特的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00965-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00965XXXXXXXX、965XXXXXXXX、0965XXXXXXXX、000965XXXXXXXX；如果来电显示开头是009650、009651、009652、009653、009654、009655、009656、009657、009658、009659，一般也都表示国际区号是00965，后面一位是科威特内部的号码的开头第一位；如果是在科威特通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="zain KW" mncs="02" national_prefix="00" internal_prefix="0" desc="zain KW" />
+    <operation op_code="Wataniya" mncs="03" national_prefix="00" internal_prefix="0" desc="Wataniya" />
+    <operation op_code="Viva" mncs="04" national_prefix="00" internal_prefix="0" desc="Viva" />
+  </operations>
+  <remarks>
+    <remark>不需要城市区号</remark>
+    <remark>所有号码都为8位数字（除了800电话是7位数字），固定电话以数字2开头</remark>
+  </remarks>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

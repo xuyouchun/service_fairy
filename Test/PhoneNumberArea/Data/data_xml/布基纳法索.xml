@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>布基纳法索</cn_name>
+    <en_name>Burkina Faso</en_name>
+    <national_code>226</national_code>
+    <mcc>613</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到布基纳法索的A地电话顺序为“00226-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从布基纳法索的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00226-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00226XXXXXXXX、226XXXXXXXX、0226XXXXXXXX、000226XXXXXXXX；如果来电显示开头是002260、002261、002262、002263、002264、002265、002266、002267、002268、002269，一般也都表示国际区号是00226，后面一位是布基纳法索内部的号码的开头第一位；如果是在布基纳法索通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Telmob" mncs="01" national_prefix="00" internal_prefix="" desc="Telmob" />
+    <operation op_code="Zain" mncs="02" national_prefix="00" internal_prefix="" desc="Zain" />
+    <operation op_code="Telecel Faso" mncs="03" national_prefix="00" internal_prefix="" desc="Telecel Faso" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Onatal" op_prefix="" />
+        <prefix op_code="Celtel Burkina Faso" op_prefix="" />
+        <prefix op_code="Telecel Faso SA" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="邦福拉" city="" area_code="88XXXX" cn_name="邦福拉" en_name="Banfora" />
+        <city province="博博迪乌拉索" city="" area_code="97XXXX – 99XXXX" cn_name="博博迪乌拉索" en_name="Bobo-Dioulasso" />
+        <city province="代杜古" city="" area_code="52XXXX" cn_name="代杜古" en_name="Dédougou" />
+        <city province="杰布古" city="" area_code="86XXXX" cn_name="杰布古" en_name="Diébougou" />
+        <city province="多里" city="" area_code="66XXXX" cn_name="多里" en_name="Dori" />
+        <city province="法达" city="" area_code="77XXXX" cn_name="法达" en_name="Fada" />
+        <city province="古尔马" city="" area_code="87XXXX" cn_name="古尔马" en_name="Gaoua" />
+        <city province="坎查里" city="" area_code="79XXXX" cn_name="坎查里" en_name="Kantchari" />
+        <city province="卡亚" city="" area_code="45XXXX, 49XXXX" cn_name="卡亚" en_name="Kaya" />
+        <city province="库杜古" city="" area_code="44XXXX" cn_name="库杜古" en_name="Koudougou" />
+        <city province="库佩拉" city="" area_code="70XXXX" cn_name="库佩拉" en_name="Koupéla" />
+        <city province="奥罗达拉" city="" area_code="96XXXX" cn_name="奥罗达拉" en_name="Orodara" />
+        <city province="瓦加杜古" city="" area_code="30XXXX – 38XXXX, 42XXXX, 43XXXX" cn_name="瓦加杜古" en_name="Ouagadougou" />
+        <city province="瓦希古亚" city="" area_code="55XXXX, 56XXXX" cn_name="瓦希古亚" en_name="Ouahigouya" />
+        <city province="滕科多戈" city="" area_code="71XXXX" cn_name="滕科多戈" en_name="Tenkodogo" />
+        <city province="图冈" city="" area_code="53XXXX, 54XXXX" cn_name="图冈" en_name="Tougan" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Celtel</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>57XXXX – 59XXXX, 60XXXX – 69XXXX</prefix>
+      </op>
+      <op>
+        <op_name>Onatel</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>20XXXX – 29XXXX, 72XXXX - 73XXXX</prefix>
+      </op>
+      <op>
+        <op_name>Telecel Faso</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>80XXXX – 88XXXX</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

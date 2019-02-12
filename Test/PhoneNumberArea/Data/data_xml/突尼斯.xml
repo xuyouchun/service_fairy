@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>突尼斯</cn_name>
+    <en_name>Tunisia</en_name>
+    <national_code>216</national_code>
+    <mcc>605</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到突尼斯的A地电话顺序为“00216-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从突尼斯的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00216-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00216XXXXXXXX、216XXXXXXXX、0216XXXXXXXX、000216XXXXXXXX；如果来电显示开头是002160、002161、002162、002163、002164、002165、002166、002167、002168、002169，一般也都表示国际区号是00216，后面一位是突尼斯内部的号码的开头第一位；如果是在突尼斯通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Orange" mncs="01" national_prefix="00" internal_prefix="0" desc="Orange" />
+    <operation op_code="Tunicell" mncs="02" national_prefix="00" internal_prefix="0" desc="Tunicell" />
+    <operation op_code="Tunisiana" mncs="03" national_prefix="00" internal_prefix="0" desc="Tunisiana" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Orange Tunisie" op_prefix="" />
+        <prefix op_code="Tunisie Telecom" op_prefix="" />
+        <prefix op_code="Orascom Telecom Tunisie" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿加里卜" city="" area_code="4" cn_name="阿加里卜" en_name="Agareb" />
+        <city province="艾尔亚奈" city="" area_code="1" cn_name="艾尔亚奈" en_name="Ariana" />
+        <city province="巴杰" city="" area_code="8" cn_name="巴杰" en_name="Beja" />
+        <city province="本阿鲁斯" city="" area_code="1" cn_name="本阿鲁斯" en_name="Ben Arous" />
+        <city province="比塞大" city="" area_code="2" cn_name="比塞大" en_name="Bizerte" />
+        <city province="迦太基" city="" area_code="1" cn_name="迦太基" en_name="Carthage" />
+        <city province="沙拜" city="" area_code="4" cn_name="沙拜" en_name="Chebba" />
+        <city province="加贝斯" city="" area_code="5" cn_name="加贝斯" en_name="Gabes" />
+        <city province="加夫萨" city="" area_code="6" cn_name="加夫萨" en_name="Gafsa" />
+        <city province="哈富兹" city="" area_code="7" cn_name="哈富兹" en_name="Haffouz" />
+        <city province="哈曼-苏塞" city="" area_code="3" cn_name="哈曼-苏塞" en_name="Hamman-Sousse" />
+        <city province="坚杜拜" city="" area_code="8" cn_name="坚杜拜" en_name="Jendouba" />
+        <city province="凯鲁万" city="" area_code="7" cn_name="凯鲁万" en_name="Kairouan" />
+        <city province="卡塞林" city="" area_code="7" cn_name="卡塞林" en_name="Kasserine" />
+        <city province="吉比利" city="" area_code="5" cn_name="吉比利" en_name="Kebili" />
+        <city province="卡夫" city="" area_code="8" cn_name="卡夫" en_name="Kef" />
+        <city province="哈尼" city="" area_code="3" cn_name="哈尼" en_name="Khenis" />
+        <city province="卡夫" city="" area_code="8" cn_name="卡夫" en_name="La Kef" />
+        <city province="马赫迪耶" city="" area_code="3" cn_name="马赫迪耶" en_name="Mahdia" />
+        <city province="梅德宁" city="" area_code="5" cn_name="梅德宁" en_name="Medenine" />
+        <city province="莫纳斯提尔" city="" area_code="3" cn_name="莫纳斯提尔" en_name="Monastir" />
+        <city province="纳布勒" city="" area_code="2" cn_name="纳布勒" en_name="Nabeul" />
+        <city province="斯法克斯" city="" area_code="4" cn_name="斯法克斯" en_name="Sfax" />
+        <city province="西迪布济德" city="" area_code="6" cn_name="西迪布济德" en_name="Sidi Bouzid" />
+        <city province="锡勒亚奈" city="" area_code="8" cn_name="锡勒亚奈" en_name="Siliana" />
+        <city province="苏塞" city="" area_code="3" cn_name="苏塞" en_name="Sousse" />
+        <city province="塔巴卡" city="" area_code="8" cn_name="塔巴卡" en_name="Tabarka" />
+        <city province="泰塔温" city="" area_code="5" cn_name="泰塔温" en_name="Tataouine" />
+        <city province="托泽尔" city="" area_code="6" cn_name="托泽尔" en_name="Tozeur" />
+        <city province="宰格万" city="" area_code="2" cn_name="宰格万" en_name="Zaghouan" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

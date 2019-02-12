@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>特克斯和凯科斯群岛</cn_name>
+    <en_name>Turks and Caicos Islands</en_name>
+    <national_code>1809</national_code>
+    <mcc>376</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到特克斯和凯科斯群岛的A地电话顺序为“001649-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从特克斯和凯科斯群岛的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“001649-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：001649XXXXXXXX、1649XXXXXXXX、01649XXXXXXXX、0001649XXXXXXXX；如果来电显示开头是0016490、0016491、0016492、0016493、0016494、0016495、0016496、0016497、0016498、0016499，一般也都表示国际区号是001649，后面一位是特克斯和凯科斯群岛内部的号码的开头第一位；如果是在特克斯和凯科斯群岛通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="C&amp;W" mncs="350" national_prefix="011" internal_prefix="1" desc="C&amp;W" />
+    <operation op_code="Islandcom" mncs="352" national_prefix="011" internal_prefix="1" desc="Islandcom" />
+    <operation op_code="Digicel" mncs="05" national_prefix="011" internal_prefix="1" desc="Digicel" />
+  </operations>
+  <remarks>
+    <remark>+1 649 245 xxxx   预付费电话</remark>
+    <remark>+1 649 940 xxxx   East Caicos</remark>
+    <remark>+1 649 942 xxxx   Ambergris Cay</remark>
+    <remark>+1 649 943 xxxx   South Caicos</remark>
+    <remark>+1 649 944 xxxx   Middle Caicos</remark>
+    <remark>+1 649 945 xxxx   Alt Cay</remark>
+    <remark>+1 649 947 xxxx   North Caicos</remark>
+    <remark>+1 649 948 xxxx   Pine Cay</remark>
+    <remark>+1 649 949 xxxx   Parrot Cay</remark>
+    <remark>+1 649 950 xxxx   West Caicos</remark>
+    <remark>+1 649 266 xxxx   互联网接入</remark>
+  </remarks>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

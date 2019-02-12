@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{915745C6-F6D5-45E6-AB2E-E0D087E19EF7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ServiceFairy</RootNamespace>
+    <AssemblyName>ServiceFairy</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\ServiceFairy\Common\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\ServiceFairy\Common\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client\AppClientInfo.cs" />
+    <Compile Include="Client\AppClientRuntimeInfo.cs" />
+    <Compile Include="Entities\AppClientDeployInfo.cs" />
+    <Compile Include="Entities\AppClientDeployMap.cs" />
+    <Compile Include="Entities\AppServiceDeployInfo.cs" />
+    <Compile Include="Entities\ClientRegisterInfo.cs" />
+    <Compile Include="Entities\ClientResourceInfo.cs" />
+    <Compile Include="Entities\CustomCommand.cs" />
+    <Compile Include="Entities\CommonEntities.cs" />
+    <Compile Include="Entities\AppClientAdjustInfo.cs" />
+    <Compile Include="Entities\Configuration\Configuration_DownloadConfiguration.cs" />
+    <Compile Include="Entities\Configuration\Configuration_DownloadEnvironmentValues.cs" />
+    <Compile Include="Entities\DeployPackageInfo.cs" />
+    <Compile Include="Entities\Deploy\Deploy_DownloadDeployPackage.cs" />
+    <Compile Include="Entities\Deploy\Deploy_GetAllClientIds.cs" />
+    <Compile Include="Entities\Deploy\Deploy_GetDeployMap.cs" />
+    <Compile Include="Entities\Deploy\Deploy_GetPackageList.cs" />
+    <Compile Include="Entities\Deploy\Deploy_SearchServices.cs" />
+    <Compile Include="Entities\Email\Email_Send.cs" />
+    <Compile Include="Entities\Email\Entities.cs" />
+    <Compile Include="Entities\EntityValidate.cs" />
+    <Compile Include="Entities\EnvironmentValue.cs" />
+    <Compile Include="Entities\Master\Master_AdjustDeployMap.cs" />
+    <Compile Include="Entities\Master\Master_DeletePlatformDeployPackages.cs" />
+    <Compile Include="Entities\Master\Master_DeleteServiceDeployPackages.cs" />
+    <Compile Include="Entities\Master\Master_DeployPlatformPackage.cs" />
+    <Compile Include="Entities\Master\Master_DeployServicePackage.cs" />
+    <Compile Include="Entities\Master\Master_DownloadConfiguration.cs" />
+    <Compile Include="Entities\Master\Master_DownloadPlatformDeployPackage.cs" />
+    <Compile Include="Entities\Master\Master_DownloadServiceDeployPackages.cs" />
+    <Compile Include="Entities\Master\Master_DownloadServiceUIInfo.cs" />
+    <Compile Include="Entities\Master\Master_GetAllClientDesc.cs" />
+    <Compile Include="Entities\Master\Master_GetAllVersions.cs" />
+    <Compile Include="Entities\Master\Master_GetClientList.cs" />
+    <Compile Include="Entities\Master\Master_GetDeployMap.cs" />
+    <Compile Include="Entities\Master\Master_GetPlatformDeployPackageInfos.cs" />
+    <Compile Include="Entities\Master\Master_GetPlatformDeployProgress.cs" />
+    <Compile Include="Entities\Master\Master_GetServiceDeployInfos.cs" />
+    <Compile Include="Entities\Master\Master_GetServiceDeployPackageInfos.cs" />
+    <Compile Include="Entities\Master\Master_GetServiceDeployProgress.cs" />
+    <Compile Include="Entities\Master\Master_InitClient.cs" />
+    <Compile Include="Entities\Master\Master_StationHeartBeat.cs" />
+    <Compile Include="Entities\Master\Master_UploadPlatformDeployPackage.cs" />
+    <Compile Include="Entities\Master\Master_UploadServiceDeployPackage.cs" />
+    <Compile Include="Entities\Msg.cs" />
+    <Compile Include="Entities\Security\SecurityStatusCode.cs" />
+    <Compile Include="Entities\Security\Security_AcquireSid.cs" />
+    <Compile Include="Entities\Security\Security_AcquireSids.cs" />
+    <Compile Include="Entities\Security\Security_GetSidInfo.cs" />
+    <Compile Include="Entities\Security\Security_GetSidInfos.cs" />
+    <Compile Include="Entities\Security\Security_Login.cs" />
+    <Compile Include="Entities\Security\Security_ModifyPassword.cs" />
+    <Compile Include="Entities\Security\Security_ValidateSid.cs" />
+    <Compile Include="Entities\Security\Security_ValidateSids.cs" />
+    <Compile Include="Entities\Station\Station_ClientHeartBeat.cs" />
+    <Compile Include="Entities\Station\Station_RaiseEvent.cs" />
+    <Compile Include="Entities\Station\Station_RegisterAddins.cs" />
+    <Compile Include="Entities\Sys\SysEntity.cs" />
+    <Compile Include="Entities\Sys\Sys_DownloadAppServiceFiles.cs" />
+    <Compile Include="Entities\Sys\Sys_ExistsCommand.cs" />
+    <Compile Include="Entities\Sys\Sys_GetAddinsInfos.cs" />
+    <Compile Include="Entities\Sys\Sys_GetAppCommandDocs.cs" />
+    <Compile Include="Entities\Sys\Sys_GetAppCommandInfos.cs" />
+    <Compile Include="Entities\Sys\Sys_GetAppComponentInfos.cs" />
+    <Compile Include="Entities\Sys\Sys_GetAppComponentProperties.cs" />
+    <Compile Include="Entities\Sys\Sys_GetAppComponentPropertyValues.cs" />
+    <Compile Include="Entities\Sys\Sys_GetAppMessageDocs.cs" />
+    <Compile Include="Entities\Sys\Sys_GetAppMessageInfos.cs" />
+    <Compile Include="Entities\Sys\Sys_GetAppServiceFileInfos.cs" />
+    <Compile Include="Entities\Sys\Sys_GetAppStatusCodeInfos.cs" />
+    <Compile Include="Entities\Sys\Sys_GetWatchInfo.cs" />
+    <Compile Include="Entities\Sys\Sys_OnAddinCall.cs" />
+    <Compile Include="Entities\Sys\Sys_OnEvent.cs" />
+    <Compile Include="Entities\Sys\Sys_SetAppComponentPropertyValues_Request.cs" />
+    <Compile Include="Entities\Tray\Entities.cs" />
+    <Compile Include="Entities\Tray\TrayStatusCode.cs" />
+    <Compile Include="Entities\Tray\Tray_DeleteLocalLogGroups.cs" />
+    <Compile Include="Entities\Tray\Tray_DoCommand.cs" />
+    <Compile Include="Entities\Tray\Tray_FsDownloadFile.cs" />
+    <Compile Include="Entities\Tray\Tray_FsDeletePath.cs" />
+    <Compile Include="Entities\Tray\Tray_FsGetDirectoryInfos.cs" />
+    <Compile Include="Entities\Tray\Tray_FsGetRootDirectoryInfos.cs" />
+    <Compile Include="Entities\Tray\Tray_GetAllServices.cs" />
+    <Compile Include="Entities\Tray\Tray_GetCustomCommandInfos.cs" />
+    <Compile Include="Entities\Tray\Tray_GetLocalLogGroups.cs" />
+    <Compile Include="Entities\Tray\Tray_GetLocalLogItems.cs" />
+    <Compile Include="Entities\Tray\Tray_GetLocalLogItemsByTime.cs" />
+    <Compile Include="Entities\Tray\Tray_GetProcesses.cs" />
+    <Compile Include="Entities\Tray\Tray_GetSystemEnvironmentVariables.cs" />
+    <Compile Include="Entities\Tray\Tray_GetSystemLogGroups.cs" />
+    <Compile Include="Entities\Tray\Tray_GetSystemLogItems.cs" />
+    <Compile Include="Entities\Tray\Tray_GetSystemProperties.cs" />
+    <Compile Include="Entities\Tray\Tray_GetThreads.cs" />
+    <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Entities\Sys\Sys_Hello.cs" />
+    <Compile Include="Entities\Tray\Tray_KillProcesses.cs" />
+    <Compile Include="Entities\Tray\Tray_SetSystemEnvironmentVariables.cs" />
+    <Compile Include="Entities\Tray\Tray_StartProcesses.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SFStatusCodes.cs" />
+    <Compile Include="ServiceFairyClient.cs" />
+    <Compile Include="SFNames.cs" />
+    <Compile Include="SFSettings.cs" />
+    <Compile Include="SFUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.Communication\Common.Communication.csproj">
+      <Project>{DE2353F5-D22D-4B09-ADA6-09A7CA757ED1}</Project>
+      <Name>Common.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Contracts\Common.Contracts.csproj">
+      <Project>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</Project>
+      <Name>Common.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Data\Common.Data.csproj">
+      <Project>{AFF90909-CAE0-4A76-8E87-C8E7479A905F}</Project>
+      <Name>Common.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common.Package\Common.Package.csproj">
+      <Project>{5B657644-8038-44E7-895B-F6A82AD596EE}</Project>
+      <Name>Common.Package</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

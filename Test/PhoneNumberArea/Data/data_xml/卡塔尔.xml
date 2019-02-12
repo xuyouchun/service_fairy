@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>卡塔尔</cn_name>
+    <en_name>Qatar</en_name>
+    <national_code>974</national_code>
+    <mcc>427</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到卡塔尔的A地电话顺序为“00974-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从卡塔尔的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00974-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00974XXXXXXXX、974XXXXXXXX、0974XXXXXXXX、000974XXXXXXXX；如果来电显示开头是009740、009741、009742、009743、009744、009745、009746、009747、009748、009749，一般也都表示国际区号是00974，后面一位是卡塔尔内部的号码的开头第一位；如果是在卡塔尔通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Qtel" mncs="01" national_prefix="00" internal_prefix="" desc="Qtel" />
+    <operation op_code="Vodafone" mncs="02" national_prefix="00" internal_prefix="" desc="Vodafone" />
+    <operation op_code="Ministry of Interior" mncs="05" national_prefix="00" internal_prefix="" desc="Ministry of Interior" />
+  </operations>
+  <remarks>
+    <remark>不需要城市区号</remark>
+    <remark>所有都是7位数字</remark>
+    <remark>固定电话一般以数字4开头</remark>
+  </remarks>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

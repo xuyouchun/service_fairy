@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>立陶宛</cn_name>
+    <en_name>Lithuania</en_name>
+    <national_code>370</national_code>
+    <mcc>246</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到立陶宛的A地电话顺序为“00370-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从立陶宛的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00370-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00370XXXXXXXX、370XXXXXXXX、0370XXXXXXXX、000370XXXXXXXX；如果来电显示开头是003700、003701、003702、003703、003704、003705、003706、003707、003708、003709，一般也都表示国际区号是00370，后面一位是立陶宛内部的号码的开头第一位；如果是在立陶宛通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Omnitel" mncs="01" national_prefix="00" internal_prefix="8" desc="Omnitel" />
+    <operation op_code="BITE" mncs="02" national_prefix="00" internal_prefix="8" desc="BITE" />
+    <operation op_code="Tele 2" mncs="03" national_prefix="00" internal_prefix="8" desc="Tele 2" />
+    <operation op_code="LitRail" mncs="05" national_prefix="00" internal_prefix="8" desc="LitRail" />
+    <operation op_code="Mediafon" mncs="06" national_prefix="00" internal_prefix="8" desc="Mediafon" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="UAB Bité Lietuva" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Lithuanian Railways" op_prefix="" />
+        <prefix op_code="UAB Mediafon" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Akmenė" city="" area_code="425" cn_name="暂无中文" en_name="Akmenė" />
+        <city province="阿利图斯" city="" area_code="315" cn_name="阿利图斯" en_name="Alytus" />
+        <city province="Anykščiai" city="" area_code="31" cn_name="暂无中文" en_name="Anykščiai" />
+        <city province="Birštonas" city="" area_code="319" cn_name="暂无中文" en_name="Birštonas" />
+        <city province="Biržai" city="" area_code="450" cn_name="暂无中文" en_name="Biržai" />
+        <city province="Druskininkai" city="" area_code="313" cn_name="暂无中文" en_name="Druskininkai" />
+        <city province="Elektrėnai" city="" area_code="528" cn_name="暂无中文" en_name="Elektrėnai" />
+        <city province="Ignalina" city="" area_code="386" cn_name="暂无中文" en_name="Ignalina" />
+        <city province="Jonava" city="" area_code="349" cn_name="暂无中文" en_name="Jonava" />
+        <city province="Joniškis" city="" area_code="426" cn_name="暂无中文" en_name="Joniškis" />
+        <city province="Jurbarkas" city="" area_code="447" cn_name="暂无中文" en_name="Jurbarkas" />
+        <city province="Kaišiadorys" city="" area_code="346" cn_name="暂无中文" en_name="Kaišiadorys" />
+        <city province="考纳斯" city="" area_code="37" cn_name="考纳斯" en_name="Kaunas" />
+        <city province="Kėdainiai" city="" area_code="57" cn_name="暂无中文" en_name="Kėdainiai" />
+        <city province="Kelmė" city="" area_code="427" cn_name="暂无中文" en_name="Kelmė" />
+        <city province="克莱佩达" city="" area_code="46" cn_name="克莱佩达" en_name="Klaipėda" />
+        <city province="Kretinga" city="" area_code="445" cn_name="暂无中文" en_name="Kretinga" />
+        <city province="Kupiškis" city="" area_code="459" cn_name="暂无中文" en_name="Kupiškis" />
+        <city province="Lazdijai" city="" area_code="318" cn_name="暂无中文" en_name="Lazdijai" />
+        <city province="马里扬泊列" city="" area_code="343" cn_name="马里扬泊列" en_name="Marijampolė" />
+        <city province="Mažeikiai" city="" area_code="443" cn_name="暂无中文" en_name="Mažeikiai" />
+        <city province="Molėtai" city="" area_code="383" cn_name="暂无中文" en_name="Molėtai" />
+        <city province="Neringa" city="" area_code="469" cn_name="暂无中文" en_name="Neringa" />
+        <city province="Pakruojis" city="" area_code="421" cn_name="暂无中文" en_name="Pakruojis" />
+        <city province="Palanga" city="" area_code="460" cn_name="暂无中文" en_name="Palanga" />
+        <city province="帕涅韦日斯" city="" area_code="45" cn_name="帕涅韦日斯" en_name="Panevėžys" />
+        <city province="Pasvalys" city="" area_code="451" cn_name="暂无中文" en_name="Pasvalys" />
+        <city province="Plungė" city="" area_code="448" cn_name="暂无中文" en_name="Plungė" />
+        <city province="Prienai" city="" area_code="319" cn_name="暂无中文" en_name="Prienai" />
+        <city province="Radviliškis" city="" area_code="422" cn_name="暂无中文" en_name="Radviliškis" />
+        <city province="Raseiniai" city="" area_code="428" cn_name="暂无中文" en_name="Raseiniai" />
+        <city province="Rokiškis" city="" area_code="458" cn_name="暂无中文" en_name="Rokiškis" />
+        <city province="Šakiai" city="" area_code="345" cn_name="暂无中文" en_name="Šakiai" />
+        <city province="Šalčininkai" city="" area_code="380" cn_name="暂无中文" en_name="Šalčininkai" />
+        <city province="希奥利艾" city="" area_code="41" cn_name="希奥利艾" en_name="Šiauliai" />
+        <city province="Šilalė" city="" area_code="449" cn_name="暂无中文" en_name="Šilalė" />
+        <city province="Šilutė" city="" area_code="441" cn_name="暂无中文" en_name="Šilutė" />
+        <city province="Širvintos" city="" area_code="382" cn_name="暂无中文" en_name="Širvintos" />
+        <city province="Švenčionys" city="" area_code="387" cn_name="暂无中文" en_name="Švenčionys" />
+        <city province="陶拉格" city="" area_code="446" cn_name="陶拉格" en_name="Tauragė" />
+        <city province="特尔希艾" city="" area_code="444" cn_name="特尔希艾" en_name="Telšiai" />
+        <city province="Trakai" city="" area_code="528" cn_name="暂无中文" en_name="Trakai" />
+        <city province="Ukmergė" city="" area_code="340" cn_name="暂无中文" en_name="Ukmergė" />
+        <city province="乌田纳" city="" area_code="389" cn_name="乌田纳" en_name="Utena" />
+        <city province="Varėna" city="" area_code="310" cn_name="暂无中文" en_name="Varėna" />
+        <city province="Vilkaviškis" city="" area_code="342" cn_name="暂无中文" en_name="Vilkaviškis" />
+        <city province="维尔纽斯" city="" area_code="5" cn_name="维尔纽斯" en_name="Vilnius" />
+        <city province="Visaginas" city="" area_code="386" cn_name="暂无中文" en_name="Visaginas" />
+        <city province="Zarasai" city="" area_code="385" cn_name="暂无中文" en_name="Zarasai" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Neltė</op_name>
+        <wireless_type>NMT 450</wireless_type>
+        <prefix>679</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

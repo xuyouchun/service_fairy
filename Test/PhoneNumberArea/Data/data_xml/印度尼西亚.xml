@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>印度尼西亚</cn_name>
+    <en_name>Indonesia</en_name>
+    <national_code>62</national_code>
+    <mcc />
+    <example><![CDATA[从中国的固定电话或者手机拨到印度尼西亚的A地电话顺序为“0062-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从印度尼西亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0062-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0062XXXXXXXX、62XXXXXXXX、062XXXXXXXX、00062XXXXXXXX；如果来电显示开头是00620、00621、00622、00623、00624、00625、00626、00627、00628、00629，一般也都表示国际区号是0062，后面一位是印度尼西亚内部的号码的开头第一位；如果是在印度尼西亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>印尼</alias>
+  </basic_info>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes />
+      <cities>
+        <city province="巴厘" city="" area_code="36" cn_name="巴厘" en_name="Bali" />
+        <city province="巴淡岛" city="" area_code="77" cn_name="巴淡岛" en_name="Batam" />
+        <city province="万隆" city="" area_code="22" cn_name="万隆" en_name="Betung" />
+        <city province="民丹岛" city="" area_code="770" cn_name="民丹岛" en_name="Bintan" />
+        <city province="茂物" city="" area_code="25" cn_name="茂物" en_name="Bogor" />
+        <city province="井里汶" city="" area_code="23" cn_name="井里汶" en_name="Cirebon" />
+        <city province="淡目" city="" area_code="29" cn_name="淡目" en_name="Demak" />
+        <city province="登帕萨" city="" area_code="36" cn_name="登帕萨" en_name="Denpasar" />
+        <city province="恩德" city="" area_code="38" cn_name="恩德" en_name="Ende" />
+        <city province="伊里安" city="" area_code="9" cn_name="伊里安" en_name="Irian" />
+        <city province="雅加达" city="" area_code="21" cn_name="雅加达" en_name="Jakarta" />
+        <city province="任抹" city="" area_code="33" cn_name="任抹" en_name="Jember" />
+        <city province="佐邦" city="" area_code="32" cn_name="佐邦" en_name="Jombang" />
+        <city province="加里曼丹岛" city="" area_code="5" cn_name="加里曼丹岛" en_name="Kalimantan Islet" />
+        <city province="古邦" city="" area_code="39" cn_name="古邦" en_name="Kupang" />
+        <city province="茉莉芬" city="" area_code="35" cn_name="茉莉芬" en_name="Madiun" />
+        <city province="马鲁古" city="" area_code="5" cn_name="马鲁古" en_name="Malaku Islets" />
+        <city province="玛琅" city="" area_code="34" cn_name="玛琅" en_name="Malang" />
+        <city province="棉兰" city="" area_code="61" cn_name="棉兰" en_name="Medan" />
+        <city province="北苏门答腊" city="" area_code="6" cn_name="北苏门答腊" en_name="North Sumatra" />
+        <city province="巴东" city="" area_code="75" cn_name="巴东" en_name="Padang" />
+        <city province="巨港" city="" area_code="71" cn_name="巨港" en_name="Palembang" />
+        <city province="普瓦卡达" city="" area_code="28" cn_name="普瓦卡达" en_name="Purwakarta" />
+        <city province="廖内" city="" area_code="76" cn_name="廖内" en_name="Riau" />
+        <city province="？" city="" area_code="778" cn_name="？" en_name="Sekurang" />
+        <city province="三宝垄" city="" area_code="24" cn_name="三宝垄" en_name="Semarang" />
+        <city province="梭罗" city="" area_code="27" cn_name="梭罗" en_name="Solo" />
+        <city province="苏拉威西岛" city="" area_code="4" cn_name="苏拉威西岛" en_name="Sulawesi Islet" />
+        <city province="松巴哇" city="" area_code="37" cn_name="松巴哇" en_name="Sumbawa" />
+        <city province="苏木当" city="" area_code="26" cn_name="苏木当" en_name="Sumedang" />
+        <city province="泗水" city="" area_code="31" cn_name="泗水" en_name="Surabaya" />
+        <city province="丹戒加兰" city="" area_code="72" cn_name="丹戒加兰" en_name="Tanjungkarang" />
+        <city province="西苏门答腊" city="" area_code="75" cn_name="西苏门答腊" en_name="West Sumatra" />
+        <city province="日惹" city="" area_code="27" cn_name="日惹" en_name="Yogyakarta" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

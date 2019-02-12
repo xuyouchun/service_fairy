@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>苏丹</cn_name>
+    <en_name>Sudan</en_name>
+    <national_code>249</national_code>
+    <mcc>634</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到苏丹的A地电话顺序为“00249-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从苏丹的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00249-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00249XXXXXXXX、249XXXXXXXX、0249XXXXXXXX、000249XXXXXXXX；如果来电显示开头是002490、002491、002492、002493、002494、002495、002496、002497、002498、002499，一般也都表示国际区号是00249，后面一位是苏丹内部的号码的开头第一位；如果是在苏丹通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Zain SD" mncs="01" national_prefix="00" internal_prefix="0" desc="Zain SD" />
+    <operation op_code="MTN" mncs="02" national_prefix="00" internal_prefix="0" desc="MTN" />
+    <operation op_code="Vivacell" mncs="05" national_prefix="00" internal_prefix="0" desc="Vivacell" />
+    <operation op_code="Sudani One" mncs="07" national_prefix="00" internal_prefix="0" desc="Sudani One" />
+    <operation op_code="Canar" mncs="" national_prefix="00" internal_prefix="0" desc="Canar" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Zain Group - Sudan" op_prefix="" />
+        <prefix op_code="MTN Sudan" op_prefix="" />
+        <prefix op_code="Wawat Securities" op_prefix="" />
+        <prefix op_code="Sudatel Group" op_prefix="" />
+        <prefix op_code="Canar Telecom" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿特巴拉" city="" area_code="21" cn_name="阿特巴拉" en_name="Atbara" />
+        <city province="Elobeid" city="" area_code="81" cn_name="暂无中文" en_name="Elobeid" />
+        <city province="Jedaraf" city="" area_code="441" cn_name="暂无中文" en_name="Jedaraf" />
+        <city province="卡萨拉" city="" area_code="41" cn_name="卡萨拉" en_name="Kassala" />
+        <city province="喀土穆" city="" area_code="183" cn_name="喀土穆" en_name="Khartoum" />
+        <city province="库斯提" city="" area_code="71" cn_name="库斯提" en_name="Kosti" />
+        <city province="Modurman" city="" area_code="11" cn_name="暂无中文" en_name="Modurman" />
+        <city province="苏丹港" city="" area_code="31" cn_name="苏丹港" en_name="Port Sudan" />
+        <city province="森纳尔" city="" area_code="61" cn_name="森纳尔" en_name="Sennar" />
+        <city province="Shetnzi" city="" area_code="616" cn_name="暂无中文" en_name="Shetnzi" />
+        <city province="瓦德迈达尼" city="" area_code="51" cn_name="瓦德迈达尼" en_name="Wadmedai" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

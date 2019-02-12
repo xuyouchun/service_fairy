@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>津巴布韦</cn_name>
+    <en_name>Zimbabwe</en_name>
+    <national_code>263</national_code>
+    <mcc>648</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到津巴布韦的A地电话顺序为“00263-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从津巴布韦的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00263-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00263XXXXXXXX、263XXXXXXXX、0263XXXXXXXX、000263XXXXXXXX；如果来电显示开头是002630、002631、002632、002633、002634、002635、002636、002637、002638、002639，一般也都表示国际区号是00263，后面一位是津巴布韦内部的号码的开头第一位；如果是在津巴布韦通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Net*One" mncs="01" national_prefix="00" internal_prefix="0" desc="Net*One" />
+    <operation op_code="Telecel" mncs="03" national_prefix="00" internal_prefix="0" desc="Telecel" />
+    <operation op_code="Econet" mncs="04" national_prefix="00" internal_prefix="0" desc="Econet" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Net*One Cellular (Pvt) Ltd" op_prefix="" />
+        <prefix op_code="Telecel Zimbabwe (PVT) Ltd" op_prefix="" />
+        <prefix op_code="Econet Wireless (Private) Limited" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="布拉瓦约" city="" area_code="9" cn_name="布拉瓦约" en_name="Bulawayo" />
+        <city province="哈拉雷" city="" area_code="4" cn_name="哈拉雷" en_name="Harare" />
+        <city province="穆塔雷" city="" area_code="20" cn_name="穆塔雷" en_name="Mutare" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

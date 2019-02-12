@@ -1,0 +1,14 @@
+[DEFAULT]
+BASEURL=http://www.baidu.com/s?wd=%CE%AC%C6%E6%CD%F8
+[InternetShortcut]
+URL=http://www.veeqi.com/?m
+IconFile=C:\WINDOWS\system32\SHELL32.dll
+IconIndex=220
+Modified=70CB3EA02C83CA0193
+IDList=
+HotKey=0
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[DOC#34]
+BASEURL=about:blank
+ORIGURL=

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>瑞士</cn_name>
+    <en_name>Switzerland</en_name>
+    <national_code>41</national_code>
+    <mcc>228</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到瑞士的A地电话顺序为“0041-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从瑞士的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0041-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0041XXXXXXXX、41XXXXXXXX、041XXXXXXXX、00041XXXXXXXX；如果来电显示开头是00410、00411、00412、00413、00414、00415、00416、00417、00418、00419，一般也都表示国际区号是0041，后面一位是瑞士内部的号码的开头第一位；如果是在瑞士通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Swisscom" mncs="01" national_prefix="00" internal_prefix="0" desc="Swisscom" />
+    <operation op_code="Sunrise" mncs="02" national_prefix="00" internal_prefix="0" desc="Sunrise" />
+    <operation op_code="Orange" mncs="03" national_prefix="00" internal_prefix="0" desc="Orange" />
+    <operation op_code="" mncs="05,50,51" national_prefix="00" internal_prefix="0" desc="" />
+    <operation op_code="SBB-CFF-FFS" mncs="06" national_prefix="00" internal_prefix="0" desc="SBB-CFF-FFS" />
+    <operation op_code="IN&amp;Phone" mncs="07" national_prefix="00" internal_prefix="0" desc="IN&amp;Phone" />
+    <operation op_code="Tele2" mncs="08" national_prefix="00" internal_prefix="0" desc="Tele2" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Swisscom Ltd" op_prefix="" />
+        <prefix op_code="Sunrise Communications AG" op_prefix="" />
+        <prefix op_code="Orange Communications SA" op_prefix="" />
+        <prefix op_code="Togewanet AG (Comfone)" op_prefix="" />
+        <prefix op_code="SBB AG" op_prefix="" />
+        <prefix op_code="IN&amp;Phone SA" op_prefix="" />
+        <prefix op_code="Tele2 Telecommunications AG" op_prefix="" />
+        <prefix op_code="3G Mobile AG" op_prefix="" />
+        <prefix op_code="BebbiCell AG" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿劳" city="" area_code="62" cn_name="阿劳" en_name="Ammerswil (Aarau)" />
+        <city province="安德马特" city="" area_code="41" cn_name="安德马特" en_name="Andermatt" />
+        <city province="阿罗萨" city="" area_code="81" cn_name="阿罗萨" en_name="Arosa" />
+        <city province="巴登" city="" area_code="56" cn_name="巴登" en_name="Baden" />
+        <city province="巴塞尔" city="" area_code="61" cn_name="巴塞尔" en_name="Basel" />
+        <city province="贝林佐纳" city="" area_code="91" cn_name="贝林佐纳" en_name="Bellinzona" />
+        <city province="伯尔尼" city="" area_code="31" cn_name="伯尔尼" en_name="Berne" />
+        <city province="比尔" city="" area_code="32" cn_name="比尔" en_name="Biel (Bienne)" />
+        <city province="基亚索" city="" area_code="91" cn_name="基亚索" en_name="Chiasso" />
+        <city province="克莱恩河畔谢尔" city="" area_code="27" cn_name="克莱恩河畔谢尔" en_name="Crans-sur-Sierre" />
+        <city province="达沃斯" city="" area_code="81" cn_name="达沃斯" en_name="Davos" />
+        <city province="弗赖堡" city="" area_code="26" cn_name="弗赖堡" en_name="Fribourg" />
+        <city province="日内瓦" city="" area_code="22" cn_name="日内瓦" en_name="Geneva" />
+        <city province="伊韦尔东莱班" city="" area_code="24" cn_name="伊韦尔东莱班" en_name="Gryon (Yverdon-les-Bains)" />
+        <city province="格施塔德" city="" area_code="33" cn_name="格施塔德" en_name="Gstaad" />
+        <city province="因特拉肯" city="" area_code="33" cn_name="因特拉肯" en_name="Interlaken" />
+        <city province="克洛斯特斯" city="" area_code="81" cn_name="克洛斯特斯" en_name="Klosters" />
+        <city province="拉绍德封" city="" area_code="32" cn_name="拉绍德封" en_name="La Chaux-de-Fonds" />
+        <city province="洛桑" city="" area_code="21" cn_name="洛桑" en_name="Lausanne" />
+        <city province="Lenk im Simmental" city="" area_code="33" cn_name="暂无中文" en_name="Lenk im Simmental" />
+        <city province="洛迦诺" city="" area_code="91" cn_name="洛迦诺" en_name="Locarno" />
+        <city province="卢塞恩" city="" area_code="41" cn_name="卢塞恩" en_name="Lucerne" />
+        <city province="卢加诺" city="" area_code="91" cn_name="卢加诺" en_name="Lugano" />
+        <city province="蒙特勒" city="" area_code="21" cn_name="蒙特勒" en_name="Montreux" />
+        <city province="纳沙特尔" city="" area_code="32" cn_name="纳沙特尔" en_name="Neuchatel" />
+        <city province="Obewil im Simmental" city="" area_code="33" cn_name="暂无中文" en_name="Obewil im Simmental" />
+        <city province="沙夫豪森" city="" area_code="52" cn_name="沙夫豪森" en_name="Schaffhausen" />
+        <city province="圣加仑" city="" area_code="71" cn_name="圣加仑" en_name="St. Gallen" />
+        <city province="圣莫里茨" city="" area_code="81" cn_name="圣莫里茨" en_name="St. Moritz" />
+        <city province="沃韦" city="" area_code="21" cn_name="沃韦" en_name="Vevey" />
+        <city province="文根" city="" area_code="33" cn_name="文根" en_name="Wengen" />
+        <city province="丰泰" city="" area_code="52" cn_name="丰泰" en_name="Winterthur" />
+        <city province="采尔马特" city="" area_code="27" cn_name="采尔马特" en_name="Zermatt" />
+        <city province="楚格" city="" area_code="41" cn_name="楚格" en_name="Zug" />
+        <city province="苏黎世" city="" area_code="1" cn_name="苏黎世" en_name="Zurich" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

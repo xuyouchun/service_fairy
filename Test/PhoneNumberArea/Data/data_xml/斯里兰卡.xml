@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>斯里兰卡</cn_name>
+    <en_name>Sri Lanka</en_name>
+    <national_code>94</national_code>
+    <mcc>413</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到斯里兰卡的A地电话顺序为“0094-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从斯里兰卡的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0094-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0094XXXXXXXX、94XXXXXXXX、094XXXXXXXX、00094XXXXXXXX；如果来电显示开头是00940、00941、00942、00943、00944、00945、00946、00947、00948、00949，一般也都表示国际区号是0094，后面一位是斯里兰卡内部的号码的开头第一位；如果是在斯里兰卡通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Mobitel" mncs="01" national_prefix="00" internal_prefix="0" desc="Mobitel" />
+    <operation op_code="Dialog" mncs="02" national_prefix="00" internal_prefix="0" desc="Dialog" />
+    <operation op_code="Etisalat" mncs="03" national_prefix="00" internal_prefix="0" desc="Etisalat" />
+    <operation op_code="Airtel" mncs="05" national_prefix="00" internal_prefix="0" desc="Airtel" />
+    <operation op_code="Hutch" mncs="08" national_prefix="00" internal_prefix="0" desc="Hutch" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Sri Lanka Telecom Mobitel" op_prefix="" />
+        <prefix op_code="Dialog Axiata" op_prefix="" />
+        <prefix op_code="Emirates Telecommunication Corporation" op_prefix="" />
+        <prefix op_code="Bharti Airtel" op_prefix="" />
+        <prefix op_code="Hutchison Telecommunications Lanka" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="安泊朗戈德" city="" area_code="97" cn_name="安泊朗戈德" en_name="Ambalangoda" />
+        <city province="安帕赖" city="" area_code="63" cn_name="安帕赖" en_name="Ampara" />
+        <city province="阿努拉德普勒" city="" area_code="25" cn_name="阿努拉德普勒" en_name="Anuradhapura" />
+        <city province="Avissawella" city="" area_code="36" cn_name="暂无中文" en_name="Avissawella" />
+        <city province="巴杜勒" city="" area_code="55" cn_name="巴杜勒" en_name="Badulla" />
+        <city province="Bandarawella" city="" area_code="57" cn_name="暂无中文" en_name="Bandarawella" />
+        <city province="拜蒂克洛" city="" area_code="65" cn_name="拜蒂克洛" en_name="Batticaloa" />
+        <city province="Chilaw" city="" area_code="32" cn_name="暂无中文" en_name="Chilaw" />
+        <city province="科伦坡" city="" area_code="1" cn_name="科伦坡" en_name="Colombo" />
+        <city province="加勒" city="" area_code="9" cn_name="加勒" en_name="Galle" />
+        <city province="加姆珀哈" city="" area_code="33" cn_name="加姆珀哈" en_name="Gampaha" />
+        <city province="汉班托特" city="" area_code="47" cn_name="汉班托特" en_name="Hambantota" />
+        <city province="哈顿" city="" area_code="51" cn_name="哈顿" en_name="Hatton" />
+        <city province="贾夫纳" city="" area_code="21" cn_name="贾夫纳" en_name="Jaffna" />
+        <city province="卡尔穆奈" city="" area_code="67" cn_name="卡尔穆奈" en_name="Kalmunai" />
+        <city province="卡卢特勒" city="" area_code="34" cn_name="卡卢特勒" en_name="Kalutara" />
+        <city province="康提" city="" area_code="8" cn_name="康提" en_name="Kandy" />
+        <city province="Katagastota" city="" area_code="8" cn_name="暂无中文" en_name="Katagastota" />
+        <city province="凯格勒" city="" area_code="35" cn_name="凯格勒" en_name="Kegalle" />
+        <city province="库鲁内格勒" city="" area_code="37" cn_name="库鲁内格勒" en_name="Kurunegala" />
+        <city province="马纳尔" city="" area_code="23" cn_name="马纳尔" en_name="Mannar" />
+        <city province="马特莱" city="" area_code="66" cn_name="马特莱" en_name="Matale" />
+        <city province="马特勒" city="" area_code="41" cn_name="马特勒" en_name="Mathara" />
+        <city province="Nawalapitiya" city="" area_code="542" cn_name="暂无中文" en_name="Nawalapitiya" />
+        <city province="Negambo" city="" area_code="31" cn_name="暂无中文" en_name="Negambo" />
+        <city province="努沃勒埃利耶" city="" area_code="52" cn_name="努沃勒埃利耶" en_name="Nuwara Eliya" />
+        <city province="帕纳杜拉" city="" area_code="34" cn_name="帕纳杜拉" en_name="Panadura" />
+        <city province="波隆纳鲁沃" city="" area_code="27" cn_name="波隆纳鲁沃" en_name="Polonnaruwa" />
+        <city province="拉特纳普勒" city="" area_code="45" cn_name="拉特纳普勒" en_name="Ratnapura" />
+        <city province="亭可马里" city="" area_code="26" cn_name="亭可马里" en_name="Trincomalee" />
+        <city province="瓦武尼亚" city="" area_code="24" cn_name="瓦武尼亚" en_name="Vavuniya" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

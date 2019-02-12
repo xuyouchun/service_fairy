@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+
+  <!-- 服务名称 -->
+  <serviceName>ServiceFairy</serviceName>
+
+  <!-- 服务的显示名称 -->
+  <displayName>Service Fairy</displayName>
+
+  <!-- 服务的描述 -->
+  <description>服务精灵</description>
+
+  <!-- 启动该服务的帐号 LocalService|NetworkService|LocalSystem|User -->
+  <serviceAccount>LocalService</serviceAccount>
+
+  <!-- 是否延迟启动 -->
+  <delayAutoStart>false</delayAutoStart>
+
+  <!-- 启动方式 Automatic|Manual|Disabled -->
+  <serviceStartMode>Manual</serviceStartMode>
+
+  <!-- 依赖项 -->
+  <servicesDependedOn></servicesDependedOn>
+
+  <!-- 是否可以关闭 -->
+  <canShutDown>false</canShutDown>
+
+  <!-- 是否可以停止 -->
+  <canStop>true</canStop>
+
+  <!-- 是否可以暂停和继续 -->
+  <canPauseAndContinue>false</canPauseAndContinue>
+
+  <!-- 是否可以响应电源事件 -->
+  <canHandlePowerEvent>false</canHandlePowerEvent>
+
+  <!-- 是否可以响应SessionChange事件 -->
+  <canHandleSessionChangeEvent>false</canHandleSessionChangeEvent>
+
+  <!-- 是否自动记录日志 -->
+  <autoLog>true</autoLog>
+  
+</configuration>

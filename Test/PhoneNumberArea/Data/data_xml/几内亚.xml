@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>几内亚</cn_name>
+    <en_name>Guinea</en_name>
+    <national_code>224</national_code>
+    <mcc>611</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到几内亚的A地电话顺序为“00224-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从几内亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00224-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00224XXXXXXXX、224XXXXXXXX、0224XXXXXXXX、000224XXXXXXXX；如果来电显示开头是002240、002241、002242、002243、002244、002245、002246、002247、002248、002249，一般也都表示国际区号是00224，后面一位是几内亚内部的号码的开头第一位；如果是在几内亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>Guinée</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Orange S.A." mncs="01" national_prefix="00" internal_prefix="0" desc="Orange S.A." />
+    <operation op_code="Sotelgui" mncs="02" national_prefix="00" internal_prefix="0" desc="Sotelgui" />
+    <operation op_code="Telecel Guinee" mncs="03" national_prefix="00" internal_prefix="0" desc="Telecel Guinee" />
+    <operation op_code="MTN" mncs="04" national_prefix="00" internal_prefix="0" desc="MTN" />
+    <operation op_code="Cellcom" mncs="05" national_prefix="00" internal_prefix="0" desc="Cellcom" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Orange" op_prefix="" />
+        <prefix op_code="Sotelgui Lagui" op_prefix="" />
+        <prefix op_code="INTERCEL Guinée" op_prefix="" />
+        <prefix op_code="Areeba Guinea" op_prefix="" />
+        <prefix op_code="Cellcom" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="博凯" city="" area_code="31 XXXX" cn_name="博凯" en_name="Boke" />
+        <city province="科纳克里（首都）" city="" area_code="" cn_name="科纳克里（首都）" en_name="Conakry" />
+        <city province="达拉巴" city="" area_code="69 XXXX" cn_name="达拉巴" en_name="Dalaba" />
+        <city province="法拉纳" city="" area_code="81 XXXX" cn_name="法拉纳" en_name="Faranah" />
+        <city province="盖凯杜" city="" area_code="97 XXXX" cn_name="盖凯杜" en_name="Gueckedou" />
+        <city province="康康" city="" area_code="71 XXXX" cn_name="康康" en_name="Kankan" />
+        <city province="金迪亚" city="" area_code="61 XXXX" cn_name="金迪亚" en_name="Kindia" />
+        <city province="吉西杜古" city="" area_code="98 XXXX" cn_name="吉西杜古" en_name="Kissidougou" />
+        <city province="拉贝" city="" area_code="51 XXXX" cn_name="拉贝" en_name="Labe" />
+        <city province="马桑达" city="" area_code="94 XXXX" cn_name="马桑达" en_name="Macenta" />
+        <city province="玛木" city="" area_code="68 XXXX" cn_name="玛木" en_name="Mamou" />
+        <city province="恩泽雷科雷" city="" area_code="91 XXXX" cn_name="恩泽雷科雷" en_name="Nzerekore" />
+        <city province="皮塔" city="" area_code="53 XXXX" cn_name="皮塔" en_name="Pita" />
+        <city province="RillLabe" city="" area_code="52 XXXX" cn_name="" en_name="RillLabe" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

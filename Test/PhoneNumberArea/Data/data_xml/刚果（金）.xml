@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>刚果民主</cn_name>
+    <en_name>The Democratic Republic of Congo</en_name>
+    <national_code>243</national_code>
+    <mcc>630</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到刚果民主的A地电话顺序为“00243-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从刚果民主的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00243-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00243XXXXXXXX、243XXXXXXXX、0243XXXXXXXX、000243XXXXXXXX；如果来电显示开头是002430、002431、002432、002433、002434、002435、002436、002437、002438、002439，一般也都表示国际区号是00243，后面一位是刚果民主内部的号码的开头第一位；如果是在刚果民主通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>刚果民主共和国</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Vodacom" mncs="01" national_prefix="00" internal_prefix="" desc="Vodacom" />
+    <operation op_code="Zain" mncs="02" national_prefix="00" internal_prefix="" desc="Zain" />
+    <operation op_code="" mncs="04" national_prefix="00" internal_prefix="" desc="" />
+    <operation op_code="Supercell" mncs="05" national_prefix="00" internal_prefix="" desc="Supercell" />
+    <operation op_code="Libertis Telecom" mncs="10" national_prefix="00" internal_prefix="" desc="Libertis Telecom" />
+    <operation op_code="CCT" mncs="86" national_prefix="00" internal_prefix="" desc="CCT" />
+    <operation op_code="SAIT Telecom" mncs="89" national_prefix="00" internal_prefix="" desc="SAIT Telecom" />
+    <operation op_code="Africell" mncs="?" national_prefix="00" internal_prefix="" desc="Africell" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Vodacom Congo RDC sprl" op_prefix="" />
+        <prefix op_code="Celtel Congo" op_prefix="" />
+        <prefix op_code="Cellco" op_prefix="" />
+        <prefix op_code="Supercell SPRL" op_prefix="" />
+        <prefix op_code="" op_prefix="" />
+        <prefix op_code="Congo-Chine Telecom s.a.r.l." op_prefix="" />
+        <prefix op_code="OASIS SPRL" op_prefix="" />
+        <prefix op_code="Africell RDC sprl" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="金沙萨" city="" area_code="1" cn_name="金沙萨" en_name="Kinshasa" />
+        <city province="加丹加" city="" area_code="2" cn_name="加丹加" en_name="Katanga" />
+        <city province="下刚果，班顿杜" city="" area_code="3" cn_name="下刚果，班顿杜" en_name="Bas-Congo, Bandundu" />
+        <city province="东开赛、西开赛" city="" area_code="4" cn_name="东开赛、西开赛" en_name="Kasai-Oriental, Kasai-Occidental" />
+        <city province="东方省" city="" area_code="5" cn_name="东方省" en_name="Province Orientale (Kisanga; Mbandaka)" />
+        <city province="北基伍，南基伍，马涅马" city="" area_code="6" cn_name="北基伍，南基伍，马涅马" en_name="Nord-Kivu, Sud-Kivu, Maniema" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

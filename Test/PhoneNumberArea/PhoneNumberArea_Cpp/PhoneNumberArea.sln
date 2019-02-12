@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhoneNumberArea", "PhoneNumberArea\PhoneNumberArea.vcxproj", "{4DD6CCC9-AC5D-4FE6-8F25-0037FFFFEB41}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhoneNumberArea_Dll", "PhoneNumberArea_Dll\PhoneNumberArea_Dll.vcxproj", "{5F23C466-BAC8-4949-8241-6E148D6E9747}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DD6CCC9-AC5D-4FE6-8F25-0037FFFFEB41}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4DD6CCC9-AC5D-4FE6-8F25-0037FFFFEB41}.Debug|Win32.Build.0 = Debug|Win32
+		{4DD6CCC9-AC5D-4FE6-8F25-0037FFFFEB41}.Release|Win32.ActiveCfg = Release|Win32
+		{4DD6CCC9-AC5D-4FE6-8F25-0037FFFFEB41}.Release|Win32.Build.0 = Release|Win32
+		{5F23C466-BAC8-4949-8241-6E148D6E9747}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F23C466-BAC8-4949-8241-6E148D6E9747}.Debug|Win32.Build.0 = Debug|Win32
+		{5F23C466-BAC8-4949-8241-6E148D6E9747}.Release|Win32.ActiveCfg = Release|Win32
+		{5F23C466-BAC8-4949-8241-6E148D6E9747}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

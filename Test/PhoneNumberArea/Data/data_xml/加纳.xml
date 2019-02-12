@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>加纳</cn_name>
+    <en_name>Ghana</en_name>
+    <national_code>233</national_code>
+    <mcc>620</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到加纳的A地电话顺序为“00233-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从加纳的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00233-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00233XXXXXXXX、233XXXXXXXX、0233XXXXXXXX、000233XXXXXXXX；如果来电显示开头是002330、002331、002332、002333、002334、002335、002336、002337、002338、002339，一般也都表示国际区号是00233，后面一位是加纳内部的号码的开头第一位；如果是在加纳通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>迦纳</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="MTN" mncs="01" national_prefix="00" internal_prefix="0" desc="MTN" />
+    <operation op_code="Vodafone" mncs="02" national_prefix="00" internal_prefix="0" desc="Vodafone" />
+    <operation op_code="tiGO" mncs="03" national_prefix="00" internal_prefix="0" desc="tiGO" />
+    <operation op_code="Expresso" mncs="04" national_prefix="00" internal_prefix="0" desc="Expresso" />
+    <operation op_code="Airtel" mncs="06" national_prefix="00" internal_prefix="0" desc="Airtel" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="MTN Group" op_prefix="" />
+        <prefix op_code="Vodafone Group" op_prefix="" />
+        <prefix op_code="Millicom Ghana" op_prefix="" />
+        <prefix op_code="Kasapa / Hutchison Telecom" op_prefix="" />
+        <prefix op_code="Airtel" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="阿克拉" city="" area_code="21" cn_name="阿克拉" en_name="Accra" />
+        <city province="博尔加坦加" city="" area_code="72" cn_name="博尔加坦加" en_name="Bolgatanga" />
+        <city province="海岸角" city="" area_code="42" cn_name="海岸角" en_name="Cape Coast" />
+        <city province="科福里杜亚" city="" area_code="81" cn_name="科福里杜亚" en_name="Koforidua" />
+        <city province="库马西" city="" area_code="51" cn_name="库马西" en_name="Kumasi" />
+        <city province="塔科拉蒂" city="" area_code="31" cn_name="塔科拉蒂" en_name="Takoradi" />
+        <city province="塔马利" city="" area_code="71" cn_name="塔马利" en_name="Tamale" />
+        <city province="特马" city="" area_code="22" cn_name="特马" en_name="Tema" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

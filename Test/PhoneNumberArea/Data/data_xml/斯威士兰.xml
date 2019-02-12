@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>斯威士兰</cn_name>
+    <en_name>Swaziland</en_name>
+    <national_code>268</national_code>
+    <mcc>653</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到斯威士兰的A地电话顺序为“00268-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从斯威士兰的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00268-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00268XXXXXXXX、268XXXXXXXX、0268XXXXXXXX、000268XXXXXXXX；如果来电显示开头是002680、002681、002682、002683、002684、002685、002686、002687、002688、002689，一般也都表示国际区号是00268，后面一位是斯威士兰内部的号码的开头第一位；如果是在斯威士兰通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="" mncs="10" national_prefix="00" internal_prefix="" desc="" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Swazi MTN" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Villaverde de Guadalimar" city="" area_code="67" cn_name="" en_name="Villaverde de Guadalimar" />
+        <city province="所有其它地方" city="" area_code="7位数字，不需要城市区号" cn_name="所有其它地方" en_name="All other points" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

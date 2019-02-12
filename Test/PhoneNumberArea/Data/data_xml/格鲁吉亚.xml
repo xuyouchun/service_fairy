@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>格鲁吉亚</cn_name>
+    <en_name>Georgia</en_name>
+    <national_code>995</national_code>
+    <mcc>282</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到格鲁吉亚的A地电话顺序为“00995-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从格鲁吉亚的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00995-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00995XXXXXXXX、995XXXXXXXX、0995XXXXXXXX、000995XXXXXXXX；如果来电显示开头是009950、009951、009952、009953、009954、009955、009956、009957、009958、009959，一般也都表示国际区号是00995，后面一位是格鲁吉亚内部的号码的开头第一位；如果是在格鲁吉亚通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>საქართველო</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Geocell" mncs="01" national_prefix="8" internal_prefix="8" desc="Geocell" />
+    <operation op_code="MagtiCom" mncs="02,03" national_prefix="8" internal_prefix="8" desc="MagtiCom" />
+    <operation op_code="Beeline" mncs="04" national_prefix="8" internal_prefix="8" desc="Beeline" />
+    <operation op_code="Silknet" mncs="05" national_prefix="8" internal_prefix="8" desc="Silknet" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Geocell Limited" op_prefix="" />
+        <prefix op_code="Magticom GSM" op_prefix="" />
+        <prefix op_code="Magtifix" op_prefix="" />
+        <prefix op_code="Mobitel LLC" op_prefix="" />
+        <prefix op_code="Silknet CDMA" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Adigeni" city="" area_code="366" cn_name="" en_name="Adigeni" />
+        <city province="Akhalgori" city="" area_code="342" cn_name="" en_name="Akhalgori" />
+        <city province="Akhalkalaki" city="" area_code="362" cn_name="" en_name="Akhalkalaki" />
+        <city province="阿哈尔齐赫" city="" area_code="365" cn_name="阿哈尔齐赫" en_name="Akhaltsikhe" />
+        <city province="Akhmeta" city="" area_code="349" cn_name="" en_name="Akhmeta" />
+        <city province="Aspindza" city="" area_code="364" cn_name="" en_name="Aspindza" />
+        <city province="巴统" city="" area_code="222" cn_name="巴统" en_name="Batumi" />
+        <city province="Bolnisi" city="" area_code="358" cn_name="" en_name="Bolnisi" />
+        <city province="Borjomi" city="" area_code="367" cn_name="" en_name="Borjomi" />
+        <city province="Chiatura" city="" area_code="379" cn_name="" en_name="Chiatura" />
+        <city province="Dedoplls Tskaro" city="" area_code="356" cn_name="" en_name="Dedoplls Tskaro" />
+        <city province="Dmanisi" city="" area_code="360" cn_name="" en_name="Dmanisi" />
+        <city province="Dushetl" city="" area_code="344" cn_name="" en_name="Dushetl" />
+        <city province="哥里" city="" area_code="370" cn_name="哥里" en_name="Gori" />
+        <city province="Gurjaani" city="" area_code="353" cn_name="" en_name="Gurjaani" />
+        <city province="Kareli" city="" area_code="369" cn_name="" en_name="Kareli" />
+        <city province="Kaspi" city="" area_code="371" cn_name="" en_name="Kaspi" />
+        <city province="Kazbegi" city="" area_code="345" cn_name="" en_name="Kazbegi" />
+        <city province="Khashuri" city="" area_code="368" cn_name="" en_name="Khashuri" />
+        <city province="库塔伊西" city="" area_code="331" cn_name="库塔伊西" en_name="Kutaisi" />
+        <city province="Kvarell" city="" area_code="352" cn_name="" en_name="Kvarell" />
+        <city province="Lagodekhi" city="" area_code="335" cn_name="" en_name="Lagodekhi" />
+        <city province="Marneull" city="" area_code="357" cn_name="" en_name="Marneull" />
+        <city province="Ninotsminda" city="" area_code="361" cn_name="" en_name="Ninotsminda" />
+        <city province="奥祖尔盖蒂" city="" area_code="396" cn_name="奥祖尔盖蒂" en_name="Ozurgeti" />
+        <city province="波季" city="" area_code="393" cn_name="波季" en_name="Poti" />
+        <city province="鲁斯塔维" city="" area_code="335" cn_name="鲁斯塔维" en_name="Rustavi" />
+        <city province="Sagarejo" city="" area_code="351" cn_name="" en_name="Sagarejo" />
+        <city province="Samtredia" city="" area_code="311" cn_name="" en_name="Samtredia" />
+        <city province="Senaki" city="" area_code="313" cn_name="" en_name="Senaki" />
+        <city province="Signagi" city="" area_code="355" cn_name="" en_name="Signagi" />
+        <city province="苏呼米" city="" area_code="122" cn_name="苏呼米" en_name="Sukhumi" />
+        <city province="第比利斯" city="" area_code="32" cn_name="第比利斯" en_name="Tbilisi" />
+        <city province="泰拉维" city="" area_code="350" cn_name="泰拉维" en_name="Telavi" />
+        <city province="Tetri Tskaro" city="" area_code="359" cn_name="" en_name="Tetri Tskaro" />
+        <city province="Tianeti" city="" area_code="348" cn_name="" en_name="Tianeti" />
+        <city province="Tskaltubo" city="" area_code="340" cn_name="" en_name="Tskaltubo" />
+        <city province="Tskhinvall" city="" area_code="341" cn_name="" en_name="Tskhinvall" />
+        <city province="Tzalka" city="" area_code="363" cn_name="" en_name="Tzalka" />
+        <city province="Zestafoni" city="" area_code="392" cn_name="" en_name="Zestafoni" />
+        <city province="祖格迪迪" city="" area_code="315" cn_name="祖格迪迪" en_name="Zugdidi" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Geocell</op_name>
+        <wireless_type>GSM 900</wireless_type>
+        <prefix>77</prefix>
+      </op>
+      <op>
+        <op_name>Magti Com</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>93, 99</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

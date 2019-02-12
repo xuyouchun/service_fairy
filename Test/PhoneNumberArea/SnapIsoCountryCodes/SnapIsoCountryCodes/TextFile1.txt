@@ -1,0 +1,232 @@
+﻿ Afghanistan 0093 -3.50  
+阿拉斯加 Alaska(U.S.A) 001907 3.00  
+阿尔巴尼亚 Albania 00355 -7.00  
+阿尔及利亚 Algeria 00213 -8.00  
+安道尔 Andorra 00376 -8.00  
+安哥拉 Angola 00244 -7.00  
+安圭拉岛(英) Anguilla I. 001264 -12.00  
+安提瓜和巴布达 Antigua and Barbuda 001268 -12.00  
+阿根廷 Argentina 0054 -11.00  
+亚美尼亚 Armenia 00374 0.00  
+阿鲁巴岛 Aruba I. 00297 -12.00  
+阿森松(英) Ascension 00247 -8.00  
+澳大利亚 Australia 0061 2.00  
+奥地利 Austria 0043 -7.00  
+阿塞拜疆 Azerbaijan 00994 -5.00  
+巴林 Bahrain 00973 -5.00  
+孟加拉国 Bangladesh 00880 -2.00  
+巴巴多斯 Barbados 001246 -12.00  
+白俄罗斯 Belarus 00375 -5.00  
+比利时 Belgium 0032 -7.00  
+伯利兹 Belize 00501 -14.00  
+贝宁 Benin 00229 -7.00  
+百慕大群岛(英) Bermuda Is. 001441 -12.00  
+不丹 Bhutan 00975 0.00  
+玻利维亚 Bolivia 00591 -12.00  
+波斯尼亚和黑塞哥维那 Bosnia And Herzegovina 00387 0.00  
+博茨瓦纳 Botswana 00267 -6.00  
+巴西 Brazil 0055 -11.00  
+保加利亚 Bulgaria 00359 -6.00  
+布基纳法索 Burkina Faso 00226 -8.00  
+布隆迪 Burundi 00257 -6.00  
+喀麦隆 Cameroon 00237 -7.00  
+加拿大 Canada 001 -13.00  
+加那利群岛 Canaries Is. 0034 -8.00  
+佛得角 Cape Verde 00238 -9.00  
+开曼群岛(英) Cayman Is. 001345 -13.00  
+中非 Central Africa 00236 -7.00  
+乍得 Chad 00235 -7.00  
+智利 Chile 0056 -12.00  
+圣诞岛 Christmas I. 0061 9164 -1.30  
+科科斯岛 Cocos I. 0061 9162 -13.00  
+哥伦比亚 Colombia 0057 0.00  
+巴哈马国 Commonwealth of The Bahamas 001809 0.00  
+多米尼克国 Commonwealth of Dominica 001809 0.00  
+科摩罗 Comoro 00269 -5.00  
+刚果 Congo 00242 -7.00  
+科克群岛(新) Cook IS. 00682 -18.30  
+哥斯达黎加 Costa Rica 00506 -14.00  
+克罗地亚 Croatia 00383 385 -7.00  
+古巴 Cuba 0053 -13.00  
+塞浦路斯 Cyprus 00357 -6.00  
+捷克 Czech 00420 -7.00  
+丹麦 Denmark 0045 -7.00  
+迪戈加西亚岛 Diego Garcia I. 00246 0.00  
+吉布提 Djibouti 00253 -5.00  
+多米尼加共和国 Dominican Rep. 001809 -13.00  
+厄瓜多尔 Ecuador 00593 -13.00  
+埃及 Egypt 0020 -6.00  
+萨尔瓦多 El Salvador 00503 -14.00  
+赤道几内亚 Equatorial Guinea 00240 -8.00  
+厄立特里亚 Eritrea 00291 0.00  
+爱沙尼亚 Estonia 00372 -5.00  
+埃塞俄比亚 Ethiopia 00251 -5.00  
+福克兰群岛 Falkland Is. 00500 -11.00  
+法罗群岛(丹) Faroe Is. 00298 0.00  
+斐济 Fiji 00679 4.00  
+芬兰 Finland 00358 -6.00  
+法国 France 0033 -8.00  
+法属圭亚那 French Guiana 00594 -12.00  
+法属波里尼西亚 French Polynesia 00689 3.00  
+加蓬 Gabon 00241 -7.00  
+冈比亚 Gambia 00220 -8.00  
+格鲁吉亚 Georgia 00995 0.00  
+德国 Germany 0049 -7.00  
+加纳 Ghana 00233 -8.00  
+直布罗陀(英) Gibraltar 00350 -8.00  
+希腊 Greece 0030 -6.00  
+格陵兰岛 Greenland 00299 0.00  
+格林纳达 Grenada 001809 -14.00  
+瓜德罗普岛(法) Guadeloupe I. 00590 0.00  
+关岛(美) Guam 00671 2.00  
+危地马拉 Guatemala 00502 -14.00  
+几内亚 Guinea 00224 -8.00  
+几内亚比绍 Guinea-Bissau 00245 0.00  
+圭亚那 Guyana 00592 -11.00  
+海地 Haiti 00509 -13.00  
+夏威夷 Hawaii 001808 0.00  
+洪都拉斯 Honduras 00504 -14.00  
+匈牙利 Hungary 0036 -7.00  
+冰岛 Iceland 00354 -9.00  
+印度 India 0091 -2.30  
+印度尼西亚 Indonesia 0062 -0.30  
+伊朗 Iran 0098 -4.30  
+伊拉克 Iraq 00964 -5.00  
+爱尔兰 Ireland 00353 -8.00  
+以色列 Israel 00972 -6.00  
+意大利 Italy 0039 -7.00  
+科特迪瓦 Ivory Coast 00225 -8.00  
+牙买加 Jamaica 001876 -12.00  
+日本 Japan 0081 1.00  
+约旦 Jordan 00962 -6.00  
+柬埔寨 Kampuchea 00855 -1.00  
+哈萨克斯坦 Kazakhstan 007 -5.00  
+肯尼亚 Kenya 00254 -5.00  
+基里巴斯 Kiribati 00686 4.00  
+朝鲜 Korea(dpr of) 0085 1.00  
+韩国 Korea(republic of) 0082 1.00  
+科威特 Kuwait 00965 -5.00  
+吉尔吉斯斯坦 Kyrgyzstan 00996 -5.00  
+老挝 Laos 00856 -1.00  
+拉脱维亚 Latvia 00371 -5.00  
+黎巴嫩 Lebanon 00961 -6.00  
+莱索托 Lesotho 00266 -6.00  
+利比里亚 Liberia 00231 -8.00  
+利比亚 Libya 00218 -6.00  
+列支敦士登 Liechtenstein 0041 75 -7.00  
+立陶宛 Lithuania 00370 -5.00  
+卢森堡 Luxembourg 00352 -7.00  
+马其顿 Macedonia 00389 0.00  
+马达加斯加 Madagascar 00261 -5.00  
+马拉维 Malawi 00265 -6.00  
+马来西亚 Malaysia 0060 -0.30  
+马尔代夫 Maldive 00960 -2.30  
+马里 Mali 00223 -8.00  
+马耳他 Malta 00356 -7.00  
+马里亚纳群岛 Mariana Is. 00670 2.00  
+马绍尔群岛 Marshall Is. 00692 4.00  
+马提尼克(法) Martinique 00596 -12.00  
+毛里塔尼亚 Mauritania 00222 0.00  
+毛里求斯 Mauritius 00230 -4.00  
+马约特岛 Mayotte I. 00269 0.00  
+墨西哥 Mexico 0052 -15.00  
+密克罗尼西亚(美) Micronesia 00691 1.00  
+中途岛(美) Midway I. 001808 -19.00  
+摩尔多瓦 Moldova 00373 -5.00  
+摩纳哥 Monaco 00377 -7.00  
+蒙古 Mongolia 00976 0.00  
+蒙特塞拉特岛(英) Montserrat I. 001664 -12.00  
+摩洛哥 Morocco 00212 -6.00  
+莫桑比克 Mozambique 00258 -6.00  
+缅甸 Myanmar 0095 -1.30  
+纳米比亚 Namibia 00264 -7.00  
+瑙鲁 Nauru 00674 4.00  
+尼泊尔 Nepal 00977 -2.30  
+荷兰 Netherlands 0031 -7.00  
+荷属安的列斯群岛 Netherlandsantilles Is. 00599 -12.00  
+新喀里多尼亚群岛(法) New Caledonia Is. 00687 3.00  
+新西兰 New Zealand 0064 4.00  
+尼加拉瓜 Nicaragua 00505 -14.00  
+尼日尔 Niger 00227 -8.00  
+尼日利亚 Nigeria 00234 -7.00  
+纽埃岛(新) Niue I. 00683 -19.00  
+诺福克岛(澳) Norfolk I, 006723 3.30  
+挪威 Norway 0047 -7.00  
+阿曼 Oman 00968 -4.00  
+帕劳(美) Palau 00680 0.00  
+巴拿马 Panama 00507 -13.00  
+巴布亚新几内亚 Papua New Guinea 00675 2.00  
+巴拉圭 Paraguay 00595 -12.00  
+秘鲁 Peru 0051 -13.00  
+菲律宾 Philippines 0063 0.00  
+波兰 Poland 0048 -7.00  
+葡萄牙 Portugal 00351 -8.00  
+巴基斯坦 Pakistan 0092 -2.30  
+波多黎各(美) Puerto Rico 001787 -12.00  
+卡塔尔 Qatar 00974 -5.00  
+留尼汪岛 Reunion I. 00262 -4.00  
+罗马尼亚 Romania 0040 -6.00  
+俄罗斯 Russia 007 -5.00  
+卢旺达 Rwanda 00250 -6.00  
+东萨摩亚(美) Samoa,Eastern 00684 -19.00  
+西萨摩亚 Samoa,Western 00685 -19.00  
+圣马力诺 San.Marino 00378 -7.00  
+圣皮埃尔岛及密克隆岛 San.Pierre And Miquelon I. 00508 -2.00  
+圣多美和普林西比 San.Tome And Principe 00239 -8.00  
+沙特阿拉伯 Saudi Arabia 00966 -5.00  
+塞内加尔 Senegal 00221 -8.00  
+塞舌尔 Seychelles 00248 -4.00  
+新加坡 Singapore 0065 0.30  
+斯洛伐克 Slovak 00421 -7.00  
+斯洛文尼亚 Slovenia 00386 -7.00  
+所罗门群岛 Solomon Is. 00677 3.00  
+索马里 Somali 00252 -5.00  
+南非 South Africa 0027 -6.00  
+西班牙 Spain 0034 -8.00  
+斯里兰卡 Sri Lanka 0094 0.00  
+圣克里斯托弗和尼维斯 St.Christopher and Nevis 001809 -12.30  
+圣赫勒拿 St.Helena 00290 -8.00  
+圣卢西亚 St.Lucia 001758 -12.00  
+圣文森特岛(英) St.Vincent I. 001784 -12.00  
+苏丹 Sudan 00249 -6.00  
+苏里南 Suriname 00597 -11.30  
+斯威士兰 Swaziland 00268 -6.00  
+瑞典 Sweden 0046 -7.00  
+瑞士 Switzerland 0041 -7.00  
+叙利亚 Syria 00963 -6.00  
+塔吉克斯坦 Tajikistan 00992 -5.00  
+坦桑尼亚 Tanzania 00255 -5.00  
+泰国 Thailand 0066 -1.00  
+阿拉伯联合酋长国 The United Arab Emirates 00971 -5.00  
+多哥 Togo 00228 -8.00  
+托克劳群岛(新) Tokelau Is. 00690 -19.00  
+汤加 Tonga 00676 5.00  
+特立尼达和多巴哥 Trinidad and Tobago 001809 -12.00  
+突尼斯 Tunisia 00216 -7.00  
+土耳其 Turkey 0090 -6.00  
+土库曼斯坦 Turkmenistan 00993 -5.00  
+特克斯和凯科斯群岛 Turks and Caicos Is. 001809 -13.00  
+图瓦卢 Tuvalu 00688 4.00  
+美国 U.S.A 001 -13.00  
+乌干达 Uganda 00256 -5.00  
+乌克兰 Ukraine 00380 -5.00  
+英国 United Kingdom 0044 -8.00  
+乌拉圭 Uruguay 00598 -10.30  
+乌兹别克斯坦 Uzbekistan 00998 -5.00  
+瓦努阿图 Vanuatu 00678 3.00  
+梵蒂冈 Vatican 00379 -7.00  
+委内瑞拉 Venezuela 0058 -12.30  
+越南 Vietnam 0084 -1.00  
+维尔京群岛(英) Virgin Is. 001809 -12.00  
+维尔京群岛和圣罗克伊 Virgin Is. and St.Croix I. 001809 0.00  
+威克岛(美) Wake I. 001808 4.00  
+瓦里斯和富士那群岛 Wallis And Futuna Is. 00681 4.00  
+西撒哈拉 Western sahara 00967 0.00  
+也门 Yemen 00967 -5.00  
+南斯拉夫 Yugoslavia 00381 -7.00  
+扎伊尔 Zaire 00243 -7.00  
+赞比亚 Zambia 00260 -6.00  
+桑给巴尔 Zanzibar 00259 0.00  
+津巴布韦 Zimbabwe 00263 -6.00  
+中华人民共和国 P.R.C. 0086 0  
+中国 

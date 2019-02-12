@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>波兰</cn_name>
+    <en_name>Poland</en_name>
+    <national_code>48</national_code>
+    <mcc>260</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到波兰的A地电话顺序为“0048-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从波兰的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“0048-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：0048XXXXXXXX、48XXXXXXXX、048XXXXXXXX、00048XXXXXXXX；如果来电显示开头是00480、00481、00482、00483、00484、00485、00486、00487、00488、00489，一般也都表示国际区号是0048，后面一位是波兰内部的号码的开头第一位；如果是在波兰通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Plus" mncs="01" national_prefix="00" internal_prefix="0" desc="Plus" />
+    <operation op_code="T-Mobile" mncs="02" national_prefix="00" internal_prefix="0" desc="T-Mobile" />
+    <operation op_code="Orange" mncs="03" national_prefix="00" internal_prefix="0" desc="Orange" />
+    <operation op_code="" mncs="04,05,08,09" national_prefix="00" internal_prefix="0" desc="" />
+    <operation op_code="Play" mncs="06" national_prefix="00" internal_prefix="0" desc="Play" />
+    <operation op_code="Netia" mncs="07" national_prefix="00" internal_prefix="0" desc="Netia" />
+    <operation op_code="Sferia" mncs="10" national_prefix="00" internal_prefix="0" desc="Sferia" />
+    <operation op_code="Nordisk Polska" mncs="11" national_prefix="00" internal_prefix="0" desc="Nordisk Polska" />
+    <operation op_code="Cyfrowy Polsat" mncs="12" national_prefix="00" internal_prefix="0" desc="Cyfrowy Polsat" />
+    <operation op_code="CenterNet" mncs="15" national_prefix="00" internal_prefix="0" desc="CenterNet" />
+    <operation op_code="Mobyland" mncs="16" national_prefix="00" internal_prefix="0" desc="Mobyland" />
+    <operation op_code="Aero2" mncs="17" national_prefix="00" internal_prefix="0" desc="Aero2" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Polkomtel S.A." op_prefix="" />
+        <prefix op_code="Polska Telefonia Cyfrowa Sp. z o.o." op_prefix="" />
+        <prefix op_code="Polska Telefonia Komórkowa Centertel Sp. z o.o." op_prefix="" />
+        <prefix op_code="not in use" op_prefix="" />
+        <prefix op_code="Polska Telefonia Komórkowa Centertel Sp. z o.o." op_prefix="" />
+        <prefix op_code="P4 Sp. z o.o." op_prefix="" />
+        <prefix op_code="Netia S.A." op_prefix="" />
+        <prefix op_code="E-Telko Sp. z o.o." op_prefix="" />
+        <prefix op_code="Telekomunikacja Kolejowa Sp. z o.o." op_prefix="" />
+        <prefix op_code="Sferia S.A." op_prefix="" />
+        <prefix op_code="Nordisk Polska Sp. z o.o." op_prefix="" />
+        <prefix op_code="Cyfrowy Polsat S.A." op_prefix="" />
+        <prefix op_code="CenterNet S.A." op_prefix="" />
+        <prefix op_code="Mobyland Sp. z o.o." op_prefix="" />
+        <prefix op_code="Aero 2 Sp. z o.o." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="比亚维斯托克" city="" area_code="85" cn_name="比亚维斯托克" en_name="Bialystok" />
+        <city province="比得哥什" city="" area_code="52" cn_name="比得哥什" en_name="Bydgoszcz" />
+        <city province="比托姆" city="" area_code="32" cn_name="比托姆" en_name="Bytom" />
+        <city province="克拉科夫" city="" area_code="12" cn_name="克拉科夫" en_name="Crakow (Krakow)" />
+        <city province="埃尔布隆格" city="" area_code="55" cn_name="埃尔布隆格" en_name="Elbląg" />
+        <city province="格但斯克" city="" area_code="58" cn_name="格但斯克" en_name="Gdansk" />
+        <city province="格丁尼亚" city="" area_code="58" cn_name="格丁尼亚" en_name="Gdynia" />
+        <city province="格利维采" city="" area_code="32" cn_name="格利维采" en_name="Gliwice" />
+        <city province="卡托维兹" city="" area_code="32" cn_name="卡托维兹" en_name="Katowice" />
+        <city province="罗兹" city="" area_code="42" cn_name="罗兹" en_name="Lodz" />
+        <city province="卢布林" city="" area_code="81" cn_name="卢布林" en_name="Lublin" />
+        <city province="奥尔什丁" city="" area_code="89" cn_name="奥尔什丁" en_name="Olsztyn" />
+        <city province="波兹南" city="" area_code="61" cn_name="波兹南" en_name="Poznan" />
+        <city province="拉多姆" city="" area_code="48" cn_name="拉多姆" en_name="Radom" />
+        <city province="什切青" city="" area_code="91" cn_name="什切青" en_name="Szczecin (Stettin)" />
+        <city province="索波特" city="" area_code="58" cn_name="索波特" en_name="Sopot" />
+        <city province="索斯诺维茨" city="" area_code="32" cn_name="索斯诺维茨" en_name="Sosnowiec" />
+        <city province="托伦" city="" area_code="56" cn_name="托伦" en_name="Torun" />
+        <city province="华沙" city="" area_code="22" cn_name="华沙" en_name="Warsaw" />
+        <city province="弗罗茨瓦夫" city="" area_code="71" cn_name="弗罗茨瓦夫" en_name="Wroclaw" />
+        <city province="扎布热" city="" area_code="32" cn_name="扎布热" en_name="Zabrze" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops>
+      <op>
+        <op_name>Centertel</op_name>
+        <wireless_type>NMT450i analogue</wireless_type>
+        <prefix>90（模拟手机应该已经退出使用）</prefix>
+      </op>
+      <op>
+        <op_name>Era</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>602, 604, 606, 608, 600, 692</prefix>
+      </op>
+      <op>
+        <op_name>Idea</op_name>
+        <wireless_type>GSM 900/1800</wireless_type>
+        <prefix>501, 502, 503, 504, 505</prefix>
+      </op>
+      <op>
+        <op_name>Plus</op_name>
+        <wireless_type>GSM (Polkomtel) GSM 900/1800</wireless_type>
+        <prefix>601, 603, 605, 607, 609, 691</prefix>
+      </op>
+    </ops>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

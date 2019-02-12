@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>布隆迪</cn_name>
+    <en_name>Burundi</en_name>
+    <national_code>257</national_code>
+    <mcc>642</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到布隆迪的A地电话顺序为“00257-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从布隆迪的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00257-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00257XXXXXXXX、257XXXXXXXX、0257XXXXXXXX、000257XXXXXXXX；如果来电显示开头是002570、002571、002572、002573、002574、002575、002576、002577、002578、002579，一般也都表示国际区号是00257，后面一位是布隆迪内部的号码的开头第一位；如果是在布隆迪通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias>蒲隆地</alias>
+  </basic_info>
+  <operations>
+    <operation op_code="Spacetel" mncs="01" national_prefix="00" internal_prefix="" desc="Spacetel" />
+    <operation op_code="Africell" mncs="02" national_prefix="00" internal_prefix="" desc="Africell" />
+    <operation op_code="Onatel" mncs="03" national_prefix="00" internal_prefix="" desc="Onatel" />
+    <operation op_code="Smart Mobile" mncs="07" national_prefix="00" internal_prefix="" desc="Smart Mobile" />
+    <operation op_code="HiTs Telecom" mncs="08" national_prefix="00" internal_prefix="" desc="HiTs Telecom" />
+    <operation op_code="U-COM Burundi" mncs="82" national_prefix="00" internal_prefix="" desc="U-COM Burundi" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Econet Wireless Burundi PLC" op_prefix="" />
+        <prefix op_code="Africell PLC" op_prefix="" />
+        <prefix op_code="Onatel" op_prefix="" />
+        <prefix op_code="LACELL SU" op_prefix="" />
+        <prefix op_code="HiTs Telecom" op_prefix="" />
+        <prefix op_code="U-COM Burundi S.A." op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="其它地区" city="" area_code="" cn_name="其它地区" en_name="Other Area" />
+        <city province="移动电话" city="" area_code="29 XXXX" cn_name="移动电话" en_name="Mobile Phone" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

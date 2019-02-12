@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7AE561D4-B7EC-467F-B89C-0D531ECAD9CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common.Contracts</RootNamespace>
+    <AssemblyName>Common.Contracts</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assembly\Common\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn />
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Assembly\Externs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BufferType.cs" />
+    <Compile Include="CommandAttribute.cs" />
+    <Compile Include="ContractUtility.cs" />
+    <Compile Include="DefaultValues.cs" />
+    <Compile Include="DocAttribute.cs" />
+    <Compile Include="DocUtility.cs" />
+    <Compile Include="Entities\CountryInfo.cs" />
+    <Compile Include="Entities\CountryNames.cs" />
+    <Compile Include="Entities\GeoLocation.cs" />
+    <Compile Include="ICancelableAction.cs" />
+    <Compile Include="ICloneTo.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="IConfiguration.cs" />
+    <Compile Include="IO.cs" />
+    <Compile Include="IObjectKeyProvider.cs" />
+    <Compile Include="IObjectPoolStrategy.cs" />
+    <Compile Include="IObjectPropertyProvider.cs" />
+    <Compile Include="IObjectSerializer.cs" />
+    <Compile Include="Service\AppInvokeInfo.cs" />
+    <Compile Include="Service\AppInvokeInfoCollection.cs" />
+    <Compile Include="Service\AppMessageInfo.cs" />
+    <Compile Include="Service\AppStatusCodeInfo.cs" />
+    <Compile Include="Service\CommunicationOption.cs" />
+    <Compile Include="Service\IServiceClient.cs" />
+    <Compile Include="IValidator.cs" />
+    <Compile Include="Log\EmptyLogReader.cs" />
+    <Compile Include="Log\EmptyLogWriter.cs" />
+    <Compile Include="Log\ILogger.cs" />
+    <Compile Include="Log\ILogReader.cs" />
+    <Compile Include="Log\LogItemCollection.cs" />
+    <Compile Include="Log\LogWriterCollection.cs" />
+    <Compile Include="Service\AppCommandArg.cs" />
+    <Compile Include="Service\AppCommandExecuteContext.cs" />
+    <Compile Include="Service\AppComponentInfo.cs" />
+    <Compile Include="Service\AppFileInfo.cs" />
+    <Compile Include="Service\ApplicationBase.cs" />
+    <Compile Include="Service\AppEntryPointAttribute.cs" />
+    <Compile Include="Service\AppCommandInfo.cs" />
+    <Compile Include="Service\AppServiceAttribute.cs" />
+    <Compile Include="Service\AppServiceConfiguration.cs" />
+    <Compile Include="Service\AppServiceInfo.cs" />
+    <Compile Include="Service\SecurityLevel.cs" />
+    <Compile Include="Service\AppServiceCookie.cs" />
+    <Compile Include="Service\CommandDesc.cs" />
+    <Compile Include="Service\ErrorCodes.cs" />
+    <Compile Include="Service\IAppComponent.cs" />
+    <Compile Include="Service\IAppDomainServiceLoader.cs" />
+    <Compile Include="Service\IAppServiceAddin.cs" />
+    <Compile Include="Service\IConnection.cs" />
+    <Compile Include="Service\IServiceObject.cs" />
+    <Compile Include="Service\IServiceObjectExecutor.cs" />
+    <Compile Include="Service\IServiceObjectProvider.cs" />
+    <Compile Include="Service\IRefreshableServiceObject.cs" />
+    <Compile Include="Service\IServiceObjectTree.cs" />
+    <Compile Include="Service\IServiceUI.cs" />
+    <Compile Include="Service\MarshalByRefObjectEx.cs" />
+    <Compile Include="Service\IAppCommand.cs" />
+    <Compile Include="Service\IAppService.cs" />
+    <Compile Include="IObjectProvider.cs" />
+    <Compile Include="IObjectsProvider.cs" />
+    <Compile Include="Service\CommunicateData.cs" />
+    <Compile Include="Service\ICommunicate.cs" />
+    <Compile Include="Service\IExecutableAssembly.cs" />
+    <Compile Include="IObjectCreator.cs" />
+    <Compile Include="Log\ILogItem.cs" />
+    <Compile Include="Log\ILogRecorder.cs" />
+    <Compile Include="Log\ILogWriter.cs" />
+    <Compile Include="Log\LogItem.cs" />
+    <Compile Include="Service\MessageDesc.cs" />
+    <Compile Include="Service\MethodParser.cs" />
+    <Compile Include="Service\OnlineUserStatInfo.cs" />
+    <Compile Include="Service\ServiceAddress.cs" />
+    <Compile Include="Service\ServiceDeployPackageSettings.cs" />
+    <Compile Include="Service\ServiceDesc.cs" />
+    <Compile Include="Service\ServiceEndPoint.cs" />
+    <Compile Include="Service\ServiceException.cs" />
+    <Compile Include="Service\ServiceInfo.cs" />
+    <Compile Include="Service\ServiceObjectDataHelper.cs" />
+    <Compile Include="Service\ServiceResult.cs" />
+    <Compile Include="Service\ServiceStatusCode.cs" />
+    <Compile Include="OperateCodes.cs" />
+    <Compile Include="OperateResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\ITask.cs" />
+    <Compile Include="Service\ITaskExecutor.cs" />
+    <Compile Include="DataFormat.cs" />
+    <Compile Include="Service\CommunicationType.cs" />
+    <Compile Include="ITimerStrategy.cs" />
+    <Compile Include="Service\ServiceObjectAttribute.cs" />
+    <Compile Include="Service\Sid.cs" />
+    <Compile Include="Service\User.cs" />
+    <Compile Include="Service\UserConnectionInfo.cs" />
+    <Compile Include="Service\Users.cs" />
+    <Compile Include="Service\Group.cs" />
+    <Compile Include="StringTable.cs" />
+    <Compile Include="TReply.cs" />
+    <Compile Include="UIObject\IListViewWindow.cs" />
+    <Compile Include="UIObject\IListViewWindowManager.cs" />
+    <Compile Include="UIObject\INavigationWindow.cs" />
+    <Compile Include="UIObject\IOutputWindow.cs" />
+    <Compile Include="UIObject\IPropertyWindow.cs" />
+    <Compile Include="UIObject\ITreeViewWindow.cs" />
+    <Compile Include="UIObject\IUIObject.cs" />
+    <Compile Include="UIObject\IUIObjectExecutor.cs" />
+    <Compile Include="UIObject\IUIObjectImageLoader.cs" />
+    <Compile Include="UIObject\IUIWindow.cs" />
+    <Compile Include="UIObject\UIObjectAttribute.cs" />
+    <Compile Include="SVersion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{109B2C9F-98FB-4A7C-88DA-F52C61A61B72}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

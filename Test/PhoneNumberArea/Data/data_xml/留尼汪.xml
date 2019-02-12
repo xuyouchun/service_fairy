@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>留尼汪岛</cn_name>
+    <en_name>Reunion Island</en_name>
+    <national_code>262</national_code>
+    <mcc>647</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到留尼汪岛的A地电话顺序为“00262-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从留尼汪岛的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00262-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00262XXXXXXXX、262XXXXXXXX、0262XXXXXXXX、000262XXXXXXXX；如果来电显示开头是002620、002621、002622、002623、002624、002625、002626、002627、002628、002629，一般也都表示国际区号是00262，后面一位是留尼汪岛内部的号码的开头第一位；如果是在留尼汪岛通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Orange" mncs="00" national_prefix="00" internal_prefix="" desc="Orange" />
+    <operation op_code="Outremer" mncs="02" national_prefix="00" internal_prefix="" desc="Outremer" />
+    <operation op_code="SFR Reunion" mncs="10" national_prefix="00" internal_prefix="" desc="SFR Reunion" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="Orange La Réunion" op_prefix="" />
+        <prefix op_code="Outremer Telecom" op_prefix="" />
+        <prefix op_code="Societe Reunionnaise de Radiotelephone" op_prefix="" />
+      </prefixes>
+      <cities />
+    </area_data>
+  </area_datas>
+  <mobile>
+    <ops />
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>

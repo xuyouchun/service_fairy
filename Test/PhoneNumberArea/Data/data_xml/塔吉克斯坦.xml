@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <basic_info>
+    <cn_name>塔吉克斯坦</cn_name>
+    <en_name>Tajikistan</en_name>
+    <national_code>992</national_code>
+    <mcc>436</mcc>
+    <example><![CDATA[从中国的固定电话或者手机拨到塔吉克斯坦的A地电话顺序为“00992-A地区号-A地本地号码”，实际拨号时不要“-”符号，连续拨完全部数字]]></example>
+    <call_display><![CDATA[从塔吉克斯坦的A地电话拨打到中国的固定电话或者手机上，一般来电显示为“00992-A地区号-A地本地号码”，实际显示时可能中间没有“-”符号，而是全部数字，也有可能前面不带0、只带1个0或者带超过2个0，例如：00992XXXXXXXX、992XXXXXXXX、0992XXXXXXXX、000992XXXXXXXX；如果来电显示开头是009920、009921、009922、009923、009924、009925、009926、009927、009928、009929，一般也都表示国际区号是00992，后面一位是塔吉克斯坦内部的号码的开头第一位；如果是在塔吉克斯坦通过网络电话、IP电话等方式拨打到中国，则来电显示有可能看不出来源，也无法直接回拨。]]></call_display>
+    <alias />
+  </basic_info>
+  <operations>
+    <operation op_code="Tcell" mncs="01,02,12" national_prefix="8" internal_prefix="8" desc="Tcell" />
+    <operation op_code="MLT" mncs="03" national_prefix="8" internal_prefix="8" desc="MLT" />
+    <operation op_code="Babilon-M" mncs="04" national_prefix="8" internal_prefix="8" desc="Babilon-M" />
+    <operation op_code="Beeline" mncs="05" national_prefix="8" internal_prefix="8" desc="Beeline" />
+  </operations>
+  <area_datas>
+    <area_data storage_model="full">
+      <prefixes>
+        <prefix op_code="JV Somoncom" op_prefix="" />
+        <prefix op_code="Indigo Tajikistan" op_prefix="" />
+        <prefix op_code="TT Mobile" op_prefix="" />
+        <prefix op_code="Babilon-Mobile" op_prefix="" />
+        <prefix op_code="Vimpelcom" op_prefix="" />
+        <prefix op_code="Indigo" op_prefix="" />
+      </prefixes>
+      <cities>
+        <city province="Bokhtar" city="" area_code="37745" cn_name="暂无中文" en_name="Bokhtar" />
+        <city province="杜尚别" city="" area_code="372" cn_name="杜尚别" en_name="Dushanbe" />
+        <city province="Dusti" city="" area_code="3249" cn_name="暂无中文" en_name="Dusti" />
+        <city province="Gharm" city="" area_code="3131" cn_name="暂无中文" en_name="Gharm" />
+        <city province="Kairakkum" city="" area_code="34402" cn_name="暂无中文" en_name="Kairakkum" />
+        <city province="霍罗格" city="" area_code="35220" cn_name="霍罗格" en_name="Khorog" />
+        <city province="苦盏" city="" area_code="3422" cn_name="苦盏" en_name="Khujand" />
+        <city province="Kolkhozabad" city="" area_code="3771" cn_name="暂无中文" en_name="Kolkhozabad" />
+        <city province="库洛布" city="" area_code="3322" cn_name="库洛布" en_name="Kulob" />
+        <city province="Panjakent" city="" area_code="3475" cn_name="暂无中文" en_name="Panjakent" />
+        <city province="Qurghonteppa" city="" area_code="3222" cn_name="暂无中文" en_name="Qurghonteppa" />
+        <city province="Shartuz" city="" area_code="3240" cn_name="暂无中文" en_name="Shartuz" />
+      </cities>
+    </area_data>
+  </area_datas>
+  <mobile>
+    <error>未匹配成功</error>
+  </mobile>
+  <commonly_used>
+    <error>未匹配成功</error>
+  </commonly_used>
+</root>
